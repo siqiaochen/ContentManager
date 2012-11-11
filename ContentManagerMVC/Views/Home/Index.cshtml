@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@if (Request.IsAuthenticated)
+{
+
+    <h3>Please manage your Media Contents:</h3>
+
+}
+else
+{ 
+
+    <h3>Please Login: @Html.ActionLink("Here", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" }) or Register: @Html.ActionLink("Here", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</h3>   
+}
