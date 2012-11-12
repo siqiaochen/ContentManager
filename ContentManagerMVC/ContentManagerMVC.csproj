@@ -208,11 +208,6 @@
     <Compile Include="Models\PlayerInitializer.cs" />
     <Compile Include="Models\Schedule.cs" />
     <Compile Include="Models\SecheduledItem.cs" />
-    <Compile Include="MysqlDataModels.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MysqlDataModels.edmx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -402,12 +397,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Schedule\Delete.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <EntityDeploy Include="MysqlDataModels.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>MysqlDataModels.Designer.cs</LastGenOutput>
-    </EntityDeploy>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
