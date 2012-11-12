@@ -13,7 +13,7 @@ namespace ContentManagerMVC.Models
         public DateTime EndTime { get; set; }
         public Boolean Continuous { get; set; }
         public Boolean PlayOnePerRound { get; set; } 
-        public IEnumerable<MediaContent> Contents { get; set; }
+        // public IEnumerable<MediaContent> Contents { get; set; }
     }
 
 }

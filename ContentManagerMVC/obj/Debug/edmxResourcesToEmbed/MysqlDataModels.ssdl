@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dba2afc085e73f48c29d84a106000739c4Model.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.1" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="dba2afc085e73f48c29d84a106000739c4ModelStoreContainer">
+    <EntitySet Name="MediaPlayers" EntityType="dba2afc085e73f48c29d84a106000739c4Model.Store.MediaPlayers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PlayerSchedules" EntityType="dba2afc085e73f48c29d84a106000739c4Model.Store.PlayerSchedules" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ScheduleContents" EntityType="dba2afc085e73f48c29d84a106000739c4Model.Store.ScheduleContents" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="MediaPlayers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="longtext" Nullable="false" />
+    <Property Name="IP" Type="longtext" Nullable="false" />
+    <Property Name="Status" Type="longtext" Nullable="false" />
+    <Property Name="Description" Type="longtext" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PlayerSchedules">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StartDateTime" Type="datetime" Nullable="false" />
+    <Property Name="EndDateTime" Type="datetime" Nullable="false" />
+    <Property Name="Continuious" Type="bool" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ScheduleContents">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="longtext" Nullable="false" />
+  </EntityType>
+</Schema>

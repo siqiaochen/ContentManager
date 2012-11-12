@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dba2afc085e73f48c29d84a106000739c4ModelStoreContainer" CdmEntityContainer="dba2afc085e73f48c29d84a106000739c4Entities1">
+    <EntitySetMapping Name="MediaPlayers">
+      <EntityTypeMapping TypeName="IsTypeOf(dba2afc085e73f48c29d84a106000739c4Model.MediaPlayer)">
+        <MappingFragment StoreEntitySet="MediaPlayers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PlayerSchedules">
+      <EntityTypeMapping TypeName="IsTypeOf(dba2afc085e73f48c29d84a106000739c4Model.PlayerSchedules)">
+        <MappingFragment StoreEntitySet="PlayerSchedules">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StartDateTime" ColumnName="StartDateTime" />
+          <ScalarProperty Name="EndDateTime" ColumnName="EndDateTime" />
+          <ScalarProperty Name="Continuious" ColumnName="Continuious" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScheduleContents">
+      <EntityTypeMapping TypeName="IsTypeOf(dba2afc085e73f48c29d84a106000739c4Model.ScheduleContents)">
+        <MappingFragment StoreEntitySet="ScheduleContents">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
