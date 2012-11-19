@@ -117,8 +117,9 @@ namespace ContentManagerMVC.Controllers
                         return RedirectToAction("Index");
                     }
                     catch (Exception exp)
-                    { 
-                    
+                    {
+
+                        ModelState.AddModelError("", exp);
                     }
                 }
             }

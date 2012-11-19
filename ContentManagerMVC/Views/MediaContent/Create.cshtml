@@ -5,7 +5,7 @@
 }
 
 <h2>Create</h2>
-
+@Html.ValidationSummary()
 @using (Html.BeginForm("Create", "MediaContent",
                     FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
