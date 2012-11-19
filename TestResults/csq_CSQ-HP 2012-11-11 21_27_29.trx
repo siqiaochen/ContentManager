@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2cd03ea0-9c7c-4829-9a68-fe8f8bbd64dd" name="csq@CSQ-HP 2012-11-11 21:27:29" runUser="csq-HP\csq" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1e55fc8c-f910-491d-a8c5-709fde21967d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="csq_CSQ-HP 2012-11-11 21_27_29">
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC\bin\ContentManagerMVC.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-11T21:27:29.8859663-08:00" queuing="2012-11-11T21:27:29.9429696-08:00" start="2012-11-11T21:27:29.9469698-08:00" finish="2012-11-11T21:27:30.9180253-08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="2" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\testprojectmvc1\bin\debug\testprojectmvc1.dll" id="aa5bdf33-005b-a0b7-2e43-118a280313a3">
+      <Execution id="91cc9c3d-5afb-4725-bad2-f38d71800a7d" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/TestProjectMVC1/bin/Debug/TestProjectMVC1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectMVC1.UnitTestPlayer, TestProjectMVC1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestIndexView" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\testprojectmvc1\bin\debug\testprojectmvc1.dll" id="17b641ce-60a6-feae-80d1-dec1166f269a">
+      <Execution id="c62ac9bb-d525-4793-b49e-f86c5181f994" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/TestProjectMVC1/bin/Debug/TestProjectMVC1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectMVC1.UnitTestContent, TestProjectMVC1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIndexView" />
+    </UnitTest>
+    <UnitTest name="TestView" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\testprojectmvc1\bin\debug\testprojectmvc1.dll" id="e131a79d-db52-4a15-8f16-f2365ec0ae6c">
+      <Execution id="c76e85ba-2555-4535-9d11-44c274e6d558" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/TestProjectMVC1/bin/Debug/TestProjectMVC1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectMVC1.UnitTestContent, TestProjectMVC1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestView" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="17b641ce-60a6-feae-80d1-dec1166f269a" executionId="c62ac9bb-d525-4793-b49e-f86c5181f994" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa5bdf33-005b-a0b7-2e43-118a280313a3" executionId="91cc9c3d-5afb-4725-bad2-f38d71800a7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e131a79d-db52-4a15-8f16-f2365ec0ae6c" executionId="c76e85ba-2555-4535-9d11-44c274e6d558" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c62ac9bb-d525-4793-b49e-f86c5181f994" testId="17b641ce-60a6-feae-80d1-dec1166f269a" testName="TestIndexView" computerName="CSQ-HP" duration="00:00:00.7916715" startTime="2012-11-11T21:27:29.9509700-08:00" endTime="2012-11-11T21:27:30.8950240-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c62ac9bb-d525-4793-b49e-f86c5181f994">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProjectMVC1.UnitTestContent.TestIndexView threw exception: 
+System.InvalidOperationException: The model backing the 'PlayerDBContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).</Message>
+          <StackTrace>    at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.&lt;&gt;c__DisplayClass8.&lt;PerformDatabaseInitialization&gt;b__6()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.&lt;InitializeDatabase&gt;b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable&lt;TResult&gt;.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ContentManagerMVC.Controllers.MediaContentController.Index() in C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC\Controllers\MediaContentController.cs:line 27
+   at TestProjectMVC1.UnitTestContent.TestIndexView() in C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\TestProjectMVC1\Controller\UnitTestContent.cs:line 82
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="91cc9c3d-5afb-4725-bad2-f38d71800a7d" testId="aa5bdf33-005b-a0b7-2e43-118a280313a3" testName="TestMethod1" computerName="CSQ-HP" duration="00:00:00.0002169" startTime="2012-11-11T21:27:30.8970241-08:00" endTime="2012-11-11T21:27:30.8990242-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91cc9c3d-5afb-4725-bad2-f38d71800a7d">
+    </UnitTestResult>
+    <UnitTestResult executionId="c76e85ba-2555-4535-9d11-44c274e6d558" testId="e131a79d-db52-4a15-8f16-f2365ec0ae6c" testName="TestView" computerName="CSQ-HP" duration="00:00:00.0002173" startTime="2012-11-11T21:27:30.9010244-08:00" endTime="2012-11-11T21:27:30.9040245-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c76e85ba-2555-4535-9d11-44c274e6d558">
+    </UnitTestResult>
+  </Results>
+</TestRun>

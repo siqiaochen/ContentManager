@@ -42,6 +42,56 @@ namespace ContentManagerMVC.Controllers
             return View();
         }
 
+        public ActionResult ScheduledItemDetails(int scheduleid,string option, int? itemid)
+        {
+            ViewBag.ScheduleId = scheduleid;
+            Schedule sche = db.Schedules.Find(scheduleid);
+            ViewBag.ItemId = itemid;
+
+            if (sche == null)
+            {
+                return HttpNotFound();
+            }
+
+            switch (option)
+            {
+                case "add":
+                    {
+                        ScheduledItem scheitem = new ScheduledItem();
+                        scheitem.Content = db.Contents.Find(itemid);
+                        if(scheitem.Content != null)
+                        {
+                            db.ScheduledItems.Add(scheitem);
+                            sche.Contents.Add(scheitem);
+                            db.SaveChanges();
+                        }
+                    };
+                    break;
+                case "delete":
+                    sche.Contents.Remove(db.ScheduledItems.Find(itemid));
+                    db.SaveChanges();
+                    break;
+                default:
+                    break;
+            }
+            var scheduledItems = from s in sche.Contents
+                                  select s;
+
+            return View(scheduledItems);
+        }
+
+        public ActionResult ScheduleAddContent(int scheduleid)
+        {
+            ViewBag.ScheduleId = scheduleid;
+            Schedule item = db.Schedules.Find(scheduleid);
+            if (item == null)
+            {
+                return HttpNotFound();
+            }
+            var contents = from s in db.Contents
+                            select s;
+            return View(contents);
+        }
         //
         // POST: /Schedule/Create
 

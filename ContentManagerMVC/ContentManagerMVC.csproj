@@ -45,6 +45,12 @@
     <Reference Include="MySql.Web, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <Private>True</Private>
     </Reference>
+    <Reference Include="PagedList">
+      <HintPath>..\packages\PagedList.1.15.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc">
+      <HintPath>..\packages\PagedList.Mvc.3.18.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Entity" />
@@ -201,16 +207,74 @@
     <Compile Include="Migrations\201211112324201_newplayersettings31.Designer.cs">
       <DependentUpon>201211112324201_newplayersettings31.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201211120517166_new.cs" />
+    <Compile Include="Migrations\201211120517166_new.Designer.cs">
+      <DependentUpon>201211120517166_new.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201211180016371_add_lists.cs" />
+    <Compile Include="Migrations\201211180016371_add_lists.Designer.cs">
+      <DependentUpon>201211180016371_add_lists.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201211180043182_add_lists1.cs" />
+    <Compile Include="Migrations\201211180043182_add_lists1.Designer.cs">
+      <DependentUpon>201211180043182_add_lists1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201211180107067_add_lists2.cs" />
+    <Compile Include="Migrations\201211180107067_add_lists2.Designer.cs">
+      <DependentUpon>201211180107067_add_lists2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201211180122361_add_lists3.cs" />
+    <Compile Include="Migrations\201211180122361_add_lists3.Designer.cs">
+      <DependentUpon>201211180122361_add_lists3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201211182257321_new1.cs" />
+    <Compile Include="Migrations\201211182257321_new1.Designer.cs">
+      <DependentUpon>201211182257321_new1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201211182304451_new2.cs" />
+    <Compile Include="Migrations\201211182304451_new2.Designer.cs">
+      <DependentUpon>201211182304451_new2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201211182329302_new21.cs" />
+    <Compile Include="Migrations\201211182329302_new21.Designer.cs">
+      <DependentUpon>201211182329302_new21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201211182343282_new22.cs" />
+    <Compile Include="Migrations\201211182343282_new22.Designer.cs">
+      <DependentUpon>201211182343282_new22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201211182348318_new23.cs" />
+    <Compile Include="Migrations\201211182348318_new23.Designer.cs">
+      <DependentUpon>201211182348318_new23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201211190433095_new24.cs" />
+    <Compile Include="Migrations\201211190433095_new24.Designer.cs">
+      <DependentUpon>201211190433095_new24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201211190720257_new25.cs" />
+    <Compile Include="Migrations\201211190720257_new25.Designer.cs">
+      <DependentUpon>201211190720257_new25.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\MediaContent.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\PlayerInitializer.cs" />
+    <Compile Include="Models\PlayerSchedule.cs" />
     <Compile Include="Models\Schedule.cs" />
-    <Compile Include="Models\SecheduledItem.cs" />
+    <Compile Include="Models\ScheduledItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="uploads\web.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\PagedList.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -367,6 +431,46 @@
     <EmbeddedResource Include="Migrations\201211112324201_newplayersettings31.resx">
       <DependentUpon>201211112324201_newplayersettings31.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201211120517166_new.resx">
+      <DependentUpon>201211120517166_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201211180016371_add_lists.resx">
+      <DependentUpon>201211180016371_add_lists.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201211180043182_add_lists1.resx">
+      <DependentUpon>201211180043182_add_lists1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201211180107067_add_lists2.resx">
+      <DependentUpon>201211180107067_add_lists2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201211180122361_add_lists3.resx">
+      <DependentUpon>201211180122361_add_lists3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201211182257321_new1.resx">
+      <DependentUpon>201211182257321_new1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201211182304451_new2.resx">
+      <DependentUpon>201211182304451_new2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201211182329302_new21.resx">
+      <DependentUpon>201211182329302_new21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201211182343282_new22.resx">
+      <DependentUpon>201211182343282_new22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201211182348318_new23.resx">
+      <DependentUpon>201211182348318_new23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201211190433095_new24.resx">
+      <DependentUpon>201211190433095_new24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201211190720257_new25.resx">
+      <DependentUpon>201211190720257_new25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\MediaContent\Index.cshtml" />
@@ -384,19 +488,16 @@
     <Content Include="Views\MediaContent\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <Content Include="Views\Player\PlayerScheduleDetails.cshtml" />
+    <Content Include="Views\Player\PlayerAddSchedule.cshtml" />
     <Content Include="Views\Schedule\Index.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\Schedule\Details.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\Schedule\Create.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\Schedule\Edit.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\Schedule\Delete.cshtml" />
+    <Content Include="Views\Schedule\ScheduledItemDetails.cshtml" />
+    <Content Include="Views\Schedule\ScheduleAddContent.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

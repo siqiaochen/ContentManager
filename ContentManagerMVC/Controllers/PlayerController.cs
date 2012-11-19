@@ -6,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using ContentManagerMVC.Models;
+using PagedList;
 
 namespace ContentManagerMVC.Controllers
 {
@@ -16,9 +17,49 @@ namespace ContentManagerMVC.Controllers
         //
         // GET: /Player/
 
-        public ActionResult Index()
+        public ActionResult Index(string sortOrder, string currentFilter, string searchString, int? page)
         {
-            return View(db.Players.ToList());
+            ViewBag.CurrentSort = sortOrder;
+            ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "Name desc" : "";
+            ViewBag.IPSortParm = sortOrder == "IP" ? "IP desc" : "IP";
+            if (Request.HttpMethod == "GET")
+            {
+                searchString = currentFilter;
+            }
+            else
+            {
+                page = 1;
+            }
+            ViewBag.CurrentFilter = searchString;
+
+            var players = from s in db.Players
+                           select s;
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                players = players.Where(s => s.Name.ToUpper().Contains(searchString.ToUpper()));
+            }
+            //IOrderedQueryable<Player> orderedPlayers;
+            switch (sortOrder)
+            {
+                case "Name desc":
+                    players = players.OrderByDescending(s => s.Name);
+                    break;
+                case "IP":
+                    players = players.OrderBy(s => s.IP);
+                    break;
+                case "IP desc":
+                    players = players.OrderByDescending(s => s.IP);
+                    break;
+                default:
+                    players = players.OrderBy(s => s.Name);
+                    break;
+            }
+
+            int pageSize = 20;
+            
+            int pageNumber = (page ?? 1);
+
+            return View(players.ToPagedList(pageNumber, pageSize));
         }
 
         //
@@ -34,6 +75,58 @@ namespace ContentManagerMVC.Controllers
             return View(player);
         }
 
+        //
+        // GET: /Player/Details/5
+
+        public ActionResult PlayerScheduleDetails(int? playerid, string option, int? scheduleid)
+        {
+            ViewBag.PlayerId = playerid;
+            Player player = db.Players.Find(playerid);
+            
+            if (player == null)
+            {
+                return HttpNotFound();
+            }
+
+            switch (option)
+            {
+                case "add":
+                    {
+                        PlayerSchedule psche = new PlayerSchedule();
+                        psche.schedule = db.Schedules.Find(scheduleid);
+                        if(psche.schedule!=null)
+                        {
+                            db.PlayerSchedules.Add(psche);
+                            player.Schedules.Add(psche);
+                        }
+                    }
+                    db.SaveChanges();
+                    break;
+                case "delete":
+                    player.Schedules.Remove(db.PlayerSchedules.Find(scheduleid));
+                    db.SaveChanges();
+                    break;
+                default:
+                    break;
+            }
+            var playerschedules = from s in player.Schedules
+                            select s;
+
+            return View(playerschedules);
+        }
+        public ActionResult PlayerAddSchedule(int playerid)
+        {
+
+            ViewBag.PlayerId = playerid;
+            Player player = db.Players.Find(playerid);
+            if (player == null)
+            {
+                return HttpNotFound();
+            }
+            var schedules = from s in db.Schedules
+                            select s;
+            return View(schedules);
+        }
         //
         // GET: /Player/Create
 

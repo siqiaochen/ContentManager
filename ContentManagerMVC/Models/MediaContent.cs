@@ -12,6 +12,7 @@ namespace ContentManagerMVC.Models
         public string Title { get; set; }
         public DateTime CreateDate { get; set; }
         public string ContentType { get; set; }
-        public decimal Duration { get; set; } 
+        public decimal Duration { get; set; }
+        public string Path { get; set; }
     }
 }

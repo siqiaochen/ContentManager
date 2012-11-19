@@ -8,10 +8,11 @@
 
 <p>
     @Html.ActionLink("Create New", "Create")
-    @using (Html.BeginForm("SearchIndex","Player",FormMethod.Get)){    
+    @using (Html.BeginForm("SearchIndex", "Player", FormMethod.Get))
+    {    
          <p> Title: @Html.TextBox("SearchString")<br />  
          <input type="submit" value="Filter" /></p> 
-        }
+    }
 </p>
 <table>
     <tr>
@@ -24,7 +25,8 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
+@foreach (var item in Model)
+{
     <tr>
         <td>
             @Html.DisplayFor(modelItem => item.Name)
@@ -33,10 +35,25 @@
             @Html.DisplayFor(modelItem => item.IP)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+            @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.ID })
         </td>
+    </tr>
+    <tr>
+        <td colspan="100%">
+            <span>Schedules:</span> 
+            @foreach (var sche in item.Schedules)
+            {
+                <p>
+                    @Html.DisplayFor(modelItem => sche.schedule.Title)
+                    <span>Start from: </span> 
+                    @Html.DisplayFor(modelItem => sche.schedule.StartTime)     
+                    <span>to </span>
+                    @Html.DisplayFor(modelItem => sche.schedule.EndTime)     
+                </p>
+            }
+         </td>
     </tr>
 }
 

@@ -1,39 +1,95 @@
-﻿@model IEnumerable<ContentManagerMVC.Models.Player>
+﻿@model PagedList.IPagedList<ContentManagerMVC.Models.Player>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Current Player List";
 }
 
 <h2>Index</h2>
-
+@using (Html.BeginForm())
+{
+    <p>
+        Find by name: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)  
+        <input type="submit" value="Search" /></p>
+}
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
 <table>
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Name)
+         @Html.ActionLink("Name", "Index", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter })
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.IP)
+        <th>         
+         @Html.ActionLink("IP", "Index", new { sortOrder = ViewBag.DateSortParm, currentFilter = ViewBag.CurrentFilter })
         </th>
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
+@foreach (var item in Model)
+{
     <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Name)
+        <td>        
+                    @Html.DisplayFor(disp => item.Name)
+        </td>
+        <td>        
+                    @Html.DisplayFor(disp => item.IP)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.IP)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+            @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.ID })
         </td>
     </tr>
+
+    <tr>
+        <td colspan="100%">
+            <span style="font-weight: bold;">Schedules: </span>
+            
+            @Html.ActionLink("Details", "PlayerScheduleDetails", new { playerid = item.ID })
+            @foreach (var sche in item.Schedules)
+            {
+                <p>
+                    @Html.DisplayFor(schetitle => sche.schedule.Title)
+                    <span>Start from: </span> 
+                    @Html.DisplayFor(schestart => sche.schedule.StartTime)     
+                    <span>to </span>
+                    @Html.DisplayFor(schestart => sche.schedule.EndTime)     
+                </p>
+            }
+         </td>
+     </tr>
 }
 
 </table>
+
+
+<div>
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)
+    of @Model.PageCount
+     
+    @if (Model.HasPreviousPage)
+    {
+        @Html.ActionLink("<<", "Index", new { page = 1, sortOrder = ViewBag.CurrentSort, currentFilter=ViewBag.CurrentFilter  })
+        @Html.Raw(" ");
+        @Html.ActionLink("< Prev", "Index", new { page = Model.PageNumber - 1, sortOrder = ViewBag.CurrentSort, currentFilter=ViewBag.CurrentFilter  })
+    }
+    else
+    {
+        @:<<
+        @Html.Raw(" ");
+        @:< Prev
+    }
+     
+    @if (Model.HasNextPage)
+    {
+        @Html.ActionLink("Next >", "Index", new { page = Model.PageNumber + 1, sortOrder = ViewBag.CurrentSort, currentFilter=ViewBag.CurrentFilter  })
+        @Html.Raw(" ");
+        @Html.ActionLink(">>", "Index", new { page = Model.PageCount, sortOrder = ViewBag.CurrentSort, currentFilter=ViewBag.CurrentFilter  })
+    }
+    else
+    {
+        @:Next >
+        @Html.Raw(" ")
+        @:>>
+    }
+</div>

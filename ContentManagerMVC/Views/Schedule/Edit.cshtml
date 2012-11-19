@@ -54,6 +54,48 @@
             @Html.ValidationMessageFor(model => model.PlayOnePerRound)
         </div>
 
+        <div>
+        <table>
+            <tr>
+            <td>
+            @Html.LabelFor(model => model.Mon)
+            @Html.EditorFor(model => model.Mon)
+            @Html.ValidationMessageFor(model => model.Mon)
+            </td>
+            <td>
+            @Html.LabelFor(model => model.Tue)
+            @Html.EditorFor(model => model.Tue)
+            @Html.ValidationMessageFor(model => model.Tue)
+            </td>
+            <td>
+            @Html.LabelFor(model => model.Wed)
+            @Html.EditorFor(model => model.Wed)
+            @Html.ValidationMessageFor(model => model.Wed)
+            </td>
+            <td>
+            @Html.LabelFor(model => model.Thr)
+            @Html.EditorFor(model => model.Thr)
+            @Html.ValidationMessageFor(model => model.Thr)
+            </td>
+            <td>
+            @Html.LabelFor(model => model.Fri)
+            @Html.EditorFor(model => model.Fri)
+            @Html.ValidationMessageFor(model => model.Fri)
+            </td>
+            <td>
+            @Html.LabelFor(model => model.Sat)
+            @Html.EditorFor(model => model.Sat)
+            @Html.ValidationMessageFor(model => model.Sat)
+            </td>
+            <td>
+            @Html.LabelFor(model => model.Sun)
+            @Html.EditorFor(model => model.Sun)
+            @Html.ValidationMessageFor(model => model.Sun)
+            </td>
+            </tr>
+        </table>
+        </div>
+
         <p>
             <input type="submit" value="Save" />
         </p>

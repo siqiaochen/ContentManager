@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "ScheduleAddContent";
+}
+
+<h2>ScheduleAddContent</h2>
+
+@model IEnumerable<ContentManagerMVC.Models.MediaContent>
+
+<table>
+    <tr>
+        <th>
+            Content Name 
+        </th>
+        <th>
+            Content Modified Date
+        </th>
+        <th>
+            Content Duration
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreateDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Duration)
+        </td>
+        <td>
+            @Html.ActionLink("Add", "ScheduledItemDetails", new { scheduleid = ViewBag.scheduleId, option = "add", itemId = item.ID })
+        </td>
+    </tr>
+}
+
+</table>

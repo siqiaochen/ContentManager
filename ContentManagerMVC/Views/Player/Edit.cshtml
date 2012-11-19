@@ -36,6 +36,27 @@
     </fieldset>
 }
 
+<table>
+    <tr><td>
+            <span>Schedules:</span> 
+            <span>@Html.ActionLink("Add Schedule", "Index")</span>
+    </td></tr>
+    <tr>
+        <td colspan="100%">
+            @foreach (var sche in Model.Schedules)
+            {
+                <p>
+                    @Html.DisplayFor(schetitle => sche.schedule.Title)
+                    <span>Start from: </span> 
+                    @Html.DisplayFor(schestart => sche.schedule.StartTime)     
+                    <span>to </span>
+                    @Html.DisplayFor(schestart => sche.schedule.EndTime)     
+                </p>
+            }
+         </td>
+
+     </tr>
+     </table>
 <div>
     @Html.ActionLink("Back to List", "Index")
 </div>

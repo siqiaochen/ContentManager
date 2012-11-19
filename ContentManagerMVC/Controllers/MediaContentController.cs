@@ -6,23 +6,71 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using ContentManagerMVC.Models;
-
+using PagedList;
+using System.IO;
 namespace ContentManagerMVC.Controllers
 {
     public class MediaContentController : Controller
     {
         private PlayerDBContext db = new PlayerDBContext();
 
-        //
-        // GET: /MediaContent/
-
-        public ActionResult Index()
+        public String TestIndex()
         {
-            return View(db.Contents.ToList());
+            return "Index View";
+        }
+
+
+        //
+        // GET: /Play/
+
+        public ActionResult Index(string sortOrder, string currentFilter, string searchString, int? page)
+        {
+            //return View(db.Contents.ToList());
+            ViewBag.CurrentSort = sortOrder;
+            ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "Title desc" : "";
+            ViewBag.IPSortParm = sortOrder == "Create Time" ? "Create Time desc" : "Create Time";
+            if (Request.HttpMethod == "GET")
+            {
+                searchString = currentFilter;
+            }
+            else
+            {
+                page = 1;
+            }
+            ViewBag.CurrentFilter = searchString;
+
+            var contents = from s in db.Contents
+                          select s;
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                contents = contents.Where(s => s.Title.ToUpper().Contains(searchString.ToUpper()));
+            }
+            //IOrderedQueryable<Player> orderedPlayers;
+            switch (sortOrder)
+            {
+                case "Name desc":
+                    contents = contents.OrderByDescending(s => s.Title);
+                    break;
+                case "IP":
+                    contents = contents.OrderBy(s => s.CreateDate);
+                    break;
+                case "IP desc":
+                    contents = contents.OrderByDescending(s => s.CreateDate);
+                    break;
+                default:
+                    contents = contents.OrderBy(s => s.Title);
+                    break;
+            }
+
+            int pageSize = 20;
+
+            int pageNumber = (page ?? 1);
+
+            return View(contents.ToPagedList(pageNumber, pageSize));
         }
 
         //
-        // GET: /MediaContent/Details/5
+        // GET: /Play/Details/5
 
         public ActionResult Details(int id = 0)
         {
@@ -35,7 +83,7 @@ namespace ContentManagerMVC.Controllers
         }
 
         //
-        // GET: /MediaContent/Create
+        // GET: /Play/Create
 
         public ActionResult Create()
         {
@@ -43,23 +91,43 @@ namespace ContentManagerMVC.Controllers
         }
 
         //
-        // POST: /MediaContent/Create
+        // POST: /Play/Create
 
         [HttpPost]
-        public ActionResult Create(MediaContent mediacontent)
+        public ActionResult Create(HttpPostedFileBase file)//,MediaContent mediacontent)
         {
             if (ModelState.IsValid)
             {
-                db.Contents.Add(mediacontent);
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                if (file.ContentLength > 0)
+                {
+                    try
+                    {
+                        var fileName = Path.GetFileName(file.FileName);
+                        var path = Path.Combine(Server.MapPath("~/uploads"), fileName);
+                        file.SaveAs(path);
+
+                        MediaContent mediacontent = new MediaContent();
+                        FileInfo finfo = new FileInfo(path);
+                        mediacontent.CreateDate = finfo.CreationTime;
+                        mediacontent.Duration = 10;
+                        mediacontent.Title = finfo.Name;
+                        mediacontent.Path = path;
+                        db.Contents.Add(mediacontent);
+                        db.SaveChanges();
+                        return RedirectToAction("Index");
+                    }
+                    catch (Exception exp)
+                    { 
+                    
+                    }
+                }
             }
 
-            return View(mediacontent);
+            return View();
         }
 
         //
-        // GET: /MediaContent/Edit/5
+        // GET: /Play/Edit/5
 
         public ActionResult Edit(int id = 0)
         {
@@ -72,7 +140,7 @@ namespace ContentManagerMVC.Controllers
         }
 
         //
-        // POST: /MediaContent/Edit/5
+        // POST: /Play/Edit/5
 
         [HttpPost]
         public ActionResult Edit(MediaContent mediacontent)
@@ -87,7 +155,7 @@ namespace ContentManagerMVC.Controllers
         }
 
         //
-        // GET: /MediaContent/Delete/5
+        // GET: /Play/Delete/5
 
         public ActionResult Delete(int id = 0)
         {
@@ -100,7 +168,7 @@ namespace ContentManagerMVC.Controllers
         }
 
         //
-        // POST: /MediaContent/Delete/5
+        // POST: /Play/Delete/5
 
         [HttpPost, ActionName("Delete")]
         public ActionResult DeleteConfirmed(int id)

@@ -21,10 +21,25 @@
             @Html.DisplayNameFor(model => model.EndTime)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Continuous)
+            @Html.DisplayNameFor(model => model.Mon)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.PlayOnePerRound)
+            @Html.DisplayNameFor(model => model.Tue)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Wed)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Thr)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fri)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sun)
         </th>
         <th></th>
     </tr>
@@ -41,17 +56,59 @@
             @Html.DisplayFor(modelItem => item.EndTime)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Continuous)
+            @Html.DisplayFor(modelItem => item.Mon)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.PlayOnePerRound)
+            @Html.DisplayFor(modelItem => item.Tue)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Wed)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Thr)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fri)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sun)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
             @Html.ActionLink("Details", "Details", new { id=item.ID }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.ID })
         </td>
+
+
+    </tr>
+    <tr>
+            <td>
+                <span> @Html.DisplayNameFor(model => model.Continuous)</span>
+                <span>@Html.DisplayFor(modelItem => item.Continuous)</span>
+            </td>
+    </tr>
+    <tr>
+            <td>
+                <span>@Html.DisplayNameFor(model => model.PlayOnePerRound)</span>
+                <span>@Html.DisplayFor(modelItem => item.PlayOnePerRound)</span>
+            </td>
+    </tr>
+    <tr><td colspan="100%">
+            <span style="font-weight: bold;">Contents </span> <span>@Html.ActionLink("Details", "ScheduledItemDetails", new { scheduleid = item.ID })</span> 
+        </td>               
+    </tr>
+    <tr>
+        <td colspan="100%">
+            @foreach (var content in item.Contents)
+            {           
+               <p> @Html.DisplayFor(itemname => content.Content.Title) </p>
+            }
+        </td>
     </tr>
 }
 
 </table>
+

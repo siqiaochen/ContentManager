@@ -1,0 +1,40 @@
+﻿@model IEnumerable<ContentManagerMVC.Models.ScheduledItem>
+@{
+    ViewBag.Title = "ScheduledItemDetails";
+}
+
+
+
+<h2>Scheduled Items</h2>
+
+<h2>Edit Schedules</h2>
+
+<p>@Html.ActionLink("Add", "ScheduleAddContent", new { scheduleid = ViewBag.ScheduleId })</p>
+
+<table>
+    <tr>
+
+           <td>Schedules</td>  
+           <td>Action</td>
+    </tr>
+    @foreach (var content in Model)
+    {
+    <tr>
+        <td>
+                <p>
+                    @Html.DisplayFor(itemtitle => content.Content.Title)
+                    <span>Modified Date: </span> 
+                    @Html.DisplayFor(itemdate => content.Content.CreateDate)     
+                    <span>Duration: </span>
+                    @Html.DisplayFor(itemdura => content.Content.Duration)     
+                </p>
+            
+         </td>
+         <td>
+         
+         @Html.ActionLink("Delete", "ScheduledItemDetails", new { scheduleid = ViewBag.ScheduleId, option = "delete", itemid = content.ID })
+         
+         </td>
+    </tr>
+    }
+</table>

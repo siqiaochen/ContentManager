@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Title = "PlayerAddSchedule";
+}
+
+<h2>Add Schedule</h2>
+
+@model IEnumerable<ContentManagerMVC.Models.Schedule>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StartTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EndTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Continuous)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PlayOnePerRound)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StartTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EndTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Continuous)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PlayOnePerRound)
+        </td>
+        <td>
+            @Html.ActionLink("Add", "PlayerScheduleDetails", new { playerID = ViewBag.PlayerId, option = "add", scheduleid = item.ID })
+        </td>
+    </tr>
+}
+
+</table>

@@ -43,8 +43,58 @@
     <div class="display-field">
         @Html.DisplayFor(model => model.PlayOnePerRound)
     </div>
+
+    <div class="display-field">
+    <table>
+    <tr>
+        <td>
+            @Html.DisplayNameFor(model => model.Mon)
+            @Html.DisplayFor(model => model.Mon)
+        </td>
+        <td>
+            @Html.DisplayNameFor(model => model.Tue)
+            @Html.DisplayFor(model => model.Tue)
+        </td>
+        <td>
+            @Html.DisplayNameFor(model => model.Wed)
+            @Html.DisplayFor(model => model.Wed)
+        </td>
+        <td>
+            @Html.DisplayNameFor(model => model.Thr)
+            @Html.DisplayFor(model => model.Thr)
+        </td>
+        <td>
+            @Html.DisplayNameFor(model => model.Fri)
+            @Html.DisplayFor(model => model.Fri)
+        </td>
+        <td>
+            @Html.DisplayNameFor(model => model.Sat)
+            @Html.DisplayFor(model => model.Sat)
+        </td>
+        <td>
+            @Html.DisplayNameFor(model => model.Sun)
+            @Html.DisplayFor(model => model.Sun)
+        </td>
+        </tr>
+    </table>
+    </div>
+    <div class="display-field">
+    Scheduled Contents:
+    <table>
+        <tr><td>Content Name</td>    
+        </tr>
+        @foreach (var content in Model.Contents)
+        {         
+        <tr>
+            <td>
+                @Html.DisplayFor(itemname => content.Content.Title)
+            </td>
+        </tr>
+        }
+    </table>
+    </div>
 </fieldset>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id=Model.ID }) |
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
     @Html.ActionLink("Back to List", "Index")
 </p>

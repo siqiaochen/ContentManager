@@ -1,0 +1,36 @@
+﻿@model IEnumerable<ContentManagerMVC.Models.PlayerSchedule>
+@{
+    ViewBag.Title = "Player Schedule:";
+}
+
+<h2>Edit Schedules</h2>
+
+<p>@Html.ActionLink("Add", "PlayerAddSchedule", new { playerid = ViewBag.PlayerId })</p>
+
+<table>
+    <tr>
+
+           <td>Schedules</td>  
+           <td>Action</td>
+    </tr>
+    @foreach (var sche in Model)
+    {
+    <tr>
+        <td>
+                <p>
+                    @Html.DisplayFor(schetitle => sche.schedule.Title)
+                    <span>Start from: </span> 
+                    @Html.DisplayFor(schestart => sche.schedule.StartTime)     
+                    <span>to </span>
+                    @Html.DisplayFor(schestart => sche.schedule.EndTime)     
+                </p>
+            
+         </td>
+         <td>
+         
+         @Html.ActionLink("Delete", "PlayerScheduleDetails", new { playerid = ViewBag.PlayerId, option = "delete", scheduleid = sche.ID })
+         
+         </td>
+    </tr>
+    }
+</table>
