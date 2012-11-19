@@ -23,9 +23,6 @@ C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentMana
 C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC\bin\EntityFramework.dll
 C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC\bin\Microsoft.Web.WebPages.OAuth.dll
-C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC\bin\MySql.Data.dll
-C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC\bin\MySql.Data.Entity.dll
-C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC\bin\MySql.Web.dll
 C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC\bin\Newtonsoft.Json.dll
 C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC\bin\PagedList.dll
 C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC\bin\PagedList.Mvc.dll
