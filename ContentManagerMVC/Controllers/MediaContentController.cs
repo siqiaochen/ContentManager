@@ -103,7 +103,7 @@ namespace ContentManagerMVC.Controllers
                     try
                     {
                         var fileName = Path.GetFileName(file.FileName);
-                        var path = Path.Combine(Server.MapPath("~/uploads"), fileName);
+                        var path = Path.Combine(Server.MapPath("~/App_Data/uploads"), fileName);
                         file.SaveAs(path);
 
                         MediaContent mediacontent = new MediaContent();
