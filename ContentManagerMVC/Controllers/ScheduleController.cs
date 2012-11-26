@@ -6,21 +6,69 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using ContentManagerMVC.Models;
+using PagedList;
 
 namespace ContentManagerMVC.Controllers
 {
+    [Authorize(Roles = "Administrator,Manager")]
     public class ScheduleController : Controller
     {
         private PlayerDBContext db = new PlayerDBContext();
 
         //
         // GET: /Schedule/
-
-        public ActionResult Index()
+        public ActionResult Index(string sortOrder, string currentFilter, string searchString, int? page)
         {
-            return View(db.Schedules.ToList());
-        }
+            //return View(db.Contents.ToList());
+            ViewBag.CurrentSort = sortOrder;
+            ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "Name desc" : "";
+            ViewBag.StartTimeSortParm = sortOrder == "Start Time" ? "Start Time desc" : "Start Time";
+            ViewBag.EndTimeSortParm = sortOrder == "End Time" ? "End Time desc" : "End Time";
+            if (Request.HttpMethod == "GET")
+            {
+                searchString = currentFilter;
+            }
+            else
+            {
+                page = 1;
+            }
+            ViewBag.CurrentFilter = searchString;
 
+            var schedules = from s in db.Schedules
+                           select s;
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                schedules = schedules.Where(s => s.Title.ToUpper().Contains(searchString.ToUpper()));
+            }
+            //IOrderedQueryable<Player> orderedPlayers;
+            switch (sortOrder)
+            {
+                case "Name desc":
+                    schedules = schedules.OrderByDescending(s => s.Title);
+                    break;
+                case "Create Time":
+                    schedules = schedules.OrderBy(s => s.StartTime);
+                    break;
+                case "Create Time desc":
+                    schedules = schedules.OrderByDescending(s => s.StartTime);
+                    break;
+                case "End Time":
+                    schedules = schedules.OrderBy(s => s.EndTime);
+                    break;
+                case "End Time desc":
+                    schedules = schedules.OrderByDescending(s => s.EndTime);
+                    break;
+                default:
+                    schedules = schedules.OrderBy(s => s.Title);
+                    break;
+            }
+
+            int pageSize = 20;
+
+            int pageNumber = (page ?? 1);
+
+            return View(schedules.ToPagedList(pageNumber, pageSize));
+        }
         //
         // GET: /Schedule/Details/5
 

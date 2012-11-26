@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="ContentManagerMVC.Migrations.contentsettings" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="12.25" Y="0.5" Width="1.5" />
+  <Class Name="ContentManagerMVC.Migrations.contentsettings" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="0.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
       <FileName>Migrations\201211112237565_contentsettings.cs</FileName>
@@ -18,14 +18,14 @@
   <Class Name="ContentManagerMVC.Models.Schedule">
     <Position X="5.5" Y="3.75" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AQAAAAAAAAAAgEAAAAAAAAAAIAAgAAAAAAAAAABAAQA=</HashCode>
+      <HashCode>AQAAAAAAAAAAxEAAAAAAAAAAIAQgAEAAAAAEAABAAYQ=</HashCode>
       <FileName>Models\Schedule.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ContentManagerMVC.Models.MediaContent">
     <Position X="9.25" Y="3.75" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAACgEAAAAAAAAAAAAAAAAAAAAARAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAACgEIAAAAAAAAAAAAAAAAAAAARAAAAAAA=</HashCode>
       <FileName>Models\MediaContent.cs</FileName>
     </TypeIdentifier>
   </Class>

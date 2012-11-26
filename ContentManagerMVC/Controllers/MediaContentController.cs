@@ -10,6 +10,7 @@ using PagedList;
 using System.IO;
 namespace ContentManagerMVC.Controllers
 {
+    [Authorize(Roles = "Administrator,Manager,GraphicCreater")]
     public class MediaContentController : Controller
     {
         private PlayerDBContext db = new PlayerDBContext();
@@ -28,7 +29,7 @@ namespace ContentManagerMVC.Controllers
             //return View(db.Contents.ToList());
             ViewBag.CurrentSort = sortOrder;
             ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "Title desc" : "";
-            ViewBag.IPSortParm = sortOrder == "Create Time" ? "Create Time desc" : "Create Time";
+            ViewBag.DateSortParm = sortOrder == "Create Time" ? "Create Time desc" : "Create Time";
             if (Request.HttpMethod == "GET")
             {
                 searchString = currentFilter;
@@ -51,10 +52,10 @@ namespace ContentManagerMVC.Controllers
                 case "Name desc":
                     contents = contents.OrderByDescending(s => s.Title);
                     break;
-                case "IP":
+                case "Create Time":
                     contents = contents.OrderBy(s => s.CreateDate);
                     break;
-                case "IP desc":
+                case "Create Time desc":
                     contents = contents.OrderByDescending(s => s.CreateDate);
                     break;
                 default:

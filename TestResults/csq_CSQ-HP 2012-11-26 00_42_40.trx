@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9c96e87b-c43a-4e48-9376-4275e11285e1" name="csq@CSQ-HP 2012-11-26 00:42:40" runUser="csq-HP\csq" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1e55fc8c-f910-491d-a8c5-709fde21967d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="csq_CSQ-HP 2012-11-26 00_42_40">
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\DotNetOpenAuth.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.Core.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\WebMatrix.WebData.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\DotNetOpenAuth.AspNet.4.0.3.12153\lib\net40-full\DotNetOpenAuth.AspNet.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\PagedList.Mvc.3.18.0.0\lib\net40\PagedList.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\Microsoft.AspNet.WebPages.OAuth.2.0.20710.0\lib\net40\Microsoft.Web.WebPages.OAuth.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\DotNetOpenAuth.OpenId.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OpenId.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\WebMatrix.Data.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\PagedList.1.15.0.0\lib\net40\PagedList.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC\bin\ContentManagerMVC.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\WebGrease.1.1.0\lib\WebGrease.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\DotNetOpenAuth.OAuth.Consumer.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OAuth.Consumer.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\DotNetOpenAuth.OAuth.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OAuth.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\DotNetOpenAuth.OpenId.RelyingParty.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OpenId.RelyingParty.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-26T00:42:40.7188764-08:00" queuing="2012-11-26T00:42:47.3432552-08:00" start="2012-11-26T00:42:47.6652737-08:00" finish="2012-11-26T00:43:04.1902188-08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="31" executed="31" passed="1" error="0" failed="30" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="59863143-3238-122e-4d8a-637b491cc755">
+      <Execution id="50bfd3bd-5922-47e7-8e49-8e9ff32aaa64" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="EndTimeTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="e662c5a9-f220-b0cd-933d-e9dac5e63ed3">
+      <Execution id="5b7df738-1279-4fd8-9bbe-c30713db9081" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ScheduleTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="EndTimeTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="UsersContextConstructorTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="cd82b5d2-8c0d-5ee7-be8d-305205a47fef">
+      <Execution id="e69715f5-d720-4e8c-922c-83a5faaeb38c" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UsersContextTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="UsersContextConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="IDTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="6f7b41b7-b813-f96a-3c8e-de2c0cd7c47e">
+      <Execution id="7eacc739-1f8d-460c-98c8-f9e026ec593b" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ScheduledItemTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="IDTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="UserTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="2450deb2-842b-92ee-5f3f-00a94681920d">
+      <Execution id="9a53af62-50e7-47d6-a212-0efc33f16be6" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserMembershipTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="UserTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="PlayOnePerRoundTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="b549345c-dd48-dcaa-e779-cd0d4abeb7dd">
+      <Execution id="c55b1b52-d9c7-43a7-bbe0-20a26b79ea5c" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ScheduleTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="PlayOnePerRoundTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="SatTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="9a6b832c-f0c6-879f-1e91-50495bf16136">
+      <Execution id="8878181e-6f12-4c43-85e1-78822a6e8990" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ScheduleTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="SatTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="SunTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="523a4b4c-1839-1e12-b3c0-8ff88eb6803a">
+      <Execution id="a630f6b2-bd3d-4252-bd4c-4be38418ed39" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ScheduleTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="SunTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="UserProfilesTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="45d90004-8f12-bca0-be1e-435062b3184e">
+      <Execution id="e635a102-a07e-4450-9355-99a01d06db6b" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UsersContextTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="UserProfilesTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ContentsTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="bfe5c1af-e16f-5e12-edef-e678747e4675">
+      <Execution id="11197d91-fa8c-4386-951d-90c4e9215334" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ScheduleTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="ContentsTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="TueTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="5bb4aa8c-bb37-899b-fbe4-ce43db4cf7b1">
+      <Execution id="5b1f9001-dc5b-47be-b33e-77e23034dd87" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ScheduleTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="TueTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ContentTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="57c05f93-da33-c15b-bb55-6c61a16909ed">
+      <Execution id="162fdea6-612f-4ae5-9d01-8c180562800d" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ScheduledItemTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="ContentTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="UserMembershipConstructorTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="64415ba3-2052-c021-fa3c-b09fcc4be714">
+      <Execution id="d3bc1bcf-fe4d-4e7b-8537-22e85ce98050" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserMembershipTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="UserMembershipConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ScheduleConstructorTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="2be9c320-cdcb-f98d-c296-976af1e4dcd2">
+      <Execution id="5376215a-9675-45ae-b46c-5fb49b2f588a" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ScheduleTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="ScheduleConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="UserIdTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="903f1ade-846e-06d1-188e-14977842a2d5">
+      <Execution id="2063753d-34a0-4438-89b1-e3e16f5fe85f" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserProfileTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="UserIdTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="UserProfileConstructorTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="438f6926-2176-c402-77b6-e270c1655b27">
+      <Execution id="286f9b4f-d057-4003-916c-6cb7187fc17b" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserProfileTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="UserProfileConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="UserNameTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="09be8e44-af4d-4ea2-3e24-a21af1203302">
+      <Execution id="6124f058-04f7-4a6b-b5d9-ca41d0687256" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserProfileTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="UserNameTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ScheduledItemConstructorTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="2ea20a0c-076d-0fe5-0f0a-6abac3cb0f61">
+      <Execution id="3a951036-28eb-4af0-a616-35d2224939ec" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ScheduledItemTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="ScheduledItemConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="FriTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="0bd653ef-33b0-74f4-84e7-2c6395833096">
+      <Execution id="ee618281-f7c5-4754-ae51-6ef9a638ad31" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ScheduleTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="FriTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ThrTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="1ab5ebca-ac2d-894a-c9e8-2f83434c056c">
+      <Execution id="1f4c933a-e9af-4d66-a429-847ddd721784" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ScheduleTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="ThrTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="IDTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="6b51d737-ec06-5334-669c-f97a629f36ed">
+      <Execution id="41e26fc0-10b0-43c8-a680-4fd90f46bbe8" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ScheduleTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="IDTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RoleTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="2e6bc97f-4f82-6b96-8f50-b09d8109b5f7">
+      <Execution id="7ac046b7-55cb-4d81-a1d6-5b0908a67c3f" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserMembershipTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="RoleTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="WedTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="1e44c671-9f0a-c280-e0ff-c3f0d8bb6c07">
+      <Execution id="98cf9b64-fe9b-48bb-9e6d-5eeee02323bc" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ScheduleTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="WedTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="StartTimeTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="3742f575-022e-de83-8ab4-84f4a8042ec6">
+      <Execution id="34b808ce-feb9-4eae-92fc-329fb1272376" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ScheduleTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="StartTimeTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ConfirmPasswordTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="24ecccb6-20a2-4387-9816-56cfe56a7b8c">
+      <Execution id="a86dea79-98e8-473a-b251-814f02a4fae0" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RegisterModelTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="ConfirmPasswordTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RegisterModelConstructorTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="d3b1a5e3-6ff7-3350-f78f-aeb235109525">
+      <Execution id="32cf4aed-777e-4e6f-9ec3-1dd8adc3d44c" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RegisterModelTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="RegisterModelConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ContinuousTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="c16babea-e6d8-2917-5dd3-cc1881f125fc">
+      <Execution id="944bd88e-08f1-4e78-8486-2fafe725fb8a" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ScheduleTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="ContinuousTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="TitleTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="23a8d969-ce74-1e76-da89-593338971c71">
+      <Execution id="e6f20f1b-6378-4440-9edf-0c0692bd6bb1" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ScheduleTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="TitleTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="MonTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="e5bcd0a1-fb88-1458-2e30-989ce01e588f">
+      <Execution id="ebff2ea4-97f9-4da1-95fc-cec17d90a476" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ScheduleTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="MonTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="PasswordTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="84e50b99-fe4d-2ef3-c3dd-61f29873606a">
+      <Execution id="694cbcaf-e2d3-429a-9dce-a649e9b439aa" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RegisterModelTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="PasswordTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="UserNameTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\debug\defaulttest.dll" id="006437ec-3ee3-3e6c-5ec7-0df17cf5624e">
+      <Execution id="f96eb02a-31e7-4c08-bf7a-f6c3cb278f1d" />
+      <TestMethod codeBase="C:/Users/csq/documents/visual studio 2010/Projects/ContentManagerMVC/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RegisterModelTest, DefaultTest, Version=1.0.4713.1277, Culture=neutral, PublicKeyToken=null" name="UserNameTest" />
+      <AspNet webSiteUrl="http://localhost:56551/">
+        <Host pathToWebApp="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d3b1a5e3-6ff7-3350-f78f-aeb235109525" executionId="32cf4aed-777e-4e6f-9ec3-1dd8adc3d44c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24ecccb6-20a2-4387-9816-56cfe56a7b8c" executionId="a86dea79-98e8-473a-b251-814f02a4fae0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84e50b99-fe4d-2ef3-c3dd-61f29873606a" executionId="694cbcaf-e2d3-429a-9dce-a649e9b439aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="006437ec-3ee3-3e6c-5ec7-0df17cf5624e" executionId="f96eb02a-31e7-4c08-bf7a-f6c3cb278f1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ea20a0c-076d-0fe5-0f0a-6abac3cb0f61" executionId="3a951036-28eb-4af0-a616-35d2224939ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="57c05f93-da33-c15b-bb55-6c61a16909ed" executionId="162fdea6-612f-4ae5-9d01-8c180562800d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f7b41b7-b813-f96a-3c8e-de2c0cd7c47e" executionId="7eacc739-1f8d-460c-98c8-f9e026ec593b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2be9c320-cdcb-f98d-c296-976af1e4dcd2" executionId="5376215a-9675-45ae-b46c-5fb49b2f588a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bfe5c1af-e16f-5e12-edef-e678747e4675" executionId="11197d91-fa8c-4386-951d-90c4e9215334" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c16babea-e6d8-2917-5dd3-cc1881f125fc" executionId="944bd88e-08f1-4e78-8486-2fafe725fb8a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e662c5a9-f220-b0cd-933d-e9dac5e63ed3" executionId="5b7df738-1279-4fd8-9bbe-c30713db9081" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0bd653ef-33b0-74f4-84e7-2c6395833096" executionId="ee618281-f7c5-4754-ae51-6ef9a638ad31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b51d737-ec06-5334-669c-f97a629f36ed" executionId="41e26fc0-10b0-43c8-a680-4fd90f46bbe8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e5bcd0a1-fb88-1458-2e30-989ce01e588f" executionId="ebff2ea4-97f9-4da1-95fc-cec17d90a476" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b549345c-dd48-dcaa-e779-cd0d4abeb7dd" executionId="c55b1b52-d9c7-43a7-bbe0-20a26b79ea5c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a6b832c-f0c6-879f-1e91-50495bf16136" executionId="8878181e-6f12-4c43-85e1-78822a6e8990" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3742f575-022e-de83-8ab4-84f4a8042ec6" executionId="34b808ce-feb9-4eae-92fc-329fb1272376" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="523a4b4c-1839-1e12-b3c0-8ff88eb6803a" executionId="a630f6b2-bd3d-4252-bd4c-4be38418ed39" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ab5ebca-ac2d-894a-c9e8-2f83434c056c" executionId="1f4c933a-e9af-4d66-a429-847ddd721784" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23a8d969-ce74-1e76-da89-593338971c71" executionId="e6f20f1b-6378-4440-9edf-0c0692bd6bb1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5bb4aa8c-bb37-899b-fbe4-ce43db4cf7b1" executionId="5b1f9001-dc5b-47be-b33e-77e23034dd87" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e44c671-9f0a-c280-e0ff-c3f0d8bb6c07" executionId="98cf9b64-fe9b-48bb-9e6d-5eeee02323bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59863143-3238-122e-4d8a-637b491cc755" executionId="50bfd3bd-5922-47e7-8e49-8e9ff32aaa64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64415ba3-2052-c021-fa3c-b09fcc4be714" executionId="d3bc1bcf-fe4d-4e7b-8537-22e85ce98050" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e6bc97f-4f82-6b96-8f50-b09d8109b5f7" executionId="7ac046b7-55cb-4d81-a1d6-5b0908a67c3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2450deb2-842b-92ee-5f3f-00a94681920d" executionId="9a53af62-50e7-47d6-a212-0efc33f16be6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="438f6926-2176-c402-77b6-e270c1655b27" executionId="286f9b4f-d057-4003-916c-6cb7187fc17b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="903f1ade-846e-06d1-188e-14977842a2d5" executionId="2063753d-34a0-4438-89b1-e3e16f5fe85f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="09be8e44-af4d-4ea2-3e24-a21af1203302" executionId="6124f058-04f7-4a6b-b5d9-ca41d0687256" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd82b5d2-8c0d-5ee7-be8d-305205a47fef" executionId="e69715f5-d720-4e8c-922c-83a5faaeb38c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45d90004-8f12-bca0-be1e-435062b3184e" executionId="e635a102-a07e-4450-9355-99a01d06db6b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="32cf4aed-777e-4e6f-9ec3-1dd8adc3d44c" testId="d3b1a5e3-6ff7-3350-f78f-aeb235109525" testName="RegisterModelConstructorTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:48.8623421-08:00" endTime="2012-11-26T00:42:55.0336951-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32cf4aed-777e-4e6f-9ec3-1dd8adc3d44c">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_RegisterModelConstru.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_RegisterModelConstru.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="a86dea79-98e8-473a-b251-814f02a4fae0" testId="24ecccb6-20a2-4387-9816-56cfe56a7b8c" testName="ConfirmPasswordTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:55.0486960-08:00" endTime="2012-11-26T00:42:55.1997046-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a86dea79-98e8-473a-b251-814f02a4fae0">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_ConfirmPasswordTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_ConfirmPasswordTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="694cbcaf-e2d3-429a-9dce-a649e9b439aa" testId="84e50b99-fe4d-2ef3-c3dd-61f29873606a" testName="PasswordTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:55.2157055-08:00" endTime="2012-11-26T00:42:55.3867153-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="694cbcaf-e2d3-429a-9dce-a649e9b439aa">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_PasswordTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_PasswordTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="f96eb02a-31e7-4c08-bf7a-f6c3cb278f1d" testId="006437ec-3ee3-3e6c-5ec7-0df17cf5624e" testName="UserNameTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:55.4257175-08:00" endTime="2012-11-26T00:42:55.5817265-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f96eb02a-31e7-4c08-bf7a-f6c3cb278f1d">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_UserNameTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_UserNameTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="3a951036-28eb-4af0-a616-35d2224939ec" testId="2ea20a0c-076d-0fe5-0f0a-6abac3cb0f61" testName="ScheduledItemConstructorTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:55.6177285-08:00" endTime="2012-11-26T00:42:55.7727374-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a951036-28eb-4af0-a616-35d2224939ec">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_ScheduledItemConstru.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_ScheduledItemConstru.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="162fdea6-612f-4ae5-9d01-8c180562800d" testId="57c05f93-da33-c15b-bb55-6c61a16909ed" testName="ContentTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:55.7837380-08:00" endTime="2012-11-26T00:42:55.9387469-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="162fdea6-612f-4ae5-9d01-8c180562800d">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_ContentTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_ContentTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="7eacc739-1f8d-460c-98c8-f9e026ec593b" testId="6f7b41b7-b813-f96a-3c8e-de2c0cd7c47e" testName="IDTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:55.9767491-08:00" endTime="2012-11-26T00:42:56.1437586-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7eacc739-1f8d-460c-98c8-f9e026ec593b">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_IDTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_IDTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="5376215a-9675-45ae-b46c-5fb49b2f588a" testId="2be9c320-cdcb-f98d-c296-976af1e4dcd2" testName="ScheduleConstructorTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:56.1797607-08:00" endTime="2012-11-26T00:42:56.3637712-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5376215a-9675-45ae-b46c-5fb49b2f588a">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_ScheduleConstructorT.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_ScheduleConstructorT.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="11197d91-fa8c-4386-951d-90c4e9215334" testId="bfe5c1af-e16f-5e12-edef-e678747e4675" testName="ContentsTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:56.3787720-08:00" endTime="2012-11-26T00:42:56.5317808-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11197d91-fa8c-4386-951d-90c4e9215334">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_ContentsTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_ContentsTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="944bd88e-08f1-4e78-8486-2fafe725fb8a" testId="c16babea-e6d8-2917-5dd3-cc1881f125fc" testName="ContinuousTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:56.5727831-08:00" endTime="2012-11-26T00:42:56.7437929-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="944bd88e-08f1-4e78-8486-2fafe725fb8a">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_ContinuousTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_ContinuousTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="5b7df738-1279-4fd8-9bbe-c30713db9081" testId="e662c5a9-f220-b0cd-933d-e9dac5e63ed3" testName="EndTimeTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:56.7607939-08:00" endTime="2012-11-26T00:42:56.9258033-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b7df738-1279-4fd8-9bbe-c30713db9081">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_EndTimeTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_EndTimeTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="ee618281-f7c5-4754-ae51-6ef9a638ad31" testId="0bd653ef-33b0-74f4-84e7-2c6395833096" testName="FriTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:56.9348038-08:00" endTime="2012-11-26T00:42:57.0878126-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee618281-f7c5-4754-ae51-6ef9a638ad31">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_FriTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_FriTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="41e26fc0-10b0-43c8-a680-4fd90f46bbe8" testId="6b51d737-ec06-5334-669c-f97a629f36ed" testName="IDTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:57.1518163-08:00" endTime="2012-11-26T00:42:57.3228260-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="41e26fc0-10b0-43c8-a680-4fd90f46bbe8">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_IDTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_IDTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="ebff2ea4-97f9-4da1-95fc-cec17d90a476" testId="e5bcd0a1-fb88-1458-2e30-989ce01e588f" testName="MonTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:57.3628283-08:00" endTime="2012-11-26T00:42:57.5248376-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebff2ea4-97f9-4da1-95fc-cec17d90a476">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_MonTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_MonTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="c55b1b52-d9c7-43a7-bbe0-20a26b79ea5c" testId="b549345c-dd48-dcaa-e779-cd0d4abeb7dd" testName="PlayOnePerRoundTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:57.5578395-08:00" endTime="2012-11-26T00:42:57.7048479-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c55b1b52-d9c7-43a7-bbe0-20a26b79ea5c">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_PlayOnePerRoundTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_PlayOnePerRoundTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="8878181e-6f12-4c43-85e1-78822a6e8990" testId="9a6b832c-f0c6-879f-1e91-50495bf16136" testName="SatTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:57.7208488-08:00" endTime="2012-11-26T00:42:57.8738576-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8878181e-6f12-4c43-85e1-78822a6e8990">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_SatTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_SatTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="34b808ce-feb9-4eae-92fc-329fb1272376" testId="3742f575-022e-de83-8ab4-84f4a8042ec6" testName="StartTimeTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:57.9098596-08:00" endTime="2012-11-26T00:42:58.0528678-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34b808ce-feb9-4eae-92fc-329fb1272376">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_StartTimeTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_StartTimeTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="a630f6b2-bd3d-4252-bd4c-4be38418ed39" testId="523a4b4c-1839-1e12-b3c0-8ff88eb6803a" testName="SunTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:58.0938701-08:00" endTime="2012-11-26T00:42:58.2778807-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a630f6b2-bd3d-4252-bd4c-4be38418ed39">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_SunTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_SunTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="1f4c933a-e9af-4d66-a429-847ddd721784" testId="1ab5ebca-ac2d-894a-c9e8-2f83434c056c" testName="ThrTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:58.3148828-08:00" endTime="2012-11-26T00:42:58.4578910-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f4c933a-e9af-4d66-a429-847ddd721784">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_ThrTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_ThrTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="e6f20f1b-6378-4440-9edf-0c0692bd6bb1" testId="23a8d969-ce74-1e76-da89-593338971c71" testName="TitleTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:58.4978933-08:00" endTime="2012-11-26T00:42:58.6279007-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6f20f1b-6378-4440-9edf-0c0692bd6bb1">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_TitleTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_TitleTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="5b1f9001-dc5b-47be-b33e-77e23034dd87" testId="5bb4aa8c-bb37-899b-fbe4-ce43db4cf7b1" testName="TueTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:58.6589025-08:00" endTime="2012-11-26T00:42:58.7999105-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b1f9001-dc5b-47be-b33e-77e23034dd87">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_TueTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_TueTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="98cf9b64-fe9b-48bb-9e6d-5eeee02323bc" testId="1e44c671-9f0a-c280-e0ff-c3f0d8bb6c07" testName="WedTest" computerName="CSQ-HP" startTime="2012-11-26T00:42:58.8329124-08:00" endTime="2012-11-26T00:42:58.9999220-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98cf9b64-fe9b-48bb-9e6d-5eeee02323bc">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_WedTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_WedTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="50bfd3bd-5922-47e7-8e49-8e9ff32aaa64" testId="59863143-3238-122e-4d8a-637b491cc755" testName="TestMethod1" computerName="CSQ-HP" duration="00:00:00.0110756" startTime="2012-11-26T00:42:59.2129342-08:00" endTime="2012-11-26T00:43:01.5570682-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50bfd3bd-5922-47e7-8e49-8e9ff32aaa64">
+    </UnitTestResult>
+    <UnitTestResult executionId="d3bc1bcf-fe4d-4e7b-8537-22e85ce98050" testId="64415ba3-2052-c021-fa3c-b09fcc4be714" testName="UserMembershipConstructorTest" computerName="CSQ-HP" startTime="2012-11-26T00:43:01.5880700-08:00" endTime="2012-11-26T00:43:01.7370785-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3bc1bcf-fe4d-4e7b-8537-22e85ce98050">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_UserMembershipConstr.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_UserMembershipConstr.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="7ac046b7-55cb-4d81-a1d6-5b0908a67c3f" testId="2e6bc97f-4f82-6b96-8f50-b09d8109b5f7" testName="RoleTest" computerName="CSQ-HP" startTime="2012-11-26T00:43:01.7750807-08:00" endTime="2012-11-26T00:43:01.9390901-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ac046b7-55cb-4d81-a1d6-5b0908a67c3f">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_RoleTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_RoleTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="9a53af62-50e7-47d6-a212-0efc33f16be6" testId="2450deb2-842b-92ee-5f3f-00a94681920d" testName="UserTest" computerName="CSQ-HP" startTime="2012-11-26T00:43:01.9490906-08:00" endTime="2012-11-26T00:43:02.1211005-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a53af62-50e7-47d6-a212-0efc33f16be6">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_UserTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_UserTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="286f9b4f-d057-4003-916c-6cb7187fc17b" testId="438f6926-2176-c402-77b6-e270c1655b27" testName="UserProfileConstructorTest" computerName="CSQ-HP" startTime="2012-11-26T00:43:02.1371014-08:00" endTime="2012-11-26T00:43:02.2971106-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="286f9b4f-d057-4003-916c-6cb7187fc17b">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_UserProfileConstruct.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_UserProfileConstruct.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="2063753d-34a0-4438-89b1-e3e16f5fe85f" testId="903f1ade-846e-06d1-188e-14977842a2d5" testName="UserIdTest" computerName="CSQ-HP" startTime="2012-11-26T00:43:02.3371128-08:00" endTime="2012-11-26T00:43:02.5211234-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2063753d-34a0-4438-89b1-e3e16f5fe85f">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_UserIdTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_UserIdTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="6124f058-04f7-4a6b-b5d9-ca41d0687256" testId="09be8e44-af4d-4ea2-3e24-a21af1203302" testName="UserNameTest" computerName="CSQ-HP" startTime="2012-11-26T00:43:02.5631258-08:00" endTime="2012-11-26T00:43:02.7171346-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6124f058-04f7-4a6b-b5d9-ca41d0687256">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_UserNameTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_UserNameTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="e69715f5-d720-4e8c-922c-83a5faaeb38c" testId="cd82b5d2-8c0d-5ee7-be8d-305205a47fef" testName="UsersContextConstructorTest" computerName="CSQ-HP" startTime="2012-11-26T00:43:02.7251350-08:00" endTime="2012-11-26T00:43:02.8981449-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e69715f5-d720-4e8c-922c-83a5faaeb38c">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_UsersContextConstruc.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_UsersContextConstruc.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="e635a102-a07e-4450-9355-99a01d06db6b" testId="45d90004-8f12-bca0-be1e-435062b3184e" testName="UserProfilesTest" computerName="CSQ-HP" startTime="2012-11-26T00:43:02.9141458-08:00" endTime="2012-11-26T00:43:03.0891559-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e635a102-a07e-4450-9355-99a01d06db6b">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:56551/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_UserProfilesTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CSQ-HP\WebRequestResponse_UserProfilesTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+  </Results>
+</TestRun>

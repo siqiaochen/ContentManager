@@ -75,3 +75,6 @@ C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentMana
 C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC\obj\Debug\ContentManagerMVC.Migrations.new23.resources
 C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC\obj\Debug\ContentManagerMVC.Migrations.new24.resources
 C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC\obj\Debug\ContentManagerMVC.Migrations.new25.resources
+C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC\obj\Debug\ContentManagerMVC.Migrations.newsecuritysetting.resources
+C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC\obj\Debug\ContentManagerMVC.Migrations.membership.resources
+C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC\obj\Debug\ContentManagerMVC.Migrations.membership1.resources

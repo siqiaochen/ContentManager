@@ -172,6 +172,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MediaContentController.cs" />
+    <Compile Include="Controllers\MembershipController.cs" />
     <Compile Include="Controllers\PlayerController.cs" />
     <Compile Include="Controllers\ScheduleController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
@@ -245,6 +246,18 @@
     <Compile Include="Migrations\201211190720257_new25.cs" />
     <Compile Include="Migrations\201211190720257_new25.Designer.cs">
       <DependentUpon>201211190720257_new25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201211260525065_newsecuritysetting.cs" />
+    <Compile Include="Migrations\201211260525065_newsecuritysetting.Designer.cs">
+      <DependentUpon>201211260525065_newsecuritysetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201211260555058_membership.cs" />
+    <Compile Include="Migrations\201211260555058_membership.Designer.cs">
+      <DependentUpon>201211260555058_membership.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201211260928589_membership1.cs" />
+    <Compile Include="Migrations\201211260928589_membership1.Designer.cs">
+      <DependentUpon>201211260928589_membership1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
@@ -456,6 +469,15 @@
     <EmbeddedResource Include="Migrations\201211190720257_new25.resx">
       <DependentUpon>201211190720257_new25.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201211260525065_newsecuritysetting.resx">
+      <DependentUpon>201211260525065_newsecuritysetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201211260555058_membership.resx">
+      <DependentUpon>201211260555058_membership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201211260928589_membership1.resx">
+      <DependentUpon>201211260928589_membership1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -487,6 +509,14 @@
     <Content Include="Views\Schedule\Delete.cshtml" />
     <Content Include="Views\Schedule\ScheduledItemDetails.cshtml" />
     <Content Include="Views\Schedule\ScheduleAddContent.cshtml" />
+    <Content Include="Views\Membership\Index.cshtml" />
+    <Content Include="Views\Membership\Details.cshtml" />
+    <Content Include="Views\Membership\Create.cshtml" />
+    <Content Include="Views\Membership\Edit.cshtml" />
+    <Content Include="Views\Membership\Delete.cshtml" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

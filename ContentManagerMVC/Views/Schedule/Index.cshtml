@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ContentManagerMVC.Models.Schedule>
+﻿@model PagedList.IPagedList<ContentManagerMVC.Models.Schedule>
 
 @{
     ViewBag.Title = "Index";
@@ -12,34 +12,28 @@
 <table>
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Title)
+         @Html.ActionLink("Title", "Index", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter })
+
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.StartTime)
+         @Html.ActionLink("Start Time", "Index", new { sortOrder = ViewBag.StartTimeSortParm, currentFilter = ViewBag.CurrentFilter })
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.EndTime)
+         @Html.ActionLink("End Time", "Index", new { sortOrder = ViewBag.EndTimeSortParm, currentFilter = ViewBag.CurrentFilter })
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Mon)
+        <th>Mon
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Tue)
+        <th>Tue
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Wed)
+        <th>Wed
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Thr)
+        <th>Thr
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Fri)
+        <th>Fri
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Sat)
+        <th>Sat
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Sun)
+        <th>Sun
         </th>
         <th></th>
     </tr>
@@ -85,14 +79,11 @@
 
     </tr>
     <tr>
-            <td>
-                <span> @Html.DisplayNameFor(model => model.Continuous)</span>
+            <td colspan="100%">
+                <span>Continuous</span>
                 <span>@Html.DisplayFor(modelItem => item.Continuous)</span>
-            </td>
-    </tr>
-    <tr>
-            <td>
-                <span>@Html.DisplayNameFor(model => model.PlayOnePerRound)</span>
+                <span>    </span>
+                <span>Play One Per Round</span>
                 <span>@Html.DisplayFor(modelItem => item.PlayOnePerRound)</span>
             </td>
     </tr>

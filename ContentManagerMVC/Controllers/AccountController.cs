@@ -14,7 +14,6 @@ using ContentManagerMVC.Models;
 namespace ContentManagerMVC.Controllers
 {
     [Authorize]
-    [InitializeSimpleMembership]
     public class AccountController : Controller
     {
         //

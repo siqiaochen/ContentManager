@@ -1,0 +1,42 @@
+﻿@model ContentManagerMVC.Models.UserMembership
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>UserProfile</legend>
+
+        @Html.HiddenFor(model => model.User.UserId)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.User.UserName)
+        </div>
+        <div class="editor-field">
+            @Html.DisplayTextFor(model => model.User.UserName)
+            @Html.HiddenFor(model => model.User.UserName)
+        </div>
+        <div class="editor-label">
+            Roles
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("RoleTypes")
+        </div>
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

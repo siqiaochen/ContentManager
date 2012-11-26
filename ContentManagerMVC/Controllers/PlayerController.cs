@@ -10,6 +10,7 @@ using PagedList;
 
 namespace ContentManagerMVC.Controllers
 {
+    [Authorize(Roles = "Administrator,Manager")]
     public class PlayerController : Controller
     {
         private PlayerDBContext db = new PlayerDBContext();

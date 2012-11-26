@@ -95,4 +95,9 @@ namespace ContentManagerMVC.Models
         public string ProviderDisplayName { get; set; }
         public string ProviderUserId { get; set; }
     }
+    public class UserMembership
+    {
+        public UserProfile User { get; set; }
+        public String Role { get; set; }
+    }
 }
