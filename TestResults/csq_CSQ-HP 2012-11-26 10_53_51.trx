@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8682a16e-1d15-4c21-b2cc-251a7dec84eb" name="csq@CSQ-HP 2012-11-26 10:53:51" runUser="csq-HP\csq" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1e55fc8c-f910-491d-a8c5-709fde21967d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="csq_CSQ-HP 2012-11-26 10_53_51">
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\DotNetOpenAuth.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.Core.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\WebMatrix.WebData.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\DotNetOpenAuth.OAuth.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OAuth.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\PagedList.Mvc.3.18.0.0\lib\net40\PagedList.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC\bin\ContentManagerMVC.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\DotNetOpenAuth.OpenId.Core.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OpenId.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\WebMatrix.Data.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\PagedList.1.15.0.0\lib\net40\PagedList.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\DotNetOpenAuth.OpenId.RelyingParty.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OpenId.RelyingParty.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\WebGrease.1.1.0\lib\WebGrease.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\DotNetOpenAuth.OAuth.Consumer.4.0.3.12153\lib\net40-full\DotNetOpenAuth.OAuth.Consumer.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\Microsoft.Web.WebPages.OAuth.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\packages\DotNetOpenAuth.AspNet.4.0.3.12153\lib\net40-full\DotNetOpenAuth.AspNet.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.Formatting.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-26T10:53:51.1381675-08:00" queuing="2012-11-26T10:53:53.3332931-08:00" start="2012-11-26T10:53:53.5223039-08:00" finish="2012-11-26T10:53:59.0566204-08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="8" executed="8" passed="8" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NameTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\testprojectmvc\bin\debug\testprojectmvc.dll" id="23046aec-714f-12b0-d8fb-939fca0ef700">
+      <Execution id="5dfbf0a8-b0ae-472d-b7c5-7c29a9ada1ba" />
+      <TestMethod codeBase="C:/Users/csq/Documents/Visual Studio 2010/Projects/ContentManagerMVC/TestProjectMVC/bin/Debug/TestProjectMVC.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectMVC.PlayerTest, TestProjectMVC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NameTest" />
+    </UnitTest>
+    <UnitTest name="SchedulesTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\testprojectmvc\bin\debug\testprojectmvc.dll" id="de0a1506-b36e-4836-00db-17d5fe501af3">
+      <Execution id="a8159cb6-2ab5-4d1b-926a-02d6b9ef9e80" />
+      <TestMethod codeBase="C:/Users/csq/Documents/Visual Studio 2010/Projects/ContentManagerMVC/TestProjectMVC/bin/Debug/TestProjectMVC.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectMVC.PlayerTest, TestProjectMVC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SchedulesTest" />
+    </UnitTest>
+    <UnitTest name="IDTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\testprojectmvc\bin\debug\testprojectmvc.dll" id="eac6e02b-8a04-36bb-ab49-6a7ee66d620b">
+      <Execution id="4572b00a-d1ea-4011-857a-bdf6ff7a3d6a" />
+      <TestMethod codeBase="C:/Users/csq/Documents/Visual Studio 2010/Projects/ContentManagerMVC/TestProjectMVC/bin/Debug/TestProjectMVC.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectMVC.PlayerTest, TestProjectMVC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IDTest" />
+    </UnitTest>
+    <UnitTest name="StatusTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\testprojectmvc\bin\debug\testprojectmvc.dll" id="0efe1176-b0e1-78c4-6e86-43f43ec0b072">
+      <Execution id="1c1243de-611e-47ff-9069-9a34e96b8a46" />
+      <TestMethod codeBase="C:/Users/csq/Documents/Visual Studio 2010/Projects/ContentManagerMVC/TestProjectMVC/bin/Debug/TestProjectMVC.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectMVC.PlayerTest, TestProjectMVC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StatusTest" />
+    </UnitTest>
+    <UnitTest name="IPTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\testprojectmvc\bin\debug\testprojectmvc.dll" id="e1120e96-8ae9-cfc9-8e23-3676ee2d79e6">
+      <Execution id="1430d1ce-36ec-493e-8ad8-0cf1151f1c23" />
+      <TestMethod codeBase="C:/Users/csq/Documents/Visual Studio 2010/Projects/ContentManagerMVC/TestProjectMVC/bin/Debug/TestProjectMVC.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectMVC.PlayerTest, TestProjectMVC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IPTest" />
+    </UnitTest>
+    <UnitTest name="DescriptionTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\testprojectmvc\bin\debug\testprojectmvc.dll" id="e8ba5463-cde0-a1ec-0d44-fcf884f9027a">
+      <Execution id="6669dab9-82e5-4716-9aa4-271d9732ea2e" />
+      <TestMethod codeBase="C:/Users/csq/Documents/Visual Studio 2010/Projects/ContentManagerMVC/TestProjectMVC/bin/Debug/TestProjectMVC.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectMVC.PlayerTest, TestProjectMVC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DescriptionTest" />
+    </UnitTest>
+    <UnitTest name="AddressTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\testprojectmvc\bin\debug\testprojectmvc.dll" id="6f2854ed-4ba3-0635-e45c-eb566102164c">
+      <Execution id="c04994ce-614f-47c7-888f-c99a502e87fe" />
+      <TestMethod codeBase="C:/Users/csq/Documents/Visual Studio 2010/Projects/ContentManagerMVC/TestProjectMVC/bin/Debug/TestProjectMVC.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectMVC.PlayerTest, TestProjectMVC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddressTest" />
+    </UnitTest>
+    <UnitTest name="PlayerIndexTest" storage="c:\users\csq\documents\visual studio 2010\projects\contentmanagermvc\testprojectmvc\bin\debug\testprojectmvc.dll" id="052da0b5-705a-8650-49b5-98b22cc2487a">
+      <Execution id="8ed0ff9c-d924-4e36-8249-b469b5c526d2" />
+      <TestMethod codeBase="C:/Users/csq/Documents/Visual Studio 2010/Projects/ContentManagerMVC/TestProjectMVC/bin/Debug/TestProjectMVC.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectMVC.PlayerControllerTest, TestProjectMVC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PlayerIndexTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="052da0b5-705a-8650-49b5-98b22cc2487a" executionId="8ed0ff9c-d924-4e36-8249-b469b5c526d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f2854ed-4ba3-0635-e45c-eb566102164c" executionId="c04994ce-614f-47c7-888f-c99a502e87fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8ba5463-cde0-a1ec-0d44-fcf884f9027a" executionId="6669dab9-82e5-4716-9aa4-271d9732ea2e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eac6e02b-8a04-36bb-ab49-6a7ee66d620b" executionId="4572b00a-d1ea-4011-857a-bdf6ff7a3d6a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1120e96-8ae9-cfc9-8e23-3676ee2d79e6" executionId="1430d1ce-36ec-493e-8ad8-0cf1151f1c23" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23046aec-714f-12b0-d8fb-939fca0ef700" executionId="5dfbf0a8-b0ae-472d-b7c5-7c29a9ada1ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de0a1506-b36e-4836-00db-17d5fe501af3" executionId="a8159cb6-2ab5-4d1b-926a-02d6b9ef9e80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0efe1176-b0e1-78c4-6e86-43f43ec0b072" executionId="1c1243de-611e-47ff-9069-9a34e96b8a46" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8ed0ff9c-d924-4e36-8249-b469b5c526d2" testId="052da0b5-705a-8650-49b5-98b22cc2487a" testName="PlayerIndexTest" computerName="CSQ-HP" duration="00:00:04.3860702" startTime="2012-11-26T10:53:53.6563116-08:00" endTime="2012-11-26T10:53:58.8536088-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ed0ff9c-d924-4e36-8249-b469b5c526d2">
+    </UnitTestResult>
+    <UnitTestResult executionId="c04994ce-614f-47c7-888f-c99a502e87fe" testId="6f2854ed-4ba3-0635-e45c-eb566102164c" testName="AddressTest" computerName="CSQ-HP" duration="00:00:00.0475102" startTime="2012-11-26T10:53:58.8606092-08:00" endTime="2012-11-26T10:53:58.9436140-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c04994ce-614f-47c7-888f-c99a502e87fe">
+    </UnitTestResult>
+    <UnitTestResult executionId="6669dab9-82e5-4716-9aa4-271d9732ea2e" testId="e8ba5463-cde0-a1ec-0d44-fcf884f9027a" testName="DescriptionTest" computerName="CSQ-HP" duration="00:00:00.0003306" startTime="2012-11-26T10:53:58.9476142-08:00" endTime="2012-11-26T10:53:58.9516144-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6669dab9-82e5-4716-9aa4-271d9732ea2e">
+    </UnitTestResult>
+    <UnitTestResult executionId="4572b00a-d1ea-4011-857a-bdf6ff7a3d6a" testId="eac6e02b-8a04-36bb-ab49-6a7ee66d620b" testName="IDTest" computerName="CSQ-HP" duration="00:00:00.0009255" startTime="2012-11-26T10:53:58.9556147-08:00" endTime="2012-11-26T10:53:58.9596149-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4572b00a-d1ea-4011-857a-bdf6ff7a3d6a">
+    </UnitTestResult>
+    <UnitTestResult executionId="1430d1ce-36ec-493e-8ad8-0cf1151f1c23" testId="e1120e96-8ae9-cfc9-8e23-3676ee2d79e6" testName="IPTest" computerName="CSQ-HP" duration="00:00:00.0003079" startTime="2012-11-26T10:53:58.9636151-08:00" endTime="2012-11-26T10:53:58.9676154-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1430d1ce-36ec-493e-8ad8-0cf1151f1c23">
+    </UnitTestResult>
+    <UnitTestResult executionId="5dfbf0a8-b0ae-472d-b7c5-7c29a9ada1ba" testId="23046aec-714f-12b0-d8fb-939fca0ef700" testName="NameTest" computerName="CSQ-HP" duration="00:00:00.0003009" startTime="2012-11-26T10:53:58.9706155-08:00" endTime="2012-11-26T10:53:58.9736157-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5dfbf0a8-b0ae-472d-b7c5-7c29a9ada1ba">
+    </UnitTestResult>
+    <UnitTestResult executionId="a8159cb6-2ab5-4d1b-926a-02d6b9ef9e80" testId="de0a1506-b36e-4836-00db-17d5fe501af3" testName="SchedulesTest" computerName="CSQ-HP" duration="00:00:00.0004615" startTime="2012-11-26T10:53:58.9836163-08:00" endTime="2012-11-26T10:53:58.9866164-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8159cb6-2ab5-4d1b-926a-02d6b9ef9e80">
+    </UnitTestResult>
+    <UnitTestResult executionId="1c1243de-611e-47ff-9069-9a34e96b8a46" testId="0efe1176-b0e1-78c4-6e86-43f43ec0b072" testName="StatusTest" computerName="CSQ-HP" duration="00:00:00.0002894" startTime="2012-11-26T10:53:58.9906167-08:00" endTime="2012-11-26T10:53:58.9946169-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c1243de-611e-47ff-9069-9a34e96b8a46">
+    </UnitTestResult>
+  </Results>
+</TestRun>

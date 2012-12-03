@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using ContentManagerMVC.Service;
 
 namespace ContentManagerMVC
 {
@@ -14,6 +15,8 @@ namespace ContentManagerMVC
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+            TcpService service = new TcpService();
+            
         }
     }
 }
