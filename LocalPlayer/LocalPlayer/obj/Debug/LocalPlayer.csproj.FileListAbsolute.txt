@@ -1,0 +1,36 @@
+C:\Users\csq\Documents\Visual Studio 2008\Projects\LocalPlayer\LocalPlayer\bin\Debug\LocalPlayer.exe
+C:\Users\csq\Documents\Visual Studio 2008\Projects\LocalPlayer\LocalPlayer\bin\Debug\LocalPlayer.pdb
+C:\Users\csq\Documents\Visual Studio 2008\Projects\LocalPlayer\LocalPlayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\csq\Documents\Visual Studio 2008\Projects\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.Properties.Resources.resources
+C:\Users\csq\Documents\Visual Studio 2008\Projects\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.csproj.GenerateResource.Cache
+C:\Users\csq\Documents\Visual Studio 2008\Projects\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.exe
+C:\Users\csq\Documents\Visual Studio 2008\Projects\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.pdb
+C:\Users\csq\Documents\Visual Studio 2008\Projects\LocalPlayer\LocalPlayer\bin\Debug\DirectShowLib-2005.dll
+C:\Users\csq\Documents\Visual Studio 2008\Projects\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.DisplayForm.resources
+C:\Users\csq\Documents\Visual Studio 2008\Projects\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.PlayerComponent.UserControlImageSurface.resources
+C:\Users\csq\Documents\Visual Studio 2008\Projects\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.PlayerComponent.UserControlVideoSurface.resources
+C:\Users\csq\Documents\Projects\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.exe
+C:\Users\csq\Documents\Projects\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.pdb
+C:\Users\csq\Documents\Projects\LocalPlayer\LocalPlayer\bin\Debug\LocalPlayer.exe
+C:\Users\csq\Documents\Projects\LocalPlayer\LocalPlayer\bin\Debug\LocalPlayer.pdb
+C:\Users\csq\Documents\Projects\LocalPlayer\LocalPlayer\bin\Debug\DirectShowLib-2005.dll
+C:\Users\csq\Documents\Projects\LocalPlayer\LocalPlayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\csq\Documents\Projects\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.DisplayForm.resources
+C:\Users\csq\Documents\Projects\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.PasswordInputForm.resources
+C:\Users\csq\Documents\Projects\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.PlayerComponent.UserControlImageSurface.resources
+C:\Users\csq\Documents\Projects\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.Properties.Resources.resources
+C:\Users\csq\Documents\Projects\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.PlayerComponent.UserControlVideoSurface.resources
+C:\Users\csq\Documents\Projects\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.csproj.GenerateResource.Cache
+C:\Users\csq\Documents\Visual Studio 2010\Projects\ContentManagerMVC\LocalPlayer\LocalPlayer\bin\Debug\LocalPlayer.exe
+C:\Users\csq\Documents\Visual Studio 2010\Projects\ContentManagerMVC\LocalPlayer\LocalPlayer\bin\Debug\LocalPlayer.pdb
+C:\Users\csq\Documents\Visual Studio 2010\Projects\ContentManagerMVC\LocalPlayer\LocalPlayer\bin\Debug\DirectShowLib-2005.dll
+C:\Users\csq\Documents\Visual Studio 2010\Projects\ContentManagerMVC\LocalPlayer\LocalPlayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\csq\Documents\Visual Studio 2010\Projects\ContentManagerMVC\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.DisplayForm.resources
+C:\Users\csq\Documents\Visual Studio 2010\Projects\ContentManagerMVC\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.PasswordInputForm.resources
+C:\Users\csq\Documents\Visual Studio 2010\Projects\ContentManagerMVC\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.PlayerComponent.UserControlImageSurface.resources
+C:\Users\csq\Documents\Visual Studio 2010\Projects\ContentManagerMVC\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.Properties.Resources.resources
+C:\Users\csq\Documents\Visual Studio 2010\Projects\ContentManagerMVC\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.PlayerComponent.UserControlVideoSurface.resources
+C:\Users\csq\Documents\Visual Studio 2010\Projects\ContentManagerMVC\LocalPlayer\LocalPlayer\obj\Debug\ResGen.read.1.tlog
+C:\Users\csq\Documents\Visual Studio 2010\Projects\ContentManagerMVC\LocalPlayer\LocalPlayer\obj\Debug\ResGen.write.1.tlog
+C:\Users\csq\Documents\Visual Studio 2010\Projects\ContentManagerMVC\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.exe
+C:\Users\csq\Documents\Visual Studio 2010\Projects\ContentManagerMVC\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.pdb

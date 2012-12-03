@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectMVC", "TestProjectMVC\TestProjectMVC.csproj", "{D5E85DE3-93E3-4EE8-AD4E-45C9587BC38A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalPlayer", "LocalPlayer\LocalPlayer\LocalPlayer.csproj", "{4B14A072-7BD3-45E0-A275-A4E8986BD4B8}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = ContentManagerMVC.vsmdi
@@ -45,6 +47,16 @@ Global
 		{D5E85DE3-93E3-4EE8-AD4E-45C9587BC38A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{D5E85DE3-93E3-4EE8-AD4E-45C9587BC38A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{D5E85DE3-93E3-4EE8-AD4E-45C9587BC38A}.Release|Win32.ActiveCfg = Release|Any CPU
+		{4B14A072-7BD3-45E0-A275-A4E8986BD4B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B14A072-7BD3-45E0-A275-A4E8986BD4B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B14A072-7BD3-45E0-A275-A4E8986BD4B8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4B14A072-7BD3-45E0-A275-A4E8986BD4B8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4B14A072-7BD3-45E0-A275-A4E8986BD4B8}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{4B14A072-7BD3-45E0-A275-A4E8986BD4B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B14A072-7BD3-45E0-A275-A4E8986BD4B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B14A072-7BD3-45E0-A275-A4E8986BD4B8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4B14A072-7BD3-45E0-A275-A4E8986BD4B8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4B14A072-7BD3-45E0-A275-A4E8986BD4B8}.Release|Win32.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
