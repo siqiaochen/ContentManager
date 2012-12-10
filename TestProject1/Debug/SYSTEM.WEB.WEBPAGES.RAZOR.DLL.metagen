@@ -1,0 +1,245 @@
+  System.Web.WebPages.Razor.Common.CommonResources.resources - Embedded, ContainedInManifestFile, 
+  System.Web.WebPages.Razor.Resources.RazorWebResources.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Class Microsoft.Internal.Web.Utils.CommonResources: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Resources.ResourceManager ResourceManager 'get ' : 
+    System.Globalization.CultureInfo Culture 'get set' : 
+    System.String Argument_Cannot_Be_Null_Or_Empty 'get ' : 
+    System.String Argument_Must_Be_Between 'get ' : 
+    System.String Argument_Must_Be_Enum_Member 'get ' : 
+    System.String Argument_Must_Be_GreaterThan 'get ' : 
+    System.String Argument_Must_Be_GreaterThanOrEqualTo 'get ' : 
+    System.String Argument_Must_Be_LessThan 'get ' : 
+    System.String Argument_Must_Be_LessThanOrEqualTo 'get ' : 
+    System.String Argument_Must_Be_Null_Or_Non_Empty 'get ' : 
+  Methods:
+    get_ResourceManager(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Culture(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    set_Culture(CultureInfo): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Cannot_Be_Null_Or_Empty(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_Between(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_Enum_Member(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_GreaterThan(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_GreaterThanOrEqualTo(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_LessThan(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_LessThanOrEqualTo(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_Null_Or_Non_Empty(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+Interface System.Web.WebPages.Razor.IAssemblyBuilder: AutoLayout, AnsiClass, Class, ClassSemanticsMask, Abstract
+  Methods:
+    AddCodeCompileUnit(BuildProvider, CodeCompileUnit): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GenerateTypeFactory(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Web.WebPages.Razor.AssemblyBuilderWrapper: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+    Void .ctor(System.Web.Compilation.AssemblyBuilder): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Web.WebPages.Razor.IAssemblyBuilder
+  Properties:
+    System.Web.Compilation.AssemblyBuilder InnerBuilder 'get set' : 
+  Methods:
+    get_InnerBuilder(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_InnerBuilder(AssemblyBuilder): PrivateScope, Assembly, HideBySig, SpecialName
+    AddCodeCompileUnit(BuildProvider, CodeCompileUnit): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GenerateTypeFactory(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.WebPages.Razor.CompilingPathEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(System.String, System.Web.WebPages.Razor.WebPageRazorHost): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String VirtualPath 'get set' : 
+    System.Web.WebPages.Razor.WebPageRazorHost Host 'get set' : 
+  Methods:
+    get_VirtualPath(): PrivateScope, Public, HideBySig, SpecialName
+    get_Host(): PrivateScope, Public, HideBySig, SpecialName
+    set_Host(WebPageRazorHost): PrivateScope, Public, HideBySig, SpecialName
+Class System.Web.WebPages.Razor.Configuration.HostSection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Configuration.ConfigurationSection
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String SectionName : Public, Static, InitOnly
+  Properties:
+    System.String FactoryType 'get set' : 
+  Methods:
+    get_FactoryType(): PrivateScope, Public, HideBySig, SpecialName
+    set_FactoryType(String): PrivateScope, Public, HideBySig, SpecialName
+Class System.Web.WebPages.Razor.Configuration.RazorPagesSection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Configuration.ConfigurationSection
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String SectionName : Public, Static, InitOnly
+  Properties:
+    System.String PageBaseType 'get set' : 
+    System.Web.Configuration.NamespaceCollection Namespaces 'get set' : 
+  Methods:
+    get_PageBaseType(): PrivateScope, Public, HideBySig, SpecialName
+    set_PageBaseType(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Namespaces(): PrivateScope, Public, HideBySig, SpecialName
+    set_Namespaces(NamespaceCollection): PrivateScope, Public, HideBySig, SpecialName
+Class System.Web.WebPages.Razor.Configuration.RazorWebSectionGroup: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Configuration.ConfigurationSectionGroup
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String GroupName : Public, Static, InitOnly
+  Properties:
+    System.Web.WebPages.Razor.Configuration.HostSection Host 'get set' : 
+    System.Web.WebPages.Razor.Configuration.RazorPagesSection Pages 'get set' : 
+  Methods:
+    get_Host(): PrivateScope, Public, HideBySig, SpecialName
+    set_Host(HostSection): PrivateScope, Public, HideBySig, SpecialName
+    get_Pages(): PrivateScope, Public, HideBySig, SpecialName
+    set_Pages(RazorPagesSection): PrivateScope, Public, HideBySig, SpecialName
+Interface System.Web.WebPages.Razor.IHostingEnvironment: AutoLayout, AnsiClass, Class, ClassSemanticsMask, Abstract
+  Methods:
+    MapPath(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Web.WebPages.Razor.HostingEnvironmentWrapper: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Web.WebPages.Razor.IHostingEnvironment
+  Methods:
+    MapPath(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.WebPages.Razor.PreApplicationStartCode: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Start(): PrivateScope, Public, Static, HideBySig
+Class System.Web.WebPages.Razor.RazorBuildProvider: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Compilation.BuildProvider
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Web.WebPages.Razor.WebPageRazorHost Host 'get set' : 
+    System.Collections.ICollection VirtualPathDependencies 'get ' : 
+    System.String VirtualPath 'get ' : 
+    System.Web.Compilation.AssemblyBuilder AssemblyBuilder 'get ' : 
+    System.Web.WebPages.Razor.IAssemblyBuilder AssemblyBuilderInternal 'get ' : 
+    System.CodeDom.CodeCompileUnit GeneratedCode 'get set' : 
+    System.Web.Compilation.CompilerType CodeCompilerType 'get ' : 
+  Events:
+    System.EventHandler`1[System.Web.Razor.Generator.CodeGenerationCompleteEventArgs] CodeGenerationCompleted: 
+    System.EventHandler`1[System.Web.Razor.Generator.CodeGenerationCompleteEventArgs] CodeGenerationCompletedInternal: 
+    System.EventHandler CodeGenerationStarted: 
+    System.EventHandler CodeGenerationStartedInternal: 
+    System.EventHandler`1[System.Web.WebPages.Razor.CompilingPathEventArgs] CompilingPath: 
+    System.EventHandler`1[System.Web.Razor.Generator.CodeGenerationCompleteEventArgs] _codeGenerationCompletedInternal: 
+    System.EventHandler _codeGenerationStartedInternal: 
+  Methods:
+    add_CodeGenerationCompleted(EventHandler`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    remove_CodeGenerationCompleted(EventHandler`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    add_CodeGenerationCompletedInternal(EventHandler`1): PrivateScope, Assembly, HideBySig, SpecialName
+    remove_CodeGenerationCompletedInternal(EventHandler`1): PrivateScope, Assembly, HideBySig, SpecialName
+    add_CodeGenerationStarted(EventHandler): PrivateScope, Public, Static, HideBySig, SpecialName
+    remove_CodeGenerationStarted(EventHandler): PrivateScope, Public, Static, HideBySig, SpecialName
+    add_CodeGenerationStartedInternal(EventHandler): PrivateScope, Assembly, HideBySig, SpecialName
+    remove_CodeGenerationStartedInternal(EventHandler): PrivateScope, Assembly, HideBySig, SpecialName
+    add_CompilingPath(EventHandler`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    remove_CompilingPath(EventHandler`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Host(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_Host(WebPageRazorHost): PrivateScope, Assembly, HideBySig, SpecialName
+    get_VirtualPathDependencies(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_VirtualPath(): PrivateScope, Public, HideBySig, SpecialName
+    get_AssemblyBuilder(): PrivateScope, Public, HideBySig, SpecialName
+    get_AssemblyBuilderInternal(): PrivateScope, Assembly, HideBySig, SpecialName
+    get_GeneratedCode(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_GeneratedCode(CodeCompileUnit): PrivateScope, Assembly, HideBySig, SpecialName
+    get_CodeCompilerType(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    AddVirtualPathDependency(String): PrivateScope, Public, HideBySig
+    GetGeneratedType(CompilerResults): PrivateScope, Public, Virtual, HideBySig
+    GenerateCode(AssemblyBuilder): PrivateScope, Public, Virtual, HideBySig
+    GenerateCodeCore(IAssemblyBuilder): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride
+Class System.Web.WebPages.Razor.WebRazorHostFactory: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Func`2[System.String,System.Type] TypeFactory : Assembly, Static
+  Methods:
+    CreateDefaultHost(String): PrivateScope, Public, Static, HideBySig
+    CreateDefaultHost(String, String): PrivateScope, Public, Static, HideBySig
+    CreateHostFromConfig(String): PrivateScope, Public, Static, HideBySig
+    CreateHostFromConfig(String, String): PrivateScope, Public, Static, HideBySig
+    CreateHostFromConfig(RazorWebSectionGroup, String): PrivateScope, Public, Static, HideBySig
+    CreateHostFromConfig(RazorWebSectionGroup, String, String): PrivateScope, Public, Static, HideBySig
+    CreateHostFromConfigCore(RazorWebSectionGroup, String, String): PrivateScope, Assembly, Static, HideBySig
+    ApplyConfigurationToHost(RazorPagesSection, WebPageRazorHost): PrivateScope, Public, Static, HideBySig
+    CreateHost(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetRazorSection(String): PrivateScope, Assembly, Static, HideBySig
+Class System.Web.WebPages.Razor.WebPageRazorHost: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.RazorEngineHost
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String FallbackApplicationTypeName : Assembly, Static, InitOnly
+    System.String PageBaseClass : Assembly, Static, InitOnly
+    System.String TemplateTypeName : Assembly, Static, InitOnly
+    System.String PageClassNamePrefix = _Page_ : Assembly, Static, Literal, HasDefault
+    System.String ApplicationInstancePropertyName = ApplicationInstance : Assembly, Static, Literal, HasDefault
+    System.String ContextPropertyName = Context : Assembly, Static, Literal, HasDefault
+    System.String DefineSectionMethodName = DefineSection : Assembly, Static, Literal, HasDefault
+    System.String WebDefaultNamespace = ASP : Assembly, Static, Literal, HasDefault
+    System.String WriteToMethodName = WriteTo : Assembly, Static, Literal, HasDefault
+    System.String WriteLiteralToMethodName = WriteLiteralTo : Assembly, Static, Literal, HasDefault
+    System.String BeginContextMethodName = BeginContext : Assembly, Static, Literal, HasDefault
+    System.String EndContextMethodName = EndContext : Assembly, Static, Literal, HasDefault
+    System.String ResolveUrlMethodName = Href : Assembly, Static, Literal, HasDefault
+  Properties:
+    System.Web.Razor.RazorCodeLanguage CodeLanguage 'get set' : 
+    System.String DefaultBaseClass 'get set' : 
+    System.String DefaultClassName 'get set' : 
+    Boolean DefaultDebugCompilation 'get set' : 
+    System.String DefaultPageBaseClass 'get set' : 
+    System.String GlobalAsaxTypeName 'get set' : 
+    Boolean IsSpecialPage 'get ' : 
+    System.String PhysicalPath 'get set' : 
+    System.String InstrumentedSourceFilePath 'get set' : 
+    System.String VirtualPath 'get set' : 
+  Methods:
+    get_CodeLanguage(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_DefaultBaseClass(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_DefaultBaseClass(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_DefaultClassName(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_DefaultClassName(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_DefaultDebugCompilation(): PrivateScope, Public, HideBySig, SpecialName
+    set_DefaultDebugCompilation(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_DefaultPageBaseClass(): PrivateScope, Public, HideBySig, SpecialName
+    set_DefaultPageBaseClass(String): PrivateScope, Public, HideBySig, SpecialName
+    get_GlobalAsaxTypeName(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_GlobalAsaxTypeName(String): PrivateScope, Assembly, HideBySig, SpecialName
+    get_IsSpecialPage(): PrivateScope, Public, HideBySig, SpecialName
+    get_PhysicalPath(): PrivateScope, Public, HideBySig, SpecialName
+    set_PhysicalPath(String): PrivateScope, Public, HideBySig, SpecialName
+    get_InstrumentedSourceFilePath(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_InstrumentedSourceFilePath(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_VirtualPath(): PrivateScope, Public, HideBySig, SpecialName
+    AddGlobalImport(String): PrivateScope, Public, Static, HideBySig
+    CreateMarkupParser(): PrivateScope, Public, Virtual, HideBySig
+    GetGlobalImports(): PrivateScope, Public, Static, HideBySig
+    PostProcessGeneratedCode(CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.WebPages.Razor.WebCodeRazorHost: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.WebPages.Razor.WebPageRazorHost
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    PostProcessGeneratedCode(CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.WebPages.Razor.Resources.RazorWebResources: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Resources.ResourceManager ResourceManager 'get ' : 
+    System.Globalization.CultureInfo Culture 'get set' : 
+    System.String BuildProvider_No_CodeLanguageService_For_Path 'get ' : 
+    System.String Could_Not_Locate_FactoryType 'get ' : 
+  Methods:
+    get_ResourceManager(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Culture(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    set_Culture(CultureInfo): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_BuildProvider_No_CodeLanguageService_For_Path(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Could_Not_Locate_FactoryType(): PrivateScope, Assembly, Static, HideBySig, SpecialName

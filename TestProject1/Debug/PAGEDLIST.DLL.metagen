@@ -1,0 +1,100 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly PagedList, Version=1.15.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Interface PagedList.IPagedList: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    Int32 PageCount 'get ' : 
+    Int32 TotalItemCount 'get ' : 
+    Int32 PageNumber 'get ' : 
+    Int32 PageSize 'get ' : 
+    Boolean HasPreviousPage 'get ' : 
+    Boolean HasNextPage 'get ' : 
+    Boolean IsFirstPage 'get ' : 
+    Boolean IsLastPage 'get ' : 
+    Int32 FirstItemOnPage 'get ' : 
+    Int32 LastItemOnPage 'get ' : 
+  Methods:
+    get_PageCount(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_TotalItemCount(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_PageNumber(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_PageSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_HasPreviousPage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_HasNextPage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_IsFirstPage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_IsLastPage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_FirstItemOnPage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_LastItemOnPage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class PagedList.PagedListMetaData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(PagedList.IPagedList): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    PagedList.IPagedList
+  Properties:
+    Int32 PageCount 'get set' : 
+    Int32 TotalItemCount 'get set' : 
+    Int32 PageNumber 'get set' : 
+    Int32 PageSize 'get set' : 
+    Boolean HasPreviousPage 'get set' : 
+    Boolean HasNextPage 'get set' : 
+    Boolean IsFirstPage 'get set' : 
+    Boolean IsLastPage 'get set' : 
+    Int32 FirstItemOnPage 'get set' : 
+    Int32 LastItemOnPage 'get set' : 
+  Methods:
+    get_PageCount(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TotalItemCount(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_PageNumber(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_PageSize(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_HasPreviousPage(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_HasNextPage(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsFirstPage(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsLastPage(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_FirstItemOnPage(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_LastItemOnPage(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Interface PagedList.IPagedList`1[T]: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Type parameter: T,  Covariant
+  Interfaces:
+    PagedList.IPagedList
+    System.Collections.Generic.IEnumerable`1[T]
+    System.Collections.IEnumerable
+  Properties:
+    T Item [Int32] 'get ' : 
+    Int32 Count 'get ' : 
+  Methods:
+    get_Item(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Count(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    GetMetaData(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class PagedList.BasePagedList`1[T]: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Type parameter: T
+  :PagedList.PagedListMetaData
+  Interfaces:
+    PagedList.IPagedList`1[T]
+    System.Collections.Generic.IEnumerable`1[T]
+    System.Collections.IEnumerable
+  Properties:
+    T Item [Int32] 'get ' : 
+    Int32 Count 'get ' : 
+  Methods:
+    GetEnumerator(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_Item(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Count(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetMetaData(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class PagedList.PagedList`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T
+  :PagedList.BasePagedList`1[T]
+    Void .ctor(System.Linq.IQueryable`1[T], Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Collections.Generic.IEnumerable`1[T], Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class PagedList.PagedListExtensions: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    ToPagedList(IEnumerable`1, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    ToPagedList(IQueryable`1, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    Split(IEnumerable`1, Int32): PrivateScope, Public, Static, HideBySig
+    Partition(IEnumerable`1, Int32): PrivateScope, Public, Static, HideBySig
+Class PagedList.StaticPagedList`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T
+  :PagedList.BasePagedList`1[T]
+    Void .ctor(System.Collections.Generic.IEnumerable`1[T], PagedList.IPagedList): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Collections.Generic.IEnumerable`1[T], Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

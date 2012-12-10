@@ -1,0 +1,234 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Microsoft.Web.Infrastructure.CommonReflectionUtil: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Assert(Boolean): PrivateScope, Public, Static, HideBySig
+    FindConstructor(Type, Boolean, Type[]): PrivateScope, Public, Static, HideBySig
+    FindField(Type, String, Boolean, Type): PrivateScope, Public, Static, HideBySig
+    FindMethod(Type, String, Boolean, Type[], Type): PrivateScope, Public, Static, HideBySig
+    MakeDelegate(MethodInfo): PrivateScope, Public, Static, HideBySig
+    MakeDelegate(Object, MethodInfo): PrivateScope, Public, Static, HideBySig
+    MakeDelegate(Type, Object, MethodInfo): PrivateScope, Public, Static, HideBySig, HasSecurity
+    ReadField(FieldInfo, Object): PrivateScope, Public, Static, HideBySig, HasSecurity
+    WriteField(FieldInfo, Object, Object): PrivateScope, Public, Static, HideBySig, HasSecurity
+    MakeFastCreateDelegate(MethodInfo): PrivateScope, Public, Static, HideBySig, HasSecurity
+    BindMethodToDelegate(MethodInfo): PrivateScope, Public, Static, HideBySig, HasSecurity
+    MakeFastNewObject(Type): PrivateScope, Public, Static, HideBySig, HasSecurity
+Class Microsoft.Web.Infrastructure.CommonAssemblies: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.Reflection.Assembly MicrosoftWebInfrastructure : Assembly, Static, InitOnly
+    System.Reflection.Assembly mscorlib : Assembly, Static, InitOnly
+    System.Reflection.Assembly System : Assembly, Static, InitOnly
+    System.Reflection.Assembly SystemWeb : Assembly, Static, InitOnly
+Struct Microsoft.Web.Infrastructure.DynamicValidationHelper.FieldAccessor`1[T]: AutoLayout, AnsiClass, Class, SequentialLayout, Sealed, BeforeFieldInit
+  Type parameter: T
+  :System.ValueType
+    Void .ctor(System.Func`1[T], System.Action`1[T]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    T Value    'get set' : 
+  Methods:
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    set_Value(T): PrivateScope, Public, HideBySig, SpecialName
+Class Microsoft.Web.Infrastructure.DynamicValidationHelper.LazilyEvaluatedNameObjectEntry: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+    Void .ctor(System.Object, Microsoft.Web.Infrastructure.DynamicValidationHelper.SimpleValidateStringCallback): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetValidatedObject(): PrivateScope, Public, HideBySig
+Class Microsoft.Web.Infrastructure.DynamicValidationHelper.DeferredCountArrayList: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  :System.Collections.ArrayList
+    Void .ctor(System.Func`1[System.Boolean], System.Action, System.Func`1[System.Int32]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Count 'get ' : 
+  Methods:
+    get_Count(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class Microsoft.Web.Infrastructure.DynamicValidationHelper.ReadOnlyNameValueCollection: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  :System.Collections.Specialized.NameValueCollection
+    Void .ctor(System.Collections.Specialized.NameValueCollection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Microsoft.Web.Infrastructure.ModuleInitializer: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Initialize(): PrivateScope, Public, Static, HideBySig
+Class Microsoft.Web.Infrastructure.KillBitHelper: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.Web.Infrastructure.IRegistryKey): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    IsThisAssemblyKillBitted(): PrivateScope, Assembly, HideBySig
+    ThrowIfKillBitIsSet(): PrivateScope, Public, HideBySig
+Interface Microsoft.Web.Infrastructure.IRegistryKey: AutoLayout, AnsiClass, Class, ClassSemanticsMask, Abstract
+  Interfaces:
+    System.IDisposable
+  Methods:
+    GetSubKeyNames(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetValue(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    OpenSubKey(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class Microsoft.Web.Infrastructure.RegistryKeyWrapper: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+    Void .ctor(Microsoft.Win32.RegistryKey): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    Microsoft.Web.Infrastructure.IRegistryKey
+    System.IDisposable
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetSubKeyNames(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetValue(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    OpenSubKey(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class Microsoft.Web.Infrastructure.DynamicModuleHelper.DynamicModuleRegistryEntry: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Name : Public, InitOnly
+    System.String Type : Public, InitOnly
+Class Microsoft.Web.Infrastructure.DynamicModuleHelper.DynamicModuleReflectionUtil: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  Fields:
+    System.Action`1[System.Type] Fx45RegisterModuleDelegate : Public, Static, InitOnly
+    Microsoft.Web.Infrastructure.DynamicModuleHelper.DynamicModuleReflectionUtil Instance : Public, Static, InitOnly
+  Properties:
+    System.Action ThrowIfPreAppStartNotRunning 'get set' : 
+    System.Func`1[System.Object] GetAppConfig 'get set' : 
+  Methods:
+    get_ThrowIfPreAppStartNotRunning(): PrivateScope, Public, HideBySig, SpecialName
+    get_GetAppConfig(): PrivateScope, Public, HideBySig, SpecialName
+    GetHttpModulesFromAppConfig(Object): PrivateScope, Public, HideBySig
+    SetConfigurationElementCollectionReadOnlyBit(ConfigurationElementCollection, Boolean): PrivateScope, Public, HideBySig
+    NewModuleConfigurationInfo(String, String, String): PrivateScope, Public, HideBySig, HasSecurity
+    NewListOfModuleConfigurationInfo(): PrivateScope, Public, HideBySig, HasSecurity
+    GetModuleConfigInfo(): PrivateScope, Public, HideBySig
+    SetModuleConfigInfo(IList): PrivateScope, Public, HideBySig
+    GetRegisteredModuleCollection(HttpApplication): PrivateScope, Public, HideBySig
+    GetIntegratedModeContext(): PrivateScope, Public, HideBySig
+    GetIntegratedModuleCollection(HttpApplication, IntPtr): PrivateScope, Public, HideBySig
+    BuildIntegratedModuleCollection(HttpApplication, IList): PrivateScope, Public, HideBySig
+    AddModuleToCollection(HttpModuleCollection, String, IHttpModule): PrivateScope, Public, HideBySig
+Class Microsoft.Web.Infrastructure.DynamicModuleHelper.DynamicModuleUtility: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    RegisterModule(Type): PrivateScope, Public, Static, HideBySig
+Class Microsoft.Web.Infrastructure.DynamicModuleHelper.IntegratedDynamicModule: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Web.IHttpModule
+  Fields:
+    System.String ModuleName = __ASP_IntegratedDynamicModule_Shim : Assembly, Static, Literal, HasDefault
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Init(HttpApplication): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class Microsoft.Web.Infrastructure.DynamicModuleHelper.IntegratedDynamicModule+CriticalStatics: AutoLayout, AnsiClass, Class, NestedAssembly, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.Collections.Generic.List`1[Microsoft.Web.Infrastructure.DynamicModuleHelper.DynamicModuleRegistryEntry] DynamicEntries : Assembly, Static, InitOnly
+    Int32 _hasBeenInitialized : Assembly, Static
+    Microsoft.Web.Infrastructure.DynamicModuleHelper.DynamicModuleReflectionUtil _reflectionUtil : Assembly, Static, InitOnly
+  Methods:
+    Init(HttpApplication): PrivateScope, Public, Static, HideBySig
+Class Microsoft.Web.Infrastructure.DynamicValidationHelper.GetUnvalidatedCollectionsCallback: AutoLayout, AnsiClass, Class, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(HttpContext, Func`1&(Out), Func`1&(Out)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(HttpContext, Func`1&(Out), Func`1&(Out), AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(Func`1&(Out), Func`1&(Out), IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Microsoft.Web.Infrastructure.DynamicValidationHelper.DynamicValidationShimReflectionUtil: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  Fields:
+    Microsoft.Web.Infrastructure.DynamicValidationHelper.DynamicValidationShimReflectionUtil Instance : Public, Static, InitOnly
+  Properties:
+    System.Action`1[System.Web.HttpContext] EnableDynamicValidation 'get set' : 
+    Microsoft.Web.Infrastructure.DynamicValidationHelper.GetUnvalidatedCollectionsCallback GetUnvalidatedCollections 'get set' : 
+    System.Func`2[System.Web.HttpContext,System.Boolean] IsValidationEnabled 'get set' : 
+  Methods:
+    get_EnableDynamicValidation(): PrivateScope, Public, HideBySig, SpecialName
+    get_GetUnvalidatedCollections(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsValidationEnabled(): PrivateScope, Public, HideBySig, SpecialName
+Class Microsoft.Web.Infrastructure.DynamicValidationHelper.GranularValidationReflectionUtil: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  Fields:
+    Microsoft.Web.Infrastructure.DynamicValidationHelper.GranularValidationReflectionUtil Instance : Public, Static, InitOnly
+  Methods:
+    GetNameObjectCollectionEntriesArray(NameObjectCollectionBase): PrivateScope, Public, HideBySig
+    SetNameObjectCollectionEntriesArray(NameObjectCollectionBase, ArrayList): PrivateScope, Public, HideBySig
+    GetNameObjectCollectionEntriesTable(NameObjectCollectionBase): PrivateScope, Public, HideBySig
+    SetNameObjectCollectionEntriesTable(NameObjectCollectionBase, Hashtable): PrivateScope, Public, HideBySig
+    GetNameObjectEntryKey(Object): PrivateScope, Public, HideBySig
+    GetNameObjectEntryValue(Object): PrivateScope, Public, HideBySig
+    SetNameObjectEntryValue(Object, Object): PrivateScope, Public, HideBySig
+    MakeValidateStringCallback(HttpRequest): PrivateScope, Public, HideBySig
+    GetRequestValidationFlag(HttpRequest, ValidationSourceFlag): PrivateScope, Public, HideBySig
+    SetRequestValidationFlag(HttpRequest, ValidationSourceFlag, Boolean): PrivateScope, Public, HideBySig
+    GetHttpRequestFormField(HttpRequest): PrivateScope, Public, HideBySig
+    SetHttpRequestFormField(HttpRequest, NameValueCollection): PrivateScope, Public, HideBySig
+    GetHttpRequestQueryStringField(HttpRequest): PrivateScope, Public, HideBySig
+    SetHttpRequestQueryStringField(HttpRequest, NameValueCollection): PrivateScope, Public, HideBySig
+    NewHttpValueCollection(): PrivateScope, Public, HideBySig
+Class Microsoft.Web.Infrastructure.DynamicValidationHelper.NameObjectEntryWrapper: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  Properties:
+    System.String Key 'get ' : 
+    System.Object Value 'get set' : 
+  Methods:
+    get_Key(): PrivateScope, Public, HideBySig, SpecialName
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    set_Value(Object): PrivateScope, Public, HideBySig, SpecialName
+    Wrap(Object): PrivateScope, Public, Static, HideBySig
+Class Microsoft.Web.Infrastructure.DynamicValidationHelper.SimpleValidateStringCallback: AutoLayout, AnsiClass, Class, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(String, String, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidateStringCallback: AutoLayout, AnsiClass, Class, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(String, String, RequestValidationSource): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(String, String, RequestValidationSource, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Microsoft.Web.Infrastructure.DynamicValidationHelper.LazilyValidatingArrayList: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  :System.Collections.ArrayList
+    Void .ctor(System.Collections.ArrayList, Microsoft.Web.Infrastructure.DynamicValidationHelper.SimpleValidateStringCallback): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Object Item [Int32] 'get set' : 
+  Methods:
+    get_Item(Int32): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Item(Int32, Object): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class Microsoft.Web.Infrastructure.DynamicValidationHelper.LazilyValidatingHashtable: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  :System.Collections.Hashtable
+    Void .ctor(System.Collections.Hashtable, Microsoft.Web.Infrastructure.DynamicValidationHelper.SimpleValidateStringCallback): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Object Item [System.Object] 'get set' : 
+  Methods:
+    get_Item(Object): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Item(Object, Object): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Struct Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationSourceFlag: AutoLayout, AnsiClass, Class, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationSourceFlag needToValidateQueryString = 1 : Public, Static, Literal, HasDefault
+    Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationSourceFlag needToValidateForm = 2 : Public, Static, Literal, HasDefault
+    Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationSourceFlag needToValidateCookies = 4 : Public, Static, Literal, HasDefault
+    Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationSourceFlag needToValidateHeaders = 8 : Public, Static, Literal, HasDefault
+    Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationSourceFlag needToValidateServerVariables = 16 : Public, Static, Literal, HasDefault
+    Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationSourceFlag contentEncodingResolved = 32 : Public, Static, Literal, HasDefault
+    Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationSourceFlag needToValidatePostedFiles = 64 : Public, Static, Literal, HasDefault
+    Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationSourceFlag needToValidateRawUrl = 128 : Public, Static, Literal, HasDefault
+    Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationSourceFlag needToValidatePath = 256 : Public, Static, Literal, HasDefault
+    Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationSourceFlag needToValidatePathInfo = 512 : Public, Static, Literal, HasDefault
+    Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationSourceFlag hasValidateInputBeenCalled = 32768 : Public, Static, Literal, HasDefault
+    Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationSourceFlag needToValidateCookielessHeader = 65536 : Public, Static, Literal, HasDefault
+Class Microsoft.Web.Infrastructure.DynamicValidationHelper.ValidationUtility: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    EnableDynamicValidation(HttpContext): PrivateScope, Public, Static, HideBySig
+    IsValidationEnabled(HttpContext): PrivateScope, Public, Static, HideBySig
+    GetUnvalidatedCollections(HttpContext, Func`1&(Out), Func`1&(Out)): PrivateScope, Public, Static, HideBySig
+Class Microsoft.Web.Infrastructure.HttpContextHelper: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    ExecuteInNullContext(Action): PrivateScope, Public, Static, HideBySig
+Class Microsoft.Web.Infrastructure.InfrastructureHelper: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    UnloadAppDomain(): PrivateScope, Public, Static, HideBySig
+    IsCodeDomDefinedExtension(String): PrivateScope, Public, Static, HideBySig

@@ -1,0 +1,56 @@
+  System.Net.Http.WrSR.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly System.Net.Http.WebRequest, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=PublicKey
+Assembly System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class System.Net.Http.WebRequestHandler: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Net.Http.HttpClientHandler
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Net.Security.AuthenticationLevel AuthenticationLevel 'get set' : 
+    System.Security.Principal.TokenImpersonationLevel ImpersonationLevel 'get set' : 
+    Boolean AllowPipelining 'get set' : 
+    Boolean UnsafeAuthenticatedConnectionSharing 'get set' : 
+    Int32 MaxResponseHeadersLength 'get set' : 
+    Int32 ReadWriteTimeout 'get set' : 
+    System.Net.Cache.RequestCachePolicy CachePolicy 'get set' : 
+    System.TimeSpan ContinueTimeout 'get set' : 
+    System.Security.Cryptography.X509Certificates.X509CertificateCollection ClientCertificates 'get ' : 
+    System.Net.Security.RemoteCertificateValidationCallback ServerCertificateValidationCallback 'get set' : 
+  Methods:
+    get_AuthenticationLevel(): PrivateScope, Public, HideBySig, SpecialName
+    set_AuthenticationLevel(AuthenticationLevel): PrivateScope, Public, HideBySig, SpecialName
+    get_ImpersonationLevel(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImpersonationLevel(TokenImpersonationLevel): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowPipelining(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowPipelining(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_UnsafeAuthenticatedConnectionSharing(): PrivateScope, Public, HideBySig, SpecialName
+    set_UnsafeAuthenticatedConnectionSharing(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_MaxResponseHeadersLength(): PrivateScope, Public, HideBySig, SpecialName
+    set_MaxResponseHeadersLength(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_ReadWriteTimeout(): PrivateScope, Public, HideBySig, SpecialName
+    set_ReadWriteTimeout(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_CachePolicy(): PrivateScope, Public, HideBySig, SpecialName
+    set_CachePolicy(RequestCachePolicy): PrivateScope, Public, HideBySig, SpecialName
+    get_ContinueTimeout(): PrivateScope, Public, HideBySig, SpecialName
+    set_ContinueTimeout(TimeSpan): PrivateScope, Public, HideBySig, SpecialName
+    get_ClientCertificates(): PrivateScope, Public, HideBySig, SpecialName
+    get_ServerCertificateValidationCallback(): PrivateScope, Public, HideBySig, SpecialName
+    set_ServerCertificateValidationCallback(RemoteCertificateValidationCallback): PrivateScope, Public, HideBySig, SpecialName
+    InitializeWebRequest(HttpRequestMessage, HttpWebRequest): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+Class System.Net.Http.WrSR: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Resources.ResourceManager ResourceManager 'get ' : 
+    System.Globalization.CultureInfo Culture 'get set' : 
+    System.String net_http_invalid_enable_first 'get ' : 
+  Methods:
+    get_ResourceManager(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Culture(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    set_Culture(CultureInfo): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_invalid_enable_first(): PrivateScope, Assembly, Static, HideBySig, SpecialName

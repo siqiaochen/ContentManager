@@ -1,0 +1,2301 @@
+  System.Web.Razor.Common.CommonResources.resources - Embedded, ContainedInManifestFile, 
+  System.Web.Razor.Resources.RazorResources.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Microsoft.Internal.Web.Utils.CommonResources: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Resources.ResourceManager ResourceManager 'get ' : 
+    System.Globalization.CultureInfo Culture 'get set' : 
+    System.String Argument_Cannot_Be_Null_Or_Empty 'get ' : 
+    System.String Argument_Must_Be_Between 'get ' : 
+    System.String Argument_Must_Be_Enum_Member 'get ' : 
+    System.String Argument_Must_Be_GreaterThan 'get ' : 
+    System.String Argument_Must_Be_GreaterThanOrEqualTo 'get ' : 
+    System.String Argument_Must_Be_LessThan 'get ' : 
+    System.String Argument_Must_Be_LessThanOrEqualTo 'get ' : 
+    System.String Argument_Must_Be_Null_Or_Non_Empty 'get ' : 
+  Methods:
+    get_ResourceManager(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Culture(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    set_Culture(CultureInfo): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Cannot_Be_Null_Or_Empty(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_Between(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_Enum_Member(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_GreaterThan(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_GreaterThanOrEqualTo(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_LessThan(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_LessThanOrEqualTo(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_Null_Or_Non_Empty(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+Class Microsoft.Internal.Web.Utils.ExceptionHelper: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    CreateArgumentNullOrEmptyException(String): PrivateScope, Assembly, Static, HideBySig
+Class Microsoft.Internal.Web.Utils.HashCodeCombiner: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 CombinedHash 'get ' : 
+  Methods:
+    get_CombinedHash(): PrivateScope, Public, HideBySig, SpecialName
+    Add(IEnumerable): PrivateScope, Public, HideBySig
+    Add(Int32): PrivateScope, Public, HideBySig
+    Add(Object): PrivateScope, Public, HideBySig
+    Start(): PrivateScope, Public, Static, HideBySig
+Class System.Web.Razor.DocumentParseCompleteEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean TreeStructureChanged 'get set' : 
+    System.Web.Razor.GeneratorResults GeneratorResults 'get set' : 
+    System.Web.Razor.Text.TextChange SourceChange 'get set' : 
+  Methods:
+    get_TreeStructureChanged(): PrivateScope, Public, HideBySig, SpecialName
+    set_TreeStructureChanged(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_GeneratorResults(): PrivateScope, Public, HideBySig, SpecialName
+    set_GeneratorResults(GeneratorResults): PrivateScope, Public, HideBySig, SpecialName
+    get_SourceChange(): PrivateScope, Public, HideBySig, SpecialName
+    set_SourceChange(TextChange): PrivateScope, Public, HideBySig, SpecialName
+Class System.Web.Razor.Editor.SpanEditHandler: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Func`2[System.String,System.Collections.Generic.IEnumerable`1[System.Web.Razor.Tokenizer.Symbols.ISymbol]]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Func`2[System.String,System.Collections.Generic.IEnumerable`1[System.Web.Razor.Tokenizer.Symbols.ISymbol]], System.Web.Razor.Parser.SyntaxTree.AcceptedCharacters): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Web.Razor.Parser.SyntaxTree.AcceptedCharacters AcceptedCharacters 'get set' : 
+    System.Web.Razor.Editor.EditorHints EditorHints 'get set' : 
+    System.Func`2[System.String,System.Collections.Generic.IEnumerable`1[System.Web.Razor.Tokenizer.Symbols.ISymbol]] Tokenizer 'get set' : 
+  Methods:
+    get_AcceptedCharacters(): PrivateScope, Public, HideBySig, SpecialName
+    set_AcceptedCharacters(AcceptedCharacters): PrivateScope, Public, HideBySig, SpecialName
+    get_EditorHints(): PrivateScope, Public, HideBySig, SpecialName
+    set_EditorHints(EditorHints): PrivateScope, Public, HideBySig, SpecialName
+    get_Tokenizer(): PrivateScope, Public, HideBySig, SpecialName
+    set_Tokenizer(Func`2): PrivateScope, Public, HideBySig, SpecialName
+    CreateDefault(): PrivateScope, Public, Static, HideBySig
+    CreateDefault(Func`2): PrivateScope, Public, Static, HideBySig
+    ApplyChange(Span, TextChange): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ApplyChange(Span, TextChange, Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    OwnsChange(Span, TextChange): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    IsAdjacentOnRight(Span, Span): PrivateScope, Assembly, Static, HideBySig
+    IsAdjacentOnLeft(Span, Span): PrivateScope, Assembly, Static, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Parser.SyntaxTree.AutoCompleteEditHandler: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Editor.SpanEditHandler
+    Void .ctor(System.Func`2[System.String,System.Collections.Generic.IEnumerable`1[System.Web.Razor.Tokenizer.Symbols.ISymbol]]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Func`2[System.String,System.Collections.Generic.IEnumerable`1[System.Web.Razor.Tokenizer.Symbols.ISymbol]], System.Web.Razor.Parser.SyntaxTree.AcceptedCharacters): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean AutoCompleteAtEndOfSpan 'get set' : 
+    System.String AutoCompleteString 'get set' : 
+  Methods:
+    get_AutoCompleteAtEndOfSpan(): PrivateScope, Public, HideBySig, SpecialName
+    set_AutoCompleteAtEndOfSpan(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_AutoCompleteString(): PrivateScope, Public, HideBySig, SpecialName
+    set_AutoCompleteString(String): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Editor.BackgroundParser: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(System.Web.Razor.RazorEngineHost, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    Boolean IsIdle 'get ' : 
+  Events:
+    System.EventHandler`1[System.Web.Razor.DocumentParseCompleteEventArgs] ResultsReady: 
+  Methods:
+    get_IsIdle(): PrivateScope, Public, HideBySig, SpecialName
+    add_ResultsReady(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_ResultsReady(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    Start(): PrivateScope, Public, HideBySig
+    Cancel(): PrivateScope, Public, HideBySig
+    QueueChange(TextChange): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    SynchronizeMainThreadState(): PrivateScope, Public, HideBySig
+    TreesAreDifferent(Block, Block, IEnumerable`1): PrivateScope, Assembly, Static, HideBySig
+    TreesAreDifferent(Block, Block, IEnumerable`1, CancellationToken): PrivateScope, Assembly, Static, HideBySig
+Class System.Web.Razor.Editor.RazorEditorTrace: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    TraceLine(String, Object[]): PrivateScope, Public, Static, HideBySig
+Class System.Web.Razor.Generator.CodeGeneratorBase: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+Interface System.Web.Razor.Generator.IBlockCodeGenerator: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    GenerateStartBlockCode(Block, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GenerateEndBlockCode(Block, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Web.Razor.Generator.BlockCodeGenerator: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Web.Razor.Generator.CodeGeneratorBase
+  Interfaces:
+    System.Web.Razor.Generator.IBlockCodeGenerator
+  Fields:
+    System.Web.Razor.Generator.IBlockCodeGenerator Null : Public, Static, InitOnly
+  Methods:
+    GenerateStartBlockCode(Block, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GenerateEndBlockCode(Block, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Generator.AttributeBlockCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Generator.BlockCodeGenerator
+    Void .ctor(System.String, System.Web.Razor.Text.LocationTagged`1[System.String], System.Web.Razor.Text.LocationTagged`1[System.String]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Name 'get set' : 
+    System.Web.Razor.Text.LocationTagged`1[System.String] Prefix 'get set' : 
+    System.Web.Razor.Text.LocationTagged`1[System.String] Suffix 'get set' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    get_Prefix(): PrivateScope, Public, HideBySig, SpecialName
+    get_Suffix(): PrivateScope, Public, HideBySig, SpecialName
+    GenerateStartBlockCode(Block, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    GenerateEndBlockCode(Block, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Generator.CodeWriterExtensions: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    WriteLocationTaggedString(CodeWriter, LocationTagged`1): PrivateScope, Public, Static, HideBySig
+Class System.Web.Razor.Generator.DynamicAttributeBlockCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Generator.BlockCodeGenerator
+    Void .ctor(System.Web.Razor.Text.LocationTagged`1[System.String], Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.Razor.Text.LocationTagged`1[System.String], System.Web.Razor.Text.SourceLocation): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Web.Razor.Text.LocationTagged`1[System.String] Prefix 'get set' : 
+    System.Web.Razor.Text.SourceLocation ValueStart 'get set' : 
+  Methods:
+    get_Prefix(): PrivateScope, Public, HideBySig, SpecialName
+    get_ValueStart(): PrivateScope, Public, HideBySig, SpecialName
+    GenerateStartBlockCode(Block, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    GenerateEndBlockCode(Block, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Struct System.Web.Razor.Generator.ExpressionRenderingMode: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Web.Razor.Generator.ExpressionRenderingMode WriteToOutput = 0 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Generator.ExpressionRenderingMode InjectCode = 1 : Public, Static, Literal, HasDefault
+Interface System.Web.Razor.Generator.ISpanCodeGenerator: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    GenerateCode(Span, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Web.Razor.Generator.SpanCodeGenerator: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Web.Razor.Generator.CodeGeneratorBase
+  Interfaces:
+    System.Web.Razor.Generator.ISpanCodeGenerator
+  Fields:
+    System.Web.Razor.Generator.ISpanCodeGenerator Null : Public, Static, InitOnly
+  Methods:
+    GenerateCode(Span, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Generator.LiteralAttributeCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Generator.SpanCodeGenerator
+    Void .ctor(System.Web.Razor.Text.LocationTagged`1[System.String], System.Web.Razor.Text.LocationTagged`1[System.Web.Razor.Generator.SpanCodeGenerator]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.Razor.Text.LocationTagged`1[System.String], System.Web.Razor.Text.LocationTagged`1[System.String]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Web.Razor.Text.LocationTagged`1[System.String] Prefix 'get set' : 
+    System.Web.Razor.Text.LocationTagged`1[System.String] Value 'get set' : 
+    System.Web.Razor.Text.LocationTagged`1[System.Web.Razor.Generator.SpanCodeGenerator] ValueGenerator 'get set' : 
+  Methods:
+    get_Prefix(): PrivateScope, Public, HideBySig, SpecialName
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    get_ValueGenerator(): PrivateScope, Public, HideBySig, SpecialName
+    GenerateCode(Span, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Generator.RazorCommentCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Generator.BlockCodeGenerator
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GenerateStartBlockCode(Block, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Generator.SetLayoutCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Generator.SpanCodeGenerator
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String LayoutPath 'get set' : 
+  Methods:
+    get_LayoutPath(): PrivateScope, Public, HideBySig, SpecialName
+    set_LayoutPath(String): PrivateScope, Public, HideBySig, SpecialName
+    GenerateCode(Span, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Editor.SingleLineMarkupEditHandler: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Editor.SpanEditHandler
+    Void .ctor(System.Func`2[System.String,System.Collections.Generic.IEnumerable`1[System.Web.Razor.Tokenizer.Symbols.ISymbol]]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Func`2[System.String,System.Collections.Generic.IEnumerable`1[System.Web.Razor.Tokenizer.Symbols.ISymbol]], System.Web.Razor.Parser.SyntaxTree.AcceptedCharacters): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Web.Razor.Editor.EditResult: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Web.Razor.PartialParseResult, System.Web.Razor.Parser.SyntaxTree.SpanBuilder): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Web.Razor.PartialParseResult Result 'get set' : 
+    System.Web.Razor.Parser.SyntaxTree.SpanBuilder EditedSpan 'get set' : 
+  Methods:
+    get_Result(): PrivateScope, Public, HideBySig, SpecialName
+    set_Result(PartialParseResult): PrivateScope, Public, HideBySig, SpecialName
+    get_EditedSpan(): PrivateScope, Public, HideBySig, SpecialName
+    set_EditedSpan(SpanBuilder): PrivateScope, Public, HideBySig, SpecialName
+Class System.Web.Razor.Editor.ImplicitExpressionEditHandler: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Editor.SpanEditHandler
+    Void .ctor(System.Func`2[System.String,System.Collections.Generic.IEnumerable`1[System.Web.Razor.Tokenizer.Symbols.ISymbol]], System.Collections.Generic.ISet`1[System.String], Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean AcceptTrailingDot 'get set' : 
+    System.Collections.Generic.ISet`1[System.String] Keywords 'get set' : 
+  Methods:
+    get_AcceptTrailingDot(): PrivateScope, Public, HideBySig, SpecialName
+    get_Keywords(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Struct System.Web.Razor.Editor.EditorHints: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Web.Razor.Editor.EditorHints None = 0 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Editor.EditorHints VirtualPath = 1 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Editor.EditorHints LayoutPage = 2 : Public, Static, Literal, HasDefault
+Class System.Web.Razor.Generator.AddImportCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Generator.SpanCodeGenerator
+    Void .ctor(System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Namespace 'get set' : 
+    Int32 NamespaceKeywordLength 'get set' : 
+  Methods:
+    get_Namespace(): PrivateScope, Public, HideBySig, SpecialName
+    get_NamespaceKeywordLength(): PrivateScope, Public, HideBySig, SpecialName
+    set_NamespaceKeywordLength(Int32): PrivateScope, Public, HideBySig, SpecialName
+    GenerateCode(Span, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Generator.CodeGeneratorContext: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Properties:
+    System.Web.Razor.Generator.ExpressionRenderingMode ExpressionRenderingMode 'get set' : 
+    System.String SourceFile 'get set' : 
+    System.CodeDom.CodeCompileUnit CompileUnit 'get set' : 
+    System.CodeDom.CodeNamespace Namespace 'get set' : 
+    System.CodeDom.CodeTypeDeclaration GeneratedClass 'get set' : 
+    System.Web.Razor.RazorEngineHost Host 'get set' : 
+    System.Collections.Generic.IDictionary`2[System.Int32,System.Web.Razor.Generator.GeneratedCodeMapping] CodeMappings 'get set' : 
+    System.String TargetWriterName 'get set' : 
+    System.CodeDom.CodeMemberMethod TargetMethod 'get set' : 
+    System.String CurrentBufferedStatement 'get ' : 
+  Methods:
+    get_ExpressionRenderingMode(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_ExpressionRenderingMode(ExpressionRenderingMode): PrivateScope, Assembly, HideBySig, SpecialName
+    get_SourceFile(): PrivateScope, Public, HideBySig, SpecialName
+    set_SourceFile(String): PrivateScope, Assembly, HideBySig, SpecialName
+    get_CompileUnit(): PrivateScope, Public, HideBySig, SpecialName
+    set_CompileUnit(CodeCompileUnit): PrivateScope, Assembly, HideBySig, SpecialName
+    get_Namespace(): PrivateScope, Public, HideBySig, SpecialName
+    set_Namespace(CodeNamespace): PrivateScope, Assembly, HideBySig, SpecialName
+    get_GeneratedClass(): PrivateScope, Public, HideBySig, SpecialName
+    set_GeneratedClass(CodeTypeDeclaration): PrivateScope, Assembly, HideBySig, SpecialName
+    get_Host(): PrivateScope, Public, HideBySig, SpecialName
+    get_CodeMappings(): PrivateScope, Public, HideBySig, SpecialName
+    get_TargetWriterName(): PrivateScope, Public, HideBySig, SpecialName
+    set_TargetWriterName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_TargetMethod(): PrivateScope, Public, HideBySig, SpecialName
+    set_TargetMethod(CodeMemberMethod): PrivateScope, Public, HideBySig, SpecialName
+    get_CurrentBufferedStatement(): PrivateScope, Public, HideBySig, SpecialName
+    Create(RazorEngineHost, String, String, String, Boolean): PrivateScope, Public, Static, HideBySig
+    Create(RazorEngineHost, Func`1, String, String, String, Boolean): PrivateScope, Assembly, Static, HideBySig
+    AddDesignTimeHelperStatement(CodeSnippetStatement): PrivateScope, Public, HideBySig
+    AddCodeMapping(SourceLocation, Int32, Int32): PrivateScope, Public, HideBySig
+    GenerateLinePragma(Span): PrivateScope, Public, HideBySig
+    GenerateLinePragma(Span, Int32): PrivateScope, Public, HideBySig
+    GenerateLinePragma(Span, Int32, Int32): PrivateScope, Public, HideBySig
+    GenerateLinePragma(SourceLocation, Int32, Int32): PrivateScope, Public, HideBySig
+    BufferStatementFragment(Span): PrivateScope, Public, HideBySig
+    BufferStatementFragment(String): PrivateScope, Public, HideBySig
+    BufferStatementFragment(String, Span): PrivateScope, Public, HideBySig
+    MarkStartOfGeneratedCode(): PrivateScope, Public, HideBySig
+    MarkEndOfGeneratedCode(): PrivateScope, Public, HideBySig
+    FlushBufferedStatement(): PrivateScope, Public, HideBySig
+    AddStatement(String): PrivateScope, Public, HideBySig
+    AddStatement(String, CodeLinePragma): PrivateScope, Public, HideBySig
+    EnsureExpressionHelperVariable(): PrivateScope, Public, HideBySig
+    ChangeStatementCollector(Action`2): PrivateScope, Public, HideBySig
+    AddContextCall(Span, String, Boolean): PrivateScope, Public, HideBySig
+    CreateCodeWriter(): PrivateScope, Assembly, HideBySig
+    BuildCodeString(Action`1): PrivateScope, Assembly, HideBySig
+Class System.Web.Razor.Generator.CodeWriter: AutoLayout, AnsiClass, Class, Abstract, BeforeFieldInit
+  Interfaces:
+    System.IDisposable
+  Properties:
+    System.String Content 'get ' : 
+    System.IO.StringWriter InnerWriter 'get ' : 
+    Boolean SupportsMidStatementLinePragmas 'get ' : 
+  Methods:
+    get_Content(): PrivateScope, Public, HideBySig, SpecialName
+    get_InnerWriter(): PrivateScope, Public, HideBySig, SpecialName
+    get_SupportsMidStatementLinePragmas(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    WriteParameterSeparator(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WriteReturn(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WriteLinePragma(Nullable`1, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WriteHelperHeaderPrefix(String, Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WriteSnippet(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WriteStringLiteral(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WriteVariableDeclaration(String, String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WriteLinePragma(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WriteLinePragma(CodeLinePragma): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WriteHiddenLinePragma(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WriteDisableUnusedFieldWarningPragma(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WriteRestoreUnusedFieldWarningPragma(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WriteIdentifier(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WriteHelperHeaderSuffix(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WriteHelperTrailer(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WriteStartMethodInvoke(String): PrivateScope, Public, HideBySig
+    WriteStartMethodInvoke(String, String[]): PrivateScope, Public, HideBySig
+    WriteEndMethodInvoke(): PrivateScope, Public, HideBySig
+    WriteEndStatement(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WriteStartAssignment(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WriteStartLambdaExpression(String[]): PrivateScope, Public, HideBySig
+    WriteStartConstructor(String): PrivateScope, Public, HideBySig
+    WriteStartLambdaDelegate(String[]): PrivateScope, Public, HideBySig
+    WriteEndLambdaExpression(): PrivateScope, Public, HideBySig
+    WriteEndConstructor(): PrivateScope, Public, HideBySig
+    WriteEndLambdaDelegate(): PrivateScope, Public, HideBySig
+    WriteLineContinuation(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WriteBooleanLiteral(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Clear(): PrivateScope, Public, HideBySig
+    ToStatement(): PrivateScope, Public, HideBySig
+    ToTypeMember(): PrivateScope, Public, HideBySig
+Class System.Web.Razor.Generator.BaseCodeWriter: AutoLayout, AnsiClass, Class, Abstract, BeforeFieldInit
+  :System.Web.Razor.Generator.CodeWriter
+  Methods:
+    WriteSnippet(String): PrivateScope, Public, Virtual, HideBySig
+    WriteParameterSeparator(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Generator.RazorDirectiveAttributeCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Generator.SpanCodeGenerator
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Name 'get set' : 
+    System.String Value 'get set' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    GenerateCode(Span, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Generator.CSharpCodeWriter: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Web.Razor.Generator.BaseCodeWriter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    WriteVariableDeclaration(String, String, String): PrivateScope, Public, Virtual, HideBySig
+    WriteDisableUnusedFieldWarningPragma(): PrivateScope, Public, Virtual, HideBySig
+    WriteRestoreUnusedFieldWarningPragma(): PrivateScope, Public, Virtual, HideBySig
+    WriteStringLiteral(String): PrivateScope, Public, Virtual, HideBySig
+    WriteEndStatement(): PrivateScope, Public, Virtual, HideBySig
+    WriteIdentifier(String): PrivateScope, Public, Virtual, HideBySig
+    WriteBooleanLiteral(Boolean): PrivateScope, Public, Virtual, HideBySig
+    WriteReturn(): PrivateScope, Public, Virtual, HideBySig
+    WriteLinePragma(Nullable`1, String): PrivateScope, Public, Virtual, HideBySig
+    WriteHiddenLinePragma(): PrivateScope, Public, Virtual, HideBySig
+    WriteHelperHeaderPrefix(String, Boolean): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Generator.HybridCodeGenerator: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Web.Razor.Generator.CodeGeneratorBase
+  Interfaces:
+    System.Web.Razor.Generator.ISpanCodeGenerator
+    System.Web.Razor.Generator.IBlockCodeGenerator
+  Methods:
+    GenerateStartBlockCode(Block, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GenerateEndBlockCode(Block, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GenerateCode(Span, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.Razor.Generator.ExpressionCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Generator.HybridCodeGenerator
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GenerateStartBlockCode(Block, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    GenerateEndBlockCode(Block, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    GenerateCode(Span, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Struct System.Web.Razor.Generator.GeneratedClassContext: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, System.String, System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String DefaultWriteMethodName : Public, Static, InitOnly
+    System.String DefaultWriteLiteralMethodName : Public, Static, InitOnly
+    System.String DefaultExecuteMethodName : Public, Static, InitOnly
+    System.String DefaultLayoutPropertyName : Public, Static, InitOnly
+    System.String DefaultWriteAttributeMethodName : Public, Static, InitOnly
+    System.String DefaultWriteAttributeToMethodName : Public, Static, InitOnly
+    System.Web.Razor.Generator.GeneratedClassContext Default : Public, Static, InitOnly
+  Properties:
+    System.String WriteMethodName 'get set' : 
+    System.String WriteLiteralMethodName 'get set' : 
+    System.String WriteToMethodName 'get set' : 
+    System.String WriteLiteralToMethodName 'get set' : 
+    System.String ExecuteMethodName 'get set' : 
+    System.String BeginContextMethodName 'get set' : 
+    System.String EndContextMethodName 'get set' : 
+    System.String LayoutPropertyName 'get set' : 
+    System.String DefineSectionMethodName 'get set' : 
+    System.String TemplateTypeName 'get set' : 
+    System.String WriteAttributeMethodName 'get set' : 
+    System.String WriteAttributeToMethodName 'get set' : 
+    System.String ResolveUrlMethodName 'get set' : 
+    Boolean AllowSections 'get ' : 
+    Boolean AllowTemplates 'get ' : 
+    Boolean SupportsInstrumentation 'get ' : 
+  Methods:
+    get_WriteMethodName(): PrivateScope, Public, HideBySig, SpecialName
+    get_WriteLiteralMethodName(): PrivateScope, Public, HideBySig, SpecialName
+    get_WriteToMethodName(): PrivateScope, Public, HideBySig, SpecialName
+    get_WriteLiteralToMethodName(): PrivateScope, Public, HideBySig, SpecialName
+    get_ExecuteMethodName(): PrivateScope, Public, HideBySig, SpecialName
+    get_BeginContextMethodName(): PrivateScope, Public, HideBySig, SpecialName
+    set_BeginContextMethodName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_EndContextMethodName(): PrivateScope, Public, HideBySig, SpecialName
+    set_EndContextMethodName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_LayoutPropertyName(): PrivateScope, Public, HideBySig, SpecialName
+    set_LayoutPropertyName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DefineSectionMethodName(): PrivateScope, Public, HideBySig, SpecialName
+    set_DefineSectionMethodName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_TemplateTypeName(): PrivateScope, Public, HideBySig, SpecialName
+    set_TemplateTypeName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_WriteAttributeMethodName(): PrivateScope, Public, HideBySig, SpecialName
+    set_WriteAttributeMethodName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_WriteAttributeToMethodName(): PrivateScope, Public, HideBySig, SpecialName
+    set_WriteAttributeToMethodName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ResolveUrlMethodName(): PrivateScope, Public, HideBySig, SpecialName
+    set_ResolveUrlMethodName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowSections(): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowTemplates(): PrivateScope, Public, HideBySig, SpecialName
+    get_SupportsInstrumentation(): PrivateScope, Public, HideBySig, SpecialName
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    op_Equality(GeneratedClassContext, GeneratedClassContext): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(GeneratedClassContext, GeneratedClassContext): PrivateScope, Public, Static, HideBySig, SpecialName
+Class System.Web.Razor.Generator.MarkupCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Generator.SpanCodeGenerator
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GenerateCode(Span, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Generator.ResolveUrlCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Generator.SpanCodeGenerator
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GenerateCode(Span, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Generator.SetBaseTypeCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Generator.SpanCodeGenerator
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String BaseType 'get set' : 
+  Methods:
+    get_BaseType(): PrivateScope, Public, HideBySig, SpecialName
+    GenerateCode(Span, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Generator.HelperCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Generator.BlockCodeGenerator
+    Void .ctor(System.Web.Razor.Text.LocationTagged`1[System.String], Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Web.Razor.Text.LocationTagged`1[System.String] Signature 'get set' : 
+    System.Web.Razor.Text.LocationTagged`1[System.String] Footer 'get set' : 
+    Boolean HeaderComplete 'get set' : 
+  Methods:
+    get_Signature(): PrivateScope, Public, HideBySig, SpecialName
+    get_Footer(): PrivateScope, Public, HideBySig, SpecialName
+    set_Footer(LocationTagged`1): PrivateScope, Public, HideBySig, SpecialName
+    get_HeaderComplete(): PrivateScope, Public, HideBySig, SpecialName
+    GenerateStartBlockCode(Block, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    GenerateEndBlockCode(Block, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Generator.SectionCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Generator.BlockCodeGenerator
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String SectionName 'get set' : 
+  Methods:
+    get_SectionName(): PrivateScope, Public, HideBySig, SpecialName
+    GenerateStartBlockCode(Block, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    GenerateEndBlockCode(Block, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Generator.SetVBOptionCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Generator.SpanCodeGenerator
+    Void .ctor(System.String, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String StrictCodeDomOptionName : Public, Static, InitOnly
+    System.String ExplicitCodeDomOptionName : Public, Static, InitOnly
+  Properties:
+    System.String OptionName 'get set' : 
+    Boolean Value 'get set' : 
+  Methods:
+    get_OptionName(): PrivateScope, Public, HideBySig, SpecialName
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    Strict(Boolean): PrivateScope, Public, Static, HideBySig
+    Explicit(Boolean): PrivateScope, Public, Static, HideBySig
+    GenerateCode(Span, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Generator.StatementCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Generator.SpanCodeGenerator
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GenerateCode(Span, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Generator.TemplateBlockCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Generator.BlockCodeGenerator
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GenerateStartBlockCode(Block, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    GenerateEndBlockCode(Block, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Generator.TypeMemberCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Generator.SpanCodeGenerator
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GenerateCode(Span, CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Generator.VBCodeWriter: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Web.Razor.Generator.BaseCodeWriter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean SupportsMidStatementLinePragmas 'get ' : 
+  Methods:
+    get_SupportsMidStatementLinePragmas(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    WriteLineContinuation(): PrivateScope, Public, Virtual, HideBySig
+    WriteVariableDeclaration(String, String, String): PrivateScope, Public, Virtual, HideBySig
+    WriteStringLiteral(String): PrivateScope, Public, Virtual, HideBySig
+    WriteReturn(): PrivateScope, Public, Virtual, HideBySig
+    WriteLinePragma(Nullable`1, String): PrivateScope, Public, Virtual, HideBySig
+    WriteHelperHeaderPrefix(String, Boolean): PrivateScope, Public, Virtual, HideBySig
+    WriteHelperHeaderSuffix(String): PrivateScope, Public, Virtual, HideBySig
+    WriteHelperTrailer(): PrivateScope, Public, Virtual, HideBySig
+    WriteEndStatement(): PrivateScope, Public, Virtual, HideBySig
+Struct System.Web.Razor.Parser.BalancingModes: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Web.Razor.Parser.BalancingModes None = 0 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.BalancingModes BacktrackOnFailure = 1 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.BalancingModes NoErrorOnFailure = 2 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.BalancingModes AllowCommentsAndTemplates = 4 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.BalancingModes AllowEmbeddedTransitions = 8 : Public, Static, Literal, HasDefault
+Class System.Web.Razor.Parser.ParserVisitor: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Properties:
+    System.Nullable`1[System.Threading.CancellationToken] CancelToken 'get set' : 
+  Methods:
+    get_CancelToken(): PrivateScope, Public, HideBySig, SpecialName
+    set_CancelToken(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    VisitBlock(Block): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitStartBlock(Block): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitSpan(Span): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitEndBlock(Block): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitError(RazorError): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    OnComplete(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ThrowIfCanceled(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.Razor.Parser.CallbackVisitor: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Parser.ParserVisitor
+    Void .ctor(System.Action`1[System.Web.Razor.Parser.SyntaxTree.Span]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Action`1[System.Web.Razor.Parser.SyntaxTree.Span], System.Action`1[System.Web.Razor.Parser.SyntaxTree.RazorError]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Action`1[System.Web.Razor.Parser.SyntaxTree.Span], System.Action`1[System.Web.Razor.Parser.SyntaxTree.RazorError], System.Action`1[System.Web.Razor.Parser.SyntaxTree.BlockType], System.Action`1[System.Web.Razor.Parser.SyntaxTree.BlockType]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Action`1[System.Web.Razor.Parser.SyntaxTree.Span], System.Action`1[System.Web.Razor.Parser.SyntaxTree.RazorError], System.Action`1[System.Web.Razor.Parser.SyntaxTree.BlockType], System.Action`1[System.Web.Razor.Parser.SyntaxTree.BlockType], System.Action): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Threading.SynchronizationContext SynchronizationContext 'get set' : 
+  Methods:
+    get_SynchronizationContext(): PrivateScope, Public, HideBySig, SpecialName
+    set_SynchronizationContext(SynchronizationContext): PrivateScope, Public, HideBySig, SpecialName
+    VisitStartBlock(Block): PrivateScope, Public, Virtual, HideBySig
+    VisitSpan(Span): PrivateScope, Public, Virtual, HideBySig
+    VisitEndBlock(Block): PrivateScope, Public, Virtual, HideBySig
+    VisitError(RazorError): PrivateScope, Public, Virtual, HideBySig
+    OnComplete(): PrivateScope, Public, Virtual, HideBySig
+Interface System.Web.Razor.Parser.ISyntaxTreeRewriter: AutoLayout, AnsiClass, Class, ClassSemanticsMask, Abstract
+  Methods:
+    Rewrite(Block): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Web.Razor.Parser.MarkupRewriter: AutoLayout, AnsiClass, Class, Abstract, BeforeFieldInit
+  :System.Web.Razor.Parser.ParserVisitor
+  Interfaces:
+    System.Web.Razor.Parser.ISyntaxTreeRewriter
+  Methods:
+    Rewrite(Block): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitBlock(Block): PrivateScope, Public, Virtual, HideBySig
+    VisitSpan(Span): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Parser.ConditionalAttributeCollapser: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Web.Razor.Parser.MarkupRewriter
+    Void .ctor(System.Action`3[System.Web.Razor.Parser.SyntaxTree.SpanBuilder,System.Web.Razor.Text.SourceLocation,System.String]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Web.Razor.Parser.ParserBase: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Properties:
+    System.Web.Razor.Parser.ParserContext Context 'get set' : 
+    Boolean IsMarkupParser 'get ' : 
+  Methods:
+    get_Context(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Context(ParserContext): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsMarkupParser(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    BuildSpan(SpanBuilder, SourceLocation, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ParseBlock(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ParseDocument(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ParseSection(Tuple`2, Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.Razor.Parser.TokenizerBackedParser`3[TTokenizer,TSymbol,TSymbolType]: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Type parameter: TTokenizer, System.Web.Razor.Tokenizer.Tokenizer`2[TSymbol,TSymbolType]
+  Type parameter: TSymbol, System.Web.Razor.Tokenizer.Symbols.SymbolBase`1[TSymbolType]
+  Type parameter: TSymbolType
+  :System.Web.Razor.Parser.ParserBase
+  Methods:
+    BuildSpan(SpanBuilder, SourceLocation, String): PrivateScope, Public, Virtual, HideBySig
+    Assert(TSymbolType): PrivateScope, Assembly, HideBySig
+    ReadWhileLazy(Func`2): PrivateScope, Assembly, HideBySig
+Class System.Web.Razor.Parser.CSharpCodeParser: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Parser.TokenizerBackedParser`3[System.Web.Razor.Tokenizer.CSharpTokenizer,System.Web.Razor.Tokenizer.Symbols.CSharpSymbol,System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 UsingKeywordLength : Assembly, Static, InitOnly
+    System.Collections.Generic.ISet`1[System.String] DefaultKeywords : Assembly, Static
+  Properties:
+    Boolean IsNested 'get set' : 
+  Methods:
+    get_IsNested(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsNested(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    Assert(CSharpKeyword): PrivateScope, Assembly, HideBySig
+    ParseBlock(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Parser.LanguageCharacteristics`3[TTokenizer,TSymbol,TSymbolType]: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Type parameter: TTokenizer, System.Web.Razor.Tokenizer.Tokenizer`2[TSymbol,TSymbolType]
+  Type parameter: TSymbol, System.Web.Razor.Tokenizer.Symbols.SymbolBase`1[TSymbolType]
+  Type parameter: TSymbolType
+  Methods:
+    GetSample(TSymbolType): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateTokenizer(ITextDocument): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    FlipBracket(TSymbolType): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateMarkerSymbol(SourceLocation): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    TokenizeString(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TokenizeString(SourceLocation, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    IsWhiteSpace(TSymbol): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    IsNewLine(TSymbol): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    IsIdentifier(TSymbol): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    IsKeyword(TSymbol): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    IsTransition(TSymbol): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    IsCommentStart(TSymbol): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    IsCommentStar(TSymbol): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    IsCommentBody(TSymbol): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    IsUnknown(TSymbol): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    IsKnownSymbolType(TSymbol, KnownSymbolType): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SplitSymbol(TSymbol, Int32, TSymbolType): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetKnownSymbolType(KnownSymbolType): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    KnowsSymbolType(KnownSymbolType): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.Razor.Parser.CSharpLanguageCharacteristics: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Parser.LanguageCharacteristics`3[System.Web.Razor.Tokenizer.CSharpTokenizer,System.Web.Razor.Tokenizer.Symbols.CSharpSymbol,System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType]
+  Properties:
+    System.Web.Razor.Parser.CSharpLanguageCharacteristics Instance 'get ' : 
+  Methods:
+    get_Instance(): PrivateScope, Public, Static, HideBySig, SpecialName
+    CreateTokenizer(ITextDocument): PrivateScope, Public, Virtual, HideBySig
+    GetSample(CSharpSymbolType): PrivateScope, Public, Virtual, HideBySig
+    CreateMarkerSymbol(SourceLocation): PrivateScope, Public, Virtual, HideBySig
+    GetKnownSymbolType(KnownSymbolType): PrivateScope, Public, Virtual, HideBySig
+    FlipBracket(CSharpSymbolType): PrivateScope, Public, Virtual, HideBySig
+    GetKeyword(CSharpKeyword): PrivateScope, Public, Static, HideBySig
+    GetSymbolSample(CSharpSymbolType): PrivateScope, Public, Static, HideBySig
+Class System.Web.Razor.Parser.HtmlLanguageCharacteristics: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Parser.LanguageCharacteristics`3[System.Web.Razor.Tokenizer.HtmlTokenizer,System.Web.Razor.Tokenizer.Symbols.HtmlSymbol,System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType]
+  Properties:
+    System.Web.Razor.Parser.HtmlLanguageCharacteristics Instance 'get ' : 
+  Methods:
+    get_Instance(): PrivateScope, Public, Static, HideBySig, SpecialName
+    GetSample(HtmlSymbolType): PrivateScope, Public, Virtual, HideBySig
+    CreateTokenizer(ITextDocument): PrivateScope, Public, Virtual, HideBySig
+    FlipBracket(HtmlSymbolType): PrivateScope, Public, Virtual, HideBySig
+    CreateMarkerSymbol(SourceLocation): PrivateScope, Public, Virtual, HideBySig
+    GetKnownSymbolType(KnownSymbolType): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Parser.HtmlMarkupParser: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Parser.TokenizerBackedParser`3[System.Web.Razor.Tokenizer.HtmlTokenizer,System.Web.Razor.Tokenizer.Symbols.HtmlSymbol,System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.ISet`1[System.String] VoidElements 'get ' : 
+  Methods:
+    ParseBlock(): PrivateScope, Public, Virtual, HideBySig
+    ParseDocument(): PrivateScope, Public, Virtual, HideBySig
+    get_VoidElements(): PrivateScope, Public, HideBySig, SpecialName
+    BuildSpan(SpanBuilder, SourceLocation, String): PrivateScope, Public, Virtual, HideBySig
+    ParseSection(Tuple`2, Boolean): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Parser.MarkupCollapser: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Web.Razor.Parser.MarkupRewriter
+    Void .ctor(System.Action`3[System.Web.Razor.Parser.SyntaxTree.SpanBuilder,System.Web.Razor.Text.SourceLocation,System.String]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Web.Razor.Parser.ParserHelpers: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    IsNewLine(Char): PrivateScope, Public, Static, HideBySig
+    IsNewLine(String): PrivateScope, Public, Static, HideBySig
+    IsWhitespace(Char): PrivateScope, Public, Static, HideBySig
+    IsWhitespaceOrNewLine(Char): PrivateScope, Public, Static, HideBySig
+    IsIdentifier(String): PrivateScope, Public, Static, HideBySig
+    IsIdentifier(String, Boolean): PrivateScope, Public, Static, HideBySig
+    IsHexDigit(Char): PrivateScope, Public, Static, HideBySig
+    IsIdentifierStart(Char): PrivateScope, Public, Static, HideBySig
+    IsIdentifierPart(Char): PrivateScope, Public, Static, HideBySig
+    IsTerminatingCharToken(Char): PrivateScope, Public, Static, HideBySig
+    IsTerminatingQuotedStringToken(Char): PrivateScope, Public, Static, HideBySig
+    IsDecimalDigit(Char): PrivateScope, Public, Static, HideBySig
+    IsLetterOrDecimalDigit(Char): PrivateScope, Public, Static, HideBySig
+    IsLetter(Char): PrivateScope, Public, Static, HideBySig
+    IsFormatting(Char): PrivateScope, Public, Static, HideBySig
+    IsCombining(Char): PrivateScope, Public, Static, HideBySig
+    IsConnecting(Char): PrivateScope, Public, Static, HideBySig
+    SanitizeClassName(String): PrivateScope, Public, Static, HideBySig
+    IsEmailPart(Char): PrivateScope, Public, Static, HideBySig
+Class System.Web.Razor.Parser.ParserVisitorExtensions: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Visit(ParserVisitor, ParserResults): PrivateScope, Public, Static, HideBySig
+Class System.Web.Razor.Parser.SyntaxConstants: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.String TextTagName : Public, Static, InitOnly
+    Char TransitionCharacter : Public, Static, InitOnly
+    System.String TransitionString : Public, Static, InitOnly
+    System.String StartCommentSequence : Public, Static, InitOnly
+    System.String EndCommentSequence : Public, Static, InitOnly
+Class System.Web.Razor.Parser.SyntaxConstants+CSharp: AutoLayout, AnsiClass, Class, NestedPublic, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    Int32 UsingKeywordLength : Public, Static, InitOnly
+    System.String InheritsKeyword : Public, Static, InitOnly
+    System.String FunctionsKeyword : Public, Static, InitOnly
+    System.String SectionKeyword : Public, Static, InitOnly
+    System.String HelperKeyword : Public, Static, InitOnly
+    System.String ElseIfKeyword : Public, Static, InitOnly
+    System.String NamespaceKeyword : Public, Static, InitOnly
+    System.String ClassKeyword : Public, Static, InitOnly
+    System.String LayoutKeyword : Public, Static, InitOnly
+    System.String SessionStateKeyword : Public, Static, InitOnly
+Class System.Web.Razor.Parser.SyntaxConstants+VB: AutoLayout, AnsiClass, Class, NestedPublic, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    Int32 ImportsKeywordLength : Public, Static, InitOnly
+    System.String EndKeyword : Public, Static, InitOnly
+    System.String CodeKeyword : Public, Static, InitOnly
+    System.String FunctionsKeyword : Public, Static, InitOnly
+    System.String SectionKeyword : Public, Static, InitOnly
+    System.String StrictKeyword : Public, Static, InitOnly
+    System.String ExplicitKeyword : Public, Static, InitOnly
+    System.String OffKeyword : Public, Static, InitOnly
+    System.String HelperKeyword : Public, Static, InitOnly
+    System.String SelectCaseKeyword : Public, Static, InitOnly
+    System.String LayoutKeyword : Public, Static, InitOnly
+    System.String EndCodeKeyword : Public, Static, InitOnly
+    System.String EndHelperKeyword : Public, Static, InitOnly
+    System.String EndFunctionsKeyword : Public, Static, InitOnly
+    System.String EndSectionKeyword : Public, Static, InitOnly
+    System.String SessionStateKeyword : Public, Static, InitOnly
+Struct System.Web.Razor.Parser.SyntaxTree.AcceptedCharacters: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Web.Razor.Parser.SyntaxTree.AcceptedCharacters None = 0 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.SyntaxTree.AcceptedCharacters NewLine = 1 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.SyntaxTree.AcceptedCharacters WhiteSpace = 2 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.SyntaxTree.AcceptedCharacters NonWhiteSpace = 4 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.SyntaxTree.AcceptedCharacters AllWhiteSpace = 3 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.SyntaxTree.AcceptedCharacters Any = 7 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.SyntaxTree.AcceptedCharacters AnyExceptNewline = 6 : Public, Static, Literal, HasDefault
+Class System.Web.Razor.Parser.SyntaxTree.BlockBuilder: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.Razor.Parser.SyntaxTree.Block): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Nullable`1[System.Web.Razor.Parser.SyntaxTree.BlockType] Type 'get set' : 
+    System.Collections.Generic.IList`1[System.Web.Razor.Parser.SyntaxTree.SyntaxTreeNode] Children 'get set' : 
+    System.String Name 'get set' : 
+    System.Web.Razor.Generator.IBlockCodeGenerator CodeGenerator 'get set' : 
+  Methods:
+    get_Type(): PrivateScope, Public, HideBySig, SpecialName
+    set_Type(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Children(): PrivateScope, Public, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+    get_CodeGenerator(): PrivateScope, Public, HideBySig, SpecialName
+    set_CodeGenerator(IBlockCodeGenerator): PrivateScope, Public, HideBySig, SpecialName
+    Build(): PrivateScope, Public, HideBySig
+    Reset(): PrivateScope, Public, HideBySig
+Class System.Web.Razor.Parser.SyntaxTree.EquivalenceComparer: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Collections.Generic.IEqualityComparer`1[System.Web.Razor.Parser.SyntaxTree.SyntaxTreeNode]
+  Methods:
+    Equals(SyntaxTreeNode, SyntaxTreeNode): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetHashCode(SyntaxTreeNode): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.Razor.Parser.SyntaxTree.SpanBuilder: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Web.Razor.Parser.SyntaxTree.Span): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Web.Razor.Text.SourceLocation Start 'get set' : 
+    System.Web.Razor.Parser.SyntaxTree.SpanKind Kind 'get set' : 
+    System.Collections.ObjectModel.ReadOnlyCollection`1[System.Web.Razor.Tokenizer.Symbols.ISymbol] Symbols 'get ' : 
+    System.Web.Razor.Editor.SpanEditHandler EditHandler 'get set' : 
+    System.Web.Razor.Generator.ISpanCodeGenerator CodeGenerator 'get set' : 
+  Methods:
+    get_Start(): PrivateScope, Public, HideBySig, SpecialName
+    set_Start(SourceLocation): PrivateScope, Public, HideBySig, SpecialName
+    get_Kind(): PrivateScope, Public, HideBySig, SpecialName
+    set_Kind(SpanKind): PrivateScope, Public, HideBySig, SpecialName
+    get_Symbols(): PrivateScope, Public, HideBySig, SpecialName
+    get_EditHandler(): PrivateScope, Public, HideBySig, SpecialName
+    set_EditHandler(SpanEditHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_CodeGenerator(): PrivateScope, Public, HideBySig, SpecialName
+    set_CodeGenerator(ISpanCodeGenerator): PrivateScope, Public, HideBySig, SpecialName
+    Reset(): PrivateScope, Public, HideBySig
+    Build(): PrivateScope, Public, HideBySig
+    ClearSymbols(): PrivateScope, Public, HideBySig
+    Accept(ISymbol): PrivateScope, Public, HideBySig
+Class System.Web.Razor.Parser.TextReaderExtensions: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    ReadUntil(TextReader, Char): PrivateScope, Public, Static, HideBySig
+    ReadUntil(TextReader, Char, Boolean): PrivateScope, Public, Static, HideBySig
+    ReadUntil(TextReader, Char[]): PrivateScope, Public, Static, HideBySig
+    ReadUntil(TextReader, Boolean, Char[]): PrivateScope, Public, Static, HideBySig
+    ReadUntil(TextReader, Predicate`1): PrivateScope, Public, Static, HideBySig
+    ReadUntil(TextReader, Predicate`1, Boolean): PrivateScope, Public, Static, HideBySig
+    ReadWhile(TextReader, Predicate`1): PrivateScope, Public, Static, HideBySig
+    ReadWhile(TextReader, Predicate`1, Boolean): PrivateScope, Public, Static, HideBySig
+    ReadWhiteSpace(TextReader): PrivateScope, Public, Static, HideBySig
+    ReadUntilWhiteSpace(TextReader): PrivateScope, Public, Static, HideBySig
+Class System.Web.Razor.Parser.VBCodeParser: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Parser.TokenizerBackedParser`3[System.Web.Razor.Tokenizer.VBTokenizer,System.Web.Razor.Tokenizer.Symbols.VBSymbol,System.Web.Razor.Tokenizer.Symbols.VBSymbolType]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.ISet`1[System.String] DefaultKeywords : Assembly, Static
+  Methods:
+    ParseBlock(): PrivateScope, Public, Virtual, HideBySig
+    IsDirectiveDefined(String): PrivateScope, Public, HideBySig
+Class System.Web.Razor.Parser.VBLanguageCharacteristics: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Parser.LanguageCharacteristics`3[System.Web.Razor.Tokenizer.VBTokenizer,System.Web.Razor.Tokenizer.Symbols.VBSymbol,System.Web.Razor.Tokenizer.Symbols.VBSymbolType]
+  Properties:
+    System.Web.Razor.Parser.VBLanguageCharacteristics Instance 'get ' : 
+  Methods:
+    get_Instance(): PrivateScope, Public, Static, HideBySig, SpecialName
+    CreateTokenizer(ITextDocument): PrivateScope, Public, Virtual, HideBySig
+    GetSample(VBSymbolType): PrivateScope, Public, Virtual, HideBySig
+    FlipBracket(VBSymbolType): PrivateScope, Public, Virtual, HideBySig
+    CreateMarkerSymbol(SourceLocation): PrivateScope, Public, Virtual, HideBySig
+    GetKnownSymbolType(KnownSymbolType): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Parser.WhiteSpaceRewriter: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Web.Razor.Parser.MarkupRewriter
+    Void .ctor(System.Action`3[System.Web.Razor.Parser.SyntaxTree.SpanBuilder,System.Web.Razor.Text.SourceLocation,System.String]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Struct System.Web.Razor.PartialParseResult: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Web.Razor.PartialParseResult Rejected = 1 : Public, Static, Literal, HasDefault
+    System.Web.Razor.PartialParseResult Accepted = 2 : Public, Static, Literal, HasDefault
+    System.Web.Razor.PartialParseResult Provisional = 4 : Public, Static, Literal, HasDefault
+    System.Web.Razor.PartialParseResult SpanContextChanged = 8 : Public, Static, Literal, HasDefault
+    System.Web.Razor.PartialParseResult AutoCompleteBlock = 16 : Public, Static, Literal, HasDefault
+Class System.Web.Razor.RazorDirectiveAttribute: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Object TypeId 'get ' : 
+    System.String Name 'get set' : 
+    System.String Value 'get set' : 
+  Methods:
+    get_TypeId(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.RazorEditorParser: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Web.Razor.RazorEngineHost, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    System.Web.Razor.RazorEngineHost Host 'get set' : 
+    System.String FileName 'get set' : 
+    Boolean LastResultProvisional 'get set' : 
+    System.Web.Razor.Parser.SyntaxTree.Block CurrentParseTree 'get ' : 
+  Events:
+    System.EventHandler`1[System.Web.Razor.DocumentParseCompleteEventArgs] DocumentParseComplete: 
+  Methods:
+    add_DocumentParseComplete(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_DocumentParseComplete(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Host(): PrivateScope, Public, HideBySig, SpecialName
+    get_FileName(): PrivateScope, Public, HideBySig, SpecialName
+    get_LastResultProvisional(): PrivateScope, Public, HideBySig, SpecialName
+    get_CurrentParseTree(): PrivateScope, Public, HideBySig, SpecialName
+    GetAutoCompleteString(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CheckForStructureChanges(TextChange): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.Razor.Generator.CodeGenerationCompleteEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(System.String, System.String, System.CodeDom.CodeCompileUnit): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.CodeDom.CodeCompileUnit GeneratedCode 'get set' : 
+    System.String VirtualPath 'get set' : 
+    System.String PhysicalPath 'get set' : 
+  Methods:
+    get_GeneratedCode(): PrivateScope, Public, HideBySig, SpecialName
+    get_VirtualPath(): PrivateScope, Public, HideBySig, SpecialName
+    get_PhysicalPath(): PrivateScope, Public, HideBySig, SpecialName
+Struct System.Web.Razor.Generator.GeneratedCodeMapping: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Nullable`1[System.Int32] StartOffset 'get set' : 
+    Int32 CodeLength 'get set' : 
+    Int32 StartColumn 'get set' : 
+    Int32 StartGeneratedColumn 'get set' : 
+    Int32 StartLine 'get set' : 
+  Methods:
+    get_StartOffset(): PrivateScope, Public, HideBySig, SpecialName
+    set_StartOffset(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_CodeLength(): PrivateScope, Public, HideBySig, SpecialName
+    set_CodeLength(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_StartColumn(): PrivateScope, Public, HideBySig, SpecialName
+    set_StartColumn(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_StartGeneratedColumn(): PrivateScope, Public, HideBySig, SpecialName
+    set_StartGeneratedColumn(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_StartLine(): PrivateScope, Public, HideBySig, SpecialName
+    set_StartLine(Int32): PrivateScope, Public, HideBySig, SpecialName
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    op_Equality(GeneratedCodeMapping, GeneratedCodeMapping): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(GeneratedCodeMapping, GeneratedCodeMapping): PrivateScope, Public, Static, HideBySig, SpecialName
+Class System.Web.Razor.Generator.RazorCodeGenerator: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Web.Razor.Parser.ParserVisitor
+  Properties:
+    System.String ClassName 'get set' : 
+    System.String RootNamespaceName 'get set' : 
+    System.String SourceFileName 'get set' : 
+    System.Web.Razor.RazorEngineHost Host 'get set' : 
+    Boolean GenerateLinePragmas 'get set' : 
+    Boolean DesignTimeMode 'get set' : 
+    System.Web.Razor.Generator.CodeGeneratorContext Context 'get ' : 
+    System.Func`1[System.Web.Razor.Generator.CodeWriter] CodeWriterFactory 'get ' : 
+  Methods:
+    get_ClassName(): PrivateScope, Public, HideBySig, SpecialName
+    get_RootNamespaceName(): PrivateScope, Public, HideBySig, SpecialName
+    get_SourceFileName(): PrivateScope, Public, HideBySig, SpecialName
+    get_Host(): PrivateScope, Public, HideBySig, SpecialName
+    get_GenerateLinePragmas(): PrivateScope, Public, HideBySig, SpecialName
+    set_GenerateLinePragmas(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_DesignTimeMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_DesignTimeMode(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Context(): PrivateScope, Public, HideBySig, SpecialName
+    get_CodeWriterFactory(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, SpecialName
+    VisitStartBlock(Block): PrivateScope, Public, Virtual, HideBySig
+    VisitEndBlock(Block): PrivateScope, Public, Virtual, HideBySig
+    VisitSpan(Span): PrivateScope, Public, Virtual, HideBySig
+    OnComplete(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.ParserResults: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Web.Razor.Parser.SyntaxTree.Block, System.Collections.Generic.IList`1[System.Web.Razor.Parser.SyntaxTree.RazorError]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean Success 'get set' : 
+    System.Web.Razor.Parser.SyntaxTree.Block Document 'get set' : 
+    System.Collections.Generic.IList`1[System.Web.Razor.Parser.SyntaxTree.RazorError] ParserErrors 'get set' : 
+  Methods:
+    get_Success(): PrivateScope, Public, HideBySig, SpecialName
+    get_Document(): PrivateScope, Public, HideBySig, SpecialName
+    get_ParserErrors(): PrivateScope, Public, HideBySig, SpecialName
+Class System.Web.Razor.GeneratorResults: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.ParserResults
+    Void .ctor(System.Web.Razor.ParserResults, System.CodeDom.CodeCompileUnit, System.Collections.Generic.IDictionary`2[System.Int32,System.Web.Razor.Generator.GeneratedCodeMapping]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.Razor.Parser.SyntaxTree.Block, System.Collections.Generic.IList`1[System.Web.Razor.Parser.SyntaxTree.RazorError], System.CodeDom.CodeCompileUnit, System.Collections.Generic.IDictionary`2[System.Int32,System.Web.Razor.Generator.GeneratedCodeMapping]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.CodeDom.CodeCompileUnit GeneratedCode 'get set' : 
+    System.Collections.Generic.IDictionary`2[System.Int32,System.Web.Razor.Generator.GeneratedCodeMapping] DesignTimeLineMappings 'get set' : 
+  Methods:
+    get_GeneratedCode(): PrivateScope, Public, HideBySig, SpecialName
+    get_DesignTimeLineMappings(): PrivateScope, Public, HideBySig, SpecialName
+Class System.Web.Razor.RazorEngineHost: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Web.Razor.RazorCodeLanguage): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.Razor.RazorCodeLanguage, System.Func`1[System.Web.Razor.Parser.ParserBase]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String InternalDefaultClassName = __CompiledTemplate : Assembly, Static, Literal, HasDefault
+    System.String InternalDefaultNamespace = Razor : Assembly, Static, Literal, HasDefault
+  Properties:
+    System.Web.Razor.Generator.GeneratedClassContext GeneratedClassContext 'get set' : 
+    System.Collections.Generic.ISet`1[System.String] NamespaceImports 'get set' : 
+    System.String DefaultBaseClass 'get set' : 
+    Boolean DesignTimeMode 'get set' : 
+    System.String DefaultClassName 'get set' : 
+    System.String DefaultNamespace 'get set' : 
+    Boolean StaticHelpers 'get set' : 
+    System.Web.Razor.RazorCodeLanguage CodeLanguage 'get set' : 
+    Boolean EnableInstrumentation 'get set' : 
+    System.String InstrumentedSourceFilePath 'get set' : 
+  Methods:
+    get_GeneratedClassContext(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_GeneratedClassContext(GeneratedClassContext): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_NamespaceImports(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_DefaultBaseClass(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_DefaultBaseClass(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_DesignTimeMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_DesignTimeMode(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_DefaultClassName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_DefaultClassName(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_DefaultNamespace(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_DefaultNamespace(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_StaticHelpers(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_StaticHelpers(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CodeLanguage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_EnableInstrumentation(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_EnableInstrumentation(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_InstrumentedSourceFilePath(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_InstrumentedSourceFilePath(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    CreateMarkupParser(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DecorateCodeParser(ParserBase): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DecorateMarkupParser(ParserBase): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DecorateCodeGenerator(RazorCodeGenerator): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    PostProcessGeneratedCode(CodeGeneratorContext): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    PostProcessGeneratedCode(CodeCompileUnit, CodeNamespace, CodeTypeDeclaration, CodeMemberMethod): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask (Obsolete)
+Class System.Web.Razor.RazorTemplateEngine: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Web.Razor.RazorEngineHost): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String DefaultClassName : Public, Static, InitOnly
+    System.String DefaultNamespace : Public, Static, InitOnly
+  Properties:
+    System.Web.Razor.RazorEngineHost Host 'get set' : 
+  Methods:
+    get_Host(): PrivateScope, Public, HideBySig, SpecialName
+    ParseTemplate(ITextBuffer): PrivateScope, Public, HideBySig
+    ParseTemplate(ITextBuffer, Nullable`1): PrivateScope, Public, HideBySig
+    ParseTemplate(TextReader): PrivateScope, Public, HideBySig
+    ParseTemplate(TextReader, Nullable`1): PrivateScope, Public, HideBySig
+    GenerateCode(ITextBuffer): PrivateScope, Public, HideBySig
+    GenerateCode(ITextBuffer, Nullable`1): PrivateScope, Public, HideBySig
+    GenerateCode(ITextBuffer, String, String, String): PrivateScope, Public, HideBySig
+    GenerateCode(ITextBuffer, String, String, String, Nullable`1): PrivateScope, Public, HideBySig
+    GenerateCode(TextReader): PrivateScope, Public, HideBySig
+    GenerateCode(TextReader, Nullable`1): PrivateScope, Public, HideBySig
+    GenerateCode(TextReader, String, String, String): PrivateScope, Public, HideBySig
+    GenerateCode(TextReader, String, String, String, Nullable`1): PrivateScope, Public, HideBySig
+Class System.Web.Razor.StateMachine`1[TReturn]: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Type parameter: TReturn
+Class System.Web.Razor.Text.LookaheadTextReader: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.IO.TextReader
+  Properties:
+    System.Web.Razor.Text.SourceLocation CurrentLocation 'get ' : 
+  Methods:
+    get_CurrentLocation(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    BeginLookahead(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CancelBacktrack(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Web.Razor.Text.BufferingTextReader: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Text.LookaheadTextReader
+    Void .ctor(System.IO.TextReader): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Text.StringBuilder Buffer 'get set' : 
+    Boolean Buffering 'get set' : 
+    System.IO.TextReader InnerReader 'get set' : 
+    System.Web.Razor.Text.SourceLocation CurrentLocation 'get ' : 
+  Methods:
+    get_Buffer(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_Buffer(StringBuilder): PrivateScope, Assembly, HideBySig, SpecialName
+    get_Buffering(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_Buffering(Boolean): PrivateScope, Assembly, HideBySig, SpecialName
+    get_InnerReader(): PrivateScope, Assembly, HideBySig, SpecialName
+    get_CurrentLocation(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Read(): PrivateScope, Public, Virtual, HideBySig
+    Peek(): PrivateScope, Public, Virtual, HideBySig
+    BeginLookahead(): PrivateScope, Public, Virtual, HideBySig
+    CancelBacktrack(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Text.LookaheadToken: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Action): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    Accept(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.Razor.Text.LocationTagged`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T
+    Void .ctor(T, Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(T, System.Web.Razor.Text.SourceLocation): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IFormattable
+  Properties:
+    System.Web.Razor.Text.SourceLocation Location 'get set' : 
+    T Value    'get set' : 
+  Methods:
+    get_Location(): PrivateScope, Public, HideBySig, SpecialName
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ToString(String, IFormatProvider): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    op_Implicit(LocationTagged`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Equality(LocationTagged`1, LocationTagged`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(LocationTagged`1, LocationTagged`1): PrivateScope, Public, Static, HideBySig, SpecialName
+Interface System.Web.Razor.Text.ITextBuffer: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    Int32 Length 'get ' : 
+    Int32 Position 'get set' : 
+  Methods:
+    get_Length(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Position(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Position(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    Read(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Peek(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface System.Web.Razor.Text.ITextDocument: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Interfaces:
+    System.Web.Razor.Text.ITextBuffer
+  Properties:
+    System.Web.Razor.Text.SourceLocation Location 'get ' : 
+  Methods:
+    get_Location(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class System.Web.Razor.Text.SeekableTextReader: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.IO.TextReader
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.TextReader): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.Razor.Text.ITextBuffer): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Web.Razor.Text.ITextDocument
+    System.Web.Razor.Text.ITextBuffer
+  Properties:
+    System.Web.Razor.Text.SourceLocation Location 'get ' : 
+    Int32 Length 'get ' : 
+    Int32 Position 'get set' : 
+    System.Web.Razor.Text.LineTrackingStringBuffer Buffer 'get ' : 
+  Methods:
+    get_Location(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Length(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Position(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Position(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Buffer(): PrivateScope, Assembly, HideBySig, SpecialName
+    Read(): PrivateScope, Public, Virtual, HideBySig
+    Peek(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Text.LineTrackingStringBuffer: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Length 'get ' : 
+    System.Web.Razor.Text.SourceLocation EndLocation 'get ' : 
+  Methods:
+    get_Length(): PrivateScope, Public, HideBySig, SpecialName
+    get_EndLocation(): PrivateScope, Public, HideBySig, SpecialName
+    Append(String): PrivateScope, Public, HideBySig
+    CharAt(Int32): PrivateScope, Public, HideBySig
+Class System.Web.Razor.Text.LineTrackingStringBuffer+CharacterReference: AutoLayout, AnsiClass, Class, NestedAssembly, BeforeFieldInit
+    Void .ctor(Char, System.Web.Razor.Text.SourceLocation): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Char Character 'get set' : 
+    System.Web.Razor.Text.SourceLocation Location 'get set' : 
+  Methods:
+    get_Character(): PrivateScope, Public, HideBySig, SpecialName
+    get_Location(): PrivateScope, Public, HideBySig, SpecialName
+Class System.Web.Razor.Text.TextExtensions: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Seek(ITextBuffer, Int32): PrivateScope, Public, Static, HideBySig
+    ToDocument(ITextBuffer): PrivateScope, Public, Static, HideBySig
+    BeginLookahead(ITextBuffer): PrivateScope, Public, Static, HideBySig
+    ReadToEnd(ITextBuffer): PrivateScope, Public, Static, HideBySig
+Class System.Web.Razor.Text.TextBufferReader: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Text.LookaheadTextReader
+    Void .ctor(System.Web.Razor.Text.ITextBuffer): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Web.Razor.Text.ITextBuffer InnerBuffer 'get set' : 
+    System.Web.Razor.Text.SourceLocation CurrentLocation 'get ' : 
+  Methods:
+    get_InnerBuffer(): PrivateScope, Assembly, HideBySig, SpecialName
+    get_CurrentLocation(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Peek(): PrivateScope, Public, Virtual, HideBySig
+    Read(): PrivateScope, Public, Virtual, HideBySig
+    BeginLookahead(): PrivateScope, Public, Virtual, HideBySig
+    CancelBacktrack(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Text.TextDocumentReader: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.IO.TextReader
+    Void .ctor(System.Web.Razor.Text.ITextDocument): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Web.Razor.Text.ITextDocument
+    System.Web.Razor.Text.ITextBuffer
+  Properties:
+    System.Web.Razor.Text.ITextDocument Document 'get set' : 
+    System.Web.Razor.Text.SourceLocation Location 'get ' : 
+    Int32 Length 'get ' : 
+    Int32 Position 'get set' : 
+  Methods:
+    get_Document(): PrivateScope, Assembly, HideBySig, SpecialName
+    get_Location(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Length(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Position(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Position(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Read(): PrivateScope, Public, Virtual, HideBySig
+    Peek(): PrivateScope, Public, Virtual, HideBySig
+Interface System.Web.Razor.Tokenizer.ITokenizer: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    NextSymbol(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface System.Web.Razor.Tokenizer.Symbols.ISymbol: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    System.Web.Razor.Text.SourceLocation Start 'get ' : 
+    System.String Content 'get ' : 
+  Methods:
+    get_Start(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Content(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    OffsetStart(SourceLocation): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ChangeStart(SourceLocation): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Struct System.Web.Razor.Tokenizer.Symbols.KnownSymbolType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Web.Razor.Tokenizer.Symbols.KnownSymbolType WhiteSpace = 0 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.KnownSymbolType NewLine = 1 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.KnownSymbolType Identifier = 2 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.KnownSymbolType Keyword = 3 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.KnownSymbolType Transition = 4 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.KnownSymbolType Unknown = 5 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.KnownSymbolType CommentStart = 6 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.KnownSymbolType CommentStar = 7 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.KnownSymbolType CommentBody = 8 : Public, Static, Literal, HasDefault
+Class System.Web.Razor.Tokenizer.Symbols.SymbolExtensions: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    GetContent(SpanBuilder): PrivateScope, Public, Static, HideBySig
+    GetContent(SpanBuilder, Func`2): PrivateScope, Public, Static, HideBySig
+    GetContent(IEnumerable`1, SourceLocation): PrivateScope, Public, Static, HideBySig
+    GetContent(ISymbol): PrivateScope, Public, Static, HideBySig
+Class Justifications: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.String SymbolTypeNames = Symbol Type Names are spelled according to the language keyword or token they represent : Assembly, Static, Literal, HasDefault
+Class System.Web.Razor.Tokenizer.TokenizerView`3[TTokenizer,TSymbol,TSymbolType]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TTokenizer, System.Web.Razor.Tokenizer.Tokenizer`2[TSymbol,TSymbolType]
+  Type parameter: TSymbol, System.Web.Razor.Tokenizer.Symbols.SymbolBase`1[TSymbolType]
+  Type parameter: TSymbolType
+    Void .ctor(TTokenizer): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    TTokenizer Tokenizer 'get set' : 
+    Boolean EndOfFile 'get set' : 
+    TSymbol Current 'get set' : 
+    System.Web.Razor.Text.ITextDocument Source 'get ' : 
+  Methods:
+    get_Tokenizer(): PrivateScope, Public, HideBySig, SpecialName
+    get_EndOfFile(): PrivateScope, Public, HideBySig, SpecialName
+    get_Current(): PrivateScope, Public, HideBySig, SpecialName
+    get_Source(): PrivateScope, Public, HideBySig, SpecialName
+    Next(): PrivateScope, Public, HideBySig
+    PutBack(TSymbol): PrivateScope, Public, HideBySig
+Class System.Web.Razor.Tokenizer.VBKeywordDetector: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    GetKeyword(String): PrivateScope, Public, Static, HideBySig
+Class System.Web.Razor.Tokenizer.VBHelpers: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    IsSingleQuote(Char): PrivateScope, Public, Static, HideBySig
+    IsDoubleQuote(Char): PrivateScope, Public, Static, HideBySig
+    IsOctalDigit(Char): PrivateScope, Public, Static, HideBySig
+Class System.Web.Razor.Tokenizer.CSharpHelpers: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    IsIdentifierStart(Char): PrivateScope, Public, Static, HideBySig
+    IsIdentifierPart(Char): PrivateScope, Public, Static, HideBySig
+    IsRealLiteralSuffix(Char): PrivateScope, Public, Static, HideBySig
+Class System.Web.Razor.Tokenizer.CSharpKeywordDetector: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    SymbolTypeForIdentifier(String): PrivateScope, Public, Static, HideBySig
+Class System.Web.Razor.Tokenizer.Tokenizer`2[TSymbol,TSymbolType]: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Type parameter: TSymbol, System.Web.Razor.Tokenizer.Symbols.SymbolBase`1[TSymbolType]
+  Type parameter: TSymbolType
+  :System.Web.Razor.StateMachine`1[TSymbol]
+  Interfaces:
+    System.Web.Razor.Tokenizer.ITokenizer
+  Properties:
+    System.Web.Razor.Text.TextDocumentReader Source 'get set' : 
+    TSymbolType RazorCommentStarType 'get ' : 
+    TSymbolType RazorCommentType 'get ' : 
+    TSymbolType RazorCommentTransitionType 'get ' : 
+  Methods:
+    get_Source(): PrivateScope, Public, HideBySig, SpecialName
+    get_RazorCommentStarType(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_RazorCommentType(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_RazorCommentTransitionType(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    NextSymbol(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Reset(): PrivateScope, Public, HideBySig
+    AssertCurrent(Char): PrivateScope, Assembly, HideBySig
+Class System.Web.Razor.Tokenizer.CSharpTokenizer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Tokenizer.Tokenizer`2[System.Web.Razor.Tokenizer.Symbols.CSharpSymbol,System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType]
+    Void .ctor(System.Web.Razor.Text.ITextDocument): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType RazorCommentType 'get ' : 
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType RazorCommentTransitionType 'get ' : 
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType RazorCommentStarType 'get ' : 
+  Methods:
+    get_RazorCommentType(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_RazorCommentTransitionType(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_RazorCommentStarType(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Web.Razor.Tokenizer.HtmlTokenizer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Tokenizer.Tokenizer`2[System.Web.Razor.Tokenizer.Symbols.HtmlSymbol,System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType]
+    Void .ctor(System.Web.Razor.Text.ITextDocument): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType RazorCommentType 'get ' : 
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType RazorCommentTransitionType 'get ' : 
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType RazorCommentStarType 'get ' : 
+  Methods:
+    get_RazorCommentType(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_RazorCommentTransitionType(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_RazorCommentStarType(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Tokenize(String): PrivateScope, Assembly, Static, HideBySig
+Struct System.Web.Razor.Tokenizer.Symbols.VBKeyword: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword AddHandler = 0 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword AndAlso = 1 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Byte = 2 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Catch = 3 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword CDate = 4 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword CInt = 5 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Const = 6 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword CSng = 7 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword CULng = 8 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Declare = 9 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword DirectCast = 10 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Else = 11 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Enum = 12 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Exit = 13 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Friend = 14 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword GetXmlNamespace = 15 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Handles = 16 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword In = 17 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Is = 18 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Like = 19 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Mod = 20 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword MyBase = 21 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword New = 22 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword AddressOf = 23 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword As = 24 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword ByVal = 25 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword CBool = 26 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword CDbl = 27 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Class = 28 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Continue = 29 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword CStr = 30 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword CUShort = 31 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Default = 32 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Do = 33 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword ElseIf = 34 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Erase = 35 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword False = 36 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Function = 37 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Global = 38 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword If = 39 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Inherits = 40 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword IsNot = 41 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Long = 42 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Module = 43 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword MyClass = 44 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Next = 45 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Alias = 46 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Boolean = 47 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Call = 48 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword CByte = 49 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword CDec = 50 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword CLng = 51 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword CSByte = 52 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword CType = 53 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Date = 54 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Delegate = 55 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Double = 56 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword End = 57 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Error = 58 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Finally = 59 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Get = 60 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword GoSub = 61 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Implements = 62 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Integer = 63 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Let = 64 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Loop = 65 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword MustInherit = 66 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Namespace = 67 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Not = 68 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword And = 69 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword ByRef = 70 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Case = 71 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword CChar = 72 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Char = 73 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword CObj = 74 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword CShort = 75 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword CUInt = 76 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Decimal = 77 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Dim = 78 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Each = 79 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword EndIf = 80 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Event = 81 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword For = 82 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword GetType = 83 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword GoTo = 84 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Imports = 85 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Interface = 86 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Lib = 87 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Me = 88 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword MustOverride = 89 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Narrowing = 90 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Nothing = 91 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword NotInheritable = 92 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword On = 93 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Or = 94 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Overrides = 95 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Property = 96 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword ReadOnly = 97 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Resume = 98 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Set = 99 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Single = 100 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword String = 101 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Then = 102 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Try = 103 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword ULong = 104 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Wend = 105 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword With = 106 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword NotOverridable = 107 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Operator = 108 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword OrElse = 109 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword ParamArray = 110 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Protected = 111 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword ReDim = 112 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Return = 113 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Shadows = 114 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Static = 115 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Structure = 116 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Throw = 117 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword TryCast = 118 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword UShort = 119 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword When = 120 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword WithEvents = 121 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Object = 122 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Option = 123 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Overloads = 124 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Partial = 125 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Public = 126 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Rem = 127 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword SByte = 128 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Shared = 129 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Step = 130 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Sub = 131 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword To = 132 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword TypeOf = 133 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Using = 134 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword While = 135 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword WriteOnly = 136 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Of = 137 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Optional = 138 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Overridable = 139 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Private = 140 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword RaiseEvent = 141 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword RemoveHandler = 142 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Select = 143 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Short = 144 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Stop = 145 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword SyncLock = 146 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword True = 147 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword UInteger = 148 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Variant = 149 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Widening = 150 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBKeyword Xor = 151 : Public, Static, Literal, HasDefault
+Class System.Web.Razor.Tokenizer.Symbols.SymbolBase`1[TType]: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Type parameter: TType
+  Interfaces:
+    System.Web.Razor.Tokenizer.Symbols.ISymbol
+  Properties:
+    System.Web.Razor.Text.SourceLocation Start 'get set' : 
+    System.String Content 'get set' : 
+    System.Collections.Generic.IEnumerable`1[System.Web.Razor.Parser.SyntaxTree.RazorError] Errors 'get set' : 
+    TType Type 'get set' : 
+  Methods:
+    get_Start(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Content(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Errors(): PrivateScope, Public, HideBySig, SpecialName
+    get_Type(): PrivateScope, Public, HideBySig, SpecialName
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    OffsetStart(SourceLocation): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ChangeStart(SourceLocation): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.Razor.Tokenizer.Symbols.VBSymbol: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Tokenizer.Symbols.SymbolBase`1[System.Web.Razor.Tokenizer.Symbols.VBSymbolType]
+    Void .ctor(Int32, Int32, Int32, System.String, System.Web.Razor.Tokenizer.Symbols.VBSymbolType): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.Razor.Text.SourceLocation, System.String, System.Web.Razor.Tokenizer.Symbols.VBSymbolType): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32, Int32, System.String, System.Web.Razor.Tokenizer.Symbols.VBSymbolType, System.Collections.Generic.IEnumerable`1[System.Web.Razor.Parser.SyntaxTree.RazorError]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.Razor.Text.SourceLocation, System.String, System.Web.Razor.Tokenizer.Symbols.VBSymbolType, System.Collections.Generic.IEnumerable`1[System.Web.Razor.Parser.SyntaxTree.RazorError]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Nullable`1[System.Web.Razor.Tokenizer.Symbols.VBKeyword] Keyword 'get set' : 
+  Methods:
+    get_Keyword(): PrivateScope, Public, HideBySig, SpecialName
+    set_Keyword(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetSample(VBSymbolType): PrivateScope, Public, Static, HideBySig
+Struct System.Web.Razor.Tokenizer.Symbols.VBSymbolType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType Unknown = 0 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType WhiteSpace = 1 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType NewLine = 2 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType LineContinuation = 3 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType Comment = 4 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType Identifier = 5 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType Keyword = 6 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType IntegerLiteral = 7 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType FloatingPointLiteral = 8 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType StringLiteral = 9 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType CharacterLiteral = 10 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType DateLiteral = 11 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType LeftParenthesis = 12 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType RightBrace = 13 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType LeftBrace = 14 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType RightParenthesis = 15 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType Hash = 16 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType Bang = 17 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType Comma = 18 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType Dot = 19 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType Colon = 20 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType Concatenation = 21 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType QuestionMark = 22 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType Subtract = 23 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType Multiply = 24 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType Add = 25 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType Divide = 26 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType IntegerDivide = 27 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType Exponentiation = 28 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType LessThan = 29 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType GreaterThan = 30 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType Equal = 31 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType RightBracket = 32 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType LeftBracket = 33 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType Dollar = 34 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType Transition = 35 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType RazorCommentTransition = 36 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType RazorCommentStar = 37 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType RazorComment = 38 : Public, Static, Literal, HasDefault
+Struct System.Web.Razor.Tokenizer.Symbols.CSharpKeyword: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Abstract = 0 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Byte = 1 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Class = 2 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Delegate = 3 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Event = 4 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Fixed = 5 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword If = 6 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Internal = 7 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword New = 8 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Override = 9 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Readonly = 10 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Short = 11 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Struct = 12 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Try = 13 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Unsafe = 14 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Volatile = 15 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword As = 16 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Do = 17 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Is = 18 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Params = 19 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Ref = 20 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Switch = 21 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Ushort = 22 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword While = 23 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Case = 24 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Const = 25 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Explicit = 26 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Float = 27 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Null = 28 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Sizeof = 29 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Typeof = 30 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Implicit = 31 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Private = 32 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword This = 33 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Using = 34 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Extern = 35 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Return = 36 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Stackalloc = 37 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Uint = 38 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Base = 39 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Catch = 40 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Continue = 41 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Double = 42 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword For = 43 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword In = 44 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Lock = 45 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Object = 46 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Protected = 47 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Static = 48 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword False = 49 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Public = 50 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Sbyte = 51 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Throw = 52 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Virtual = 53 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Decimal = 54 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Else = 55 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Operator = 56 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword String = 57 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Ulong = 58 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Bool = 59 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Char = 60 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Default = 61 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Foreach = 62 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Long = 63 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Void = 64 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Enum = 65 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Finally = 66 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Int = 67 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Out = 68 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Sealed = 69 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword True = 70 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Goto = 71 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Unchecked = 72 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Interface = 73 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Break = 74 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Checked = 75 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpKeyword Namespace = 76 : Public, Static, Literal, HasDefault
+Class System.Web.Razor.Tokenizer.Symbols.CSharpSymbol: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Tokenizer.Symbols.SymbolBase`1[System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType]
+    Void .ctor(Int32, Int32, Int32, System.String, System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.Razor.Text.SourceLocation, System.String, System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32, Int32, System.String, System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType, System.Collections.Generic.IEnumerable`1[System.Web.Razor.Parser.SyntaxTree.RazorError]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.Razor.Text.SourceLocation, System.String, System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType, System.Collections.Generic.IEnumerable`1[System.Web.Razor.Parser.SyntaxTree.RazorError]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Nullable`1[System.Boolean] EscapedIdentifier 'get set' : 
+    System.Nullable`1[System.Web.Razor.Tokenizer.Symbols.CSharpKeyword] Keyword 'get set' : 
+  Methods:
+    get_EscapedIdentifier(): PrivateScope, Public, HideBySig, SpecialName
+    set_EscapedIdentifier(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Keyword(): PrivateScope, Public, HideBySig, SpecialName
+    set_Keyword(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Struct System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Unknown = 0 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Identifier = 1 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Keyword = 2 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType IntegerLiteral = 3 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType NewLine = 4 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType WhiteSpace = 5 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Comment = 6 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType RealLiteral = 7 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType CharacterLiteral = 8 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType StringLiteral = 9 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Arrow = 10 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Minus = 11 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Decrement = 12 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType MinusAssign = 13 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType NotEqual = 14 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Not = 15 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Modulo = 16 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType ModuloAssign = 17 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType AndAssign = 18 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType And = 19 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType DoubleAnd = 20 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType LeftParenthesis = 21 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType RightParenthesis = 22 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Star = 23 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType MultiplyAssign = 24 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Comma = 25 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Dot = 26 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Slash = 27 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType DivideAssign = 28 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType DoubleColon = 29 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Colon = 30 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Semicolon = 31 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType QuestionMark = 32 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType NullCoalesce = 33 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType RightBracket = 34 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType LeftBracket = 35 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType XorAssign = 36 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Xor = 37 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType LeftBrace = 38 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType OrAssign = 39 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType DoubleOr = 40 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Or = 41 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType RightBrace = 42 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Tilde = 43 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Plus = 44 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType PlusAssign = 45 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Increment = 46 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType LessThan = 47 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType LessThanEqual = 48 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType LeftShift = 49 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType LeftShiftAssign = 50 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Assign = 51 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Equals = 52 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType GreaterThan = 53 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType GreaterThanEqual = 54 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType RightShift = 55 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType RightShiftAssign = 56 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Hash = 57 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType Transition = 58 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType RazorCommentTransition = 59 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType RazorCommentStar = 60 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.CSharpSymbolType RazorComment = 61 : Public, Static, Literal, HasDefault
+Class System.Web.Razor.Tokenizer.Symbols.HtmlSymbol: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Tokenizer.Symbols.SymbolBase`1[System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType]
+    Void .ctor(Int32, Int32, Int32, System.String, System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.Razor.Text.SourceLocation, System.String, System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32, Int32, System.String, System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType, System.Collections.Generic.IEnumerable`1[System.Web.Razor.Parser.SyntaxTree.RazorError]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.Razor.Text.SourceLocation, System.String, System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType, System.Collections.Generic.IEnumerable`1[System.Web.Razor.Parser.SyntaxTree.RazorError]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Struct System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType Unknown = 0 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType Text = 1 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType WhiteSpace = 2 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType NewLine = 3 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType OpenAngle = 4 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType Bang = 5 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType Solidus = 6 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType QuestionMark = 7 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType DoubleHyphen = 8 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType LeftBracket = 9 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType CloseAngle = 10 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType RightBracket = 11 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType Equals = 12 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType DoubleQuote = 13 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType SingleQuote = 14 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType Transition = 15 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType Colon = 16 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType RazorComment = 17 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType RazorCommentStar = 18 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Tokenizer.Symbols.HtmlSymbolType RazorCommentTransition = 19 : Public, Static, Literal, HasDefault
+Class System.Web.Razor.Tokenizer.VBTokenizer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Tokenizer.Tokenizer`2[System.Web.Razor.Tokenizer.Symbols.VBSymbol,System.Web.Razor.Tokenizer.Symbols.VBSymbolType]
+    Void .ctor(System.Web.Razor.Text.ITextDocument): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType RazorCommentType 'get ' : 
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType RazorCommentTransitionType 'get ' : 
+    System.Web.Razor.Tokenizer.Symbols.VBSymbolType RazorCommentStarType 'get ' : 
+  Methods:
+    get_RazorCommentType(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_RazorCommentTransitionType(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_RazorCommentStarType(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Tokenize(String): PrivateScope, Assembly, Static, HideBySig
+Class System.Web.Razor.Tokenizer.XmlHelpers: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    IsXmlNameStartChar(Char): PrivateScope, Public, Static, HideBySig
+    IsXmlNameChar(Char): PrivateScope, Public, Static, HideBySig
+    IsInRange(Char, Int32, Int32): PrivateScope, Public, Static, HideBySig
+Class System.Web.Razor.Utils.CharUtils: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    IsNonNewLineWhitespace(Char): PrivateScope, Assembly, Static, HideBySig
+    IsNewLine(Char): PrivateScope, Assembly, Static, HideBySig
+Class System.Web.Razor.RazorCodeLanguage: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Properties:
+    System.Collections.Generic.IDictionary`2[System.String,System.Web.Razor.RazorCodeLanguage] Languages 'get ' : 
+    System.String LanguageName 'get ' : 
+    System.Type CodeDomProviderType 'get ' : 
+  Methods:
+    get_Languages(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_LanguageName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CodeDomProviderType(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    GetLanguageByExtension(String): PrivateScope, Public, Static, HideBySig
+    CreateCodeParser(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateCodeGenerator(String, String, String, RazorEngineHost): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Web.Razor.VBRazorCodeLanguage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.RazorCodeLanguage
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String LanguageName 'get ' : 
+    System.Type CodeDomProviderType 'get ' : 
+  Methods:
+    get_LanguageName(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CodeDomProviderType(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    CreateCodeParser(): PrivateScope, Public, Virtual, HideBySig
+    CreateCodeGenerator(String, String, String, RazorEngineHost): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Generator.CSharpRazorCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Generator.RazorCodeGenerator
+    Void .ctor(System.String, System.String, System.String, System.Web.Razor.RazorEngineHost): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Func`1[System.Web.Razor.Generator.CodeWriter] CodeWriterFactory 'get ' : 
+  Methods:
+    get_CodeWriterFactory(): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride, SpecialName
+Struct System.Web.Razor.Parser.SyntaxTree.BlockType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Web.Razor.Parser.SyntaxTree.BlockType Statement = 0 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.SyntaxTree.BlockType Directive = 1 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.SyntaxTree.BlockType Functions = 2 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.SyntaxTree.BlockType Expression = 3 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.SyntaxTree.BlockType Helper = 4 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.SyntaxTree.BlockType Markup = 5 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.SyntaxTree.BlockType Section = 6 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.SyntaxTree.BlockType Template = 7 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.SyntaxTree.BlockType Comment = 8 : Public, Static, Literal, HasDefault
+Class System.Web.Razor.Parser.SyntaxTree.SyntaxTreeNode: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Properties:
+    System.Web.Razor.Parser.SyntaxTree.Block Parent 'get set' : 
+    Boolean IsBlock 'get ' : 
+    Int32 Length 'get ' : 
+    System.Web.Razor.Text.SourceLocation Start 'get ' : 
+  Methods:
+    get_Parent(): PrivateScope, Public, HideBySig, SpecialName
+    set_Parent(Block): PrivateScope, Assembly, HideBySig, SpecialName
+    get_IsBlock(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Length(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Start(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    Accept(ParserVisitor): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    EquivalentTo(SyntaxTreeNode): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Web.Razor.Parser.SyntaxTree.Block: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Parser.SyntaxTree.SyntaxTreeNode
+    Void .ctor(System.Web.Razor.Parser.SyntaxTree.BlockBuilder): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.Razor.Parser.SyntaxTree.BlockType, System.Collections.Generic.IEnumerable`1[System.Web.Razor.Parser.SyntaxTree.SyntaxTreeNode], System.Web.Razor.Generator.IBlockCodeGenerator): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Web.Razor.Parser.SyntaxTree.BlockType Type 'get set' : 
+    System.Collections.Generic.IEnumerable`1[System.Web.Razor.Parser.SyntaxTree.SyntaxTreeNode] Children 'get set' : 
+    System.String Name 'get set' : 
+    System.Web.Razor.Generator.IBlockCodeGenerator CodeGenerator 'get set' : 
+    Boolean IsBlock 'get ' : 
+    System.Web.Razor.Text.SourceLocation Start 'get ' : 
+    Int32 Length 'get ' : 
+  Methods:
+    get_Type(): PrivateScope, Public, HideBySig, SpecialName
+    get_Children(): PrivateScope, Public, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    get_CodeGenerator(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsBlock(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Start(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Length(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    FindFirstDescendentSpan(): PrivateScope, Public, HideBySig
+    FindLastDescendentSpan(): PrivateScope, Public, HideBySig
+    Accept(ParserVisitor): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Flatten(): PrivateScope, Public, HideBySig
+    LocateOwner(TextChange): PrivateScope, Public, HideBySig
+    EquivalentTo(SyntaxTreeNode): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Parser.SyntaxTree.RazorError: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.Web.Razor.Text.SourceLocation): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Web.Razor.Text.SourceLocation, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IEquatable`1[System.Web.Razor.Parser.SyntaxTree.RazorError]
+  Properties:
+    System.String Message 'get set' : 
+    System.Web.Razor.Text.SourceLocation Location 'get set' : 
+    Int32 Length 'get set' : 
+  Methods:
+    get_Message(): PrivateScope, Public, HideBySig, SpecialName
+    get_Location(): PrivateScope, Public, HideBySig, SpecialName
+    get_Length(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Equals(RazorError): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Struct System.Web.Razor.Parser.SyntaxTree.SpanKind: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Web.Razor.Parser.SyntaxTree.SpanKind Transition = 0 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.SyntaxTree.SpanKind MetaCode = 1 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.SyntaxTree.SpanKind Comment = 2 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.SyntaxTree.SpanKind Code = 3 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Parser.SyntaxTree.SpanKind Markup = 4 : Public, Static, Literal, HasDefault
+Class System.Web.Razor.Parser.ParserContext: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Web.Razor.Text.ITextDocument, System.Web.Razor.Parser.ParserBase, System.Web.Razor.Parser.ParserBase, System.Web.Razor.Parser.ParserBase): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.IList`1[System.Web.Razor.Parser.SyntaxTree.RazorError] Errors 'get set' : 
+    System.Web.Razor.Text.TextDocumentReader Source 'get set' : 
+    System.Web.Razor.Parser.ParserBase CodeParser 'get set' : 
+    System.Web.Razor.Parser.ParserBase MarkupParser 'get set' : 
+    System.Web.Razor.Parser.ParserBase ActiveParser 'get set' : 
+    Boolean DesignTimeMode 'get set' : 
+    System.Web.Razor.Parser.SyntaxTree.BlockBuilder CurrentBlock 'get ' : 
+    System.Web.Razor.Parser.SyntaxTree.Span LastSpan 'get set' : 
+    Boolean WhiteSpaceIsSignificantToAncestorBlock 'get set' : 
+    System.Web.Razor.Parser.SyntaxTree.AcceptedCharacters LastAcceptedCharacters 'get ' : 
+    System.Collections.Generic.Stack`1[System.Web.Razor.Parser.SyntaxTree.BlockBuilder] BlockStack 'get ' : 
+    Char CurrentCharacter 'get ' : 
+    Boolean EndOfFile 'get ' : 
+  Methods:
+    get_Errors(): PrivateScope, Public, HideBySig, SpecialName
+    get_Source(): PrivateScope, Public, HideBySig, SpecialName
+    set_Source(TextDocumentReader): PrivateScope, Public, HideBySig, SpecialName
+    get_CodeParser(): PrivateScope, Public, HideBySig, SpecialName
+    get_MarkupParser(): PrivateScope, Public, HideBySig, SpecialName
+    get_ActiveParser(): PrivateScope, Public, HideBySig, SpecialName
+    get_DesignTimeMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_DesignTimeMode(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_CurrentBlock(): PrivateScope, Public, HideBySig, SpecialName
+    get_LastSpan(): PrivateScope, Public, HideBySig, SpecialName
+    get_WhiteSpaceIsSignificantToAncestorBlock(): PrivateScope, Public, HideBySig, SpecialName
+    set_WhiteSpaceIsSignificantToAncestorBlock(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_LastAcceptedCharacters(): PrivateScope, Public, HideBySig, SpecialName
+    get_BlockStack(): PrivateScope, Assembly, HideBySig, SpecialName
+    get_CurrentCharacter(): PrivateScope, Public, HideBySig, SpecialName
+    get_EndOfFile(): PrivateScope, Public, HideBySig, SpecialName
+    AddSpan(Span): PrivateScope, Public, HideBySig
+    StartBlock(BlockType): PrivateScope, Public, HideBySig
+    StartBlock(): PrivateScope, Public, HideBySig
+    EndBlock(): PrivateScope, Public, HideBySig
+    IsWithin(BlockType): PrivateScope, Public, HideBySig
+    SwitchActiveParser(): PrivateScope, Public, HideBySig
+    OnError(SourceLocation, String): PrivateScope, Public, HideBySig
+    OnError(SourceLocation, String, Object[]): PrivateScope, Public, HideBySig
+    CompleteParse(): PrivateScope, Public, HideBySig
+    CaptureOwnerTask(): PrivateScope, Assembly, HideBySig
+    AssertOnOwnerTask(): PrivateScope, Assembly, HideBySig
+    AssertCurrent(Char): PrivateScope, Assembly, HideBySig
+Class System.Web.Razor.Parser.RazorParser: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Web.Razor.Parser.ParserBase, System.Web.Razor.Parser.ParserBase): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Web.Razor.Parser.ParserBase CodeParser 'get set' : 
+    System.Web.Razor.Parser.ParserBase MarkupParser 'get set' : 
+    System.Collections.Generic.IList`1[System.Web.Razor.Parser.ISyntaxTreeRewriter] Optimizers 'get set' : 
+    Boolean DesignTimeMode 'get set' : 
+  Methods:
+    get_CodeParser(): PrivateScope, Assembly, HideBySig, SpecialName
+    get_MarkupParser(): PrivateScope, Assembly, HideBySig, SpecialName
+    get_Optimizers(): PrivateScope, Assembly, HideBySig, SpecialName
+    get_DesignTimeMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_DesignTimeMode(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    Parse(TextReader, ParserVisitor): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Parse(TextReader): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Parse(ITextDocument): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Parse(LookaheadTextReader, ParserVisitor): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask (Obsolete)
+    Parse(LookaheadTextReader): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask (Obsolete)
+    CreateParseTask(TextReader, Action`1, Action`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateParseTask(TextReader, Action`1, Action`1, SynchronizationContext): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateParseTask(TextReader, Action`1, Action`1, CancellationToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateParseTask(TextReader, Action`1, Action`1, SynchronizationContext, CancellationToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateParseTask(TextReader, ParserVisitor): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.Razor.Text.SourceLocationTracker: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.Razor.Text.SourceLocation): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Web.Razor.Text.SourceLocation CurrentLocation 'get set' : 
+  Methods:
+    get_CurrentLocation(): PrivateScope, Public, HideBySig, SpecialName
+    set_CurrentLocation(SourceLocation): PrivateScope, Public, HideBySig, SpecialName
+    UpdateLocation(Char, Char): PrivateScope, Public, HideBySig
+    UpdateLocation(String): PrivateScope, Public, HideBySig
+    CalculateNewLocation(SourceLocation, String): PrivateScope, Public, Static, HideBySig
+Class System.Web.Razor.CSharpRazorCodeLanguage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.RazorCodeLanguage
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String LanguageName 'get ' : 
+    System.Type CodeDomProviderType 'get ' : 
+  Methods:
+    get_LanguageName(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CodeDomProviderType(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    CreateCodeParser(): PrivateScope, Public, Virtual, HideBySig
+    CreateCodeGenerator(String, String, String, RazorEngineHost): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Utils.DisposableAction: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(System.Action): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.Razor.Utils.EnumUtil: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Single(T): PrivateScope, Public, Static, HideBySig
+    Prepend(T, IEnumerable`1): PrivateScope, Public, Static, HideBySig
+Class System.Web.Razor.Utils.EnumeratorExtensions: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Flatten(IEnumerable`1): PrivateScope, Public, Static, HideBySig
+Class System.Web.Razor.Resources.RazorResources: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Resources.ResourceManager ResourceManager 'get ' : 
+    System.Globalization.CultureInfo Culture 'get set' : 
+    System.String ActiveParser_Must_Be_Code_Or_Markup_Parser 'get ' : 
+    System.String Block_Type_Not_Specified 'get ' : 
+    System.String BlockName_Code 'get ' : 
+    System.String BlockName_ExplicitExpression 'get ' : 
+    System.String CancelBacktrack_Must_Be_Called_Within_Lookahead 'get ' : 
+    System.String CreateCodeWriter_NoCodeWriter 'get ' : 
+    System.String CSharpSymbol_CharacterLiteral 'get ' : 
+    System.String CSharpSymbol_Comment 'get ' : 
+    System.String CSharpSymbol_Identifier 'get ' : 
+    System.String CSharpSymbol_IntegerLiteral 'get ' : 
+    System.String CSharpSymbol_Keyword 'get ' : 
+    System.String CSharpSymbol_Newline 'get ' : 
+    System.String CSharpSymbol_RealLiteral 'get ' : 
+    System.String CSharpSymbol_StringLiteral 'get ' : 
+    System.String CSharpSymbol_Whitespace 'get ' : 
+    System.String EndBlock_Called_Without_Matching_StartBlock 'get ' : 
+    System.String ErrorComponent_Character 'get ' : 
+    System.String ErrorComponent_EndOfFile 'get ' : 
+    System.String ErrorComponent_Newline 'get ' : 
+    System.String ErrorComponent_Whitespace 'get ' : 
+    System.String HtmlSymbol_NewLine 'get ' : 
+    System.String HtmlSymbol_RazorComment 'get ' : 
+    System.String HtmlSymbol_Text 'get ' : 
+    System.String HtmlSymbol_WhiteSpace 'get ' : 
+    System.String Language_Does_Not_Support_RazorComment 'get ' : 
+    System.String ParseError_AtInCode_Must_Be_Followed_By_Colon_Paren_Or_Identifier_Start 'get ' : 
+    System.String ParseError_BlockComment_Not_Terminated 'get ' : 
+    System.String ParseError_BlockNotTerminated 'get ' : 
+    System.String ParseError_Expected_CloseBracket_Before_EOF 'get ' : 
+    System.String ParseError_Expected_EndOfBlock_Before_EOF 'get ' : 
+    System.String ParseError_Expected_X 'get ' : 
+    System.String ParseError_Helpers_Cannot_Be_Nested 'get ' : 
+    System.String ParseError_InheritsKeyword_Must_Be_Followed_By_TypeName 'get ' : 
+    System.String ParseError_InlineMarkup_Blocks_Cannot_Be_Nested 'get ' : 
+    System.String ParseError_InvalidOptionValue 'get ' : 
+    System.String ParseError_MarkupBlock_Must_Start_With_Tag 'get ' : 
+    System.String ParseError_MissingCharAfterHelperName 'get ' : 
+    System.String ParseError_MissingCharAfterHelperParameters 'get ' : 
+    System.String ParseError_MissingEndTag 'get ' : 
+    System.String ParseError_MissingOpenBraceAfterSection 'get ' : 
+    System.String ParseError_NamespaceImportAndTypeAlias_Cannot_Exist_Within_CodeBlock 'get ' : 
+    System.String ParseError_NamespaceOrTypeAliasExpected 'get ' : 
+    System.String ParseError_OuterTagMissingName 'get ' : 
+    System.String ParseError_RazorComment_Not_Terminated 'get ' : 
+    System.String ParseError_ReservedWord 'get ' : 
+    System.String ParseError_Sections_Cannot_Be_Nested 'get ' : 
+    System.String ParseError_SingleLine_ControlFlowStatements_Not_Allowed 'get ' : 
+    System.String ParseError_TextTagCannotContainAttributes 'get ' : 
+    System.String ParseError_Unexpected 'get ' : 
+    System.String ParseError_Unexpected_Character_At_Helper_Name_Start 'get ' : 
+    System.String ParseError_Unexpected_Character_At_Section_Name_Start 'get ' : 
+    System.String ParseError_Unexpected_Character_At_Start_Of_CodeBlock_CS 'get ' : 
+    System.String ParseError_Unexpected_Character_At_Start_Of_CodeBlock_VB 'get ' : 
+    System.String ParseError_Unexpected_EndOfFile_At_Start_Of_CodeBlock 'get ' : 
+    System.String ParseError_Unexpected_Keyword_After_At 'get ' : 
+    System.String ParseError_Unexpected_Nested_CodeBlock 'get ' : 
+    System.String ParseError_Unexpected_WhiteSpace_At_Start_Of_CodeBlock_CS 'get ' : 
+    System.String ParseError_Unexpected_WhiteSpace_At_Start_Of_CodeBlock_VB 'get ' : 
+    System.String ParseError_UnexpectedEndTag 'get ' : 
+    System.String ParseError_UnfinishedTag 'get ' : 
+    System.String ParseError_UnknownOption 'get ' : 
+    System.String ParseError_Unterminated_String_Literal 'get ' : 
+    System.String ParseError_UnterminatedHelperParameterList 'get ' : 
+    System.String Parser_Context_Not_Set 'get ' : 
+    System.String ParserContext_CannotCompleteTree_NoRootBlock 'get ' : 
+    System.String ParserContext_CannotCompleteTree_OutstandingBlocks 'get ' : 
+    System.String ParserContext_NoCurrentBlock 'get ' : 
+    System.String ParserContext_ParseComplete 'get ' : 
+    System.String ParserEror_SessionDirectiveMissingValue 'get ' : 
+    System.String ParserIsNotAMarkupParser 'get ' : 
+    System.String SectionExample_CS 'get ' : 
+    System.String SectionExample_VB 'get ' : 
+    System.String Structure_Member_CannotBeNull 'get ' : 
+    System.String Symbol_Unknown 'get ' : 
+    System.String Tokenizer_CannotResumeSymbolUnlessIsPrevious 'get ' : 
+    System.String TokenizerView_CannotPutBack 'get ' : 
+    System.String VBSymbol_CharacterLiteral 'get ' : 
+    System.String VBSymbol_Comment 'get ' : 
+    System.String VBSymbol_DateLiteral 'get ' : 
+    System.String VBSymbol_FloatingPointLiteral 'get ' : 
+    System.String VBSymbol_Identifier 'get ' : 
+    System.String VBSymbol_IntegerLiteral 'get ' : 
+    System.String VBSymbol_Keyword 'get ' : 
+    System.String VBSymbol_NewLine 'get ' : 
+    System.String VBSymbol_RazorComment 'get ' : 
+    System.String VBSymbol_StringLiteral 'get ' : 
+    System.String VBSymbol_WhiteSpace 'get ' : 
+  Methods:
+    get_VBSymbol_IntegerLiteral(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_VBSymbol_Keyword(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_VBSymbol_NewLine(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_VBSymbol_RazorComment(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_VBSymbol_StringLiteral(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_VBSymbol_WhiteSpace(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ResourceManager(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Culture(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    set_Culture(CultureInfo): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ActiveParser_Must_Be_Code_Or_Markup_Parser(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Block_Type_Not_Specified(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_BlockName_Code(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_BlockName_ExplicitExpression(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_CancelBacktrack_Must_Be_Called_Within_Lookahead(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_CreateCodeWriter_NoCodeWriter(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_CSharpSymbol_CharacterLiteral(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_CSharpSymbol_Comment(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_CSharpSymbol_Identifier(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_CSharpSymbol_IntegerLiteral(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_CSharpSymbol_Keyword(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_CSharpSymbol_Newline(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_CSharpSymbol_RealLiteral(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_CSharpSymbol_StringLiteral(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_CSharpSymbol_Whitespace(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_EndBlock_Called_Without_Matching_StartBlock(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ErrorComponent_Character(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ErrorComponent_EndOfFile(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ErrorComponent_Newline(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ErrorComponent_Whitespace(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_HtmlSymbol_NewLine(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_HtmlSymbol_RazorComment(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_HtmlSymbol_Text(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_HtmlSymbol_WhiteSpace(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Language_Does_Not_Support_RazorComment(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_AtInCode_Must_Be_Followed_By_Colon_Paren_Or_Identifier_Start(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_BlockComment_Not_Terminated(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_BlockNotTerminated(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_Expected_CloseBracket_Before_EOF(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_Expected_EndOfBlock_Before_EOF(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_Expected_X(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_Helpers_Cannot_Be_Nested(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_InheritsKeyword_Must_Be_Followed_By_TypeName(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_InlineMarkup_Blocks_Cannot_Be_Nested(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_InvalidOptionValue(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_MarkupBlock_Must_Start_With_Tag(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_MissingCharAfterHelperName(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_MissingCharAfterHelperParameters(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_MissingEndTag(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_MissingOpenBraceAfterSection(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_NamespaceImportAndTypeAlias_Cannot_Exist_Within_CodeBlock(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_NamespaceOrTypeAliasExpected(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_OuterTagMissingName(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_RazorComment_Not_Terminated(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_ReservedWord(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_Sections_Cannot_Be_Nested(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_SingleLine_ControlFlowStatements_Not_Allowed(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_TextTagCannotContainAttributes(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_Unexpected(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_Unexpected_Character_At_Helper_Name_Start(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_Unexpected_Character_At_Section_Name_Start(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_Unexpected_Character_At_Start_Of_CodeBlock_CS(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_Unexpected_Character_At_Start_Of_CodeBlock_VB(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_Unexpected_EndOfFile_At_Start_Of_CodeBlock(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_Unexpected_Keyword_After_At(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_Unexpected_Nested_CodeBlock(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_Unexpected_WhiteSpace_At_Start_Of_CodeBlock_CS(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_Unexpected_WhiteSpace_At_Start_Of_CodeBlock_VB(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_UnexpectedEndTag(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_UnfinishedTag(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_UnknownOption(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_Unterminated_String_Literal(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParseError_UnterminatedHelperParameterList(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Parser_Context_Not_Set(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParserContext_CannotCompleteTree_NoRootBlock(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParserContext_CannotCompleteTree_OutstandingBlocks(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParserContext_NoCurrentBlock(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParserContext_ParseComplete(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParserEror_SessionDirectiveMissingValue(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ParserIsNotAMarkupParser(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_SectionExample_CS(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_SectionExample_VB(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Structure_Member_CannotBeNull(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Symbol_Unknown(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Tokenizer_CannotResumeSymbolUnlessIsPrevious(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_TokenizerView_CannotPutBack(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_VBSymbol_CharacterLiteral(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_VBSymbol_Comment(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_VBSymbol_DateLiteral(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_VBSymbol_FloatingPointLiteral(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_VBSymbol_Identifier(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+Struct System.Web.Razor.Text.SourceLocation: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IEquatable`1[System.Web.Razor.Text.SourceLocation]
+    System.IComparable`1[System.Web.Razor.Text.SourceLocation]
+  Fields:
+    System.Web.Razor.Text.SourceLocation Undefined : Public, Static, InitOnly
+    System.Web.Razor.Text.SourceLocation Zero : Public, Static, InitOnly
+  Properties:
+    Int32 AbsoluteIndex 'get ' : 
+    Int32 LineIndex 'get ' : 
+    Int32 CharacterIndex 'get ' : 
+  Methods:
+    get_AbsoluteIndex(): PrivateScope, Public, HideBySig, SpecialName
+    get_LineIndex(): PrivateScope, Public, HideBySig, SpecialName
+    get_CharacterIndex(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Equals(SourceLocation): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    CompareTo(SourceLocation): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Advance(SourceLocation, String): PrivateScope, Public, Static, HideBySig
+    Add(SourceLocation, SourceLocation): PrivateScope, Public, Static, HideBySig
+    Subtract(SourceLocation, SourceLocation): PrivateScope, Public, Static, HideBySig
+    op_LessThan(SourceLocation, SourceLocation): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_GreaterThan(SourceLocation, SourceLocation): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Equality(SourceLocation, SourceLocation): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(SourceLocation, SourceLocation): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Addition(SourceLocation, SourceLocation): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(SourceLocation, SourceLocation): PrivateScope, Public, Static, HideBySig, SpecialName
+Struct System.Web.Razor.Text.TextChange: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Int32, Int32, System.Web.Razor.Text.ITextBuffer, Int32, System.Web.Razor.Text.ITextBuffer): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32, System.Web.Razor.Text.ITextBuffer, Int32, Int32, System.Web.Razor.Text.ITextBuffer): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 OldPosition 'get set' : 
+    Int32 NewPosition 'get set' : 
+    Int32 OldLength 'get set' : 
+    Int32 NewLength 'get set' : 
+    System.Web.Razor.Text.ITextBuffer NewBuffer 'get set' : 
+    System.Web.Razor.Text.ITextBuffer OldBuffer 'get set' : 
+    System.String OldText 'get ' : 
+    System.String NewText 'get ' : 
+    Boolean IsInsert 'get ' : 
+    Boolean IsDelete 'get ' : 
+    Boolean IsReplace 'get ' : 
+  Methods:
+    get_OldPosition(): PrivateScope, Public, HideBySig, SpecialName
+    get_NewPosition(): PrivateScope, Public, HideBySig, SpecialName
+    get_OldLength(): PrivateScope, Public, HideBySig, SpecialName
+    get_NewLength(): PrivateScope, Public, HideBySig, SpecialName
+    get_NewBuffer(): PrivateScope, Public, HideBySig, SpecialName
+    get_OldBuffer(): PrivateScope, Public, HideBySig, SpecialName
+    get_OldText(): PrivateScope, Public, HideBySig, SpecialName
+    get_NewText(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsInsert(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsDelete(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsReplace(): PrivateScope, Public, HideBySig, SpecialName
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    ApplyChange(String, Int32): PrivateScope, Public, HideBySig
+    ApplyChange(Span): PrivateScope, Public, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Normalize(): PrivateScope, Public, HideBySig
+    op_Equality(TextChange, TextChange): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(TextChange, TextChange): PrivateScope, Public, Static, HideBySig, SpecialName
+Struct System.Web.Razor.Text.TextChangeType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Web.Razor.Text.TextChangeType Insert = 0 : Public, Static, Literal, HasDefault
+    System.Web.Razor.Text.TextChangeType Remove = 1 : Public, Static, Literal, HasDefault
+Class System.Web.Razor.Parser.SyntaxTree.Span: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Parser.SyntaxTree.SyntaxTreeNode
+    Void .ctor(System.Web.Razor.Parser.SyntaxTree.SpanBuilder): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Web.Razor.Parser.SyntaxTree.SpanKind Kind 'get set' : 
+    System.Collections.Generic.IEnumerable`1[System.Web.Razor.Tokenizer.Symbols.ISymbol] Symbols 'get set' : 
+    System.Web.Razor.Parser.SyntaxTree.Span Previous 'get set' : 
+    System.Web.Razor.Parser.SyntaxTree.Span Next 'get set' : 
+    System.Web.Razor.Editor.SpanEditHandler EditHandler 'get set' : 
+    System.Web.Razor.Generator.ISpanCodeGenerator CodeGenerator 'get set' : 
+    Boolean IsBlock 'get ' : 
+    Int32 Length 'get ' : 
+    System.Web.Razor.Text.SourceLocation Start 'get ' : 
+    System.String Content 'get set' : 
+  Methods:
+    get_Kind(): PrivateScope, Public, HideBySig, SpecialName
+    get_Symbols(): PrivateScope, Public, HideBySig, SpecialName
+    get_Previous(): PrivateScope, Public, HideBySig, SpecialName
+    get_Next(): PrivateScope, Public, HideBySig, SpecialName
+    get_EditHandler(): PrivateScope, Public, HideBySig, SpecialName
+    get_CodeGenerator(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsBlock(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Length(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Start(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Content(): PrivateScope, Public, HideBySig, SpecialName
+    Change(Action`1): PrivateScope, Public, HideBySig
+    ReplaceWith(SpanBuilder): PrivateScope, Public, HideBySig
+    Accept(ParserVisitor): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ChangeStart(SourceLocation): PrivateScope, Public, HideBySig
+    SetStart(SourceLocation): PrivateScope, Assembly, HideBySig
+    EquivalentTo(SyntaxTreeNode): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Razor.Generator.VBRazorCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Razor.Generator.RazorCodeGenerator
+    Void .ctor(System.String, System.String, System.String, System.Web.Razor.RazorEngineHost): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Func`1[System.Web.Razor.Generator.CodeWriter] CodeWriterFactory 'get ' : 
+  Methods:
+    get_CodeWriterFactory(): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride, SpecialName
+Class <PrivateImplementationDetails>{FE1933AB-C329-40CC-BD16-3CF2FDD8E361}: NotPublic
+  Fields:
+    Int64 $$method0x600002a-1 : Assembly, Static, HasFieldRVA

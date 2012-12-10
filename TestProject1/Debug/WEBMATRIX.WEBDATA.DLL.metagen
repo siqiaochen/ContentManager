@@ -1,0 +1,372 @@
+  WebMatrix.WebData.Common.CommonResources.resources - Embedded, ContainedInManifestFile, 
+  WebMatrix.WebData.Resources.WebDataResources.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly WebMatrix.WebData, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly WebMatrix.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Class Microsoft.Internal.Web.Utils.CommonResources: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Resources.ResourceManager ResourceManager 'get ' : 
+    System.Globalization.CultureInfo Culture 'get set' : 
+    System.String Argument_Cannot_Be_Null_Or_Empty 'get ' : 
+    System.String Argument_Must_Be_Between 'get ' : 
+    System.String Argument_Must_Be_Enum_Member 'get ' : 
+    System.String Argument_Must_Be_GreaterThan 'get ' : 
+    System.String Argument_Must_Be_GreaterThanOrEqualTo 'get ' : 
+    System.String Argument_Must_Be_LessThan 'get ' : 
+    System.String Argument_Must_Be_LessThanOrEqualTo 'get ' : 
+    System.String Argument_Must_Be_Null_Or_Non_Empty 'get ' : 
+  Methods:
+    get_ResourceManager(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Culture(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    set_Culture(CultureInfo): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Cannot_Be_Null_Or_Empty(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_Between(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_Enum_Member(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_GreaterThan(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_GreaterThanOrEqualTo(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_LessThan(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_LessThanOrEqualTo(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_Null_Or_Non_Empty(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+Class Microsoft.Internal.Web.Utils.ExceptionHelper: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    CreateArgumentNullOrEmptyException(String): PrivateScope, Assembly, Static, HideBySig
+Class WebMatrix.WebData.ConfigUtil: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Properties:
+    Boolean SimpleMembershipEnabled 'get ' : 
+  Methods:
+    get_SimpleMembershipEnabled(): PrivateScope, Public, Static, HideBySig, SpecialName
+    ShouldPreserveLoginUrl(): PrivateScope, Assembly, Static, HideBySig
+Class WebMatrix.WebData.DatabaseConnectionInfo: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String ConnectionString 'get set' : 
+    System.String ConnectionStringName 'get set' : 
+    System.String ProviderName 'get set' : 
+  Methods:
+    get_ConnectionString(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConnectionString(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ConnectionStringName(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConnectionStringName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ProviderName(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProviderName(String): PrivateScope, Public, HideBySig, SpecialName
+    Connect(): PrivateScope, Public, HideBySig
+Interface WebMatrix.WebData.IDatabase: AutoLayout, AnsiClass, Class, ClassSemanticsMask, Abstract
+  Interfaces:
+    System.IDisposable
+  Methods:
+    QuerySingle(String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Query(String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    QueryValue(String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Execute(String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class WebMatrix.WebData.DatabaseWrapper: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(WebMatrix.Data.Database): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    WebMatrix.WebData.IDatabase
+    System.IDisposable
+  Methods:
+    QuerySingle(String, Object[]): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Query(String, Object[]): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    QueryValue(String, Object[]): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Execute(String, Object[]): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class WebMatrix.WebData.ExtendedMembershipProvider: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Web.Security.MembershipProvider
+  Methods:
+    DeleteOAuthAccount(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateOrUpdateOAuthAccount(String, String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetUserIdFromOAuth(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetUserNameFromId(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    HasLocalAccount(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetOAuthTokenSecret(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    StoreOAuthRequestToken(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ReplaceOAuthRequestTokenWithAccessToken(String, String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DeleteOAuthToken(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetAccountsForUser(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateUserAndAccount(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateUserAndAccount(String, String, Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateUserAndAccount(String, String, IDictionary`2): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateUserAndAccount(String, String, Boolean, IDictionary`2): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateAccount(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateAccount(String, String, Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ConfirmAccount(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ConfirmAccount(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DeleteAccount(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GeneratePasswordResetToken(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GeneratePasswordResetToken(String, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetUserIdFromPasswordResetToken(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    IsConfirmed(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ResetPasswordWithToken(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetPasswordFailuresSinceLastSuccess(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetCreateDate(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetPasswordChangedDate(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetLastPasswordFailureDate(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    VerifyInitialized(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride
+Class WebMatrix.WebData.FormsAuthenticationSettings: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.String LoginUrlKey : Public, Static, InitOnly
+    System.String DefaultLoginUrl : Public, Static, InitOnly
+    System.String PreserveLoginUrlKey : Public, Static, InitOnly
+Class WebMatrix.WebData.OAuthAccountData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Provider 'get set' : 
+    System.String ProviderUserId 'get set' : 
+  Methods:
+    get_Provider(): PrivateScope, Public, HideBySig, SpecialName
+    get_ProviderUserId(): PrivateScope, Public, HideBySig, SpecialName
+Class WebMatrix.WebData.PreApplicationStartCode: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Start(): PrivateScope, Public, Static, HideBySig
+Class WebMatrix.WebData.Resources.WebDataResources: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Resources.ResourceManager ResourceManager 'get ' : 
+    System.Globalization.CultureInfo Culture 'get set' : 
+    System.String Security_DbFailure 'get ' : 
+    System.String Security_FailedToFindUserTable 'get ' : 
+    System.String Security_InitializeAlreadyCalled 'get ' : 
+    System.String Security_InitializeMustBeCalledFirst 'get ' : 
+    System.String Security_NoAccountFound 'get ' : 
+    System.String Security_NoExtendedMembershipProvider 'get ' : 
+    System.String Security_NoUserFound 'get ' : 
+    System.String SimpleMembership_FailToStoreOAuthToken 'get ' : 
+    System.String SimpleMembership_PasswordTooLong 'get ' : 
+    System.String SimpleMembership_ProviderUnrecognizedAttribute 'get ' : 
+    System.String SimpleRoleProvder_RolePopulated 'get ' : 
+    System.String SimpleRoleProvder_UserAlreadyInRole 'get ' : 
+    System.String SimpleRoleProvder_UserNotInRole 'get ' : 
+    System.String SimpleRoleProvider_NoRoleFound 'get ' : 
+    System.String SimpleRoleProvider_RoleExists 'get ' : 
+  Methods:
+    get_ResourceManager(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Culture(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    set_Culture(CultureInfo): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Security_DbFailure(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Security_FailedToFindUserTable(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Security_InitializeAlreadyCalled(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Security_InitializeMustBeCalledFirst(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Security_NoAccountFound(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Security_NoExtendedMembershipProvider(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Security_NoUserFound(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_SimpleMembership_FailToStoreOAuthToken(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_SimpleMembership_PasswordTooLong(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_SimpleMembership_ProviderUnrecognizedAttribute(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_SimpleRoleProvder_RolePopulated(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_SimpleRoleProvder_UserAlreadyInRole(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_SimpleRoleProvder_UserNotInRole(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_SimpleRoleProvider_NoRoleFound(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_SimpleRoleProvider_RoleExists(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+Class WebMatrix.WebData.SimpleMembershipProvider: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :WebMatrix.WebData.ExtendedMembershipProvider
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.Security.MembershipProvider): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean EnablePasswordRetrieval 'get ' : 
+    Boolean EnablePasswordReset 'get ' : 
+    Boolean RequiresQuestionAndAnswer 'get ' : 
+    Boolean RequiresUniqueEmail 'get ' : 
+    System.Web.Security.MembershipPasswordFormat PasswordFormat 'get ' : 
+    Int32 MaxInvalidPasswordAttempts 'get ' : 
+    Int32 PasswordAttemptWindow 'get ' : 
+    Int32 MinRequiredPasswordLength 'get ' : 
+    Int32 MinRequiredNonAlphanumericCharacters 'get ' : 
+    System.String PasswordStrengthRegularExpression 'get ' : 
+    System.String ApplicationName 'get set' : 
+    System.String MembershipTableName 'get ' : 
+    System.String OAuthMembershipTableName 'get ' : 
+    System.String OAuthTokenTableName 'get ' : 
+    System.String UserTableName 'get set' : 
+    System.String UserNameColumn 'get set' : 
+    System.String UserIdColumn 'get set' : 
+    WebMatrix.WebData.DatabaseConnectionInfo ConnectionInfo 'get set' : 
+    Boolean InitializeCalled 'get set' : 
+  Methods:
+    get_EnablePasswordRetrieval(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_EnablePasswordReset(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_RequiresQuestionAndAnswer(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_RequiresUniqueEmail(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_PasswordFormat(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_MaxInvalidPasswordAttempts(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_PasswordAttemptWindow(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_MinRequiredPasswordLength(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_MinRequiredNonAlphanumericCharacters(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_PasswordStrengthRegularExpression(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_ApplicationName(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_ApplicationName(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_MembershipTableName(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_OAuthMembershipTableName(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_OAuthTokenTableName(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_UserTableName(): PrivateScope, Public, HideBySig, SpecialName
+    set_UserTableName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_UserNameColumn(): PrivateScope, Public, HideBySig, SpecialName
+    set_UserNameColumn(String): PrivateScope, Public, HideBySig, SpecialName
+    get_UserIdColumn(): PrivateScope, Public, HideBySig, SpecialName
+    set_UserIdColumn(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ConnectionInfo(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_ConnectionInfo(DatabaseConnectionInfo): PrivateScope, Assembly, HideBySig, SpecialName
+    get_InitializeCalled(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_InitializeCalled(Boolean): PrivateScope, Assembly, HideBySig, SpecialName
+    VerifyInitialized(): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    Initialize(String, NameValueCollection): PrivateScope, Public, Virtual, HideBySig
+    CheckTableExists(IDatabase, String): PrivateScope, Assembly, Static, HideBySig
+    CreateTablesIfNeeded(): PrivateScope, Assembly, HideBySig
+    GetUserId(String): PrivateScope, Public, HideBySig
+    GetUserId(IDatabase, String, String, String, String): PrivateScope, Assembly, Static, HideBySig
+    GetUserIdFromPasswordResetToken(String): PrivateScope, Public, Virtual, HideBySig
+    ChangePasswordQuestionAndAnswer(String, String, String, String): PrivateScope, Public, Virtual, HideBySig
+    ConfirmAccount(String, String): PrivateScope, Public, Virtual, HideBySig
+    ConfirmAccount(String): PrivateScope, Public, Virtual, HideBySig
+    ConnectToDatabase(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride
+    CreateAccount(String, String, Boolean): PrivateScope, Public, Virtual, HideBySig
+    CreateUser(String, String, String, String, String, Boolean, Object, MembershipCreateStatus&(Out)): PrivateScope, Public, Virtual, HideBySig
+    CreateUserAndAccount(String, String, Boolean, IDictionary`2): PrivateScope, Public, Virtual, HideBySig
+    GetPassword(String, String): PrivateScope, Public, Virtual, HideBySig
+    ChangePassword(String, String, String): PrivateScope, Public, Virtual, HideBySig
+    ResetPassword(String, String): PrivateScope, Public, Virtual, HideBySig
+    GetUser(Object, Boolean): PrivateScope, Public, Virtual, HideBySig
+    GetUser(String, Boolean): PrivateScope, Public, Virtual, HideBySig
+    GetUserNameByEmail(String): PrivateScope, Public, Virtual, HideBySig
+    DeleteAccount(String): PrivateScope, Public, Virtual, HideBySig
+    DeleteUser(String, Boolean): PrivateScope, Public, Virtual, HideBySig
+    DeleteUserAndAccountInternal(String): PrivateScope, Assembly, HideBySig
+    GetAllUsers(Int32, Int32, Int32&(Out)): PrivateScope, Public, Virtual, HideBySig
+    GetNumberOfUsersOnline(): PrivateScope, Public, Virtual, HideBySig
+    FindUsersByName(String, Int32, Int32, Int32&(Out)): PrivateScope, Public, Virtual, HideBySig
+    FindUsersByEmail(String, Int32, Int32, Int32&(Out)): PrivateScope, Public, Virtual, HideBySig
+    GetPasswordFailuresSinceLastSuccess(String): PrivateScope, Public, Virtual, HideBySig
+    GetCreateDate(String): PrivateScope, Public, Virtual, HideBySig
+    GetPasswordChangedDate(String): PrivateScope, Public, Virtual, HideBySig
+    GetLastPasswordFailureDate(String): PrivateScope, Public, Virtual, HideBySig
+    GenerateToken(RandomNumberGenerator): PrivateScope, Assembly, Static, HideBySig
+    GeneratePasswordResetToken(String, Int32): PrivateScope, Public, Virtual, HideBySig
+    IsConfirmed(String): PrivateScope, Public, Virtual, HideBySig
+    ResetPasswordWithToken(String, String): PrivateScope, Public, Virtual, HideBySig
+    UpdateUser(MembershipUser): PrivateScope, Public, Virtual, HideBySig
+    UnlockUser(String): PrivateScope, Public, Virtual, HideBySig
+    ValidateUserTable(): PrivateScope, Assembly, HideBySig
+    ValidateUser(String, String): PrivateScope, Public, Virtual, HideBySig
+    GetUserNameFromId(Int32): PrivateScope, Public, Virtual, HideBySig
+    CreateOrUpdateOAuthAccount(String, String, String): PrivateScope, Public, Virtual, HideBySig
+    DeleteOAuthAccount(String, String): PrivateScope, Public, Virtual, HideBySig
+    GetUserIdFromOAuth(String, String): PrivateScope, Public, Virtual, HideBySig
+    GetOAuthTokenSecret(String): PrivateScope, Public, Virtual, HideBySig
+    StoreOAuthRequestToken(String, String): PrivateScope, Public, Virtual, HideBySig
+    ReplaceOAuthRequestTokenWithAccessToken(String, String, String): PrivateScope, Public, Virtual, HideBySig
+    DeleteOAuthToken(String): PrivateScope, Public, Virtual, HideBySig
+    GetAccountsForUser(String): PrivateScope, Public, Virtual, HideBySig
+    HasLocalAccount(Int32): PrivateScope, Public, Virtual, HideBySig
+Class WebMatrix.WebData.SimpleRoleProvider: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Security.RoleProvider
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.Security.RoleProvider): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String RoleTableName 'get ' : 
+    System.String UsersInRoleTableName 'get ' : 
+    System.String UserTableName 'get set' : 
+    System.String UserNameColumn 'get set' : 
+    System.String UserIdColumn 'get set' : 
+    WebMatrix.WebData.DatabaseConnectionInfo ConnectionInfo 'get set' : 
+    Boolean InitializeCalled 'get set' : 
+    System.String ApplicationName 'get set' : 
+  Methods:
+    get_RoleTableName(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_UsersInRoleTableName(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_UserTableName(): PrivateScope, Public, HideBySig, SpecialName
+    set_UserTableName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_UserNameColumn(): PrivateScope, Public, HideBySig, SpecialName
+    set_UserNameColumn(String): PrivateScope, Public, HideBySig, SpecialName
+    get_UserIdColumn(): PrivateScope, Public, HideBySig, SpecialName
+    set_UserIdColumn(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ConnectionInfo(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_ConnectionInfo(DatabaseConnectionInfo): PrivateScope, Assembly, HideBySig, SpecialName
+    get_InitializeCalled(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_InitializeCalled(Boolean): PrivateScope, Assembly, HideBySig, SpecialName
+    get_ApplicationName(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_ApplicationName(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    CreateTablesIfNeeded(): PrivateScope, Assembly, HideBySig
+    AddUsersToRoles(String[], String[]): PrivateScope, Public, Virtual, HideBySig
+    CreateRole(String): PrivateScope, Public, Virtual, HideBySig
+    DeleteRole(String, Boolean): PrivateScope, Public, Virtual, HideBySig
+    FindUsersInRole(String, String): PrivateScope, Public, Virtual, HideBySig
+    GetAllRoles(): PrivateScope, Public, Virtual, HideBySig
+    GetRolesForUser(String): PrivateScope, Public, Virtual, HideBySig
+    GetUsersInRole(String): PrivateScope, Public, Virtual, HideBySig
+    IsUserInRole(String, String): PrivateScope, Public, Virtual, HideBySig
+    RemoveUsersFromRoles(String[], String[]): PrivateScope, Public, Virtual, HideBySig
+    RoleExists(String): PrivateScope, Public, Virtual, HideBySig
+Class WebMatrix.WebData.WebSecurity: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.String EnableSimpleMembershipKey : Public, Static, InitOnly
+  Properties:
+    Boolean Initialized 'get set' : 
+    Int32 CurrentUserId 'get ' : 
+    System.String CurrentUserName 'get ' : 
+    Boolean HasUserId 'get ' : 
+    Boolean IsAuthenticated 'get ' : 
+    System.Web.HttpContextBase Context 'get ' : 
+    System.Web.HttpRequestBase Request 'get ' : 
+    System.Web.HttpResponseBase Response 'get ' : 
+  Methods:
+    get_Initialized(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CurrentUserId(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CurrentUserName(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_HasUserId(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_IsAuthenticated(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Context(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Request(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Response(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    PreAppStartInit(): PrivateScope, Assembly, Static, HideBySig
+    InitializeDatabaseConnection(String, String, String, String, Boolean): PrivateScope, Public, Static, HideBySig
+    InitializeDatabaseConnection(String, String, String, String, String, Boolean): PrivateScope, Public, Static, HideBySig
+    InitializeMembershipProvider(SimpleMembershipProvider, DatabaseConnectionInfo, String, String, String, Boolean): PrivateScope, Assembly, Static, HideBySig
+    InitializeRoleProvider(SimpleRoleProvider, DatabaseConnectionInfo, String, String, String, Boolean): PrivateScope, Assembly, Static, HideBySig
+    Login(String, String, Boolean(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    Logout(): PrivateScope, Public, Static, HideBySig
+    ChangePassword(String, String, String): PrivateScope, Public, Static, HideBySig
+    ConfirmAccount(String): PrivateScope, Public, Static, HideBySig
+    ConfirmAccount(String, String): PrivateScope, Public, Static, HideBySig
+    CreateAccount(String, String, Boolean(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    CreateUserAndAccount(String, String, Object(Optional, HasDefault), Boolean(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    GeneratePasswordResetToken(String, Int32(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    UserExists(String): PrivateScope, Public, Static, HideBySig
+    GetUserId(String): PrivateScope, Public, Static, HideBySig
+    GetUserIdFromPasswordResetToken(String): PrivateScope, Public, Static, HideBySig
+    IsCurrentUser(String): PrivateScope, Public, Static, HideBySig
+    IsConfirmed(String): PrivateScope, Public, Static, HideBySig
+    RequireAuthenticatedUser(): PrivateScope, Public, Static, HideBySig
+    RequireUser(Int32): PrivateScope, Public, Static, HideBySig
+    RequireUser(String): PrivateScope, Public, Static, HideBySig
+    RequireRoles(String[]): PrivateScope, Public, Static, HideBySig
+    ResetPassword(String, String): PrivateScope, Public, Static, HideBySig
+    IsAccountLockedOut(String, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    IsAccountLockedOut(String, Int32, TimeSpan): PrivateScope, Public, Static, HideBySig
+    IsAccountLockedOutInternal(ExtendedMembershipProvider, String, Int32, TimeSpan): PrivateScope, Assembly, Static, HideBySig
+    GetPasswordFailuresSinceLastSuccess(String): PrivateScope, Public, Static, HideBySig
+    GetCreateDate(String): PrivateScope, Public, Static, HideBySig
+    GetPasswordChangedDate(String): PrivateScope, Public, Static, HideBySig
+    GetLastPasswordFailureDate(String): PrivateScope, Public, Static, HideBySig

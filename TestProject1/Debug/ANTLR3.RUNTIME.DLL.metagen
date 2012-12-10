@@ -1,0 +1,1496 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Antlr3.Runtime, Version=3.3.1.7705, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Interface Antlr.Runtime.IIntStream: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    Int32 Index 'get ' : 
+    Int32 Count 'get ' : 
+    System.String SourceName 'get ' : 
+  Methods:
+    Consume(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    LA(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Mark(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_Index(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    Rewind(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Rewind(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Release(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Seek(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_Count(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_SourceName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Interface Antlr.Runtime.ICharStream: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Interfaces:
+    Antlr.Runtime.IIntStream
+  Properties:
+    Int32 Line 'get set' : 
+    Int32 CharPositionInLine 'get set' : 
+  Methods:
+    Substring(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    LT(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_Line(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Line(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CharPositionInLine(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CharPositionInLine(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class Antlr.Runtime.ANTLRStringStream: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Char[], Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Char[], Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    Antlr.Runtime.ICharStream
+    Antlr.Runtime.IIntStream
+  Fields:
+    System.String name : Public
+  Properties:
+    Int32 Index 'get ' : 
+    Int32 Line 'get set' : 
+    Int32 CharPositionInLine 'get set' : 
+    Int32 Count 'get ' : 
+    System.String SourceName 'get ' : 
+  Methods:
+    get_Index(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Line(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Line(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CharPositionInLine(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CharPositionInLine(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Reset(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Consume(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    LA(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    LT(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Count(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Mark(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Rewind(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Rewind(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Release(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Seek(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Substring(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_SourceName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class Antlr.Runtime.ANTLRFileStream: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.ANTLRStringStream
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Text.Encoding): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String SourceName 'get ' : 
+  Methods:
+    Load(String, Encoding): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_SourceName(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class Antlr.Runtime.ANTLRReaderStream: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.ANTLRStringStream
+    Void .ctor(System.IO.TextReader): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.TextReader, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.TextReader, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 ReadBufferSize = 1024 : Public, Static, Literal, HasDefault
+    Int32 InitialBufferSize = 1024 : Public, Static, Literal, HasDefault
+  Methods:
+    Load(TextReader, Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Antlr.Runtime.ANTLRInputStream: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.ANTLRReaderStream
+    Void .ctor(System.IO.Stream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, System.Text.Encoding): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Int32, System.Text.Encoding): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Int32, Int32, System.Text.Encoding): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Antlr.Runtime.BaseRecognizer: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.RecognizerSharedState): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 MemoRuleFailed = -2 : Public, Static, Literal, HasDefault
+    Int32 MemoRuleUnknown = -1 : Public, Static, Literal, HasDefault
+    Int32 InitialFollowStackSize = 100 : Public, Static, Literal, HasDefault
+    Int32 DefaultTokenChannel = 0 : Public, Static, Literal, HasDefault
+    Int32 Hidden = 99 : Public, Static, Literal, HasDefault
+    System.String NextTokenRuleName = nextToken : Public, Static, Literal, HasDefault
+  Properties:
+    System.IO.TextWriter TraceDestination 'get set' : 
+    Int32 NumberOfSyntaxErrors 'get ' : 
+    Int32 BacktrackingLevel 'get set' : 
+    Boolean Failed 'get ' : 
+    System.String[] TokenNames 'get ' : 
+    System.String GrammarFileName 'get ' : 
+    System.String SourceName 'get ' : 
+    Antlr.Runtime.Debug.IDebugEventListener DebugListener 'get ' : 
+  Methods:
+    get_TraceDestination(): PrivateScope, Public, HideBySig, SpecialName
+    set_TraceDestination(TextWriter): PrivateScope, Public, HideBySig, SpecialName
+    Reset(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Match(IIntStream, Int32, BitSet): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MatchAny(IIntStream): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MismatchIsUnwantedToken(IIntStream, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MismatchIsMissingToken(IIntStream, BitSet): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ReportError(RecognitionException): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DisplayRecognitionError(String[], RecognitionException): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetErrorMessage(RecognitionException, String[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_NumberOfSyntaxErrors(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetErrorHeader(RecognitionException): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetTokenErrorDisplay(IToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EmitErrorMessage(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Recover(IIntStream, RecognitionException): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginResync(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndResync(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    RecoverFromMismatchedSet(IIntStream, RecognitionException, BitSet): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ConsumeUntil(IIntStream, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ConsumeUntil(IIntStream, BitSet): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetRuleInvocationStack(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetRuleInvocationStack(StackTrace): PrivateScope, Public, Static, HideBySig
+    get_BacktrackingLevel(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_BacktrackingLevel(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Failed(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TokenNames(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_GrammarFileName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SourceName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    ToStrings(ICollection`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetRuleMemoization(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AlreadyParsedRule(IIntStream, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Memoize(IIntStream, Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetRuleMemoizationCacheSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TraceIn(String, Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TraceOut(String, Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_DebugListener(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class Antlr.Runtime.BitSet: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(UInt64[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Collections.Generic.IEnumerable`1[System.Int32]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Methods:
+    Of(Int32): PrivateScope, Public, Static, HideBySig
+    Of(Int32, Int32): PrivateScope, Public, Static, HideBySig
+    Of(Int32, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    Of(Int32, Int32, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    Or(BitSet): PrivateScope, Public, HideBySig
+    Add(Int32): PrivateScope, Public, HideBySig
+    GrowToInclude(Int32): PrivateScope, Public, HideBySig
+    OrInPlace(BitSet): PrivateScope, Public, HideBySig
+    Clone(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Size(): PrivateScope, Public, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    Member(Int32): PrivateScope, Public, HideBySig
+    Remove(Int32): PrivateScope, Public, HideBySig
+    IsNil(): PrivateScope, Public, HideBySig
+    NumBits(): PrivateScope, Public, HideBySig
+    LengthInLongWords(): PrivateScope, Public, HideBySig
+    ToArray(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ToString(String[]): PrivateScope, Public, HideBySig
+Interface Antlr.Runtime.ITokenStream: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Interfaces:
+    Antlr.Runtime.IIntStream
+  Properties:
+    Int32 Range 'get ' : 
+    Antlr.Runtime.ITokenSource TokenSource 'get ' : 
+  Methods:
+    LT(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_Range(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    Get(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_TokenSource(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    ToString(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ToString(IToken, IToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface Antlr.Runtime.ITokenStreamInformation: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    Antlr.Runtime.IToken LastToken 'get ' : 
+    Antlr.Runtime.IToken LastRealToken 'get ' : 
+    Int32 MaxLookBehind 'get ' : 
+  Methods:
+    get_LastToken(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_LastRealToken(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_MaxLookBehind(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class Antlr.Runtime.BufferedTokenStream: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.ITokenSource): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    Antlr.Runtime.ITokenStream
+    Antlr.Runtime.IIntStream
+    Antlr.Runtime.ITokenStreamInformation
+  Properties:
+    Antlr.Runtime.ITokenSource TokenSource 'get set' : 
+    Int32 Index 'get ' : 
+    Int32 Range 'get set' : 
+    Int32 Count 'get ' : 
+    System.String SourceName 'get ' : 
+    Antlr.Runtime.IToken LastToken 'get ' : 
+    Antlr.Runtime.IToken LastRealToken 'get ' : 
+    Int32 MaxLookBehind 'get ' : 
+  Methods:
+    get_TokenSource(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_TokenSource(ITokenSource): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Index(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Range(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Count(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SourceName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_LastToken(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_LastRealToken(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MaxLookBehind(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Mark(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Release(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Rewind(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Rewind(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Reset(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Seek(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Consume(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Get(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    LA(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    LT(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetTokens(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetTokens(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetTokens(Int32, Int32, BitSet): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetTokens(Int32, Int32, IEnumerable`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetTokens(Int32, Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ToString(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToString(IToken, IToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Fill(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Antlr.Runtime.CharStreamConstants: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    Int32 EndOfFile = -1 : Public, Static, Literal, HasDefault
+Class Antlr.Runtime.CharStreamState: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 p : Public
+    Int32 line : Public
+    Int32 charPositionInLine : Public
+Interface Antlr.Runtime.IToken: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    System.String Text 'get set' : 
+    Int32 Type 'get set' : 
+    Int32 Line 'get set' : 
+    Int32 CharPositionInLine 'get set' : 
+    Int32 Channel 'get set' : 
+    Int32 StartIndex 'get set' : 
+    Int32 StopIndex 'get set' : 
+    Int32 TokenIndex 'get set' : 
+    Antlr.Runtime.ICharStream InputStream 'get set' : 
+  Methods:
+    get_Text(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Text(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Type(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Type(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Line(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Line(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CharPositionInLine(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CharPositionInLine(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Channel(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Channel(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_StartIndex(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_StartIndex(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_StopIndex(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_StopIndex(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_TokenIndex(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_TokenIndex(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_InputStream(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_InputStream(ICharStream): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class Antlr.Runtime.ClassicToken: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.IToken): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    Antlr.Runtime.IToken
+  Properties:
+    System.String Text 'get set' : 
+    Int32 Type 'get set' : 
+    Int32 Line 'get set' : 
+    Int32 CharPositionInLine 'get set' : 
+    Int32 Channel 'get set' : 
+    Int32 StartIndex 'get set' : 
+    Int32 StopIndex 'get set' : 
+    Int32 TokenIndex 'get set' : 
+    Antlr.Runtime.ICharStream InputStream 'get set' : 
+  Methods:
+    get_Text(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Text(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Type(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Type(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Line(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Line(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CharPositionInLine(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CharPositionInLine(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Channel(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Channel(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_StartIndex(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_StartIndex(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_StopIndex(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_StopIndex(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TokenIndex(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_TokenIndex(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_InputStream(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_InputStream(ICharStream): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class Antlr.Runtime.CommonToken: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.ICharStream, Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.IToken): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    Antlr.Runtime.IToken
+  Properties:
+    System.String Text 'get set' : 
+    Int32 Type 'get set' : 
+    Int32 Line 'get set' : 
+    Int32 CharPositionInLine 'get set' : 
+    Int32 Channel 'get set' : 
+    Int32 StartIndex 'get set' : 
+    Int32 StopIndex 'get set' : 
+    Int32 TokenIndex 'get set' : 
+    Antlr.Runtime.ICharStream InputStream 'get set' : 
+  Methods:
+    get_Text(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Text(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Type(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Type(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Line(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Line(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CharPositionInLine(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CharPositionInLine(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Channel(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Channel(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_StartIndex(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_StartIndex(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_StopIndex(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_StopIndex(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TokenIndex(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_TokenIndex(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_InputStream(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_InputStream(ICharStream): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class Antlr.Runtime.CommonTokenStream: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.BufferedTokenStream
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.ITokenSource): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.ITokenSource, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Channel 'get ' : 
+    Antlr.Runtime.ITokenSource TokenSource 'get set' : 
+  Methods:
+    get_Channel(): PrivateScope, Public, HideBySig, SpecialName
+    get_TokenSource(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_TokenSource(ITokenSource): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Consume(): PrivateScope, Public, Virtual, HideBySig
+    LT(Int32): PrivateScope, Public, Virtual, HideBySig
+Interface Antlr.Runtime.Debug.IDebugEventListener: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    CreateNode(Object, IToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BecomeRoot(Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AddChild(Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetTokenBoundaries(Object, Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Initialize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    EnterRule(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    EnterAlt(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ExitRule(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    EnterSubRule(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ExitSubRule(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    EnterDecision(Int32, Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ExitDecision(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ConsumeToken(IToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ConsumeHiddenToken(IToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    LT(Int32, IToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Mark(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Rewind(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Rewind(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BeginBacktrack(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    EndBacktrack(Int32, Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Location(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RecognitionException(RecognitionException): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BeginResync(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    EndResync(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SemanticPredicate(Boolean, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Commence(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Terminate(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ConsumeNode(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    LT(Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    NilNode(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ErrorNode(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateNode(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class Antlr.Runtime.SpecialStateTransitionHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(DFA, Int32, IIntStream): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(DFA, Int32, IIntStream, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Antlr.Runtime.DFA: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.SpecialStateTransitionHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean debug : Public, InitOnly
+  Properties:
+    System.String Description 'get ' : 
+    Antlr.Runtime.SpecialStateTransitionHandler SpecialStateTransition 'get set' : 
+  Methods:
+    get_Description(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Predict(IIntStream): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Error(NoViableAltException): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_SpecialStateTransition(): PrivateScope, Public, HideBySig, SpecialName
+    UnpackEncodedString(String): PrivateScope, Public, Static, HideBySig
+    UnpackEncodedStringToUnsignedChars(String): PrivateScope, Public, Static, HideBySig
+Class Antlr.Runtime.RecognitionException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.Exception
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.IIntStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Antlr.Runtime.IIntStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Antlr.Runtime.IIntStream, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 UnexpectedType 'get ' : 
+    Boolean ApproximateLineInfo 'get set' : 
+    Antlr.Runtime.IIntStream Input 'get set' : 
+    Antlr.Runtime.IToken Token 'get set' : 
+    System.Object Node 'get set' : 
+    Int32 Character 'get set' : 
+    Int32 Index 'get set' : 
+    Int32 Line 'get set' : 
+    Int32 CharPositionInLine 'get set' : 
+  Methods:
+    get_UnexpectedType(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ApproximateLineInfo(): PrivateScope, Public, HideBySig, SpecialName
+    get_Input(): PrivateScope, Public, HideBySig, SpecialName
+    get_Token(): PrivateScope, Public, HideBySig, SpecialName
+    set_Token(IToken): PrivateScope, Public, HideBySig, SpecialName
+    get_Node(): PrivateScope, Public, HideBySig, SpecialName
+    get_Character(): PrivateScope, Public, HideBySig, SpecialName
+    get_Index(): PrivateScope, Public, HideBySig, SpecialName
+    get_Line(): PrivateScope, Public, HideBySig, SpecialName
+    set_Line(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_CharPositionInLine(): PrivateScope, Public, HideBySig, SpecialName
+    set_CharPositionInLine(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class Antlr.Runtime.EarlyExitException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.RecognitionException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Antlr.Runtime.IIntStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Int32, Antlr.Runtime.IIntStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Int32, Antlr.Runtime.IIntStream, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 DecisionNumber 'get ' : 
+  Methods:
+    get_DecisionNumber(): PrivateScope, Public, HideBySig, SpecialName
+Class Antlr.Runtime.FailedPredicateException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.RecognitionException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.IIntStream, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Antlr.Runtime.IIntStream, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Antlr.Runtime.IIntStream, System.String, System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String RuleName 'get ' : 
+    System.String PredicateText 'get ' : 
+  Methods:
+    get_RuleName(): PrivateScope, Public, HideBySig, SpecialName
+    get_PredicateText(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class Antlr.Runtime.GrammarRuleAttribute: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Name 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+Interface Antlr.Runtime.IRuleReturnScope: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    System.Object Start 'get ' : 
+    System.Object Stop 'get ' : 
+  Methods:
+    get_Start(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Stop(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Interface Antlr.Runtime.IAstRuleReturnScope: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Interfaces:
+    Antlr.Runtime.IRuleReturnScope
+  Properties:
+    System.Object Tree 'get ' : 
+  Methods:
+    get_Tree(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Interface Antlr.Runtime.IAstRuleReturnScope`1[TAstLabel]: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Type parameter: TAstLabel
+  Interfaces:
+    Antlr.Runtime.IAstRuleReturnScope
+    Antlr.Runtime.IRuleReturnScope
+  Properties:
+    TAstLabel Tree 'get ' : 
+  Methods:
+    get_Tree(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Interface Antlr.Runtime.ITokenSource: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    System.String SourceName 'get ' : 
+    System.String[] TokenNames 'get ' : 
+  Methods:
+    NextToken(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_SourceName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_TokenNames(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class Antlr.Runtime.LegacyCommonTokenStream: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.ITokenSource): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.ITokenSource, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    Antlr.Runtime.ITokenStream
+    Antlr.Runtime.IIntStream
+  Properties:
+    Int32 Index 'get ' : 
+    Int32 Range 'get set' : 
+    Int32 Count 'get ' : 
+    Antlr.Runtime.ITokenSource TokenSource 'get ' : 
+    System.String SourceName 'get ' : 
+  Methods:
+    get_Index(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Range(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    SetTokenSource(ITokenSource): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    FillBuffer(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Consume(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetTokenTypeChannel(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DiscardTokenType(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetDiscardOffChannelTokens(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetTokens(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetTokens(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetTokens(Int32, Int32, BitSet): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetTokens(Int32, Int32, IList`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetTokens(Int32, Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    LT(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Get(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    LA(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Mark(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Release(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Count(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Rewind(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Rewind(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Reset(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Seek(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_TokenSource(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SourceName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ToString(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToString(IToken, IToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Antlr.Runtime.Lexer: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :Antlr.Runtime.BaseRecognizer
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.ICharStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.ICharStream, Antlr.Runtime.RecognizerSharedState): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    Antlr.Runtime.ITokenSource
+  Properties:
+    System.String Text 'get set' : 
+    Int32 Line 'get set' : 
+    Int32 CharPositionInLine 'get set' : 
+    Antlr.Runtime.ICharStream CharStream 'get set' : 
+    System.String SourceName 'get ' : 
+    Int32 CharIndex 'get ' : 
+  Methods:
+    get_Text(): PrivateScope, Public, HideBySig, SpecialName
+    set_Text(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Line(): PrivateScope, Public, HideBySig, SpecialName
+    set_Line(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_CharPositionInLine(): PrivateScope, Public, HideBySig, SpecialName
+    set_CharPositionInLine(Int32): PrivateScope, Public, HideBySig, SpecialName
+    Reset(): PrivateScope, Public, Virtual, HideBySig
+    NextToken(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Skip(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    mTokens(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_CharStream(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CharStream(ICharStream): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SourceName(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Emit(IToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Emit(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Match(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MatchAny(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Match(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MatchRange(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_CharIndex(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ReportError(RecognitionException): PrivateScope, Public, Virtual, HideBySig
+    GetErrorMessage(RecognitionException, String[]): PrivateScope, Public, Virtual, HideBySig
+    GetCharErrorDisplay(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Recover(RecognitionException): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TraceIn(String, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TraceOut(String, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Antlr.Runtime.Misc.FastQueue`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Count 'get ' : 
+    Int32 Range 'get set' : 
+    T Item [Int32] 'get ' : 
+  Methods:
+    get_Count(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Range(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Item(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Dequeue(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Enqueue(T): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Peek(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Clear(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class Antlr.Runtime.Misc.LookaheadStream`1[T]: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Type parameter: T,  ReferenceType
+  :Antlr.Runtime.Misc.FastQueue`1[T]
+  Properties:
+    T EndOfFile 'get set' : 
+    Int32 Count 'get ' : 
+    Int32 Index 'get ' : 
+  Methods:
+    get_EndOfFile(): PrivateScope, Public, HideBySig, SpecialName
+    Clear(): PrivateScope, Public, Virtual, HideBySig
+    NextElement(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    IsEndOfFile(T): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Dequeue(): PrivateScope, Public, Virtual, HideBySig
+    Consume(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Fill(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Count(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    LT(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Index(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Mark(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Release(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Rewind(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Rewind(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Seek(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Antlr.Runtime.MismatchedSetException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.RecognitionException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.BitSet, Antlr.Runtime.IIntStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Antlr.Runtime.BitSet, Antlr.Runtime.IIntStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Antlr.Runtime.BitSet, Antlr.Runtime.IIntStream, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Antlr.Runtime.BitSet Expecting 'get ' : 
+  Methods:
+    get_Expecting(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class Antlr.Runtime.MismatchedNotSetException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.MismatchedSetException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.BitSet, Antlr.Runtime.IIntStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Antlr.Runtime.BitSet, Antlr.Runtime.IIntStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Antlr.Runtime.BitSet, Antlr.Runtime.IIntStream, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class Antlr.Runtime.MismatchedRangeException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.RecognitionException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32, Antlr.Runtime.IIntStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Int32, Int32, Antlr.Runtime.IIntStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Int32, Int32, Antlr.Runtime.IIntStream, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 A    'get ' : 
+    Int32 B    'get ' : 
+  Methods:
+    get_A(): PrivateScope, Public, HideBySig, SpecialName
+    get_B(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class Antlr.Runtime.MismatchedTokenException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.RecognitionException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Antlr.Runtime.IIntStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Antlr.Runtime.IIntStream, System.Collections.Generic.IList`1[System.String]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Int32, Antlr.Runtime.IIntStream, System.Collections.Generic.IList`1[System.String]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Int32, Antlr.Runtime.IIntStream, System.Collections.Generic.IList`1[System.String], System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Expecting 'get ' : 
+    System.Collections.ObjectModel.ReadOnlyCollection`1[System.String] TokenNames 'get ' : 
+  Methods:
+    get_Expecting(): PrivateScope, Public, HideBySig, SpecialName
+    get_TokenNames(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class Antlr.Runtime.MismatchedTreeNodeException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.RecognitionException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Antlr.Runtime.Tree.ITreeNodeStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Int32, Antlr.Runtime.Tree.ITreeNodeStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Int32, Antlr.Runtime.Tree.ITreeNodeStream, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Expecting 'get ' : 
+  Methods:
+    get_Expecting(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class Antlr.Runtime.MissingTokenException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.MismatchedTokenException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Antlr.Runtime.IIntStream, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Antlr.Runtime.IIntStream, System.Object, System.Collections.Generic.IList`1[System.String]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Int32, Antlr.Runtime.IIntStream, System.Object, System.Collections.Generic.IList`1[System.String]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Int32, Antlr.Runtime.IIntStream, System.Object, System.Collections.Generic.IList`1[System.String], System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 MissingType 'get ' : 
+  Methods:
+    get_MissingType(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class Antlr.Runtime.NoViableAltException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.RecognitionException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Int32, Int32, Antlr.Runtime.IIntStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, Int32, Int32, Antlr.Runtime.IIntStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, Int32, Int32, Antlr.Runtime.IIntStream, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 DecisionNumber 'get ' : 
+    System.String GrammarDecisionDescription 'get ' : 
+    Int32 StateNumber 'get ' : 
+  Methods:
+    get_DecisionNumber(): PrivateScope, Public, HideBySig, SpecialName
+    get_GrammarDecisionDescription(): PrivateScope, Public, HideBySig, SpecialName
+    get_StateNumber(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class Antlr.Runtime.Parser: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Antlr.Runtime.BaseRecognizer
+    Void .ctor(Antlr.Runtime.ITokenStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.ITokenStream, Antlr.Runtime.RecognizerSharedState): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Antlr.Runtime.ITokenStream input : Public
+  Properties:
+    Antlr.Runtime.ITokenStream TokenStream 'get set' : 
+    System.String SourceName 'get ' : 
+  Methods:
+    Reset(): PrivateScope, Public, Virtual, HideBySig
+    get_TokenStream(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_TokenStream(ITokenStream): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SourceName(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    TraceIn(String, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TraceOut(String, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Interface Antlr.Runtime.IRuleReturnScope`1[TLabel]: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Type parameter: TLabel
+  Interfaces:
+    Antlr.Runtime.IRuleReturnScope
+  Properties:
+    TLabel Start 'get ' : 
+    TLabel Stop 'get ' : 
+  Methods:
+    get_Start(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Stop(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class Antlr.Runtime.ParserRuleReturnScope`1[TToken]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TToken
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    Antlr.Runtime.IRuleReturnScope`1[TToken]
+    Antlr.Runtime.IRuleReturnScope
+  Properties:
+    TToken Start 'get set' : 
+    TToken Stop 'get set' : 
+  Methods:
+    get_Start(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Start(TToken): PrivateScope, Public, HideBySig, SpecialName
+    get_Stop(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Stop(TToken): PrivateScope, Public, HideBySig, SpecialName
+Class Antlr.Runtime.RecognizerSharedState: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.RecognizerSharedState): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Antlr.Runtime.BitSet[] following : Public
+    Int32 _fsp : Public
+    Boolean errorRecovery : Public
+    Int32 lastErrorIndex : Public
+    Boolean failed : Public
+    Int32 syntaxErrors : Public
+    Int32 backtracking : Public
+    System.Collections.Generic.IDictionary`2[System.Int32,System.Int32][] ruleMemo : Public
+    Antlr.Runtime.IToken token : Public
+    Int32 tokenStartCharIndex : Public
+    Int32 tokenStartLine : Public
+    Int32 tokenStartCharPositionInLine : Public
+    Int32 channel : Public
+    Int32 type : Public
+    System.String text : Public
+Class Antlr.Runtime.TokenChannels: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    Int32 Default = 0 : Public, Static, Literal, HasDefault
+    Int32 Hidden = 99 : Public, Static, Literal, HasDefault
+Class Antlr.Runtime.TokenTypes: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    Int32 EndOfFile = -1 : Public, Static, Literal, HasDefault
+    Int32 Invalid = 0 : Public, Static, Literal, HasDefault
+    Int32 EndOfRule = 1 : Public, Static, Literal, HasDefault
+    Int32 Down = 2 : Public, Static, Literal, HasDefault
+    Int32 Up = 3 : Public, Static, Literal, HasDefault
+    Int32 Min = 4 : Public, Static, Literal, HasDefault
+Class Antlr.Runtime.Tokens: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    Antlr.Runtime.IToken EndOfFile : Public, Static, InitOnly
+    Antlr.Runtime.IToken Invalid : Public, Static, InitOnly
+    Antlr.Runtime.IToken Skip : Public, Static, InitOnly
+Class Antlr.Runtime.Tokens`1[T]: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Type parameter: T, Antlr.Runtime.IToken,  DefaultConstructor
+  Fields:
+    T EndOfFile : Public, Static, InitOnly
+    T Invalid : Public, Static, InitOnly
+    T Skip : Public, Static, InitOnly
+Class Antlr.Runtime.TokenRewriteStream: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.CommonTokenStream
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.ITokenSource): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.ITokenSource, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String DEFAULT_PROGRAM_NAME = default : Public, Static, Literal, HasDefault
+    Int32 PROGRAM_INIT_SIZE = 100 : Public, Static, Literal, HasDefault
+    Int32 MIN_TOKEN_INDEX = 0 : Public, Static, Literal, HasDefault
+  Methods:
+    Rollback(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Rollback(String, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DeleteProgram(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DeleteProgram(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    InsertAfter(IToken, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    InsertAfter(Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    InsertAfter(String, IToken, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    InsertAfter(String, Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    InsertBefore(IToken, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    InsertBefore(Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    InsertBefore(String, IToken, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    InsertBefore(String, Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Replace(Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Replace(Int32, Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Replace(IToken, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Replace(IToken, IToken, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Replace(String, Int32, Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Replace(String, IToken, IToken, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Delete(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Delete(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Delete(IToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Delete(IToken, IToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Delete(String, Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Delete(String, IToken, IToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetLastRewriteTokenIndex(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToOriginalString(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToOriginalString(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ToString(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToString(Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    ToString(String, Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToDebugString(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToDebugString(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Interface Antlr.Runtime.Tree.ITree: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    Int32 ChildCount 'get ' : 
+    Antlr.Runtime.Tree.ITree Parent 'get set' : 
+    Int32 ChildIndex 'get set' : 
+    Boolean IsNil 'get ' : 
+    Int32 TokenStartIndex 'get set' : 
+    Int32 TokenStopIndex 'get set' : 
+    Int32 Type 'get ' : 
+    System.String Text 'get ' : 
+    Int32 Line 'get ' : 
+    Int32 CharPositionInLine 'get ' : 
+  Methods:
+    GetChild(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_ChildCount(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Parent(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Parent(ITree): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    HasAncestor(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetAncestor(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetAncestors(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_ChildIndex(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ChildIndex(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    FreshenParentAndChildIndexes(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AddChild(ITree): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetChild(Int32, ITree): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DeleteChild(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ReplaceChildren(Int32, Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_IsNil(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_TokenStartIndex(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_TokenStartIndex(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_TokenStopIndex(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_TokenStopIndex(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    DupNode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_Type(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Text(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Line(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CharPositionInLine(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    ToStringTree(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ToString(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class Antlr.Runtime.Tree.BaseTree: AutoLayout, AnsiClass, Class, Public, Abstract, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.Tree.ITree): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    Antlr.Runtime.Tree.ITree
+  Properties:
+    System.Collections.Generic.IList`1[Antlr.Runtime.Tree.ITree] Children 'get set' : 
+    Int32 ChildCount 'get ' : 
+    Antlr.Runtime.Tree.ITree Parent 'get set' : 
+    Int32 ChildIndex 'get set' : 
+    Boolean IsNil 'get ' : 
+    Int32 TokenStartIndex 'get set' : 
+    Int32 TokenStopIndex 'get set' : 
+    Int32 Type 'get set' : 
+    System.String Text 'get set' : 
+    Int32 Line 'get set' : 
+    Int32 CharPositionInLine 'get set' : 
+  Methods:
+    get_Children(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ChildCount(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Parent(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Parent(ITree): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ChildIndex(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ChildIndex(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsNil(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TokenStartIndex(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_TokenStartIndex(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_TokenStopIndex(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_TokenStopIndex(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Type(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Type(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Text(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Text(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Line(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Line(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CharPositionInLine(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CharPositionInLine(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetChild(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetFirstChildWithType(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AddChild(ITree): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AddChildren(IEnumerable`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetChild(Int32, ITree): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DeleteChild(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ReplaceChildren(Int32, Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    FreshenParentAndChildIndexes(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    FreshenParentAndChildIndexes(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SanityCheckParentAndChildIndexes(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SanityCheckParentAndChildIndexes(ITree, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    HasAncestor(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetAncestor(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetAncestors(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToStringTree(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToString(): PrivateScope, Public, Virtual, HideBySig, Abstract
+    DupNode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface Antlr.Runtime.Tree.ITreeAdaptor: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    DeleteChild(Object, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetChildCount(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetParent(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetParent(Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetChildIndex(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetChildIndex(Object, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ReplaceChildren(Object, Int32, Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Create(IToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Create(Int32, IToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Create(Int32, IToken, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Create(IToken, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Create(Int32, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DupNode(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DupNode(Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DupNode(Object, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DupNode(Int32, Object, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DupTree(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Nil(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ErrorNode(ITokenStream, IToken, IToken, RecognitionException): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    IsNil(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AddChild(Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BecomeRoot(Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RulePostProcessing(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetUniqueID(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BecomeRoot(IToken, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetType(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetType(Object, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetText(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetText(Object, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetToken(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetTokenBoundaries(Object, IToken, IToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetTokenStartIndex(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetTokenStopIndex(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetChild(Object, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetChild(Object, Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class Antlr.Runtime.Tree.BaseTreeAdaptor: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Interfaces:
+    Antlr.Runtime.Tree.ITreeAdaptor
+  Methods:
+    Nil(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ErrorNode(ITokenStream, IToken, IToken, RecognitionException): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    IsNil(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DupNode(Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DupNode(Object, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DupNode(Int32, Object, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DupTree(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DupTree(Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AddChild(Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BecomeRoot(Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    RulePostProcessing(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BecomeRoot(IToken, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Create(Int32, IToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Create(Int32, IToken, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Create(IToken, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Create(Int32, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetType(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetType(Object, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetText(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetText(Object, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetChild(Object, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetChild(Object, Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DeleteChild(Object, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetChildCount(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetUniqueID(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateToken(Int32, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateToken(IToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Create(IToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DupNode(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetToken(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetTokenBoundaries(Object, IToken, IToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetTokenStartIndex(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetTokenStopIndex(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetParent(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetParent(Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetChildIndex(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetChildIndex(Object, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ReplaceChildren(Object, Int32, Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Interface Antlr.Runtime.Tree.ITreeNodeStream: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Interfaces:
+    Antlr.Runtime.IIntStream
+  Properties:
+    System.Object Item [Int32] 'get ' : 
+    System.Object TreeSource 'get ' : 
+    Antlr.Runtime.ITokenStream TokenStream 'get ' : 
+    Antlr.Runtime.Tree.ITreeAdaptor TreeAdaptor 'get ' : 
+    Boolean UniqueNavigationNodes 'get set' : 
+  Methods:
+    get_Item(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    LT(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_TreeSource(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_TokenStream(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_TreeAdaptor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_UniqueNavigationNodes(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_UniqueNavigationNodes(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    ToString(Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ReplaceChildren(Object, Int32, Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class Antlr.Runtime.Tree.BufferedTreeNodeStream: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.Tree.ITreeAdaptor, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.Tree.ITreeAdaptor, System.Object, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    Antlr.Runtime.Tree.ITreeNodeStream
+    Antlr.Runtime.IIntStream
+    Antlr.Runtime.ITokenStreamInformation
+  Fields:
+    Int32 DEFAULT_INITIAL_BUFFER_SIZE = 100 : Public, Static, Literal, HasDefault
+    Int32 INITIAL_CALL_STACK_SIZE = 10 : Public, Static, Literal, HasDefault
+  Properties:
+    Int32 Count 'get ' : 
+    System.Object TreeSource 'get ' : 
+    System.String SourceName 'get ' : 
+    Antlr.Runtime.ITokenStream TokenStream 'get set' : 
+    Antlr.Runtime.Tree.ITreeAdaptor TreeAdaptor 'get set' : 
+    Boolean UniqueNavigationNodes 'get set' : 
+    Antlr.Runtime.IToken LastToken 'get ' : 
+    Antlr.Runtime.IToken LastRealToken 'get ' : 
+    Int32 MaxLookBehind 'get ' : 
+    System.Object Item [Int32] 'get ' : 
+    Int32 Index 'get ' : 
+  Methods:
+    get_Count(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TreeSource(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SourceName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TokenStream(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_TokenStream(ITokenStream): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TreeAdaptor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_TreeAdaptor(ITreeAdaptor): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_UniqueNavigationNodes(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_UniqueNavigationNodes(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_LastToken(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_LastRealToken(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MaxLookBehind(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    FillBuffer(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Item(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    LT(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetCurrentSymbol(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Consume(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    LA(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Mark(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Release(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Index(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Rewind(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Rewind(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Seek(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Push(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Pop(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Reset(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Iterator(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ReplaceChildren(Object, Int32, Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToTokenTypeString(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToTokenString(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToString(Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Antlr.Runtime.Tree.CommonTree: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.Tree.BaseTree
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.Tree.CommonTree): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.IToken): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Antlr.Runtime.IToken token : Public
+  Properties:
+    Int32 CharPositionInLine 'get set' : 
+    Int32 ChildIndex 'get set' : 
+    Boolean IsNil 'get ' : 
+    Int32 Line 'get set' : 
+    Antlr.Runtime.Tree.ITree Parent 'get set' : 
+    System.String Text 'get set' : 
+    Antlr.Runtime.IToken Token 'get set' : 
+    Int32 TokenStartIndex 'get set' : 
+    Int32 TokenStopIndex 'get set' : 
+    Int32 Type 'get set' : 
+  Methods:
+    get_CharPositionInLine(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_CharPositionInLine(Int32): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_ChildIndex(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_ChildIndex(Int32): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsNil(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Line(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Line(Int32): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Parent(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Parent(ITree): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Text(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Text(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Token(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Token(IToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TokenStartIndex(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_TokenStartIndex(Int32): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_TokenStopIndex(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_TokenStopIndex(Int32): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Type(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Type(Int32): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    DupNode(): PrivateScope, Public, Virtual, HideBySig
+    SetUnknownTokenBoundaries(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class Antlr.Runtime.Tree.CommonErrorNode: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.Tree.CommonTree
+    Void .ctor(Antlr.Runtime.ITokenStream, Antlr.Runtime.IToken, Antlr.Runtime.IToken, Antlr.Runtime.RecognitionException): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Antlr.Runtime.IIntStream input : Public
+    Antlr.Runtime.IToken start : Public
+    Antlr.Runtime.IToken stop : Public
+    Antlr.Runtime.RecognitionException trappedException : Public
+  Properties:
+    Boolean IsNil 'get ' : 
+    System.String Text 'get set' : 
+    Int32 Type 'get set' : 
+  Methods:
+    get_IsNil(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Text(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Text(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Type(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Type(Int32): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class Antlr.Runtime.Tree.CommonTreeAdaptor: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Antlr.Runtime.Tree.BaseTreeAdaptor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Create(IToken): PrivateScope, Public, Virtual, HideBySig
+    CreateToken(Int32, String): PrivateScope, Public, Virtual, HideBySig
+    CreateToken(IToken): PrivateScope, Public, Virtual, HideBySig
+    GetToken(Object): PrivateScope, Public, Virtual, HideBySig
+Class Antlr.Runtime.Tree.CommonTreeNodeStream: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.Misc.LookaheadStream`1[System.Object]
+    Void .ctor(System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.Tree.ITreeAdaptor, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    Antlr.Runtime.Tree.ITreeNodeStream
+    Antlr.Runtime.IIntStream
+  Fields:
+    Int32 DEFAULT_INITIAL_BUFFER_SIZE = 100 : Public, Static, Literal, HasDefault
+    Int32 INITIAL_CALL_STACK_SIZE = 10 : Public, Static, Literal, HasDefault
+  Properties:
+    System.String SourceName 'get ' : 
+    Antlr.Runtime.ITokenStream TokenStream 'get set' : 
+    Antlr.Runtime.Tree.ITreeAdaptor TreeAdaptor 'get set' : 
+    System.Object TreeSource 'get ' : 
+    Boolean UniqueNavigationNodes 'get set' : 
+  Methods:
+    get_SourceName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TokenStream(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_TokenStream(ITokenStream): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TreeAdaptor(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_TreeAdaptor(ITreeAdaptor): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TreeSource(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_UniqueNavigationNodes(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_UniqueNavigationNodes(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Reset(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    NextElement(): PrivateScope, Public, Virtual, HideBySig
+    IsEndOfFile(Object): PrivateScope, Public, Virtual, HideBySig
+    LA(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Push(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Pop(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ReplaceChildren(Object, Int32, Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToString(Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToTokenTypeString(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Antlr.Runtime.Tree.DotTreeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ToDot(Object, ITreeAdaptor): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToDot(ITree): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Interface Antlr.Runtime.Tree.ITreeVisitorAction: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    Pre(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Post(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class Antlr.Runtime.Tree.TreeVisitorAction: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Func`2[System.Object,System.Object], System.Func`2[System.Object,System.Object]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    Antlr.Runtime.Tree.ITreeVisitorAction
+  Methods:
+    Pre(Object): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Post(Object): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class Antlr.Runtime.Tree.ParseTree: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.Tree.BaseTree
+    Void .ctor(System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Object payload : Public
+    System.Collections.Generic.List`1[Antlr.Runtime.IToken] hiddenTokens : Public
+  Properties:
+    System.String Text 'get set' : 
+    Int32 TokenStartIndex 'get set' : 
+    Int32 TokenStopIndex 'get set' : 
+    Int32 Type 'get set' : 
+  Methods:
+    get_Text(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Text(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_TokenStartIndex(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_TokenStartIndex(Int32): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_TokenStopIndex(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_TokenStopIndex(Int32): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Type(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Type(Int32): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    DupNode(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ToStringWithHiddenTokens(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToInputString(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Antlr.Runtime.Tree.RewriteCardinalityException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.Exception
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Antlr.Runtime.Tree.RewriteEarlyExitException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.Tree.RewriteCardinalityException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Antlr.Runtime.Tree.RewriteEmptyStreamException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.Tree.RewriteCardinalityException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Antlr.Runtime.Tree.RewriteRuleElementStream: AutoLayout, AnsiClass, Class, Public, Abstract, Serializable, BeforeFieldInit
+    Void .ctor(Antlr.Runtime.Tree.ITreeAdaptor, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.Tree.ITreeAdaptor, System.String, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.Tree.ITreeAdaptor, System.String, System.Collections.IList): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean HasNext 'get ' : 
+    Int32 Count 'get ' : 
+    System.String Description 'get ' : 
+  Methods:
+    Reset(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Add(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    NextTree(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_HasNext(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Count(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Description(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class Antlr.Runtime.Tree.RewriteRuleNodeStream: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.Tree.RewriteRuleElementStream
+    Void .ctor(Antlr.Runtime.Tree.ITreeAdaptor, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.Tree.ITreeAdaptor, System.String, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.Tree.ITreeAdaptor, System.String, System.Collections.IList): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    NextNode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Antlr.Runtime.Tree.RewriteRuleSubtreeStream: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.Tree.RewriteRuleElementStream
+    Void .ctor(Antlr.Runtime.Tree.ITreeAdaptor, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.Tree.ITreeAdaptor, System.String, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.Tree.ITreeAdaptor, System.String, System.Collections.IList): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    NextNode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Antlr.Runtime.Tree.RewriteRuleTokenStream: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.Tree.RewriteRuleElementStream
+    Void .ctor(Antlr.Runtime.Tree.ITreeAdaptor, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.Tree.ITreeAdaptor, System.String, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.Tree.ITreeAdaptor, System.String, System.Collections.IList): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    NextNode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    NextToken(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Antlr.Runtime.Tree.TreeConstants: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    Antlr.Runtime.Tree.ITree INVALID_NODE : Public, Static, InitOnly
+Class Antlr.Runtime.Tree.TreeParser: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Antlr.Runtime.BaseRecognizer
+    Void .ctor(Antlr.Runtime.Tree.ITreeNodeStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.Tree.ITreeNodeStream, Antlr.Runtime.RecognizerSharedState): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 DOWN = 2 : Public, Static, Literal, HasDefault
+    Int32 UP = 3 : Public, Static, Literal, HasDefault
+  Properties:
+    System.String SourceName 'get ' : 
+  Methods:
+    Reset(): PrivateScope, Public, Virtual, HideBySig
+    SetTreeNodeStream(ITreeNodeStream): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetTreeNodeStream(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_SourceName(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    MatchAny(IIntStream): PrivateScope, Public, Virtual, HideBySig
+    GetErrorHeader(RecognitionException): PrivateScope, Public, Virtual, HideBySig
+    GetErrorMessage(RecognitionException, String[]): PrivateScope, Public, Virtual, HideBySig
+    TraceIn(String, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TraceOut(String, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Antlr.Runtime.Tree.TreeFilter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Antlr.Runtime.Tree.TreeParser
+    Void .ctor(Antlr.Runtime.Tree.ITreeNodeStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.Tree.ITreeNodeStream, Antlr.Runtime.RecognizerSharedState): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ApplyOnce(Object, Action): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Downup(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Antlr.Runtime.Tree.TreeIterator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.Tree.ITreeAdaptor, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Collections.Generic.IEnumerator`1[System.Object]
+    System.IDisposable
+    System.Collections.IEnumerator
+  Fields:
+    System.Object up : Public
+    System.Object down : Public
+    System.Object eof : Public
+  Properties:
+    System.Object Current 'get set' : 
+  Methods:
+    get_Current(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    MoveNext(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Reset(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class Antlr.Runtime.Tree.TreePatternLexer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Text.StringBuilder sval : Public
+    Boolean error : Public
+    Int32 Begin = 1 : Public, Static, Literal, HasDefault
+    Int32 End = 2 : Public, Static, Literal, HasDefault
+    Int32 Id = 3 : Public, Static, Literal, HasDefault
+    Int32 Arg = 4 : Public, Static, Literal, HasDefault
+    Int32 Percent = 5 : Public, Static, Literal, HasDefault
+    Int32 Colon = 6 : Public, Static, Literal, HasDefault
+    Int32 Dot = 7 : Public, Static, Literal, HasDefault
+  Methods:
+    NextToken(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Antlr.Runtime.Tree.TreePatternParser: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Antlr.Runtime.Tree.TreePatternLexer, Antlr.Runtime.Tree.TreeWizard, Antlr.Runtime.Tree.ITreeAdaptor): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Pattern(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ParseTree(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ParseNode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Antlr.Runtime.Tree.TreeRewriter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Antlr.Runtime.Tree.TreeParser
+    Void .ctor(Antlr.Runtime.Tree.ITreeNodeStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.Tree.ITreeNodeStream, Antlr.Runtime.RecognizerSharedState): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ApplyOnce(Object, Func`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ApplyRepeatedly(Object, Func`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Downup(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Downup(Object, Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Topdown(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Bottomup(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Antlr.Runtime.Tree.TreeRuleReturnScope`1[TTree]: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  Type parameter: TTree
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    Antlr.Runtime.IRuleReturnScope`1[TTree]
+    Antlr.Runtime.IRuleReturnScope
+  Properties:
+    TTree Start 'get set' : 
+  Methods:
+    get_Start(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Start(TTree): PrivateScope, Public, HideBySig, SpecialName
+Class Antlr.Runtime.Tree.TreeVisitor: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Antlr.Runtime.Tree.ITreeAdaptor): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Visit(Object, ITreeVisitorAction): PrivateScope, Public, HideBySig
+    Visit(Object, Func`2, Func`2): PrivateScope, Public, HideBySig
+Class Antlr.Runtime.Tree.TreeWizard: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Antlr.Runtime.Tree.ITreeAdaptor): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.Tree.ITreeAdaptor, System.Collections.Generic.IDictionary`2[System.String,System.Int32]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Antlr.Runtime.Tree.ITreeAdaptor, System.String[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ComputeTokenTypes(String[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetTokenType(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Index(Object): PrivateScope, Public, HideBySig
+    Find(Object, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Find(Object, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    FindFirst(Object, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    FindFirst(Object, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Visit(Object, Int32, IContextVisitor): PrivateScope, Public, HideBySig
+    Visit(Object, Int32, Action`1): PrivateScope, Public, HideBySig
+    Visit(Object, String, IContextVisitor): PrivateScope, Public, HideBySig
+    Parse(Object, String, IDictionary`2): PrivateScope, Public, HideBySig
+    Parse(Object, String): PrivateScope, Public, HideBySig
+    Create(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Equals(Object, Object, ITreeAdaptor): PrivateScope, Public, Static, HideBySig
+    Equals(Object, Object): PrivateScope, Public, HideBySig
+Interface Antlr.Runtime.Tree.TreeWizard+IContextVisitor: AutoLayout, AnsiClass, Class, NestedPublic, ClassSemanticsMask, Abstract
+  Methods:
+    Visit(Object, Object, Int32, IDictionary`2): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class Antlr.Runtime.Tree.TreeWizard+Visitor: AutoLayout, AnsiClass, Class, NestedPublic, Abstract, BeforeFieldInit
+  Interfaces:
+    Antlr.Runtime.Tree.TreeWizard+IContextVisitor
+  Methods:
+    Visit(Object, Object, Int32, IDictionary`2): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Visit(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class Antlr.Runtime.Tree.TreeWizard+TreePattern: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+  :Antlr.Runtime.Tree.CommonTree
+    Void .ctor(Antlr.Runtime.IToken): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String label : Public
+    Boolean hasTextArg : Public
+  Methods:
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class Antlr.Runtime.Tree.TreeWizard+WildcardTreePattern: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+  :Antlr.Runtime.Tree.TreeWizard+TreePattern
+    Void .ctor(Antlr.Runtime.IToken): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Antlr.Runtime.Tree.TreeWizard+TreePatternTreeAdaptor: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+  :Antlr.Runtime.Tree.CommonTreeAdaptor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Create(IToken): PrivateScope, Public, Virtual, HideBySig
+Class Antlr.Runtime.UnbufferedTokenStream: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Antlr.Runtime.Misc.LookaheadStream`1[Antlr.Runtime.IToken]
+    Void .ctor(Antlr.Runtime.ITokenSource): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    Antlr.Runtime.ITokenStream
+    Antlr.Runtime.IIntStream
+  Properties:
+    Antlr.Runtime.ITokenSource TokenSource 'get ' : 
+    System.String SourceName 'get ' : 
+  Methods:
+    get_TokenSource(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SourceName(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    NextElement(): PrivateScope, Public, Virtual, HideBySig
+    IsEndOfFile(IToken): PrivateScope, Public, Virtual, HideBySig
+    Get(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    LA(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ToString(Int32, Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ToString(IToken, IToken): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class Antlr.Runtime.UnwantedTokenException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :Antlr.Runtime.MismatchedTokenException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Antlr.Runtime.IIntStream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Antlr.Runtime.IIntStream, System.Collections.Generic.IList`1[System.String]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Int32, Antlr.Runtime.IIntStream, System.Collections.Generic.IList`1[System.String]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Int32, Antlr.Runtime.IIntStream, System.Collections.Generic.IList`1[System.String], System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Antlr.Runtime.IToken UnexpectedToken 'get ' : 
+  Methods:
+    get_UnexpectedToken(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig

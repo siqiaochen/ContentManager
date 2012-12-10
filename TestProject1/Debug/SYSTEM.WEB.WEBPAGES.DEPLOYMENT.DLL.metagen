@@ -1,0 +1,178 @@
+  System.Web.WebPages.Deployment.Common.CommonResources.resources - Embedded, ContainedInManifestFile, 
+  System.Web.WebPages.Deployment.Resources.ConfigurationResources.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class Microsoft.Internal.Web.Utils.CommonResources: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Resources.ResourceManager ResourceManager 'get ' : 
+    System.Globalization.CultureInfo Culture 'get set' : 
+    System.String Argument_Cannot_Be_Null_Or_Empty 'get ' : 
+    System.String Argument_Must_Be_Between 'get ' : 
+    System.String Argument_Must_Be_Enum_Member 'get ' : 
+    System.String Argument_Must_Be_GreaterThan 'get ' : 
+    System.String Argument_Must_Be_GreaterThanOrEqualTo 'get ' : 
+    System.String Argument_Must_Be_LessThan 'get ' : 
+    System.String Argument_Must_Be_LessThanOrEqualTo 'get ' : 
+    System.String Argument_Must_Be_Null_Or_Non_Empty 'get ' : 
+  Methods:
+    get_ResourceManager(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Culture(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    set_Culture(CultureInfo): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Cannot_Be_Null_Or_Empty(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_Between(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_Enum_Member(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_GreaterThan(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_GreaterThanOrEqualTo(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_LessThan(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_LessThanOrEqualTo(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_Null_Or_Non_Empty(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+Class Microsoft.Internal.Web.Utils.ExceptionHelper: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    CreateArgumentNullOrEmptyException(String): PrivateScope, Assembly, Static, HideBySig
+Class System.Web.WebPages.Deployment.AppDomainHelper: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    GetBinAssemblyReferences(String, String): PrivateScope, Public, Static, HideBySig
+Class System.Web.WebPages.Deployment.AssemblyUtils: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.Reflection.AssemblyName ThisAssemblyName : Assembly, Static, InitOnly
+    System.Version WebPagesV1Version : Assembly, Static, InitOnly
+  Methods:
+    GetMaxWebPagesVersion(): PrivateScope, Assembly, Static, HideBySig
+    GetMaxWebPagesVersion(IEnumerable`1): PrivateScope, Assembly, Static, HideBySig
+    IsVersionAvailable(Version): PrivateScope, Assembly, Static, HideBySig
+    IsVersionAvailable(IEnumerable`1, Version): PrivateScope, Assembly, Static, HideBySig
+    GetVersionFromBin(String, IFileSystem, Func`2(Optional, HasDefault)): PrivateScope, Assembly, Static, HideBySig
+    NamesMatch(AssemblyName, AssemblyName, Boolean): PrivateScope, Assembly, Static, HideBySig
+    GetLoadedAssemblies(): PrivateScope, Assembly, Static, HideBySig
+    GetAssembliesForVersion(Version): PrivateScope, Assembly, Static, HideBySig
+    GetFullName(String, Version): PrivateScope, Assembly, Static, HideBySig
+    GetAssembliesMatchingOtherVersions(IDictionary`2): PrivateScope, Public, Static, HideBySig
+Interface System.Web.WebPages.Deployment.IBuildManager: AutoLayout, AnsiClass, Class, ClassSemanticsMask, Abstract
+  Methods:
+    CreateCachedFile(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ReadCachedFile(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Web.WebPages.Deployment.BuildManagerWrapper: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Web.WebPages.Deployment.IBuildManager
+  Methods:
+    ReadCachedFile(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    CreateCachedFile(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Interface Microsoft.Internal.Web.Utils.IFileSystem: AutoLayout, AnsiClass, Class, ClassSemanticsMask, Abstract
+  Methods:
+    FileExists(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ReadFile(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    OpenFile(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    EnumerateFiles(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class Microsoft.Internal.Web.Utils.PhysicalFileSystem: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    Microsoft.Internal.Web.Utils.IFileSystem
+  Methods:
+    FileExists(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ReadFile(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    OpenFile(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    EnumerateFiles(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.WebPages.Deployment.Resources.ConfigurationResources: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Resources.ResourceManager ResourceManager 'get ' : 
+    System.Globalization.CultureInfo Culture 'get set' : 
+    System.String InstallPathNotFound 'get ' : 
+    System.String WebPagesImplicitVersionFailure 'get ' : 
+    System.String WebPagesRegistryKeyDoesNotExist 'get ' : 
+    System.String WebPagesVersionChanges 'get ' : 
+    System.String WebPagesVersionConflict 'get ' : 
+    System.String WebPagesVersionNotFound 'get ' : 
+  Methods:
+    get_ResourceManager(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Culture(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    set_Culture(CultureInfo): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_InstallPathNotFound(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebPagesImplicitVersionFailure(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebPagesRegistryKeyDoesNotExist(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebPagesVersionChanges(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebPagesVersionConflict(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebPagesVersionNotFound(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+Class System.Web.WebPages.Deployment.WebPagesDeployment: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.String CacheKeyPrefix : Assembly, Static, InitOnly
+  Methods:
+    GetVersionWithoutEnabledCheck(String): PrivateScope, Public, Static, HideBySig
+    GetExplicitWebPagesVersion(String): PrivateScope, Public, Static, HideBySig
+    GetVersion(String): PrivateScope, Public, Static, HideBySig (Obsolete)
+    GetObsoleteVersionInternal(String, NameValueCollection, IFileSystem): PrivateScope, Assembly, Static, HideBySig
+    GetMaxVersion(): PrivateScope, Public, Static, HideBySig
+    IsEnabled(String): PrivateScope, Public, Static, HideBySig
+    IsExplicitlyDisabled(String): PrivateScope, Public, Static, HideBySig
+    GetIncompatibleDependencies(String): PrivateScope, Public, Static, HideBySig
+    IsExplicitlyDisabled(NameValueCollection): PrivateScope, Assembly, Static, HideBySig
+    IsEnabled(IFileSystem, String, NameValueCollection): PrivateScope, Assembly, Static, HideBySig
+    GetVersionInternal(NameValueCollection, Version, Version): PrivateScope, Assembly, Static, HideBySig
+    GetAssemblyPath(Version): PrivateScope, Public, Static, HideBySig
+    GetWebPagesAssemblies(): PrivateScope, Public, Static, HideBySig
+    GetVersionFromConfig(NameValueCollection): PrivateScope, Assembly, Static, HideBySig
+    AppRootContainsWebPagesFile(IFileSystem, String): PrivateScope, Assembly, Static, HideBySig
+    GetPreviousRuntimeVersion(IBuildManager): PrivateScope, Assembly, Static, HideBySig
+    PersistRuntimeVersion(IBuildManager, Version): PrivateScope, Assembly, Static, HideBySig
+    ForceRecompile(IFileSystem, String): PrivateScope, Assembly, Static, HideBySig
+Class System.Web.WebPages.Deployment.PreApplicationStartCode: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Start(): PrivateScope, Public, Static, HideBySig
+    StartCore(): PrivateScope, Assembly, Static, HideBySig
+    StartCore(IFileSystem, String, String, NameValueCollection, IEnumerable`1, IBuildManager, Action`1, Action, Func`2(Optional, HasDefault)): PrivateScope, Assembly, Static, HideBySig
+    GetPreStartInitMethodsFromAssemblyCollection(IEnumerable`1): PrivateScope, Assembly, Static, HideBySig
+    FindPreStartInitMethod(Type, String): PrivateScope, Assembly, Static, HideBySig
+Class <>f__AnonymousType0`2[<item>j__TPar,<matchedVersion>j__TPar]: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  Type parameter: <item>j__TPar
+  Type parameter: <matchedVersion>j__TPar
+    Void .ctor(<item>j__TPar, <matchedVersion>j__TPar): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    <item>j__TPar item 'get ' : 
+    <matchedVersion>j__TPar matchedVersion 'get ' : 
+  Methods:
+    get_item(): PrivateScope, Public, HideBySig, SpecialName
+    get_matchedVersion(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class <>f__AnonymousType1`2[<webPagesAssembly>j__TPar,<referenceName>j__TPar]: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  Type parameter: <webPagesAssembly>j__TPar
+  Type parameter: <referenceName>j__TPar
+    Void .ctor(<webPagesAssembly>j__TPar, <referenceName>j__TPar): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    <webPagesAssembly>j__TPar webPagesAssembly 'get ' : 
+    <referenceName>j__TPar referenceName 'get ' : 
+  Methods:
+    get_webPagesAssembly(): PrivateScope, Public, HideBySig, SpecialName
+    get_referenceName(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class <>f__AnonymousType2`2[<<>h__TransparentIdentifier13>j__TPar,<referencedAssembly>j__TPar]: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  Type parameter: <<>h__TransparentIdentifier13>j__TPar
+  Type parameter: <referencedAssembly>j__TPar
+    Void .ctor(<<>h__TransparentIdentifier13>j__TPar, <referencedAssembly>j__TPar): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    <<>h__TransparentIdentifier13>j__TPar <>h__TransparentIdentifier13 'get ' : 
+    <referencedAssembly>j__TPar referencedAssembly 'get ' : 
+  Methods:
+    get_<>h__TransparentIdentifier13(): PrivateScope, Public, HideBySig, SpecialName
+    get_referencedAssembly(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig

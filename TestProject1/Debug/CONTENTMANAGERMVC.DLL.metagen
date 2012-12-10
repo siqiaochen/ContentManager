@@ -1,0 +1,555 @@
+  ContentManagerMVC.Migrations.add_lists2.resources - Embedded, ContainedInManifestFile, 
+  ContentManagerMVC.Migrations.Initial.resources - Embedded, ContainedInManifestFile, 
+  ContentManagerMVC.Properties.Resources.resources - Embedded, ContainedInManifestFile, 
+  ContentManagerMVC.Migrations.newplayersettings3.resources - Embedded, ContainedInManifestFile, 
+  ContentManagerMVC.Migrations.new21.resources - Embedded, ContainedInManifestFile, 
+  ContentManagerMVC.Migrations.new1.resources - Embedded, ContainedInManifestFile, 
+  ContentManagerMVC.Migrations.new24.resources - Embedded, ContainedInManifestFile, 
+  ContentManagerMVC.Migrations.add_lists1.resources - Embedded, ContainedInManifestFile, 
+  ContentManagerMVC.Migrations.newplayersettings31.resources - Embedded, ContainedInManifestFile, 
+  ContentManagerMVC.Migrations.newplayersettings.resources - Embedded, ContainedInManifestFile, 
+  ContentManagerMVC.Migrations.new23.resources - Embedded, ContainedInManifestFile, 
+  ContentManagerMVC.Migrations.add_lists.resources - Embedded, ContainedInManifestFile, 
+  ContentManagerMVC.Migrations.contentsettings.resources - Embedded, ContainedInManifestFile, 
+  ContentManagerMVC.Migrations.add_lists3.resources - Embedded, ContainedInManifestFile, 
+  ContentManagerMVC.Migrations._new.resources - Embedded, ContainedInManifestFile, 
+  ContentManagerMVC.Migrations.new25.resources - Embedded, ContainedInManifestFile, 
+  ContentManagerMVC.Migrations.new22.resources - Embedded, ContainedInManifestFile, 
+  ContentManagerMVC.Migrations.new2.resources - Embedded, ContainedInManifestFile, 
+  ContentManagerMVC.Migrations.newsecuritysetting.resources - Embedded, ContainedInManifestFile, 
+  ContentManagerMVC.Migrations.membership.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly ContentManagerMVC, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Web.Optimization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly PagedList, Version=1.15.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1: 
+	hash=None, flags=None
+Assembly System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly WebMatrix.WebData, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly Microsoft.Web.WebPages.OAuth, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly DotNetOpenAuth.AspNet, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246: 
+	hash=None, flags=None
+Assembly System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Class ContentManagerMVC.Migrations.new23: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.Migrations.DbMigration
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  Methods:
+    Up(): PrivateScope, Public, Virtual, HideBySig
+    Down(): PrivateScope, Public, Virtual, HideBySig
+Class ContentManagerMVC.Migrations.newplayersettings: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.Migrations.DbMigration
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  Methods:
+    Up(): PrivateScope, Public, Virtual, HideBySig
+    Down(): PrivateScope, Public, Virtual, HideBySig
+Class ContentManagerMVC.Migrations.new2: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.Migrations.DbMigration
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  Methods:
+    Up(): PrivateScope, Public, Virtual, HideBySig
+    Down(): PrivateScope, Public, Virtual, HideBySig
+Class ContentManagerMVC.Migrations.new1: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.Migrations.DbMigration
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  Methods:
+    Up(): PrivateScope, Public, Virtual, HideBySig
+    Down(): PrivateScope, Public, Virtual, HideBySig
+Class ContentManagerMVC.Migrations.add_lists3: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.Migrations.DbMigration
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  Methods:
+    Up(): PrivateScope, Public, Virtual, HideBySig
+    Down(): PrivateScope, Public, Virtual, HideBySig
+Class ContentManagerMVC.Migrations.add_lists2: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.Migrations.DbMigration
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  Methods:
+    Up(): PrivateScope, Public, Virtual, HideBySig
+    Down(): PrivateScope, Public, Virtual, HideBySig
+Class ContentManagerMVC.Migrations._new: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.Migrations.DbMigration
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  Methods:
+    Up(): PrivateScope, Public, Virtual, HideBySig
+    Down(): PrivateScope, Public, Virtual, HideBySig
+Class ContentManagerMVC.Migrations.add_lists: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.Migrations.DbMigration
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  Methods:
+    Up(): PrivateScope, Public, Virtual, HideBySig
+    Down(): PrivateScope, Public, Virtual, HideBySig
+Class ContentManagerMVC.Migrations.contentsettings: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.Migrations.DbMigration
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  Methods:
+    Up(): PrivateScope, Public, Virtual, HideBySig
+    Down(): PrivateScope, Public, Virtual, HideBySig
+Class ContentManagerMVC.Controllers.PlayerController: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Mvc.Controller
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Index(String, String, String, Nullable`1): PrivateScope, Public, HideBySig
+    Details(Int32(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    PlayerScheduleDetails(Nullable`1, String, Nullable`1): PrivateScope, Public, HideBySig
+    PlayerAddSchedule(Int32): PrivateScope, Public, HideBySig
+    Create(): PrivateScope, Public, HideBySig
+    Create(Player): PrivateScope, Public, HideBySig
+    Edit(Int32(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Edit(Player): PrivateScope, Public, HideBySig
+    Delete(Int32(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    DeleteConfirmed(Int32): PrivateScope, Public, HideBySig
+    SearchIndex(String): PrivateScope, Public, HideBySig
+Class ContentManagerMVC.WebApiConfig: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Register(HttpConfiguration): PrivateScope, Public, Static, HideBySig
+Class ContentManagerMVC.Migrations.new24: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.Migrations.DbMigration
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  Methods:
+    Up(): PrivateScope, Public, Virtual, HideBySig
+    Down(): PrivateScope, Public, Virtual, HideBySig
+Class ContentManagerMVC.Migrations.new21: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.Migrations.DbMigration
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  Methods:
+    Up(): PrivateScope, Public, Virtual, HideBySig
+    Down(): PrivateScope, Public, Virtual, HideBySig
+Class ContentManagerMVC.Migrations.add_lists1: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.Migrations.DbMigration
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  Methods:
+    Up(): PrivateScope, Public, Virtual, HideBySig
+    Down(): PrivateScope, Public, Virtual, HideBySig
+Class ContentManagerMVC.Migrations.newplayersettings3: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.Migrations.DbMigration
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  Methods:
+    Up(): PrivateScope, Public, Virtual, HideBySig
+    Down(): PrivateScope, Public, Virtual, HideBySig
+Class ContentManagerMVC.Migrations.Initial: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.Migrations.DbMigration
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  Methods:
+    Up(): PrivateScope, Public, Virtual, HideBySig
+    Down(): PrivateScope, Public, Virtual, HideBySig
+Class ContentManagerMVC.Controllers.MediaContentController: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Mvc.Controller
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    TestIndex(): PrivateScope, Public, HideBySig
+    Index(String, String, String, Nullable`1): PrivateScope, Public, HideBySig
+    Details(Int32(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Create(): PrivateScope, Public, HideBySig
+    Create(HttpPostedFileBase): PrivateScope, Public, HideBySig
+    Edit(Int32(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Edit(MediaContent): PrivateScope, Public, HideBySig
+    Delete(Int32(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    DeleteConfirmed(Int32): PrivateScope, Public, HideBySig
+Class ContentManagerMVC.Models.Player: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 ID   'get set' : 
+    System.String Name 'get set' : 
+    System.String Address 'get set' : 
+    System.String IP 'get set' : 
+    Int32 Status 'get set' : 
+    System.String Description 'get set' : 
+    System.Collections.Generic.ICollection`1[ContentManagerMVC.Models.PlayerSchedule] Schedules 'get set' : 
+  Methods:
+    get_ID(): PrivateScope, Public, HideBySig, SpecialName
+    set_ID(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Address(): PrivateScope, Public, HideBySig, SpecialName
+    set_Address(String): PrivateScope, Public, HideBySig, SpecialName
+    get_IP(): PrivateScope, Public, HideBySig, SpecialName
+    set_IP(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Status(): PrivateScope, Public, HideBySig, SpecialName
+    set_Status(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Description(): PrivateScope, Public, HideBySig, SpecialName
+    set_Description(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Schedules(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Schedules(ICollection`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class ContentManagerMVC.Models.PlayerDBContext: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.DbContext
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Data.Entity.DbSet`1[ContentManagerMVC.Models.Player] Players 'get set' : 
+    System.Data.Entity.DbSet`1[ContentManagerMVC.Models.MediaContent] Contents 'get set' : 
+    System.Data.Entity.DbSet`1[ContentManagerMVC.Models.Schedule] Schedules 'get set' : 
+    System.Data.Entity.DbSet`1[ContentManagerMVC.Models.PlayerSchedule] PlayerSchedules 'get set' : 
+    System.Data.Entity.DbSet`1[ContentManagerMVC.Models.ScheduledItem] ScheduledItems 'get set' : 
+  Methods:
+    get_Players(): PrivateScope, Public, HideBySig, SpecialName
+    set_Players(DbSet`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Contents(): PrivateScope, Public, HideBySig, SpecialName
+    set_Contents(DbSet`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Schedules(): PrivateScope, Public, HideBySig, SpecialName
+    set_Schedules(DbSet`1): PrivateScope, Public, HideBySig, SpecialName
+    get_PlayerSchedules(): PrivateScope, Public, HideBySig, SpecialName
+    set_PlayerSchedules(DbSet`1): PrivateScope, Public, HideBySig, SpecialName
+    get_ScheduledItems(): PrivateScope, Public, HideBySig, SpecialName
+    set_ScheduledItems(DbSet`1): PrivateScope, Public, HideBySig, SpecialName
+Class ContentManagerMVC.Migrations.newplayersettings31: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.Migrations.DbMigration
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  Methods:
+    Up(): PrivateScope, Public, Virtual, HideBySig
+    Down(): PrivateScope, Public, Virtual, HideBySig
+Class ContentManagerMVC.Controllers.AccountController: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Mvc.Controller
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Login(String): PrivateScope, Public, HideBySig
+    Login(LoginModel, String): PrivateScope, Public, HideBySig
+    LogOff(): PrivateScope, Public, HideBySig
+    Register(): PrivateScope, Public, HideBySig
+    Register(RegisterModel): PrivateScope, Public, HideBySig
+    Disassociate(String, String): PrivateScope, Public, HideBySig
+    Manage(Nullable`1): PrivateScope, Public, HideBySig
+    Manage(LocalPasswordModel): PrivateScope, Public, HideBySig
+    ExternalLogin(String, String): PrivateScope, Public, HideBySig
+    ExternalLoginCallback(String): PrivateScope, Public, HideBySig
+    ExternalLoginConfirmation(RegisterExternalLoginModel, String): PrivateScope, Public, HideBySig
+    ExternalLoginFailure(): PrivateScope, Public, HideBySig
+    ExternalLoginsList(String): PrivateScope, Public, HideBySig
+    RemoveExternalLogins(): PrivateScope, Public, HideBySig
+Struct ContentManagerMVC.Controllers.AccountController+ManageMessageId: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ManageMessageId ChangePasswordSuccess = 0 : Public, Static, Literal, HasDefault
+    ManageMessageId SetPasswordSuccess = 1 : Public, Static, Literal, HasDefault
+    ManageMessageId RemoveLoginSuccess = 2 : Public, Static, Literal, HasDefault
+Class ContentManagerMVC.Migrations.new22: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.Migrations.DbMigration
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  Methods:
+    Up(): PrivateScope, Public, Virtual, HideBySig
+    Down(): PrivateScope, Public, Virtual, HideBySig
+Class ContentManagerMVC.MvcApplication: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.HttpApplication
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ContentManagerMVC.Models.ScheduledItem: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 ID   'get set' : 
+    ContentManagerMVC.Models.MediaContent Content 'get set' : 
+  Methods:
+    get_ID(): PrivateScope, Public, HideBySig, SpecialName
+    set_ID(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Content(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Content(MediaContent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class ContentManagerMVC.BundleConfig: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    RegisterBundles(BundleCollection): PrivateScope, Public, Static, HideBySig
+Class ContentManagerMVC.Models.Schedule: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 ID   'get set' : 
+    System.String Title 'get set' : 
+    System.DateTime StartTime 'get set' : 
+    System.DateTime EndTime 'get set' : 
+    Boolean Continuous 'get set' : 
+    Boolean PlayOnePerRound 'get set' : 
+    Boolean Mon 'get set' : 
+    Boolean Tue 'get set' : 
+    Boolean Wed 'get set' : 
+    Boolean Thr 'get set' : 
+    Boolean Fri 'get set' : 
+    Boolean Sat 'get set' : 
+    Boolean Sun 'get set' : 
+    System.Collections.Generic.ICollection`1[ContentManagerMVC.Models.ScheduledItem] Contents 'get set' : 
+  Methods:
+    get_ID(): PrivateScope, Public, HideBySig, SpecialName
+    set_ID(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Title(): PrivateScope, Public, HideBySig, SpecialName
+    set_Title(String): PrivateScope, Public, HideBySig, SpecialName
+    get_StartTime(): PrivateScope, Public, HideBySig, SpecialName
+    set_StartTime(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_EndTime(): PrivateScope, Public, HideBySig, SpecialName
+    set_EndTime(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_Continuous(): PrivateScope, Public, HideBySig, SpecialName
+    set_Continuous(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_PlayOnePerRound(): PrivateScope, Public, HideBySig, SpecialName
+    set_PlayOnePerRound(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Mon(): PrivateScope, Public, HideBySig, SpecialName
+    set_Mon(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Tue(): PrivateScope, Public, HideBySig, SpecialName
+    set_Tue(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Wed(): PrivateScope, Public, HideBySig, SpecialName
+    set_Wed(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Thr(): PrivateScope, Public, HideBySig, SpecialName
+    set_Thr(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Fri(): PrivateScope, Public, HideBySig, SpecialName
+    set_Fri(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Sat(): PrivateScope, Public, HideBySig, SpecialName
+    set_Sat(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Sun(): PrivateScope, Public, HideBySig, SpecialName
+    set_Sun(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Contents(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Contents(ICollection`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class ContentManagerMVC.Models.MediaContent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 ID   'get set' : 
+    System.String Title 'get set' : 
+    System.DateTime CreateDate 'get set' : 
+    System.String ContentType 'get set' : 
+    System.Decimal Duration 'get set' : 
+    System.String Path 'get set' : 
+  Methods:
+    get_ID(): PrivateScope, Public, HideBySig, SpecialName
+    set_ID(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Title(): PrivateScope, Public, HideBySig, SpecialName
+    set_Title(String): PrivateScope, Public, HideBySig, SpecialName
+    get_CreateDate(): PrivateScope, Public, HideBySig, SpecialName
+    set_CreateDate(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_ContentType(): PrivateScope, Public, HideBySig, SpecialName
+    set_ContentType(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Duration(): PrivateScope, Public, HideBySig, SpecialName
+    set_Duration(Decimal): PrivateScope, Public, HideBySig, SpecialName
+    get_Path(): PrivateScope, Public, HideBySig, SpecialName
+    set_Path(String): PrivateScope, Public, HideBySig, SpecialName
+Class ContentManagerMVC.Filters.InitializeSimpleMembershipAttribute: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Web.Mvc.ActionFilterAttribute
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    OnActionExecuting(ActionExecutingContext): PrivateScope, Public, Virtual, HideBySig
+Class ContentManagerMVC.Controllers.ScheduleController: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Mvc.Controller
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Index(String, String, String, Nullable`1): PrivateScope, Public, HideBySig
+    Details(Int32(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Create(): PrivateScope, Public, HideBySig
+    ScheduledItemDetails(Int32, String, Nullable`1): PrivateScope, Public, HideBySig
+    ScheduleAddContent(Int32): PrivateScope, Public, HideBySig
+    Create(Schedule): PrivateScope, Public, HideBySig
+    Edit(Int32(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Edit(Schedule): PrivateScope, Public, HideBySig
+    Delete(Int32(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    DeleteConfirmed(Int32): PrivateScope, Public, HideBySig
+Class ContentManagerMVC.RouteConfig: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    RegisterRoutes(RouteCollection): PrivateScope, Public, Static, HideBySig
+Class ContentManagerMVC.Models.PlayerSchedule: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 ID   'get set' : 
+    ContentManagerMVC.Models.Schedule schedule 'get set' : 
+  Methods:
+    get_ID(): PrivateScope, Public, HideBySig, SpecialName
+    set_ID(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_schedule(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_schedule(Schedule): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class ContentManagerMVC.Migrations.new25: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.Migrations.DbMigration
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  Methods:
+    Up(): PrivateScope, Public, Virtual, HideBySig
+    Down(): PrivateScope, Public, Virtual, HideBySig
+Class ContentManagerMVC.AuthConfig: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    RegisterAuth(): PrivateScope, Public, Static, HideBySig
+Class ContentManagerMVC.Models.PlayerInitializer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ContentManagerMVC.Models.PlayerInitializer+MovieInitializer: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+  :System.Data.Entity.DropCreateDatabaseIfModelChanges`1[ContentManagerMVC.Models.PlayerDBContext]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ContentManagerMVC.Controllers.HomeController: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Mvc.Controller
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ContentManagerMVC.Controllers.AccountController AccountController 'get set' : 
+  Methods:
+    get_AccountController(): PrivateScope, Public, HideBySig, SpecialName
+    set_AccountController(AccountController): PrivateScope, Public, HideBySig, SpecialName
+    Index(): PrivateScope, Public, HideBySig
+    About(): PrivateScope, Public, HideBySig
+    Contact(): PrivateScope, Public, HideBySig
+Class ContentManagerMVC.Models.UsersContext: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.DbContext
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Data.Entity.DbSet`1[ContentManagerMVC.Models.UserProfile] UserProfiles 'get set' : 
+  Methods:
+    get_UserProfiles(): PrivateScope, Public, HideBySig, SpecialName
+    set_UserProfiles(DbSet`1): PrivateScope, Public, HideBySig, SpecialName
+Class ContentManagerMVC.Models.UserProfile: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 UserId 'get set' : 
+    System.String UserName 'get set' : 
+  Methods:
+    get_UserId(): PrivateScope, Public, HideBySig, SpecialName
+    set_UserId(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_UserName(): PrivateScope, Public, HideBySig, SpecialName
+    set_UserName(String): PrivateScope, Public, HideBySig, SpecialName
+Class ContentManagerMVC.Models.RegisterExternalLoginModel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String UserName 'get set' : 
+    System.String ExternalLoginData 'get set' : 
+  Methods:
+    get_UserName(): PrivateScope, Public, HideBySig, SpecialName
+    set_UserName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ExternalLoginData(): PrivateScope, Public, HideBySig, SpecialName
+    set_ExternalLoginData(String): PrivateScope, Public, HideBySig, SpecialName
+Class ContentManagerMVC.Models.LocalPasswordModel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String OldPassword 'get set' : 
+    System.String NewPassword 'get set' : 
+    System.String ConfirmPassword 'get set' : 
+  Methods:
+    get_OldPassword(): PrivateScope, Public, HideBySig, SpecialName
+    set_OldPassword(String): PrivateScope, Public, HideBySig, SpecialName
+    get_NewPassword(): PrivateScope, Public, HideBySig, SpecialName
+    set_NewPassword(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ConfirmPassword(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConfirmPassword(String): PrivateScope, Public, HideBySig, SpecialName
+Class ContentManagerMVC.Models.LoginModel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String UserName 'get set' : 
+    System.String Password 'get set' : 
+    Boolean RememberMe 'get set' : 
+  Methods:
+    get_UserName(): PrivateScope, Public, HideBySig, SpecialName
+    set_UserName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Password(): PrivateScope, Public, HideBySig, SpecialName
+    set_Password(String): PrivateScope, Public, HideBySig, SpecialName
+    get_RememberMe(): PrivateScope, Public, HideBySig, SpecialName
+    set_RememberMe(Boolean): PrivateScope, Public, HideBySig, SpecialName
+Class ContentManagerMVC.Models.RegisterModel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String UserName 'get set' : 
+    System.String Password 'get set' : 
+    System.String ConfirmPassword 'get set' : 
+  Methods:
+    get_UserName(): PrivateScope, Public, HideBySig, SpecialName
+    set_UserName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Password(): PrivateScope, Public, HideBySig, SpecialName
+    set_Password(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ConfirmPassword(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConfirmPassword(String): PrivateScope, Public, HideBySig, SpecialName
+Class ContentManagerMVC.Models.ExternalLogin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Provider 'get set' : 
+    System.String ProviderDisplayName 'get set' : 
+    System.String ProviderUserId 'get set' : 
+  Methods:
+    get_Provider(): PrivateScope, Public, HideBySig, SpecialName
+    set_Provider(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ProviderDisplayName(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProviderDisplayName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ProviderUserId(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProviderUserId(String): PrivateScope, Public, HideBySig, SpecialName
+Class ContentManagerMVC.Models.UserMembership: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ContentManagerMVC.Models.UserProfile User 'get set' : 
+    System.String Role 'get set' : 
+  Methods:
+    get_User(): PrivateScope, Public, HideBySig, SpecialName
+    set_User(UserProfile): PrivateScope, Public, HideBySig, SpecialName
+    get_Role(): PrivateScope, Public, HideBySig, SpecialName
+    set_Role(String): PrivateScope, Public, HideBySig, SpecialName
+Class ContentManagerMVC.FilterConfig: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    RegisterGlobalFilters(GlobalFilterCollection): PrivateScope, Public, Static, HideBySig
+Class ContentManagerMVC.Migrations.newsecuritysetting: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.Migrations.DbMigration
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  Methods:
+    Up(): PrivateScope, Public, Virtual, HideBySig
+    Down(): PrivateScope, Public, Virtual, HideBySig
+Class ContentManagerMVC.Controllers.MembershipController: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Mvc.Controller
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Index(): PrivateScope, Public, HideBySig
+    Details(Int32(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Create(): PrivateScope, Public, HideBySig
+    Create(UserProfile): PrivateScope, Public, HideBySig
+    Edit(Int32(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Edit(UserMembership, String): PrivateScope, Public, HideBySig
+    Delete(Int32(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    DeleteConfirmed(Int32): PrivateScope, Public, HideBySig
+Class ContentManagerMVC.Migrations.membership: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.Migrations.DbMigration
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata
+  Methods:
+    Up(): PrivateScope, Public, Virtual, HideBySig
+    Down(): PrivateScope, Public, Virtual, HideBySig

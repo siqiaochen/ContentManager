@@ -1,0 +1,1493 @@
+  System.Net.Http.SR.resources - Embedded, ContainedInManifestFile, 
+  System.Net.Http.SysSR.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class System.Net.Http.SR: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Resources.ResourceManager ResourceManager 'get ' : 
+    System.Globalization.CultureInfo Culture 'get set' : 
+    System.String net_http_argument_empty_string 'get ' : 
+    System.String net_http_client_absolute_baseaddress_required 'get ' : 
+    System.String net_http_client_content_headers 'get ' : 
+    System.String net_http_client_execution_error 'get ' : 
+    System.String net_http_client_http_baseaddress_required 'get ' : 
+    System.String net_http_client_invalid_requesturi 'get ' : 
+    System.String net_http_client_request_already_sent 'get ' : 
+    System.String net_http_client_request_headers 'get ' : 
+    System.String net_http_client_response_headers 'get ' : 
+    System.String net_http_client_send_canceled 'get ' : 
+    System.String net_http_client_send_completed 'get ' : 
+    System.String net_http_client_send_error 'get ' : 
+    System.String net_http_content_buffersize_exceeded 'get ' : 
+    System.String net_http_content_buffersize_limit 'get ' : 
+    System.String net_http_content_encoding_set 'get ' : 
+    System.String net_http_content_field_too_long 'get ' : 
+    System.String net_http_content_invalid_charset 'get ' : 
+    System.String net_http_content_no_task_returned 'get ' : 
+    System.String net_http_content_readonly_stream 'get ' : 
+    System.String net_http_content_stream_already_read 'get ' : 
+    System.String net_http_content_stream_copy_error 'get ' : 
+    System.String net_http_copyto_array_too_small 'get ' : 
+    System.String net_http_handler_nocontentlength 'get ' : 
+    System.String net_http_handler_norequest 'get ' : 
+    System.String net_http_handler_noresponse 'get ' : 
+    System.String net_http_handler_not_assigned 'get ' : 
+    System.String net_http_headers_cant_add_any_to_collection 'get ' : 
+    System.String net_http_headers_invalid_etag_name 'get ' : 
+    System.String net_http_headers_invalid_from_header 'get ' : 
+    System.String net_http_headers_invalid_header_name 'get ' : 
+    System.String net_http_headers_invalid_host_header 'get ' : 
+    System.String net_http_headers_invalid_range 'get ' : 
+    System.String net_http_headers_invalid_value 'get ' : 
+    System.String net_http_headers_no_newlines 'get ' : 
+    System.String net_http_headers_not_allowed_header_name 'get ' : 
+    System.String net_http_headers_not_found 'get ' : 
+    System.String net_http_headers_single_value_header 'get ' : 
+    System.String net_http_httpmethod_format_error 'get ' : 
+    System.String net_http_invalid_enable_first 'get ' : 
+    System.String net_http_log_content_no_task_returned_copytoasync 'get ' : 
+    System.String net_http_log_content_null 'get ' : 
+    System.String net_http_log_content_offload_async 'get ' : 
+    System.String net_http_log_headers_invalid_quality 'get ' : 
+    System.String net_http_log_headers_invalid_value 'get ' : 
+    System.String net_http_log_headers_no_newlines 'get ' : 
+    System.String net_http_log_headers_wrong_email_format 'get ' : 
+    System.String net_http_message_not_success_statuscode 'get ' : 
+    System.String net_http_operation_started 'get ' : 
+    System.String net_http_parser_invalid_base64_string 'get ' : 
+    System.String net_http_parser_invalid_date_format 'get ' : 
+    System.String net_http_read_error 'get ' : 
+    System.String net_http_reasonphrase_format_error 'get ' : 
+  Methods:
+    get_ResourceManager(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Culture(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    set_Culture(CultureInfo): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_argument_empty_string(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_client_absolute_baseaddress_required(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_client_content_headers(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_client_execution_error(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_client_http_baseaddress_required(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_client_invalid_requesturi(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_client_request_already_sent(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_client_request_headers(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_client_response_headers(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_client_send_canceled(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_client_send_completed(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_client_send_error(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_content_buffersize_exceeded(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_content_buffersize_limit(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_content_encoding_set(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_content_field_too_long(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_content_invalid_charset(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_content_no_task_returned(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_content_readonly_stream(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_content_stream_already_read(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_content_stream_copy_error(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_copyto_array_too_small(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_handler_nocontentlength(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_handler_norequest(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_handler_noresponse(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_handler_not_assigned(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_headers_cant_add_any_to_collection(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_headers_invalid_etag_name(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_headers_invalid_from_header(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_headers_invalid_header_name(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_headers_invalid_host_header(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_headers_invalid_range(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_headers_invalid_value(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_headers_no_newlines(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_headers_not_allowed_header_name(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_headers_not_found(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_headers_single_value_header(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_httpmethod_format_error(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_invalid_enable_first(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_log_content_no_task_returned_copytoasync(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_log_content_null(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_log_content_offload_async(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_log_headers_invalid_quality(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_log_headers_invalid_value(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_log_headers_no_newlines(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_log_headers_wrong_email_format(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_message_not_success_statuscode(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_operation_started(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_parser_invalid_base64_string(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_parser_invalid_date_format(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_read_error(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_http_reasonphrase_format_error(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+Class System.Net.Http.SysSR: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Resources.ResourceManager ResourceManager 'get ' : 
+    System.Globalization.CultureInfo Culture 'get set' : 
+    System.String net_log_exception 'get ' : 
+  Methods:
+    get_ResourceManager(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Culture(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    set_Culture(CultureInfo): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_net_log_exception(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+Class System.Net.HttpStatusDescription: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Get(HttpStatusCode): PrivateScope, Assembly, Static, HideBySig
+    Get(Int32): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.HttpContent: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Interfaces:
+    System.IDisposable
+  Fields:
+    System.Text.Encoding DefaultStringEncoding : Assembly, Static, InitOnly
+    Int64 MaxBufferSize = 2147483647 : Assembly, Static, Literal, HasDefault
+  Properties:
+    System.Net.Http.Headers.HttpContentHeaders Headers 'get ' : 
+  Methods:
+    get_Headers(): PrivateScope, Public, HideBySig, SpecialName
+    ReadAsStringAsync(): PrivateScope, Public, HideBySig
+    ReadAsByteArrayAsync(): PrivateScope, Public, HideBySig
+    ReadAsStreamAsync(): PrivateScope, Public, HideBySig
+    CopyToAsync(Stream, TransportContext): PrivateScope, Public, HideBySig
+    CopyToAsync(Stream): PrivateScope, Public, HideBySig
+    CopyTo(Stream): PrivateScope, Assembly, HideBySig
+    LoadIntoBufferAsync(): PrivateScope, Public, HideBySig
+    LoadIntoBufferAsync(Int64): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Net.Http.ByteArrayContent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Net.Http.HttpContent
+    Void .ctor(Byte[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Byte[], Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Struct System.Net.Http.ClientCertificateOption: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Net.Http.ClientCertificateOption Manual = 0 : Public, Static, Literal, HasDefault
+    System.Net.Http.ClientCertificateOption Automatic = 1 : Public, Static, Literal, HasDefault
+Class System.Net.Http.HttpMessageHandler: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Interfaces:
+    System.IDisposable
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Net.Http.DelegatingHandler: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Net.Http.HttpMessageHandler
+  Properties:
+    System.Net.Http.HttpMessageHandler InnerHandler 'get set' : 
+  Methods:
+    get_InnerHandler(): PrivateScope, Public, HideBySig, SpecialName
+    set_InnerHandler(HttpMessageHandler): PrivateScope, Public, HideBySig, SpecialName
+Class System.Net.Http.DelegatingStream: AutoLayout, AnsiClass, Class, Abstract, BeforeFieldInit
+  :System.IO.Stream
+  Properties:
+    Boolean CanRead 'get ' : 
+    Boolean CanSeek 'get ' : 
+    Boolean CanWrite 'get ' : 
+    Int64 Length 'get ' : 
+    Int64 Position 'get set' : 
+    Int32 ReadTimeout 'get set' : 
+    Boolean CanTimeout 'get ' : 
+    Int32 WriteTimeout 'get set' : 
+  Methods:
+    get_CanRead(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanSeek(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanWrite(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Length(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Position(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Position(Int64): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_ReadTimeout(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_ReadTimeout(Int32): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanTimeout(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_WriteTimeout(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_WriteTimeout(Int32): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Seek(Int64, SeekOrigin): PrivateScope, Public, Virtual, HideBySig
+    Read(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    BeginRead(Byte[], Int32, Int32, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig
+    EndRead(IAsyncResult): PrivateScope, Public, Virtual, HideBySig
+    ReadByte(): PrivateScope, Public, Virtual, HideBySig
+    Flush(): PrivateScope, Public, Virtual, HideBySig
+    SetLength(Int64): PrivateScope, Public, Virtual, HideBySig
+    Write(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    BeginWrite(Byte[], Int32, Int32, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig
+    EndWrite(IAsyncResult): PrivateScope, Public, Virtual, HideBySig
+    WriteByte(Byte): PrivateScope, Public, Virtual, HideBySig
+Class System.Net.Http.FormUrlEncodedContent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Net.Http.ByteArrayContent
+    Void .ctor(System.Collections.Generic.IEnumerable`1[System.Collections.Generic.KeyValuePair`2[System.String,System.String]]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Net.Http.Headers.AuthenticationHeaderValue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Properties:
+    System.String Scheme 'get ' : 
+    System.String Parameter 'get ' : 
+  Methods:
+    get_Scheme(): PrivateScope, Public, HideBySig, SpecialName
+    get_Parameter(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Parse(String): PrivateScope, Public, Static, HideBySig
+    TryParse(String, AuthenticationHeaderValue&(Out)): PrivateScope, Public, Static, HideBySig
+    GetAuthenticationLength(String, Int32, Object&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.Headers.HttpHeaderParser: AutoLayout, AnsiClass, Class, Abstract, BeforeFieldInit
+  Fields:
+    System.String DefaultSeparator = ,  : Assembly, Static, Literal, HasDefault
+  Properties:
+    Boolean SupportsMultipleValues 'get ' : 
+    System.String Separator 'get ' : 
+    System.Collections.IEqualityComparer Comparer 'get ' : 
+  Methods:
+    get_SupportsMultipleValues(): PrivateScope, Public, HideBySig, SpecialName
+    get_Separator(): PrivateScope, Public, HideBySig, SpecialName
+    get_Comparer(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    TryParseValue(String, Object, Int32&, Object&(Out)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ParseValue(String, Object, Int32&): PrivateScope, Public, HideBySig
+    ToString(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Net.Http.Headers.BaseHeaderParser: AutoLayout, AnsiClass, Class, Abstract, BeforeFieldInit
+  :System.Net.Http.Headers.HttpHeaderParser
+  Methods:
+    TryParseValue(String, Object, Int32&, Object&(Out)): PrivateScope, Public, Final, Virtual, HideBySig
+Class System.Net.Http.Headers.ByteArrayHeaderParser: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Net.Http.Headers.HttpHeaderParser
+  Fields:
+    System.Net.Http.Headers.ByteArrayHeaderParser Parser : Assembly, Static, InitOnly
+  Methods:
+    ToString(Object): PrivateScope, Public, Virtual, HideBySig
+    TryParseValue(String, Object, Int32&, Object&(Out)): PrivateScope, Public, Virtual, HideBySig
+Class System.Net.Http.Headers.CacheControlHeaderParser: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Net.Http.Headers.BaseHeaderParser
+  Fields:
+    System.Net.Http.Headers.CacheControlHeaderParser Parser : Assembly, Static, InitOnly
+Class System.Net.Http.Headers.CacheControlHeaderValue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Properties:
+    Boolean NoCache 'get set' : 
+    System.Collections.Generic.ICollection`1[System.String] NoCacheHeaders 'get ' : 
+    Boolean NoStore 'get set' : 
+    System.Nullable`1[System.TimeSpan] MaxAge 'get set' : 
+    System.Nullable`1[System.TimeSpan] SharedMaxAge 'get set' : 
+    Boolean MaxStale 'get set' : 
+    System.Nullable`1[System.TimeSpan] MaxStaleLimit 'get set' : 
+    System.Nullable`1[System.TimeSpan] MinFresh 'get set' : 
+    Boolean NoTransform 'get set' : 
+    Boolean OnlyIfCached 'get set' : 
+    Boolean Public 'get set' : 
+    Boolean Private 'get set' : 
+    System.Collections.Generic.ICollection`1[System.String] PrivateHeaders 'get ' : 
+    Boolean MustRevalidate 'get set' : 
+    Boolean ProxyRevalidate 'get set' : 
+    System.Collections.Generic.ICollection`1[System.Net.Http.Headers.NameValueHeaderValue] Extensions 'get ' : 
+  Methods:
+    get_NoCache(): PrivateScope, Public, HideBySig, SpecialName
+    set_NoCache(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_NoCacheHeaders(): PrivateScope, Public, HideBySig, SpecialName
+    get_NoStore(): PrivateScope, Public, HideBySig, SpecialName
+    set_NoStore(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_MaxAge(): PrivateScope, Public, HideBySig, SpecialName
+    set_MaxAge(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_SharedMaxAge(): PrivateScope, Public, HideBySig, SpecialName
+    set_SharedMaxAge(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_MaxStale(): PrivateScope, Public, HideBySig, SpecialName
+    set_MaxStale(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_MaxStaleLimit(): PrivateScope, Public, HideBySig, SpecialName
+    set_MaxStaleLimit(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_MinFresh(): PrivateScope, Public, HideBySig, SpecialName
+    set_MinFresh(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_NoTransform(): PrivateScope, Public, HideBySig, SpecialName
+    set_NoTransform(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_OnlyIfCached(): PrivateScope, Public, HideBySig, SpecialName
+    set_OnlyIfCached(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Public(): PrivateScope, Public, HideBySig, SpecialName
+    set_Public(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Private(): PrivateScope, Public, HideBySig, SpecialName
+    set_Private(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_PrivateHeaders(): PrivateScope, Public, HideBySig, SpecialName
+    get_MustRevalidate(): PrivateScope, Public, HideBySig, SpecialName
+    set_MustRevalidate(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ProxyRevalidate(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProxyRevalidate(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Extensions(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Parse(String): PrivateScope, Public, Static, HideBySig
+    TryParse(String, CacheControlHeaderValue&(Out)): PrivateScope, Public, Static, HideBySig
+    GetCacheControlLength(String, Int32, CacheControlHeaderValue, CacheControlHeaderValue&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.Headers.ContentDispositionHeaderValue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Properties:
+    System.String DispositionType 'get set' : 
+    System.Collections.Generic.ICollection`1[System.Net.Http.Headers.NameValueHeaderValue] Parameters 'get ' : 
+    System.String Name 'get set' : 
+    System.String FileName 'get set' : 
+    System.String FileNameStar 'get set' : 
+    System.Nullable`1[System.DateTimeOffset] CreationDate 'get set' : 
+    System.Nullable`1[System.DateTimeOffset] ModificationDate 'get set' : 
+    System.Nullable`1[System.DateTimeOffset] ReadDate 'get set' : 
+    System.Nullable`1[System.Int64] Size 'get set' : 
+  Methods:
+    get_DispositionType(): PrivateScope, Public, HideBySig, SpecialName
+    set_DispositionType(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Parameters(): PrivateScope, Public, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+    get_FileName(): PrivateScope, Public, HideBySig, SpecialName
+    set_FileName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_FileNameStar(): PrivateScope, Public, HideBySig, SpecialName
+    set_FileNameStar(String): PrivateScope, Public, HideBySig, SpecialName
+    get_CreationDate(): PrivateScope, Public, HideBySig, SpecialName
+    set_CreationDate(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_ModificationDate(): PrivateScope, Public, HideBySig, SpecialName
+    set_ModificationDate(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_ReadDate(): PrivateScope, Public, HideBySig, SpecialName
+    set_ReadDate(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Size(): PrivateScope, Public, HideBySig, SpecialName
+    set_Size(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Parse(String): PrivateScope, Public, Static, HideBySig
+    TryParse(String, ContentDispositionHeaderValue&(Out)): PrivateScope, Public, Static, HideBySig
+    GetDispositionTypeLength(String, Int32, Object&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.Headers.ContentRangeHeaderValue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int64, Int64, Int64): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int64): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int64, Int64): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Properties:
+    System.String Unit 'get set' : 
+    System.Nullable`1[System.Int64] From 'get ' : 
+    System.Nullable`1[System.Int64] To 'get ' : 
+    System.Nullable`1[System.Int64] Length 'get ' : 
+    Boolean HasLength 'get ' : 
+    Boolean HasRange 'get ' : 
+  Methods:
+    get_Unit(): PrivateScope, Public, HideBySig, SpecialName
+    set_Unit(String): PrivateScope, Public, HideBySig, SpecialName
+    get_From(): PrivateScope, Public, HideBySig, SpecialName
+    get_To(): PrivateScope, Public, HideBySig, SpecialName
+    get_Length(): PrivateScope, Public, HideBySig, SpecialName
+    get_HasLength(): PrivateScope, Public, HideBySig, SpecialName
+    get_HasRange(): PrivateScope, Public, HideBySig, SpecialName
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Parse(String): PrivateScope, Public, Static, HideBySig
+    TryParse(String, ContentRangeHeaderValue&(Out)): PrivateScope, Public, Static, HideBySig
+    GetContentRangeLength(String, Int32, Object&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.Headers.DateHeaderParser: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Net.Http.Headers.HttpHeaderParser
+  Fields:
+    System.Net.Http.Headers.DateHeaderParser Parser : Assembly, Static, InitOnly
+  Methods:
+    ToString(Object): PrivateScope, Public, Virtual, HideBySig
+    TryParseValue(String, Object, Int32&, Object&(Out)): PrivateScope, Public, Virtual, HideBySig
+Class System.Net.Http.Headers.EntityTagHeaderValue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Properties:
+    System.String Tag 'get ' : 
+    Boolean IsWeak 'get ' : 
+    System.Net.Http.Headers.EntityTagHeaderValue Any 'get ' : 
+  Methods:
+    get_Tag(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsWeak(): PrivateScope, Public, HideBySig, SpecialName
+    get_Any(): PrivateScope, Public, Static, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Parse(String): PrivateScope, Public, Static, HideBySig
+    TryParse(String, EntityTagHeaderValue&(Out)): PrivateScope, Public, Static, HideBySig
+    GetEntityTagLength(String, Int32, EntityTagHeaderValue&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.Headers.GenericHeaderParser: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  :System.Net.Http.Headers.BaseHeaderParser
+  Fields:
+    System.Net.Http.Headers.HttpHeaderParser HostParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser TokenListParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser SingleValueNameValueWithParametersParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser MultipleValueNameValueWithParametersParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser SingleValueNameValueParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser MultipleValueNameValueParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser MailAddressParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser SingleValueProductParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser MultipleValueProductParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser RangeConditionParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser SingleValueAuthenticationParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser MultipleValueAuthenticationParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser RangeParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser RetryConditionParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser ContentRangeParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser ContentDispositionParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser SingleValueStringWithQualityParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser MultipleValueStringWithQualityParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser SingleValueEntityTagParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser MultipleValueEntityTagParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser SingleValueViaParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser MultipleValueViaParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser SingleValueWarningParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.HttpHeaderParser MultipleValueWarningParser : Assembly, Static, InitOnly
+  Properties:
+    System.Collections.IEqualityComparer Comparer 'get ' : 
+  Methods:
+    get_Comparer(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Net.Http.Headers.HeaderUtilities: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.Net.Http.Headers.TransferCodingHeaderValue TransferEncodingChunked : Assembly, Static, InitOnly
+    System.Net.Http.Headers.NameValueWithParametersHeaderValue ExpectContinue : Assembly, Static, InitOnly
+    System.Action`2[System.Net.Http.Headers.HttpHeaderValueCollection`1[System.String],System.String] TokenValidator : Assembly, Static, InitOnly
+    System.String ConnectionClose = close : Assembly, Static, Literal, HasDefault
+    System.String BytesUnit = bytes : Assembly, Static, Literal, HasDefault
+  Methods:
+    SetQuality(ICollection`1, Nullable`1): PrivateScope, Assembly, Static, HideBySig
+    GetQuality(ICollection`1): PrivateScope, Assembly, Static, HideBySig
+    CheckValidToken(String, String): PrivateScope, Assembly, Static, HideBySig
+    CheckValidComment(String, String): PrivateScope, Assembly, Static, HideBySig
+    CheckValidQuotedString(String, String): PrivateScope, Assembly, Static, HideBySig
+    AreEqualCollections(ICollection`1, ICollection`1): PrivateScope, Assembly, Static, HideBySig
+    AreEqualCollections(ICollection`1, ICollection`1, IEqualityComparer`1): PrivateScope, Assembly, Static, HideBySig
+    GetNextNonEmptyOrWhitespaceIndex(String, Int32, Boolean, Boolean&(Out)): PrivateScope, Assembly, Static, HideBySig
+    GetDateTimeOffsetValue(String, HttpHeaders): PrivateScope, Assembly, Static, HideBySig
+    GetTimeSpanValue(String, HttpHeaders): PrivateScope, Assembly, Static, HideBySig
+    TryParseInt32(String, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig
+    TryParseInt64(String, Int64&(Out)): PrivateScope, Assembly, Static, HideBySig
+    DumpHeaders(HttpHeaders[]): PrivateScope, Assembly, Static, HideBySig
+    IsValidEmailAddress(String): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.Headers.HttpHeaders: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Interfaces:
+    System.Collections.Generic.IEnumerable`1[System.Collections.Generic.KeyValuePair`2[System.String,System.Collections.Generic.IEnumerable`1[System.String]]]
+    System.Collections.IEnumerable
+  Methods:
+    Add(String, String): PrivateScope, Public, HideBySig
+    Add(String, IEnumerable`1): PrivateScope, Public, HideBySig
+    TryAddWithoutValidation(String, String): PrivateScope, Public, HideBySig
+    TryAddWithoutValidation(String, IEnumerable`1): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, HideBySig
+    Remove(String): PrivateScope, Public, HideBySig
+    GetValues(String): PrivateScope, Public, HideBySig
+    TryGetValues(String, IEnumerable`1&(Out)): PrivateScope, Public, HideBySig
+    Contains(String): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    GetHeaderStrings(): PrivateScope, Assembly, HideBySig
+    GetHeaderString(String): PrivateScope, Assembly, HideBySig
+    GetHeaderString(String, Object): PrivateScope, Assembly, HideBySig
+    GetEnumerator(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    SetConfiguration(Dictionary`2, HashSet`1): PrivateScope, Assembly, HideBySig
+    AddParsedValue(String, Object): PrivateScope, Assembly, HideBySig
+    SetParsedValue(String, Object): PrivateScope, Assembly, HideBySig
+    SetOrRemoveParsedValue(String, Object): PrivateScope, Assembly, HideBySig
+    RemoveParsedValue(String, Object): PrivateScope, Assembly, HideBySig
+    ContainsParsedValue(String, Object): PrivateScope, Assembly, HideBySig
+    AddHeaders(HttpHeaders): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride
+    TryParseAndAddValue(String, String): PrivateScope, Assembly, HideBySig
+    GetParsedValues(String): PrivateScope, Assembly, HideBySig
+Class System.Net.Http.Headers.HttpContentHeaders: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Net.Http.Headers.HttpHeaders
+    Void .ctor(System.Func`1[System.Nullable`1[System.Int64]]): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.ICollection`1[System.String] Allow 'get ' : 
+    System.Net.Http.Headers.ContentDispositionHeaderValue ContentDisposition 'get set' : 
+    System.Collections.Generic.ICollection`1[System.String] ContentEncoding 'get ' : 
+    System.Collections.Generic.ICollection`1[System.String] ContentLanguage 'get ' : 
+    System.Nullable`1[System.Int64] ContentLength 'get set' : 
+    System.Uri ContentLocation 'get set' : 
+    Byte[] ContentMD5 'get set' : 
+    System.Net.Http.Headers.ContentRangeHeaderValue ContentRange 'get set' : 
+    System.Net.Http.Headers.MediaTypeHeaderValue ContentType 'get set' : 
+    System.Nullable`1[System.DateTimeOffset] Expires 'get set' : 
+    System.Nullable`1[System.DateTimeOffset] LastModified 'get set' : 
+  Methods:
+    get_Allow(): PrivateScope, Public, HideBySig, SpecialName
+    get_ContentDisposition(): PrivateScope, Public, HideBySig, SpecialName
+    set_ContentDisposition(ContentDispositionHeaderValue): PrivateScope, Public, HideBySig, SpecialName
+    get_ContentEncoding(): PrivateScope, Public, HideBySig, SpecialName
+    get_ContentLanguage(): PrivateScope, Public, HideBySig, SpecialName
+    get_ContentLength(): PrivateScope, Public, HideBySig, SpecialName
+    set_ContentLength(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_ContentLocation(): PrivateScope, Public, HideBySig, SpecialName
+    set_ContentLocation(Uri): PrivateScope, Public, HideBySig, SpecialName
+    get_ContentMD5(): PrivateScope, Public, HideBySig, SpecialName
+    set_ContentMD5(Byte[]): PrivateScope, Public, HideBySig, SpecialName
+    get_ContentRange(): PrivateScope, Public, HideBySig, SpecialName
+    set_ContentRange(ContentRangeHeaderValue): PrivateScope, Public, HideBySig, SpecialName
+    get_ContentType(): PrivateScope, Public, HideBySig, SpecialName
+    set_ContentType(MediaTypeHeaderValue): PrivateScope, Public, HideBySig, SpecialName
+    get_Expires(): PrivateScope, Public, HideBySig, SpecialName
+    set_Expires(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_LastModified(): PrivateScope, Public, HideBySig, SpecialName
+    set_LastModified(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    AddKnownHeaders(HashSet`1): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.Headers.HttpGeneralHeaders: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+    Void .ctor(System.Net.Http.Headers.HttpHeaders): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Net.Http.Headers.CacheControlHeaderValue CacheControl 'get set' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.String] Connection 'get ' : 
+    System.Nullable`1[System.Boolean] ConnectionClose 'get set' : 
+    System.Nullable`1[System.DateTimeOffset] Date 'get set' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.NameValueHeaderValue] Pragma 'get ' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.String] Trailer 'get ' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.TransferCodingHeaderValue] TransferEncoding 'get ' : 
+    System.Nullable`1[System.Boolean] TransferEncodingChunked 'get set' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.ProductHeaderValue] Upgrade 'get ' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.ViaHeaderValue] Via 'get ' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.WarningHeaderValue] Warning 'get ' : 
+  Methods:
+    get_CacheControl(): PrivateScope, Public, HideBySig, SpecialName
+    set_CacheControl(CacheControlHeaderValue): PrivateScope, Public, HideBySig, SpecialName
+    get_Connection(): PrivateScope, Public, HideBySig, SpecialName
+    get_ConnectionClose(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConnectionClose(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Date(): PrivateScope, Public, HideBySig, SpecialName
+    set_Date(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Pragma(): PrivateScope, Public, HideBySig, SpecialName
+    get_Trailer(): PrivateScope, Public, HideBySig, SpecialName
+    get_TransferEncoding(): PrivateScope, Public, HideBySig, SpecialName
+    get_TransferEncodingChunked(): PrivateScope, Public, HideBySig, SpecialName
+    set_TransferEncodingChunked(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Upgrade(): PrivateScope, Public, HideBySig, SpecialName
+    get_Via(): PrivateScope, Public, HideBySig, SpecialName
+    get_Warning(): PrivateScope, Public, HideBySig, SpecialName
+    AddParsers(Dictionary`2): PrivateScope, Assembly, Static, HideBySig
+    AddKnownHeaders(HashSet`1): PrivateScope, Assembly, Static, HideBySig
+    AddSpecialsFrom(HttpGeneralHeaders): PrivateScope, Assembly, HideBySig
+Class System.Net.Http.Headers.HttpHeaderValueCollection`1[T]: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Type parameter: T,  ReferenceType
+    Void .ctor(System.String, System.Net.Http.Headers.HttpHeaders): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Net.Http.Headers.HttpHeaders, System.Action`2[System.Net.Http.Headers.HttpHeaderValueCollection`1[T],T]): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Net.Http.Headers.HttpHeaders, T): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Net.Http.Headers.HttpHeaders, T, System.Action`2[System.Net.Http.Headers.HttpHeaderValueCollection`1[T],T]): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Collections.Generic.ICollection`1[T]
+    System.Collections.Generic.IEnumerable`1[T]
+    System.Collections.IEnumerable
+  Properties:
+    Int32 Count 'get ' : 
+    Boolean IsReadOnly 'get ' : 
+    Boolean IsSpecialValueSet 'get ' : 
+  Methods:
+    get_Count(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsReadOnly(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsSpecialValueSet(): PrivateScope, Assembly, HideBySig, SpecialName
+    Add(T): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ParseAdd(String): PrivateScope, Public, HideBySig
+    TryParseAdd(String): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Contains(T): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    CopyTo(T[], Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Remove(T): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetEnumerator(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    GetHeaderStringWithoutSpecial(): PrivateScope, Assembly, HideBySig
+    SetSpecialValue(): PrivateScope, Assembly, HideBySig
+    RemoveSpecialValue(): PrivateScope, Assembly, HideBySig
+Class System.Net.Http.Headers.HttpRequestHeaders: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Net.Http.Headers.HttpHeaders
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.MediaTypeWithQualityHeaderValue] Accept 'get ' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.StringWithQualityHeaderValue] AcceptCharset 'get ' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.StringWithQualityHeaderValue] AcceptEncoding 'get ' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.StringWithQualityHeaderValue] AcceptLanguage 'get ' : 
+    System.Net.Http.Headers.AuthenticationHeaderValue Authorization 'get set' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.NameValueWithParametersHeaderValue] Expect 'get ' : 
+    System.Nullable`1[System.Boolean] ExpectContinue 'get set' : 
+    System.String From 'get set' : 
+    System.String Host 'get set' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.EntityTagHeaderValue] IfMatch 'get ' : 
+    System.Nullable`1[System.DateTimeOffset] IfModifiedSince 'get set' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.EntityTagHeaderValue] IfNoneMatch 'get ' : 
+    System.Net.Http.Headers.RangeConditionHeaderValue IfRange 'get set' : 
+    System.Nullable`1[System.DateTimeOffset] IfUnmodifiedSince 'get set' : 
+    System.Nullable`1[System.Int32] MaxForwards 'get set' : 
+    System.Net.Http.Headers.AuthenticationHeaderValue ProxyAuthorization 'get set' : 
+    System.Net.Http.Headers.RangeHeaderValue Range 'get set' : 
+    System.Uri Referrer 'get set' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.TransferCodingWithQualityHeaderValue] TE 'get ' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.ProductInfoHeaderValue] UserAgent 'get ' : 
+    System.Net.Http.Headers.CacheControlHeaderValue CacheControl 'get set' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.String] Connection 'get ' : 
+    System.Nullable`1[System.Boolean] ConnectionClose 'get set' : 
+    System.Nullable`1[System.DateTimeOffset] Date 'get set' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.NameValueHeaderValue] Pragma 'get ' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.String] Trailer 'get ' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.TransferCodingHeaderValue] TransferEncoding 'get ' : 
+    System.Nullable`1[System.Boolean] TransferEncodingChunked 'get set' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.ProductHeaderValue] Upgrade 'get ' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.ViaHeaderValue] Via 'get ' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.WarningHeaderValue] Warning 'get ' : 
+  Methods:
+    get_Accept(): PrivateScope, Public, HideBySig, SpecialName
+    get_AcceptCharset(): PrivateScope, Public, HideBySig, SpecialName
+    get_AcceptEncoding(): PrivateScope, Public, HideBySig, SpecialName
+    get_AcceptLanguage(): PrivateScope, Public, HideBySig, SpecialName
+    get_Authorization(): PrivateScope, Public, HideBySig, SpecialName
+    set_Authorization(AuthenticationHeaderValue): PrivateScope, Public, HideBySig, SpecialName
+    get_Expect(): PrivateScope, Public, HideBySig, SpecialName
+    get_ExpectContinue(): PrivateScope, Public, HideBySig, SpecialName
+    set_ExpectContinue(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_From(): PrivateScope, Public, HideBySig, SpecialName
+    set_From(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Host(): PrivateScope, Public, HideBySig, SpecialName
+    set_Host(String): PrivateScope, Public, HideBySig, SpecialName
+    get_IfMatch(): PrivateScope, Public, HideBySig, SpecialName
+    get_IfModifiedSince(): PrivateScope, Public, HideBySig, SpecialName
+    set_IfModifiedSince(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_IfNoneMatch(): PrivateScope, Public, HideBySig, SpecialName
+    get_IfRange(): PrivateScope, Public, HideBySig, SpecialName
+    set_IfRange(RangeConditionHeaderValue): PrivateScope, Public, HideBySig, SpecialName
+    get_IfUnmodifiedSince(): PrivateScope, Public, HideBySig, SpecialName
+    set_IfUnmodifiedSince(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_MaxForwards(): PrivateScope, Public, HideBySig, SpecialName
+    set_MaxForwards(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_ProxyAuthorization(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProxyAuthorization(AuthenticationHeaderValue): PrivateScope, Public, HideBySig, SpecialName
+    get_Range(): PrivateScope, Public, HideBySig, SpecialName
+    set_Range(RangeHeaderValue): PrivateScope, Public, HideBySig, SpecialName
+    get_Referrer(): PrivateScope, Public, HideBySig, SpecialName
+    set_Referrer(Uri): PrivateScope, Public, HideBySig, SpecialName
+    get_TE(): PrivateScope, Public, HideBySig, SpecialName
+    get_UserAgent(): PrivateScope, Public, HideBySig, SpecialName
+    get_CacheControl(): PrivateScope, Public, HideBySig, SpecialName
+    set_CacheControl(CacheControlHeaderValue): PrivateScope, Public, HideBySig, SpecialName
+    get_Connection(): PrivateScope, Public, HideBySig, SpecialName
+    get_ConnectionClose(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConnectionClose(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Date(): PrivateScope, Public, HideBySig, SpecialName
+    set_Date(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Pragma(): PrivateScope, Public, HideBySig, SpecialName
+    get_Trailer(): PrivateScope, Public, HideBySig, SpecialName
+    get_TransferEncoding(): PrivateScope, Public, HideBySig, SpecialName
+    get_TransferEncodingChunked(): PrivateScope, Public, HideBySig, SpecialName
+    set_TransferEncodingChunked(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Upgrade(): PrivateScope, Public, HideBySig, SpecialName
+    get_Via(): PrivateScope, Public, HideBySig, SpecialName
+    get_Warning(): PrivateScope, Public, HideBySig, SpecialName
+    AddKnownHeaders(HashSet`1): PrivateScope, Assembly, Static, HideBySig
+    AddHeaders(HttpHeaders): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+Class System.Net.Http.Headers.HttpResponseHeaders: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Net.Http.Headers.HttpHeaders
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.String] AcceptRanges 'get ' : 
+    System.Nullable`1[System.TimeSpan] Age 'get set' : 
+    System.Net.Http.Headers.EntityTagHeaderValue ETag 'get set' : 
+    System.Uri Location 'get set' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.AuthenticationHeaderValue] ProxyAuthenticate 'get ' : 
+    System.Net.Http.Headers.RetryConditionHeaderValue RetryAfter 'get set' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.ProductInfoHeaderValue] Server 'get ' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.String] Vary 'get ' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.AuthenticationHeaderValue] WwwAuthenticate 'get ' : 
+    System.Net.Http.Headers.CacheControlHeaderValue CacheControl 'get set' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.String] Connection 'get ' : 
+    System.Nullable`1[System.Boolean] ConnectionClose 'get set' : 
+    System.Nullable`1[System.DateTimeOffset] Date 'get set' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.NameValueHeaderValue] Pragma 'get ' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.String] Trailer 'get ' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.TransferCodingHeaderValue] TransferEncoding 'get ' : 
+    System.Nullable`1[System.Boolean] TransferEncodingChunked 'get set' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.ProductHeaderValue] Upgrade 'get ' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.ViaHeaderValue] Via 'get ' : 
+    System.Net.Http.Headers.HttpHeaderValueCollection`1[System.Net.Http.Headers.WarningHeaderValue] Warning 'get ' : 
+  Methods:
+    get_AcceptRanges(): PrivateScope, Public, HideBySig, SpecialName
+    get_Age(): PrivateScope, Public, HideBySig, SpecialName
+    set_Age(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_ETag(): PrivateScope, Public, HideBySig, SpecialName
+    set_ETag(EntityTagHeaderValue): PrivateScope, Public, HideBySig, SpecialName
+    get_Location(): PrivateScope, Public, HideBySig, SpecialName
+    set_Location(Uri): PrivateScope, Public, HideBySig, SpecialName
+    get_ProxyAuthenticate(): PrivateScope, Public, HideBySig, SpecialName
+    get_RetryAfter(): PrivateScope, Public, HideBySig, SpecialName
+    set_RetryAfter(RetryConditionHeaderValue): PrivateScope, Public, HideBySig, SpecialName
+    get_Server(): PrivateScope, Public, HideBySig, SpecialName
+    get_Vary(): PrivateScope, Public, HideBySig, SpecialName
+    get_WwwAuthenticate(): PrivateScope, Public, HideBySig, SpecialName
+    get_CacheControl(): PrivateScope, Public, HideBySig, SpecialName
+    set_CacheControl(CacheControlHeaderValue): PrivateScope, Public, HideBySig, SpecialName
+    get_Connection(): PrivateScope, Public, HideBySig, SpecialName
+    get_ConnectionClose(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConnectionClose(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Date(): PrivateScope, Public, HideBySig, SpecialName
+    set_Date(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Pragma(): PrivateScope, Public, HideBySig, SpecialName
+    get_Trailer(): PrivateScope, Public, HideBySig, SpecialName
+    get_TransferEncoding(): PrivateScope, Public, HideBySig, SpecialName
+    get_TransferEncodingChunked(): PrivateScope, Public, HideBySig, SpecialName
+    set_TransferEncodingChunked(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Upgrade(): PrivateScope, Public, HideBySig, SpecialName
+    get_Via(): PrivateScope, Public, HideBySig, SpecialName
+    get_Warning(): PrivateScope, Public, HideBySig, SpecialName
+    AddKnownHeaders(HashSet`1): PrivateScope, Assembly, Static, HideBySig
+    AddHeaders(HttpHeaders): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+Class System.Net.Http.Headers.Int32NumberHeaderParser: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Net.Http.Headers.BaseHeaderParser
+  Fields:
+    System.Net.Http.Headers.Int32NumberHeaderParser Parser : Assembly, Static, InitOnly
+  Methods:
+    ToString(Object): PrivateScope, Public, Virtual, HideBySig
+Class System.Net.Http.Headers.Int64NumberHeaderParser: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Net.Http.Headers.BaseHeaderParser
+  Fields:
+    System.Net.Http.Headers.Int64NumberHeaderParser Parser : Assembly, Static, InitOnly
+  Methods:
+    ToString(Object): PrivateScope, Public, Virtual, HideBySig
+Class System.Net.Http.Headers.MediaTypeHeaderParser: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Net.Http.Headers.BaseHeaderParser
+  Fields:
+    System.Net.Http.Headers.MediaTypeHeaderParser SingleValueParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.MediaTypeHeaderParser SingleValueWithQualityParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.MediaTypeHeaderParser MultipleValuesParser : Assembly, Static, InitOnly
+Class System.Net.Http.Headers.MediaTypeHeaderValue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Properties:
+    System.String CharSet 'get set' : 
+    System.Collections.Generic.ICollection`1[System.Net.Http.Headers.NameValueHeaderValue] Parameters 'get ' : 
+    System.String MediaType 'get set' : 
+  Methods:
+    get_CharSet(): PrivateScope, Public, HideBySig, SpecialName
+    set_CharSet(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Parameters(): PrivateScope, Public, HideBySig, SpecialName
+    get_MediaType(): PrivateScope, Public, HideBySig, SpecialName
+    set_MediaType(String): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Parse(String): PrivateScope, Public, Static, HideBySig
+    TryParse(String, MediaTypeHeaderValue&(Out)): PrivateScope, Public, Static, HideBySig
+    GetMediaTypeLength(String, Int32, Func`1, MediaTypeHeaderValue&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.Headers.MediaTypeWithQualityHeaderValue: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Net.Http.Headers.MediaTypeHeaderValue
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Nullable`1[System.Double] Quality 'get set' : 
+  Methods:
+    get_Quality(): PrivateScope, Public, HideBySig, SpecialName
+    set_Quality(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    Parse(String): PrivateScope, Public, Static, HideBySig
+    TryParse(String, MediaTypeWithQualityHeaderValue&(Out)): PrivateScope, Public, Static, HideBySig
+Class System.Net.Http.Headers.NameValueHeaderValue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Properties:
+    System.String Name 'get ' : 
+    System.String Value 'get set' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    set_Value(String): PrivateScope, Public, HideBySig, SpecialName
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    Parse(String): PrivateScope, Public, Static, HideBySig
+    TryParse(String, NameValueHeaderValue&(Out)): PrivateScope, Public, Static, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    ToString(ICollection`1, Char, Boolean, StringBuilder): PrivateScope, Assembly, Static, HideBySig
+    ToString(ICollection`1, Char, Boolean): PrivateScope, Assembly, Static, HideBySig
+    GetHashCode(ICollection`1): PrivateScope, Assembly, Static, HideBySig
+    GetNameValueLength(String, Int32, NameValueHeaderValue&(Out)): PrivateScope, Assembly, Static, HideBySig
+    GetNameValueLength(String, Int32, Func`1, NameValueHeaderValue&(Out)): PrivateScope, Assembly, Static, HideBySig
+    GetNameValueListLength(String, Int32, Char, ICollection`1): PrivateScope, Assembly, Static, HideBySig
+    Find(ICollection`1, String): PrivateScope, Assembly, Static, HideBySig
+    GetValueLength(String, Int32): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.Headers.NameValueWithParametersHeaderValue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Net.Http.Headers.NameValueHeaderValue
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.ICollection`1[System.Net.Http.Headers.NameValueHeaderValue] Parameters 'get ' : 
+  Methods:
+    get_Parameters(): PrivateScope, Public, HideBySig, SpecialName
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Parse(String): PrivateScope, Public, Static, HideBySig
+    TryParse(String, NameValueWithParametersHeaderValue&(Out)): PrivateScope, Public, Static, HideBySig
+    GetNameValueWithParametersLength(String, Int32, Object&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.Headers.ObjectCollection`1[T]: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  Type parameter: T,  ReferenceType
+  :System.Collections.ObjectModel.Collection`1[T]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Action`1[T]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Net.Http.Headers.ProductHeaderValue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Properties:
+    System.String Name 'get ' : 
+    System.String Version 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    get_Version(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Parse(String): PrivateScope, Public, Static, HideBySig
+    TryParse(String, ProductHeaderValue&(Out)): PrivateScope, Public, Static, HideBySig
+    GetProductLength(String, Int32, ProductHeaderValue&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.Headers.ProductInfoHeaderParser: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Net.Http.Headers.HttpHeaderParser
+  Fields:
+    System.Net.Http.Headers.ProductInfoHeaderParser SingleValueParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.ProductInfoHeaderParser MultipleValueParser : Assembly, Static, InitOnly
+  Methods:
+    TryParseValue(String, Object, Int32&, Object&(Out)): PrivateScope, Public, Virtual, HideBySig
+Class System.Net.Http.Headers.ProductInfoHeaderValue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Net.Http.Headers.ProductHeaderValue): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Properties:
+    System.Net.Http.Headers.ProductHeaderValue Product 'get ' : 
+    System.String Comment 'get ' : 
+  Methods:
+    get_Product(): PrivateScope, Public, HideBySig, SpecialName
+    get_Comment(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Parse(String): PrivateScope, Public, Static, HideBySig
+    TryParse(String, ProductInfoHeaderValue&(Out)): PrivateScope, Public, Static, HideBySig
+    GetProductInfoLength(String, Int32, ProductInfoHeaderValue&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.Headers.RangeConditionHeaderValue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.DateTimeOffset): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Net.Http.Headers.EntityTagHeaderValue): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Properties:
+    System.Nullable`1[System.DateTimeOffset] Date 'get ' : 
+    System.Net.Http.Headers.EntityTagHeaderValue EntityTag 'get ' : 
+  Methods:
+    get_Date(): PrivateScope, Public, HideBySig, SpecialName
+    get_EntityTag(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Parse(String): PrivateScope, Public, Static, HideBySig
+    TryParse(String, RangeConditionHeaderValue&(Out)): PrivateScope, Public, Static, HideBySig
+    GetRangeConditionLength(String, Int32, Object&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.Headers.RangeHeaderValue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Nullable`1[System.Int64], System.Nullable`1[System.Int64]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Properties:
+    System.String Unit 'get set' : 
+    System.Collections.Generic.ICollection`1[System.Net.Http.Headers.RangeItemHeaderValue] Ranges 'get ' : 
+  Methods:
+    get_Unit(): PrivateScope, Public, HideBySig, SpecialName
+    set_Unit(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Ranges(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Parse(String): PrivateScope, Public, Static, HideBySig
+    TryParse(String, RangeHeaderValue&(Out)): PrivateScope, Public, Static, HideBySig
+    GetRangeLength(String, Int32, Object&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.Headers.RangeItemHeaderValue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Nullable`1[System.Int64], System.Nullable`1[System.Int64]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Properties:
+    System.Nullable`1[System.Int64] From 'get ' : 
+    System.Nullable`1[System.Int64] To 'get ' : 
+  Methods:
+    get_From(): PrivateScope, Public, HideBySig, SpecialName
+    get_To(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetRangeItemListLength(String, Int32, ICollection`1): PrivateScope, Assembly, Static, HideBySig
+    GetRangeItemLength(String, Int32, RangeItemHeaderValue&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.Headers.RetryConditionHeaderValue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.DateTimeOffset): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.TimeSpan): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Properties:
+    System.Nullable`1[System.DateTimeOffset] Date 'get ' : 
+    System.Nullable`1[System.TimeSpan] Delta 'get ' : 
+  Methods:
+    get_Date(): PrivateScope, Public, HideBySig, SpecialName
+    get_Delta(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Parse(String): PrivateScope, Public, Static, HideBySig
+    TryParse(String, RetryConditionHeaderValue&(Out)): PrivateScope, Public, Static, HideBySig
+    GetRetryConditionLength(String, Int32, Object&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.Headers.StringWithQualityHeaderValue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Properties:
+    System.String Value 'get ' : 
+    System.Nullable`1[System.Double] Quality 'get ' : 
+  Methods:
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    get_Quality(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Parse(String): PrivateScope, Public, Static, HideBySig
+    TryParse(String, StringWithQualityHeaderValue&(Out)): PrivateScope, Public, Static, HideBySig
+    GetStringWithQualityLength(String, Int32, Object&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.Headers.TimeSpanHeaderParser: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Net.Http.Headers.BaseHeaderParser
+  Fields:
+    System.Net.Http.Headers.TimeSpanHeaderParser Parser : Assembly, Static, InitOnly
+  Methods:
+    ToString(Object): PrivateScope, Public, Virtual, HideBySig
+Class System.Net.Http.Headers.TransferCodingHeaderParser: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Net.Http.Headers.BaseHeaderParser
+  Fields:
+    System.Net.Http.Headers.TransferCodingHeaderParser SingleValueParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.TransferCodingHeaderParser MultipleValueParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.TransferCodingHeaderParser SingleValueWithQualityParser : Assembly, Static, InitOnly
+    System.Net.Http.Headers.TransferCodingHeaderParser MultipleValueWithQualityParser : Assembly, Static, InitOnly
+Class System.Net.Http.Headers.TransferCodingHeaderValue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Properties:
+    System.String Value 'get ' : 
+    System.Collections.Generic.ICollection`1[System.Net.Http.Headers.NameValueHeaderValue] Parameters 'get ' : 
+  Methods:
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    get_Parameters(): PrivateScope, Public, HideBySig, SpecialName
+    Parse(String): PrivateScope, Public, Static, HideBySig
+    TryParse(String, TransferCodingHeaderValue&(Out)): PrivateScope, Public, Static, HideBySig
+    GetTransferCodingLength(String, Int32, Func`1, TransferCodingHeaderValue&(Out)): PrivateScope, Assembly, Static, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class System.Net.Http.Headers.TransferCodingWithQualityHeaderValue: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Net.Http.Headers.TransferCodingHeaderValue
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Nullable`1[System.Double] Quality 'get set' : 
+  Methods:
+    get_Quality(): PrivateScope, Public, HideBySig, SpecialName
+    set_Quality(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+    Parse(String): PrivateScope, Public, Static, HideBySig
+    TryParse(String, TransferCodingWithQualityHeaderValue&(Out)): PrivateScope, Public, Static, HideBySig
+Class System.Net.Http.Headers.UriHeaderParser: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Net.Http.Headers.HttpHeaderParser
+  Fields:
+    System.Net.Http.Headers.UriHeaderParser RelativeOrAbsoluteUriParser : Assembly, Static, InitOnly
+  Methods:
+    TryParseValue(String, Object, Int32&, Object&(Out)): PrivateScope, Public, Virtual, HideBySig
+    DecodeUtf8FromString(String): PrivateScope, Assembly, Static, HideBySig
+    ToString(Object): PrivateScope, Public, Virtual, HideBySig
+Class System.Net.Http.Headers.ViaHeaderValue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Properties:
+    System.String ProtocolName 'get ' : 
+    System.String ProtocolVersion 'get ' : 
+    System.String ReceivedBy 'get ' : 
+    System.String Comment 'get ' : 
+  Methods:
+    get_ProtocolName(): PrivateScope, Public, HideBySig, SpecialName
+    get_ProtocolVersion(): PrivateScope, Public, HideBySig, SpecialName
+    get_ReceivedBy(): PrivateScope, Public, HideBySig, SpecialName
+    get_Comment(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Parse(String): PrivateScope, Public, Static, HideBySig
+    TryParse(String, ViaHeaderValue&(Out)): PrivateScope, Public, Static, HideBySig
+    GetViaLength(String, Int32, Object&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.Headers.WarningHeaderValue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, System.String, System.String, System.DateTimeOffset): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Properties:
+    Int32 Code 'get ' : 
+    System.String Agent 'get ' : 
+    System.String Text 'get ' : 
+    System.Nullable`1[System.DateTimeOffset] Date 'get ' : 
+  Methods:
+    get_Code(): PrivateScope, Public, HideBySig, SpecialName
+    get_Agent(): PrivateScope, Public, HideBySig, SpecialName
+    get_Text(): PrivateScope, Public, HideBySig, SpecialName
+    get_Date(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Parse(String): PrivateScope, Public, Static, HideBySig
+    TryParse(String, WarningHeaderValue&(Out)): PrivateScope, Public, Static, HideBySig
+    GetWarningLength(String, Int32, Object&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.HttpMessageInvoker: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Net.Http.HttpMessageHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Net.Http.HttpMessageHandler, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    SendAsync(HttpRequestMessage, CancellationToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Net.Http.HttpClient: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Net.Http.HttpMessageInvoker
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Net.Http.HttpMessageHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Net.Http.HttpMessageHandler, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Net.Http.Headers.HttpRequestHeaders DefaultRequestHeaders 'get ' : 
+    System.Uri BaseAddress 'get set' : 
+    System.TimeSpan Timeout 'get set' : 
+    Int64 MaxResponseContentBufferSize 'get set' : 
+  Methods:
+    get_DefaultRequestHeaders(): PrivateScope, Public, HideBySig, SpecialName
+    get_BaseAddress(): PrivateScope, Public, HideBySig, SpecialName
+    set_BaseAddress(Uri): PrivateScope, Public, HideBySig, SpecialName
+    get_Timeout(): PrivateScope, Public, HideBySig, SpecialName
+    set_Timeout(TimeSpan): PrivateScope, Public, HideBySig, SpecialName
+    get_MaxResponseContentBufferSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_MaxResponseContentBufferSize(Int64): PrivateScope, Public, HideBySig, SpecialName
+    GetStringAsync(String): PrivateScope, Public, HideBySig
+    GetStringAsync(Uri): PrivateScope, Public, HideBySig
+    GetByteArrayAsync(String): PrivateScope, Public, HideBySig
+    GetByteArrayAsync(Uri): PrivateScope, Public, HideBySig
+    GetStreamAsync(String): PrivateScope, Public, HideBySig
+    GetStreamAsync(Uri): PrivateScope, Public, HideBySig
+    GetAsync(String): PrivateScope, Public, HideBySig
+    GetAsync(Uri): PrivateScope, Public, HideBySig
+    GetAsync(String, HttpCompletionOption): PrivateScope, Public, HideBySig
+    GetAsync(Uri, HttpCompletionOption): PrivateScope, Public, HideBySig
+    GetAsync(String, CancellationToken): PrivateScope, Public, HideBySig
+    GetAsync(Uri, CancellationToken): PrivateScope, Public, HideBySig
+    GetAsync(String, HttpCompletionOption, CancellationToken): PrivateScope, Public, HideBySig
+    GetAsync(Uri, HttpCompletionOption, CancellationToken): PrivateScope, Public, HideBySig
+    PostAsync(String, HttpContent): PrivateScope, Public, HideBySig
+    PostAsync(Uri, HttpContent): PrivateScope, Public, HideBySig
+    PostAsync(String, HttpContent, CancellationToken): PrivateScope, Public, HideBySig
+    PostAsync(Uri, HttpContent, CancellationToken): PrivateScope, Public, HideBySig
+    PutAsync(String, HttpContent): PrivateScope, Public, HideBySig
+    PutAsync(Uri, HttpContent): PrivateScope, Public, HideBySig
+    PutAsync(String, HttpContent, CancellationToken): PrivateScope, Public, HideBySig
+    PutAsync(Uri, HttpContent, CancellationToken): PrivateScope, Public, HideBySig
+    DeleteAsync(String): PrivateScope, Public, HideBySig
+    DeleteAsync(Uri): PrivateScope, Public, HideBySig
+    DeleteAsync(String, CancellationToken): PrivateScope, Public, HideBySig
+    DeleteAsync(Uri, CancellationToken): PrivateScope, Public, HideBySig
+    SendAsync(HttpRequestMessage): PrivateScope, Public, HideBySig
+    SendAsync(HttpRequestMessage, CancellationToken): PrivateScope, Public, Virtual, HideBySig
+    SendAsync(HttpRequestMessage, HttpCompletionOption): PrivateScope, Public, HideBySig
+    SendAsync(HttpRequestMessage, HttpCompletionOption, CancellationToken): PrivateScope, Public, HideBySig
+    CancelPendingRequests(): PrivateScope, Public, HideBySig
+Class System.Net.Http.HttpClientHandler: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Net.Http.HttpMessageHandler
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean SupportsAutomaticDecompression 'get ' : 
+    Boolean SupportsProxy 'get ' : 
+    Boolean SupportsRedirectConfiguration 'get ' : 
+    Boolean UseCookies 'get set' : 
+    System.Net.CookieContainer CookieContainer 'get set' : 
+    System.Net.Http.ClientCertificateOption ClientCertificateOptions 'get set' : 
+    System.Net.DecompressionMethods AutomaticDecompression 'get set' : 
+    Boolean UseProxy 'get set' : 
+    System.Net.IWebProxy Proxy 'get set' : 
+    Boolean PreAuthenticate 'get set' : 
+    Boolean UseDefaultCredentials 'get set' : 
+    System.Net.ICredentials Credentials 'get set' : 
+    Boolean AllowAutoRedirect 'get set' : 
+    Int32 MaxAutomaticRedirections 'get set' : 
+    Int64 MaxRequestContentBufferSize 'get set' : 
+  Methods:
+    get_SupportsAutomaticDecompression(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SupportsProxy(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SupportsRedirectConfiguration(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_UseCookies(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseCookies(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_CookieContainer(): PrivateScope, Public, HideBySig, SpecialName
+    set_CookieContainer(CookieContainer): PrivateScope, Public, HideBySig, SpecialName
+    get_ClientCertificateOptions(): PrivateScope, Public, HideBySig, SpecialName
+    set_ClientCertificateOptions(ClientCertificateOption): PrivateScope, Public, HideBySig, SpecialName
+    get_AutomaticDecompression(): PrivateScope, Public, HideBySig, SpecialName
+    set_AutomaticDecompression(DecompressionMethods): PrivateScope, Public, HideBySig, SpecialName
+    get_UseProxy(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseProxy(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Proxy(): PrivateScope, Public, HideBySig, SpecialName
+    set_Proxy(IWebProxy): PrivateScope, Public, HideBySig, SpecialName
+    get_PreAuthenticate(): PrivateScope, Public, HideBySig, SpecialName
+    set_PreAuthenticate(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_UseDefaultCredentials(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseDefaultCredentials(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Credentials(): PrivateScope, Public, HideBySig, SpecialName
+    set_Credentials(ICredentials): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowAutoRedirect(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowAutoRedirect(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_MaxAutomaticRedirections(): PrivateScope, Public, HideBySig, SpecialName
+    set_MaxAutomaticRedirections(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_MaxRequestContentBufferSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_MaxRequestContentBufferSize(Int64): PrivateScope, Public, HideBySig, SpecialName
+    InitializeWebRequest(HttpRequestMessage, HttpWebRequest): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride
+    CheckDisposedOrStarted(): PrivateScope, Assembly, HideBySig
+Struct System.Net.Http.HttpCompletionOption: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Net.Http.HttpCompletionOption ResponseContentRead = 0 : Public, Static, Literal, HasDefault
+    System.Net.Http.HttpCompletionOption ResponseHeadersRead = 1 : Public, Static, Literal, HasDefault
+Class System.Net.Http.HttpMethod: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IEquatable`1[System.Net.Http.HttpMethod]
+  Properties:
+    System.Net.Http.HttpMethod Get 'get ' : 
+    System.Net.Http.HttpMethod Put 'get ' : 
+    System.Net.Http.HttpMethod Post 'get ' : 
+    System.Net.Http.HttpMethod Delete 'get ' : 
+    System.Net.Http.HttpMethod Head 'get ' : 
+    System.Net.Http.HttpMethod Options 'get ' : 
+    System.Net.Http.HttpMethod Trace 'get ' : 
+    System.String Method 'get ' : 
+  Methods:
+    get_Get(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Put(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Post(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Delete(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Head(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Options(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Trace(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Method(): PrivateScope, Public, HideBySig, SpecialName
+    Equals(HttpMethod): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    op_Equality(HttpMethod, HttpMethod): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(HttpMethod, HttpMethod): PrivateScope, Public, Static, HideBySig, SpecialName
+Struct System.Net.Http.HttpParseResult: AutoLayout, AnsiClass, Class, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Net.Http.HttpParseResult Parsed = 0 : Public, Static, Literal, HasDefault
+    System.Net.Http.HttpParseResult NotParsed = 1 : Public, Static, Literal, HasDefault
+    System.Net.Http.HttpParseResult InvalidFormat = 2 : Public, Static, Literal, HasDefault
+Class System.Net.Http.HttpRequestException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.Exception
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Net.Http.HttpRequestMessage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Net.Http.HttpMethod, System.Uri): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Net.Http.HttpMethod, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    System.Version Version 'get set' : 
+    System.Net.Http.HttpContent Content 'get set' : 
+    System.Net.Http.HttpMethod Method 'get set' : 
+    System.Uri RequestUri 'get set' : 
+    System.Net.Http.Headers.HttpRequestHeaders Headers 'get ' : 
+    System.Collections.Generic.IDictionary`2[System.String,System.Object] Properties 'get ' : 
+  Methods:
+    get_Version(): PrivateScope, Public, HideBySig, SpecialName
+    set_Version(Version): PrivateScope, Public, HideBySig, SpecialName
+    get_Content(): PrivateScope, Public, HideBySig, SpecialName
+    set_Content(HttpContent): PrivateScope, Public, HideBySig, SpecialName
+    get_Method(): PrivateScope, Public, HideBySig, SpecialName
+    set_Method(HttpMethod): PrivateScope, Public, HideBySig, SpecialName
+    get_RequestUri(): PrivateScope, Public, HideBySig, SpecialName
+    set_RequestUri(Uri): PrivateScope, Public, HideBySig, SpecialName
+    get_Headers(): PrivateScope, Public, HideBySig, SpecialName
+    get_Properties(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    MarkAsSent(): PrivateScope, Assembly, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Net.Http.HttpResponseMessage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Net.HttpStatusCode): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    System.Version Version 'get set' : 
+    System.Net.Http.HttpContent Content 'get set' : 
+    System.Net.HttpStatusCode StatusCode 'get set' : 
+    System.String ReasonPhrase 'get set' : 
+    System.Net.Http.Headers.HttpResponseHeaders Headers 'get ' : 
+    System.Net.Http.HttpRequestMessage RequestMessage 'get set' : 
+    Boolean IsSuccessStatusCode 'get ' : 
+  Methods:
+    get_Version(): PrivateScope, Public, HideBySig, SpecialName
+    set_Version(Version): PrivateScope, Public, HideBySig, SpecialName
+    get_Content(): PrivateScope, Public, HideBySig, SpecialName
+    set_Content(HttpContent): PrivateScope, Public, HideBySig, SpecialName
+    get_StatusCode(): PrivateScope, Public, HideBySig, SpecialName
+    set_StatusCode(HttpStatusCode): PrivateScope, Public, HideBySig, SpecialName
+    get_ReasonPhrase(): PrivateScope, Public, HideBySig, SpecialName
+    set_ReasonPhrase(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Headers(): PrivateScope, Public, HideBySig, SpecialName
+    get_RequestMessage(): PrivateScope, Public, HideBySig, SpecialName
+    set_RequestMessage(HttpRequestMessage): PrivateScope, Public, HideBySig, SpecialName
+    get_IsSuccessStatusCode(): PrivateScope, Public, HideBySig, SpecialName
+    EnsureSuccessStatusCode(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Net.Http.HttpRuleParser: AutoLayout, AnsiClass, Class, Abstract, Sealed
+  Fields:
+    System.Text.Encoding DefaultHttpEncoding : Assembly, Static, InitOnly
+    Char CR =  : Assembly, Static, Literal, HasDefault
+    Char LF = 
+ : Assembly, Static, Literal, HasDefault
+    Int32 MaxInt64Digits = 19 : Assembly, Static, Literal, HasDefault
+    Int32 MaxInt32Digits = 10 : Assembly, Static, Literal, HasDefault
+  Methods:
+    IsTokenChar(Char): PrivateScope, Assembly, Static, HideBySig
+    GetTokenLength(String, Int32): PrivateScope, Assembly, Static, HideBySig
+    GetWhitespaceLength(String, Int32): PrivateScope, Assembly, Static, HideBySig
+    ContainsInvalidNewLine(String): PrivateScope, Assembly, Static, HideBySig
+    ContainsInvalidNewLine(String, Int32): PrivateScope, Assembly, Static, HideBySig
+    GetNumberLength(String, Int32, Boolean): PrivateScope, Assembly, Static, HideBySig
+    GetHostLength(String, Int32, Boolean, String&(Out)): PrivateScope, Assembly, Static, HideBySig
+    GetCommentLength(String, Int32, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig
+    GetQuotedStringLength(String, Int32, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig
+    GetQuotedPairLength(String, Int32, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig
+    DateToString(DateTimeOffset): PrivateScope, Assembly, Static, HideBySig
+    TryStringToDate(String, DateTimeOffset&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.HttpUtilities: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.Version DefaultVersion : Assembly, Static, InitOnly
+    Byte[] EmptyByteArray : Assembly, Static, InitOnly
+  Methods:
+    IsHttpUri(Uri): PrivateScope, Assembly, Static, HideBySig
+    HandleFaultsAndCancelation(Task, TaskCompletionSource`1): PrivateScope, Assembly, Static, HideBySig
+    ContinueWithStandard(Task, Action`1): PrivateScope, Assembly, Static, HideBySig
+    ContinueWithStandard(Task`1, Action`1): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.Http.MessageProcessingHandler: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Net.Http.DelegatingHandler
+Class System.Net.Http.MultipartContent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Net.Http.HttpContent
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Collections.Generic.IEnumerable`1[System.Net.Http.HttpContent]
+    System.Collections.IEnumerable
+  Methods:
+    Add(HttpContent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetEnumerator(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Net.Http.MultipartFormDataContent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Net.Http.MultipartContent
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Add(HttpContent): PrivateScope, Public, Virtual, HideBySig
+    Add(HttpContent, String): PrivateScope, Public, HideBySig
+    Add(HttpContent, String, String): PrivateScope, Public, HideBySig
+Class System.Net.Http.StreamContent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Net.Http.HttpContent
+    Void .ctor(System.IO.Stream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Net.Http.StreamToStreamCopy: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(System.IO.Stream, System.IO.Stream, Int32, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    StartAsync(): PrivateScope, Public, HideBySig
+Class System.Net.Http.StringContent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Net.Http.ByteArrayContent
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Text.Encoding): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Text.Encoding, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Net.NclUtilities: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    IsFatal(Exception): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.ValidationHelper: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.String[] EmptyArray : Public, Static
+    Char[] InvalidMethodChars : Assembly, Static, InitOnly
+    Char[] InvalidParamChars : Assembly, Static, InitOnly
+  Methods:
+    MakeEmptyArrayNull(String[]): PrivateScope, Public, Static, HideBySig
+    MakeStringNull(String): PrivateScope, Public, Static, HideBySig
+    ExceptionMessage(Exception): PrivateScope, Public, Static, HideBySig
+    ToString(Object): PrivateScope, Public, Static, HideBySig
+    HashString(Object): PrivateScope, Public, Static, HideBySig
+    IsInvalidHttpString(String): PrivateScope, Public, Static, HideBySig
+    IsBlankString(String): PrivateScope, Public, Static, HideBySig
+    ValidateTcpPort(Int32): PrivateScope, Public, Static, HideBySig
+    ValidateRange(Int32, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    ValidateSegment(ArraySegment`1): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.ExceptionHelper: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.Net.WebPermission WebPermissionUnrestricted : Assembly, Static, InitOnly
+Class System.Net.HttpKnownHeaderNames: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.String CacheControl = Cache-Control : Public, Static, Literal, HasDefault
+    System.String Connection = Connection : Public, Static, Literal, HasDefault
+    System.String Date = Date : Public, Static, Literal, HasDefault
+    System.String KeepAlive = Keep-Alive : Public, Static, Literal, HasDefault
+    System.String Pragma = Pragma : Public, Static, Literal, HasDefault
+    System.String ProxyConnection = Proxy-Connection : Public, Static, Literal, HasDefault
+    System.String Trailer = Trailer : Public, Static, Literal, HasDefault
+    System.String TransferEncoding = Transfer-Encoding : Public, Static, Literal, HasDefault
+    System.String Upgrade = Upgrade : Public, Static, Literal, HasDefault
+    System.String Via = Via : Public, Static, Literal, HasDefault
+    System.String Warning = Warning : Public, Static, Literal, HasDefault
+    System.String ContentLength = Content-Length : Public, Static, Literal, HasDefault
+    System.String ContentType = Content-Type : Public, Static, Literal, HasDefault
+    System.String ContentDisposition = Content-Disposition : Public, Static, Literal, HasDefault
+    System.String ContentEncoding = Content-Encoding : Public, Static, Literal, HasDefault
+    System.String ContentLanguage = Content-Language : Public, Static, Literal, HasDefault
+    System.String ContentLocation = Content-Location : Public, Static, Literal, HasDefault
+    System.String ContentRange = Content-Range : Public, Static, Literal, HasDefault
+    System.String Expires = Expires : Public, Static, Literal, HasDefault
+    System.String LastModified = Last-Modified : Public, Static, Literal, HasDefault
+    System.String Age = Age : Public, Static, Literal, HasDefault
+    System.String Location = Location : Public, Static, Literal, HasDefault
+    System.String ProxyAuthenticate = Proxy-Authenticate : Public, Static, Literal, HasDefault
+    System.String RetryAfter = Retry-After : Public, Static, Literal, HasDefault
+    System.String Server = Server : Public, Static, Literal, HasDefault
+    System.String SetCookie = Set-Cookie : Public, Static, Literal, HasDefault
+    System.String SetCookie2 = Set-Cookie2 : Public, Static, Literal, HasDefault
+    System.String Vary = Vary : Public, Static, Literal, HasDefault
+    System.String WWWAuthenticate = WWW-Authenticate : Public, Static, Literal, HasDefault
+    System.String Accept = Accept : Public, Static, Literal, HasDefault
+    System.String AcceptCharset = Accept-Charset : Public, Static, Literal, HasDefault
+    System.String AcceptEncoding = Accept-Encoding : Public, Static, Literal, HasDefault
+    System.String AcceptLanguage = Accept-Language : Public, Static, Literal, HasDefault
+    System.String Authorization = Authorization : Public, Static, Literal, HasDefault
+    System.String Cookie = Cookie : Public, Static, Literal, HasDefault
+    System.String Cookie2 = Cookie2 : Public, Static, Literal, HasDefault
+    System.String Expect = Expect : Public, Static, Literal, HasDefault
+    System.String From = From : Public, Static, Literal, HasDefault
+    System.String Host = Host : Public, Static, Literal, HasDefault
+    System.String IfMatch = If-Match : Public, Static, Literal, HasDefault
+    System.String IfModifiedSince = If-Modified-Since : Public, Static, Literal, HasDefault
+    System.String IfNoneMatch = If-None-Match : Public, Static, Literal, HasDefault
+    System.String IfRange = If-Range : Public, Static, Literal, HasDefault
+    System.String IfUnmodifiedSince = If-Unmodified-Since : Public, Static, Literal, HasDefault
+    System.String MaxForwards = Max-Forwards : Public, Static, Literal, HasDefault
+    System.String ProxyAuthorization = Proxy-Authorization : Public, Static, Literal, HasDefault
+    System.String Referer = Referer : Public, Static, Literal, HasDefault
+    System.String Range = Range : Public, Static, Literal, HasDefault
+    System.String UserAgent = User-Agent : Public, Static, Literal, HasDefault
+    System.String ContentMD5 = Content-MD5 : Public, Static, Literal, HasDefault
+    System.String ETag = ETag : Public, Static, Literal, HasDefault
+    System.String TE = TE : Public, Static, Literal, HasDefault
+    System.String Allow = Allow : Public, Static, Literal, HasDefault
+    System.String AcceptRanges = Accept-Ranges : Public, Static, Literal, HasDefault
+    System.String P3P = P3P : Public, Static, Literal, HasDefault
+    System.String XPoweredBy = X-Powered-By : Public, Static, Literal, HasDefault
+    System.String XAspNetVersion = X-AspNet-Version : Public, Static, Literal, HasDefault
+    System.String SecWebSocketKey = Sec-WebSocket-Key : Public, Static, Literal, HasDefault
+    System.String SecWebSocketExtensions = Sec-WebSocket-Extensions : Public, Static, Literal, HasDefault
+    System.String SecWebSocketAccept = Sec-WebSocket-Accept : Public, Static, Literal, HasDefault
+    System.String SecWebSocketOrigin = Sec-WebSocket-Origin : Public, Static, Literal, HasDefault
+    System.String SecWebSocketProtocol = Sec-WebSocket-Protocol : Public, Static, Literal, HasDefault
+    System.String SecWebSocketVersion = Sec-WebSocket-Version : Public, Static, Literal, HasDefault
+Class System.Net.Logging: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  Properties:
+    Boolean On 'get ' : 
+    System.Diagnostics.TraceSource Web 'get ' : 
+    System.Diagnostics.TraceSource Http 'get ' : 
+    System.Diagnostics.TraceSource HttpListener 'get ' : 
+    System.Diagnostics.TraceSource Sockets 'get ' : 
+    System.Diagnostics.TraceSource RequestCache 'get ' : 
+    System.Diagnostics.TraceSource WebSockets 'get ' : 
+  Methods:
+    get_On(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    IsVerbose(TraceSource): PrivateScope, Assembly, Static, HideBySig
+    get_Web(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Http(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_HttpListener(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Sockets(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_RequestCache(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebSockets(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    GetCurrentThreadId(): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    GetThreadId(): PrivateScope, Assembly, Static, HideBySig
+    PrintLine(TraceSource, TraceEventType, Int32, String): PrivateScope, Assembly, Static, HideBySig
+    Associate(TraceSource, Object, Object): PrivateScope, Assembly, Static, HideBySig
+    Enter(TraceSource, Object, String, String): PrivateScope, Assembly, Static, HideBySig
+    Enter(TraceSource, Object, String, Object): PrivateScope, Assembly, Static, HideBySig
+    Enter(TraceSource, String, String, String): PrivateScope, Assembly, Static, HideBySig
+    Enter(TraceSource, String, String, Object): PrivateScope, Assembly, Static, HideBySig
+    Enter(TraceSource, String, String): PrivateScope, Assembly, Static, HideBySig
+    Enter(TraceSource, String): PrivateScope, Assembly, Static, HideBySig
+    Exit(TraceSource, Object, String, Object): PrivateScope, Assembly, Static, HideBySig
+    Exit(TraceSource, String, String, Object): PrivateScope, Assembly, Static, HideBySig
+    Exit(TraceSource, Object, String, String): PrivateScope, Assembly, Static, HideBySig
+    Exit(TraceSource, String, String, String): PrivateScope, Assembly, Static, HideBySig
+    Exit(TraceSource, String, String): PrivateScope, Assembly, Static, HideBySig
+    Exit(TraceSource, String): PrivateScope, Assembly, Static, HideBySig
+    Exception(TraceSource, Object, String, Exception): PrivateScope, Assembly, Static, HideBySig
+    PrintInfo(TraceSource, String): PrivateScope, Assembly, Static, HideBySig
+    PrintInfo(TraceSource, Object, String): PrivateScope, Assembly, Static, HideBySig
+    PrintInfo(TraceSource, Object, String, String): PrivateScope, Assembly, Static, HideBySig
+    PrintWarning(TraceSource, String): PrivateScope, Assembly, Static, HideBySig
+    PrintWarning(TraceSource, Object, String, String): PrivateScope, Assembly, Static, HideBySig
+    PrintError(TraceSource, String): PrivateScope, Assembly, Static, HideBySig
+    PrintError(TraceSource, Object, String, String): PrivateScope, Assembly, Static, HideBySig
+    GetObjectLogHash(Object): PrivateScope, Assembly, Static, HideBySig
+    Dump(TraceSource, Object, String, Byte[], Int32, Int32): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.TimerThread: AutoLayout, AnsiClass, Class, Abstract, Sealed
+  Methods:
+    CreateQueue(Int32): PrivateScope, Assembly, Static, HideBySig
+    GetOrCreateQueue(Int32): PrivateScope, Assembly, Static, HideBySig
+Class System.Net.TimerThread+Queue: AutoLayout, AnsiClass, Class, NestedAssembly, Abstract, BeforeFieldInit
+    Void .ctor(Int32): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Duration 'get ' : 
+  Methods:
+    get_Duration(): PrivateScope, Assembly, HideBySig, SpecialName
+    CreateTimer(): PrivateScope, Assembly, HideBySig
+    CreateTimer(Callback, Object): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+Class System.Net.TimerThread+Timer: AutoLayout, AnsiClass, Class, NestedAssembly, Abstract, BeforeFieldInit
+    Void .ctor(Int32): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    Int32 Duration 'get ' : 
+    Int32 StartTime 'get ' : 
+    Int32 Expiration 'get ' : 
+    Int32 TimeRemaining 'get ' : 
+    Boolean HasExpired 'get ' : 
+  Methods:
+    get_Duration(): PrivateScope, Assembly, HideBySig, SpecialName
+    get_StartTime(): PrivateScope, Assembly, HideBySig, SpecialName
+    get_Expiration(): PrivateScope, Assembly, HideBySig, SpecialName
+    get_TimeRemaining(): PrivateScope, Assembly, HideBySig, SpecialName
+    Cancel(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    get_HasExpired(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Net.TimerThread+Callback: AutoLayout, AnsiClass, Class, NestedAssembly, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Timer, Int32, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Timer, Int32, Object, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class <PrivateImplementationDetails>{C0B29235-E7B6-44DD-8DDB-FA00FEF3B379}: NotPublic
+  Fields:
+    System.Collections.Generic.Dictionary`2[System.String,System.Int32] $$method0x60000cd-1 : Assembly, Static
+    Int64 $$method0x60004c1-1 : Assembly, Static, HasFieldRVA
+    __StaticArrayInitTypeSize=44 $$method0x60004c1-2 : Assembly, Static, HasFieldRVA

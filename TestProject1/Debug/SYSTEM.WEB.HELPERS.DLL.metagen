@@ -1,0 +1,628 @@
+  System.Web.Helpers.Resources.HelpersResources.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class Microsoft.Internal.Web.Utils.DynamicHelper: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    TryGetMemberValue(Object, String, Object&(Out)): PrivateScope, Public, Static, HideBySig
+    TryGetMemberValue(Object, GetMemberBinder, Object&(Out)): PrivateScope, Public, Static, HideBySig
+    GetMemberValue(Object, String): PrivateScope, Public, Static, HideBySig
+    GetMemberValue(Object, GetMemberBinder): PrivateScope, Public, Static, HideBySig
+    GetMemberAccessCallSite(String): PrivateScope, Public, Static, HideBySig
+    GetMemberAccessCallSite(CallSiteBinder): PrivateScope, Public, Static, HideBySig
+    GetMemberNames(Object): PrivateScope, Public, Static, HideBySig
+Class System.Web.Helpers.Chart: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, Int32, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.HttpContextBase, System.Web.Hosting.VirtualPathProvider, Int32, Int32, System.String, System.String): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String FileName 'get ' : 
+    Int32 Height 'get ' : 
+    Int32 Width 'get ' : 
+  Methods:
+    get_FileName(): PrivateScope, Public, HideBySig, SpecialName
+    get_Height(): PrivateScope, Public, HideBySig, SpecialName
+    get_Width(): PrivateScope, Public, HideBySig, SpecialName
+    AddLegend(String(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    AddSeries(String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), Int32(Optional, HasDefault), IEnumerable(Optional, HasDefault), String(Optional, HasDefault), IEnumerable(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    AddTitle(String(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    SetXAxis(String(Optional, HasDefault), Double(Optional, HasDefault), Double(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    SetYAxis(String(Optional, HasDefault), Double(Optional, HasDefault), Double(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    DataBindCrossTable(IEnumerable, String, String, String, String(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    DataBindTable(IEnumerable, String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    GetBytes(String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    GetFromCache(String): PrivateScope, Public, Static, HideBySig
+    Save(String, String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Save(HttpContextBase, String, String): PrivateScope, Assembly, HideBySig
+    SaveToCache(String(Optional, HasDefault), Int32(Optional, HasDefault), Boolean(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    SaveXml(String): PrivateScope, Public, HideBySig
+    SaveXml(HttpContextBase, String): PrivateScope, Assembly, HideBySig
+    ToWebImage(String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Write(String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    WriteFromCache(String, String(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    ExecuteChartAction(Action`1): PrivateScope, Assembly, HideBySig
+    GetFromCache(HttpContextBase, String): PrivateScope, Assembly, Static, HideBySig
+    WriteFromCache(HttpContextBase, String, String(Optional, HasDefault)): PrivateScope, Assembly, Static, HideBySig
+Class System.Web.Helpers.ChartTheme: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.String Blue = <Chart BackColor="#D3DFF0" BackGradientStyle="TopBottom" BackSecondaryColor="White" BorderColor="26, 59, 105" BorderlineDashStyle="Solid" BorderWidth="2" Palette="BrightPastel">
+    <ChartAreas>
+        <ChartArea Name="Default" _Template_="All" BackColor="64, 165, 191, 228" BackGradientStyle="TopBottom" BackSecondaryColor="White" BorderColor="64, 64, 64, 64" BorderDashStyle="Solid" ShadowColor="Transparent" /> 
+    </ChartAreas>
+    <Legends>
+        <Legend _Template_="All" BackColor="Transparent" Font="Trebuchet MS, 8.25pt, style=Bold" IsTextAutoFit="False" /> 
+    </Legends>
+    <BorderSkin SkinStyle="Emboss" /> 
+  </Chart> : Public, Static, Literal, HasDefault
+    System.String Green = <Chart BackColor="#C9DC87" BackGradientStyle="TopBottom" BorderColor="181, 64, 1" BorderWidth="2" BorderlineDashStyle="Solid" Palette="BrightPastel">
+  <ChartAreas>
+    <ChartArea Name="Default" _Template_="All" BackColor="Transparent" BackSecondaryColor="White" BorderColor="64, 64, 64, 64" BorderDashStyle="Solid" ShadowColor="Transparent">
+      <AxisY LineColor="64, 64, 64, 64">
+        <MajorGrid Interval="Auto" LineColor="64, 64, 64, 64" />
+        <LabelStyle Font="Trebuchet MS, 8.25pt, style=Bold" />
+      </AxisY>
+      <AxisX LineColor="64, 64, 64, 64">
+        <MajorGrid LineColor="64, 64, 64, 64" />
+        <LabelStyle Font="Trebuchet MS, 8.25pt, style=Bold" />
+      </AxisX>
+      <Area3DStyle Inclination="15" IsClustered="False" IsRightAngleAxes="False" Perspective="10" Rotation="10" WallWidth="0" />
+    </ChartArea>
+  </ChartAreas>
+  <Legends>
+    <Legend _Template_="All" Alignment="Center" BackColor="Transparent" Docking="Bottom" Font="Trebuchet MS, 8.25pt, style=Bold" IsTextAutoFit ="False" LegendStyle="Row">
+    </Legend>
+  </Legends>
+  <BorderSkin SkinStyle="Emboss" />
+</Chart> : Public, Static, Literal, HasDefault
+    System.String Vanilla = <Chart Palette="SemiTransparent" BorderColor="#000" BorderWidth="2" BorderlineDashStyle="Solid">
+<ChartAreas>
+    <ChartArea _Template_="All" Name="Default">
+            <AxisX>
+                <MinorGrid Enabled="False" />
+                <MajorGrid Enabled="False" />
+            </AxisX>
+            <AxisY>
+                <MajorGrid Enabled="False" />
+                <MinorGrid Enabled="False" />
+            </AxisY>
+    </ChartArea>
+</ChartAreas>
+</Chart> : Public, Static, Literal, HasDefault
+    System.String Vanilla3D = <Chart BackColor="#555" BackGradientStyle="TopBottom" BorderColor="181, 64, 1" BorderWidth="2" BorderlineDashStyle="Solid" Palette="SemiTransparent" AntiAliasing="All">
+    <ChartAreas>
+        <ChartArea Name="Default" _Template_="All" BackColor="Transparent" BackSecondaryColor="White" BorderColor="64, 64, 64, 64" BorderDashStyle="Solid" ShadowColor="Transparent">
+            <Area3DStyle LightStyle="Simplistic" Enable3D="True" Inclination="30" IsClustered="False" IsRightAngleAxes="False" Perspective="10" Rotation="-30" WallWidth="0" />
+        </ChartArea>
+    </ChartAreas>
+</Chart> : Public, Static, Literal, HasDefault
+    System.String Yellow = <Chart BackColor="#FADA5E" BackGradientStyle="TopBottom" BorderColor="#B8860B" BorderWidth="2" BorderlineDashStyle="Solid" Palette="EarthTones">
+  <ChartAreas>
+    <ChartArea Name="Default" _Template_="All" BackColor="Transparent" BackSecondaryColor="White" BorderColor="64, 64, 64, 64" BorderDashStyle="Solid" ShadowColor="Transparent">
+      <AxisY>
+        <LabelStyle Font="Trebuchet MS, 8.25pt, style=Bold" />
+      </AxisY>
+      <AxisX LineColor="64, 64, 64, 64">
+        <LabelStyle Font="Trebuchet MS, 8.25pt, style=Bold" />
+      </AxisX>
+    </ChartArea>
+  </ChartAreas>
+  <Legends>
+    <Legend _Template_="All" BackColor="Transparent" Docking="Bottom" Font="Trebuchet MS, 8.25pt, style=Bold" LegendStyle="Row">
+    </Legend>
+  </Legends>
+  <BorderSkin SkinStyle="Emboss" />
+</Chart> : Public, Static, Literal, HasDefault
+Class System.Web.Helpers.VirtualPathUtil: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    MapPath(HttpContextBase, String): PrivateScope, Public, Static, HideBySig
+    ResolvePath(String): PrivateScope, Public, Static, HideBySig
+    ResolvePath(ITemplateFile, HttpContextBase, String): PrivateScope, Assembly, Static, HideBySig
+Class System.Web.Helpers.ConversionUtil: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    ToString(T): PrivateScope, Assembly, Static, HideBySig
+    TryFromString(Type, String, Object&(Out)): PrivateScope, Assembly, Static, HideBySig
+    TryFromStringToEnum(String, T&(Out)): PrivateScope, Assembly, Static, HideBySig
+    TryFromStringToFontFamily(String, FontFamily&(Out)): PrivateScope, Assembly, Static, HideBySig
+    TryFromStringToColor(String, Color&(Out)): PrivateScope, Assembly, Static, HideBySig
+    NormalizeImageFormat(String): PrivateScope, Assembly, Static, HideBySig
+    TryFromStringToImageFormat(String, ImageFormat&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class System.Web.Helpers.Crypto: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    GenerateSaltInternal(Int32(Optional, HasDefault)): PrivateScope, Assembly, Static, HideBySig
+    GenerateSalt(Int32(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    Hash(String, String(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    Hash(Byte[], String(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    SHA1(String): PrivateScope, Public, Static, HideBySig
+    SHA256(String): PrivateScope, Public, Static, HideBySig
+    HashPassword(String): PrivateScope, Public, Static, HideBySig
+    VerifyHashedPassword(String, String): PrivateScope, Public, Static, HideBySig
+    BinaryToHex(Byte[]): PrivateScope, Assembly, Static, HideBySig
+Class System.Web.Helpers.DynamicJavaScriptConverter: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Web.Script.Serialization.JavaScriptConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.IEnumerable`1[System.Type] SupportedTypes 'get ' : 
+  Methods:
+    get_SupportedTypes(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Deserialize(IDictionary`2, Type, JavaScriptSerializer): PrivateScope, Public, Virtual, HideBySig
+    Serialize(Object, JavaScriptSerializer): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Helpers.DynamicJsonArray: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Dynamic.DynamicObject
+    Void .ctor(System.Object[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Collections.Generic.IEnumerable`1[System.Object]
+    System.Collections.IEnumerable
+  Properties:
+    Int32 Length 'get ' : 
+    System.Object Item [Int32] 'get set' : 
+  Methods:
+    get_Length(): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Object): PrivateScope, Public, HideBySig, SpecialName
+    TryConvert(ConvertBinder, Object&(Out)): PrivateScope, Public, Virtual, HideBySig
+    TryGetMember(GetMemberBinder, Object&(Out)): PrivateScope, Public, Virtual, HideBySig
+    GetEnumerator(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    op_Implicit(DynamicJsonArray): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Implicit(DynamicJsonArray): PrivateScope, Public, Static, HideBySig, SpecialName
+Class System.Web.Helpers.DynamicJsonObject: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Dynamic.DynamicObject
+    Void .ctor(System.Collections.Generic.IDictionary`2[System.String,System.Object]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    TryConvert(ConvertBinder, Object&(Out)): PrivateScope, Public, Virtual, HideBySig
+    TryGetMember(GetMemberBinder, Object&(Out)): PrivateScope, Public, Virtual, HideBySig
+    TrySetMember(SetMemberBinder, Object): PrivateScope, Public, Virtual, HideBySig
+    TrySetIndex(SetIndexBinder, Object[], Object): PrivateScope, Public, Virtual, HideBySig
+    TryGetIndex(GetIndexBinder, Object[], Object&(Out)): PrivateScope, Public, Virtual, HideBySig
+    GetDynamicMemberNames(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Helpers.HtmlElement: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String TagName 'get set' : 
+    System.String InnerText 'get set' : 
+    System.Collections.Generic.IList`1[System.Web.Helpers.HtmlElement] Children 'get set' : 
+    System.String Item [System.String] 'get set' : 
+  Methods:
+    get_TagName(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_TagName(String): PrivateScope, Assembly, HideBySig, SpecialName
+    get_InnerText(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_InnerText(String): PrivateScope, Assembly, HideBySig, SpecialName
+    get_Children(): PrivateScope, Public, HideBySig, SpecialName
+    set_Children(IList`1): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(String): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(String, String): PrivateScope, Public, HideBySig, SpecialName
+    SetInnerText(String): PrivateScope, Public, HideBySig
+    AppendChild(HtmlElement): PrivateScope, Public, HideBySig
+    AppendChild(String): PrivateScope, Public, HideBySig
+    AddCssClass(String): PrivateScope, Public, HideBySig
+    ToHtmlString(): PrivateScope, Public, HideBySig
+    WriteTo(TextWriter): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    CreateSpan(String, String(Optional, HasDefault)): PrivateScope, Assembly, Static, HideBySig
+Class System.Web.Helpers.ObjectVisitor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Visit(Object, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitObjectVisitorException(ObjectVisitorException): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitConvertedValue(Object, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitVisitedObject(String, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitNull(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitStringValue(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitComplexObject(Object, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitNameValueCollection(NameValueCollection, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitDictionary(IDictionary, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitEnumerable(IEnumerable, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitEnumeratedValue(Object, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitIndexedEnumeratedValue(Int32, Object, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitEnumeratonLimitExceeded(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitMembers(IEnumerable`1, Func`2, Func`2, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitMember(String, Type, Object, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitKeyValues(Object, IEnumerable`1, Func`2, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    VisitKeyValue(Object, Object, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetTypeName(Type): PrivateScope, Assembly, Static, HideBySig
+Class System.Web.Helpers.ObjectVisitor+ObjectVisitorException: AutoLayout, AnsiClass, Class, NestedPublic, Serializable, BeforeFieldInit
+  :System.Exception
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Web.Helpers.HtmlObjectPrinter: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Web.Helpers.ObjectVisitor
+    Void .ctor(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    WriteTo(Object, TextWriter): PrivateScope, Public, HideBySig
+    VisitKeyValues(Object, IEnumerable`1, Func`2, Int32): PrivateScope, Public, Virtual, HideBySig
+    VisitKeyValue(Object, Object, Int32): PrivateScope, Public, Virtual, HideBySig
+    VisitEnumerable(IEnumerable, Int32): PrivateScope, Public, Virtual, HideBySig
+    VisitIndexedEnumeratedValue(Int32, Object, Int32): PrivateScope, Public, Virtual, HideBySig
+    VisitEnumeratedValue(Object, Int32): PrivateScope, Public, Virtual, HideBySig
+    VisitEnumeratonLimitExceeded(): PrivateScope, Public, Virtual, HideBySig
+    VisitMembers(IEnumerable`1, Func`2, Func`2, Int32): PrivateScope, Public, Virtual, HideBySig
+    VisitMember(String, Type, Object, Int32): PrivateScope, Public, Virtual, HideBySig
+    VisitComplexObject(Object, Int32): PrivateScope, Public, Virtual, HideBySig
+    VisitNull(): PrivateScope, Public, Virtual, HideBySig
+    VisitStringValue(String): PrivateScope, Public, Virtual, HideBySig
+    VisitVisitedObject(String, Object): PrivateScope, Public, Virtual, HideBySig
+    Visit(Object, Int32): PrivateScope, Public, Virtual, HideBySig
+    VisitObjectVisitorException(ObjectVisitorException): PrivateScope, Public, Virtual, HideBySig
+    VisitConvertedValue(Object, String): PrivateScope, Public, Virtual, HideBySig
+    PushElement(HtmlElement): PrivateScope, Assembly, HideBySig
+    PopElement(): PrivateScope, Assembly, HideBySig
+    ConvertEscapseSequences(String): PrivateScope, Assembly, Static, HideBySig
+Class System.Web.Helpers.Json: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Encode(Object): PrivateScope, Public, Static, HideBySig
+    Write(Object, TextWriter): PrivateScope, Public, Static, HideBySig
+    Decode(String): PrivateScope, Public, Static, HideBySig
+    Decode(String, Type): PrivateScope, Public, Static, HideBySig
+    Decode(String): PrivateScope, Public, Static, HideBySig
+    WrapObject(Object): PrivateScope, Assembly, Static, HideBySig
+Class System.Web.Helpers.ObjectInfo: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Print(Object, Int32(Optional, HasDefault), Int32(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+Class System.Web.Helpers.WebCache: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Set(String, Object, Int32(Optional, HasDefault), Boolean(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    Get(String): PrivateScope, Public, Static, HideBySig
+    Remove(String): PrivateScope, Public, Static, HideBySig
+Class System.Web.Helpers.ServerInfo: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    EnvironmentVariables(): PrivateScope, Assembly, Static, HideBySig
+    ServerVariables(): PrivateScope, Assembly, Static, HideBySig
+    ServerVariables(HttpContextBase): PrivateScope, Assembly, Static, HideBySig
+    Configuration(): PrivateScope, Assembly, Static, HideBySig
+    HttpRuntimeInfo(): PrivateScope, Assembly, Static, HideBySig
+    LegacyCAS(): PrivateScope, Assembly, Static, HideBySig
+    LegacyCAS(AppDomain): PrivateScope, Assembly, Static, HideBySig
+    GetHtml(): PrivateScope, Public, Static, HideBySig
+Class System.Web.Helpers.Resources.HelpersResources: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Resources.ResourceManager ResourceManager 'get ' : 
+    System.Globalization.CultureInfo Culture 'get set' : 
+    System.String Chart_ArgumentConversionFailed 'get ' : 
+    System.String Chart_ExceptionDataBindSeriesToString 'get ' : 
+    System.String Chart_ThemeFileNotFound 'get ' : 
+    System.String Crypto_NotSupportedHashAlg 'get ' : 
+    System.String Image_IncorrectImageFormat 'get ' : 
+    System.String Json_UnableToConvertType 'get ' : 
+    System.String ObjectInfo_PreviousDisplayed 'get ' : 
+    System.String ObjectInfo_PropertyThrewException 'get ' : 
+    System.String PathUtils_IncorrectPath 'get ' : 
+    System.String ServerInfo_AdditionalInfo 'get ' : 
+    System.String ServerInfo_EnvVars 'get ' : 
+    System.String ServerInfo_Header 'get ' : 
+    System.String ServerInfo_HttpRuntime 'get ' : 
+    System.String ServerInfo_LegacyCAS 'get ' : 
+    System.String ServerInfo_LegacyCasHelpInfo 'get ' : 
+    System.String ServerInfo_NoValue 'get ' : 
+    System.String ServerInfo_ServerConfigTable 'get ' : 
+    System.String ServerInfo_ServerVars 'get ' : 
+    System.String WebGrid_ColumnNameOrFormatRequired 'get ' : 
+    System.String WebGrid_ColumnNotFound 'get ' : 
+    System.String WebGrid_DataSourceBound 'get ' : 
+    System.String WebGrid_NoDataSourceBound 'get ' : 
+    System.String WebGrid_NotSupportedIfPagingIsDisabled 'get ' : 
+    System.String WebGrid_NotSupportedIfSortingIsDisabled 'get ' : 
+    System.String WebGrid_PagerModeMustBeEnabled 'get ' : 
+    System.String WebGrid_PropertySetterNotSupportedAfterDataBound 'get ' : 
+    System.String WebGrid_RowCountNotSpecified 'get ' : 
+    System.String WebGrid_SelectLinkText 'get ' : 
+    System.String WebImage_IncorrectColorName 'get ' : 
+    System.String WebImage_IncorrectFontFamily 'get ' : 
+    System.String WebImage_IncorrectFontStyle 'get ' : 
+    System.String WebImage_IncorrectHorizontalAlignment 'get ' : 
+    System.String WebImage_IncorrectVerticalAlignment 'get ' : 
+    System.String WebImage_IncorrectWidthAndHeight 'get ' : 
+    System.String WebImage_InvalidImageContents 'get ' : 
+    System.String WebMail_InvalidPriority 'get ' : 
+    System.String WebMail_ItemInCollectionIsNull 'get ' : 
+    System.String WebMail_SmtpServerNotSpecified 'get ' : 
+    System.String WebMail_UnableToDetermineFrom 'get ' : 
+  Methods:
+    get_ResourceManager(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Culture(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    set_Culture(CultureInfo): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Chart_ArgumentConversionFailed(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Chart_ExceptionDataBindSeriesToString(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Chart_ThemeFileNotFound(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Crypto_NotSupportedHashAlg(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Image_IncorrectImageFormat(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Json_UnableToConvertType(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ObjectInfo_PreviousDisplayed(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ObjectInfo_PropertyThrewException(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_PathUtils_IncorrectPath(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ServerInfo_AdditionalInfo(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ServerInfo_EnvVars(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ServerInfo_Header(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ServerInfo_HttpRuntime(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ServerInfo_LegacyCAS(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ServerInfo_LegacyCasHelpInfo(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ServerInfo_NoValue(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ServerInfo_ServerConfigTable(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ServerInfo_ServerVars(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebGrid_ColumnNameOrFormatRequired(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebGrid_ColumnNotFound(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebGrid_DataSourceBound(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebGrid_NoDataSourceBound(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebGrid_NotSupportedIfPagingIsDisabled(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebGrid_NotSupportedIfSortingIsDisabled(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebGrid_PagerModeMustBeEnabled(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebGrid_PropertySetterNotSupportedAfterDataBound(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebGrid_RowCountNotSpecified(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebGrid_SelectLinkText(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebImage_IncorrectColorName(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebImage_IncorrectFontFamily(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebImage_IncorrectFontStyle(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebImage_IncorrectHorizontalAlignment(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebImage_IncorrectVerticalAlignment(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebImage_IncorrectWidthAndHeight(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebImage_InvalidImageContents(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebMail_InvalidPriority(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebMail_ItemInCollectionIsNull(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebMail_SmtpServerNotSpecified(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_WebMail_UnableToDetermineFrom(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+Struct System.Web.Helpers.SortDirection: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Web.Helpers.SortDirection Ascending = 0 : Public, Static, Literal, HasDefault
+    System.Web.Helpers.SortDirection Descending = 1 : Public, Static, Literal, HasDefault
+Interface System.Web.Helpers.IWebGridDataSource: AutoLayout, AnsiClass, Class, ClassSemanticsMask, Abstract
+  Properties:
+    Int32 TotalRowCount 'get ' : 
+  Methods:
+    get_TotalRowCount(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    GetRows(SortInfo, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Web.Helpers.PreComputedGridDataSource: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+    Void .ctor(System.Web.Helpers.WebGrid, System.Collections.Generic.IEnumerable`1[System.Object], Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Web.Helpers.IWebGridDataSource
+  Properties:
+    Int32 TotalRowCount 'get ' : 
+  Methods:
+    get_TotalRowCount(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetRows(SortInfo, Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.Helpers.SortInfo: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IEquatable`1[System.Web.Helpers.SortInfo]
+  Properties:
+    System.String SortColumn 'get set' : 
+    System.Web.Helpers.SortDirection SortDirection 'get set' : 
+  Methods:
+    get_SortColumn(): PrivateScope, Public, HideBySig, SpecialName
+    set_SortColumn(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SortDirection(): PrivateScope, Public, HideBySig, SpecialName
+    set_SortDirection(SortDirection): PrivateScope, Public, HideBySig, SpecialName
+    Equals(SortInfo): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Helpers.WebGridDataSource: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+    Void .ctor(System.Web.Helpers.WebGrid, System.Collections.Generic.IEnumerable`1[System.Object], System.Type, Boolean, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Web.Helpers.IWebGridDataSource
+  Properties:
+    System.Web.Helpers.SortInfo DefaultSort 'get set' : 
+    Int32 RowsPerPage 'get set' : 
+    Int32 TotalRowCount 'get ' : 
+  Methods:
+    get_DefaultSort(): PrivateScope, Public, HideBySig, SpecialName
+    set_DefaultSort(SortInfo): PrivateScope, Public, HideBySig, SpecialName
+    get_RowsPerPage(): PrivateScope, Public, HideBySig, SpecialName
+    set_RowsPerPage(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_TotalRowCount(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetRows(SortInfo, Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.Helpers.WebGrid: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Collections.Generic.IEnumerable`1[System.Object], System.Collections.Generic.IEnumerable`1[System.String], System.String, Int32, Boolean, Boolean, System.String, System.String, System.String, System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.HttpContextBase, System.String, Int32, Boolean, Boolean, System.String, System.String, System.String, System.String, System.String, System.String, System.String): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.IEnumerable`1[System.String] ColumnNames 'get ' : 
+    Boolean CanSort 'get ' : 
+    System.String AjaxUpdateContainerId 'get ' : 
+    Boolean IsAjaxEnabled 'get ' : 
+    System.String AjaxUpdateCallback 'get ' : 
+    System.String FieldNamePrefix 'get ' : 
+    Boolean HasSelection 'get ' : 
+    Int32 PageCount 'get ' : 
+    System.String PageFieldName 'get ' : 
+    Int32 PageIndex 'get set' : 
+    System.Collections.Generic.IList`1[System.Web.Helpers.WebGridRow] Rows 'get ' : 
+    Int32 RowsPerPage 'get ' : 
+    System.Web.Helpers.WebGridRow SelectedRow 'get ' : 
+    Int32 SelectedIndex 'get set' : 
+    System.String SelectionFieldName 'get ' : 
+    System.String SortColumn 'get set' : 
+    System.Web.Helpers.SortDirection SortDirection 'get set' : 
+    System.String SortDirectionFieldName 'get ' : 
+    System.String SortFieldName 'get ' : 
+    Int32 TotalRowCount 'get ' : 
+  Methods:
+    get_ColumnNames(): PrivateScope, Public, HideBySig, SpecialName
+    get_CanSort(): PrivateScope, Public, HideBySig, SpecialName
+    get_AjaxUpdateContainerId(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsAjaxEnabled(): PrivateScope, Public, HideBySig, SpecialName
+    get_AjaxUpdateCallback(): PrivateScope, Public, HideBySig, SpecialName
+    get_FieldNamePrefix(): PrivateScope, Public, HideBySig, SpecialName
+    get_HasSelection(): PrivateScope, Public, HideBySig, SpecialName
+    get_PageCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_PageFieldName(): PrivateScope, Public, HideBySig, SpecialName
+    get_PageIndex(): PrivateScope, Public, HideBySig, SpecialName
+    set_PageIndex(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Rows(): PrivateScope, Public, HideBySig, SpecialName
+    get_RowsPerPage(): PrivateScope, Public, HideBySig, SpecialName
+    get_SelectedRow(): PrivateScope, Public, HideBySig, SpecialName
+    get_SelectedIndex(): PrivateScope, Public, HideBySig, SpecialName
+    set_SelectedIndex(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_SelectionFieldName(): PrivateScope, Public, HideBySig, SpecialName
+    get_SortColumn(): PrivateScope, Public, HideBySig, SpecialName
+    set_SortColumn(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SortDirection(): PrivateScope, Public, HideBySig, SpecialName
+    set_SortDirection(SortDirection): PrivateScope, Public, HideBySig, SpecialName
+    get_SortDirectionFieldName(): PrivateScope, Public, HideBySig, SpecialName
+    get_SortFieldName(): PrivateScope, Public, HideBySig, SpecialName
+    get_TotalRowCount(): PrivateScope, Public, HideBySig, SpecialName
+    GetElementType(IEnumerable`1): PrivateScope, Assembly, Static, HideBySig
+    Bind(IEnumerable`1, IEnumerable`1(Optional, HasDefault), Boolean(Optional, HasDefault), Int32(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Column(String(Optional, HasDefault), String(Optional, HasDefault), Func`2(Optional, HasDefault), String(Optional, HasDefault), Boolean(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Columns(WebGridColumn[]): PrivateScope, Public, HideBySig
+    GetContainerUpdateScript(String): PrivateScope, Public, HideBySig
+    GetHtml(String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), Boolean(Optional, HasDefault), Boolean(Optional, HasDefault), String(Optional, HasDefault), IEnumerable`1(Optional, HasDefault), IEnumerable`1(Optional, HasDefault), WebGridPagerModes(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), Int32(Optional, HasDefault), Object(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    GetPageUrl(Int32): PrivateScope, Public, HideBySig
+    GetSortUrl(String): PrivateScope, Public, HideBySig
+    Pager(WebGridPagerModes(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), Int32(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Table(String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), Boolean(Optional, HasDefault), Boolean(Optional, HasDefault), String(Optional, HasDefault), IEnumerable`1(Optional, HasDefault), IEnumerable`1(Optional, HasDefault), Func`2(Optional, HasDefault), Object(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    GetMember(WebGridRow, String): PrivateScope, Assembly, Static, HideBySig
+    GetPath(NameValueCollection, String[]): PrivateScope, Assembly, HideBySig
+    GetSortDirectionString(SortDirection): PrivateScope, Assembly, Static, HideBySig
+Class System.Web.Helpers.WebGridColumn: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean CanSort 'get set' : 
+    System.String ColumnName 'get set' : 
+    System.Func`2[System.Object,System.Object] Format 'get set' : 
+    System.String Header 'get set' : 
+    System.String Style 'get set' : 
+  Methods:
+    get_CanSort(): PrivateScope, Public, HideBySig, SpecialName
+    set_CanSort(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ColumnName(): PrivateScope, Public, HideBySig, SpecialName
+    set_ColumnName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Format(): PrivateScope, Public, HideBySig, SpecialName
+    set_Format(Func`2): PrivateScope, Public, HideBySig, SpecialName
+    get_Header(): PrivateScope, Public, HideBySig, SpecialName
+    set_Header(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Style(): PrivateScope, Public, HideBySig, SpecialName
+    set_Style(String): PrivateScope, Public, HideBySig, SpecialName
+Struct System.Web.Helpers.WebGridPagerModes: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Web.Helpers.WebGridPagerModes Numeric = 1 : Public, Static, Literal, HasDefault
+    System.Web.Helpers.WebGridPagerModes NextPrevious = 2 : Public, Static, Literal, HasDefault
+    System.Web.Helpers.WebGridPagerModes FirstLast = 4 : Public, Static, Literal, HasDefault
+    System.Web.Helpers.WebGridPagerModes All = 7 : Public, Static, Literal, HasDefault
+Class System.Web.Helpers.WebGridRenderer: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Web.WebPages.HelperPage
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GridInitScript(WebGrid, HttpContextBase): PrivateScope, Public, Static, HideBySig
+    Table(WebGrid, HttpContextBase, String, String, String, String, String, String, String, Boolean, Boolean, String, IEnumerable`1, IEnumerable`1, Func`2, Object): PrivateScope, Public, Static, HideBySig
+    Pager(WebGrid, HttpContextBase, WebGridPagerModes, String, String, String, String, Int32, Boolean): PrivateScope, Public, Static, HideBySig
+    GridLink(WebGrid, String, String): PrivateScope, Public, Static, HideBySig
+Class System.Web.Helpers.WebGridRow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Dynamic.DynamicObject
+    Void .ctor(System.Web.Helpers.WebGrid, System.Object, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Collections.Generic.IEnumerable`1[System.Object]
+    System.Collections.IEnumerable
+  Properties:
+    System.Object Value 'get ' : 
+    System.Web.Helpers.WebGrid WebGrid 'get ' : 
+    System.Object Item [System.String] 'get ' : 
+    System.Object Item [Int32] 'get ' : 
+  Methods:
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    get_WebGrid(): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    GetEnumerator(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetSelectLink(String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    GetSelectUrl(): PrivateScope, Public, HideBySig
+    TryGetMember(GetMemberBinder, Object&(Out)): PrivateScope, Public, Virtual, HideBySig
+    TryGetMember(String, Object&(Out)): PrivateScope, Assembly, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Helpers.WebImage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Byte[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.HttpContextBase, System.Func`2[System.String,System.Byte[]], System.String): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Height 'get ' : 
+    Int32 Width 'get ' : 
+    System.String FileName 'get set' : 
+    System.String ImageFormat 'get ' : 
+  Methods:
+    get_Height(): PrivateScope, Public, HideBySig, SpecialName
+    get_Width(): PrivateScope, Public, HideBySig, SpecialName
+    get_FileName(): PrivateScope, Public, HideBySig, SpecialName
+    set_FileName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ImageFormat(): PrivateScope, Public, HideBySig, SpecialName
+    GetImageFromRequest(String(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    GetImageFromRequest(HttpRequestBase, String(Optional, HasDefault)): PrivateScope, Assembly, Static, HideBySig
+    Clone(): PrivateScope, Public, HideBySig
+    GetBytes(String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Resize(Int32, Int32, Boolean(Optional, HasDefault), Boolean(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Crop(Int32(Optional, HasDefault), Int32(Optional, HasDefault), Int32(Optional, HasDefault), Int32(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    RotateLeft(): PrivateScope, Public, HideBySig
+    RotateRight(): PrivateScope, Public, HideBySig
+    FlipVertical(): PrivateScope, Public, HideBySig
+    FlipHorizontal(): PrivateScope, Public, HideBySig
+    AddTextWatermark(String, String(Optional, HasDefault), Int32(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), Int32(Optional, HasDefault), Int32(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    AddImageWatermark(WebImage, Int32(Optional, HasDefault), Int32(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), Int32(Optional, HasDefault), Int32(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    AddImageWatermark(String, Int32(Optional, HasDefault), Int32(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), Int32(Optional, HasDefault), Int32(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    AddImageWatermark(HttpContextBase, Func`2, String, Int32, Int32, String, String, Int32, Int32): PrivateScope, Assembly, HideBySig
+    Write(String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Save(String(Optional, HasDefault), String(Optional, HasDefault), Boolean(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Save(HttpContextBase, Action`2, String, String, Boolean): PrivateScope, Assembly, HideBySig
+Class System.Web.Helpers.WebMail: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.Object SmtpServerKey : Assembly, Static, InitOnly
+    System.Object SmtpPortKey : Assembly, Static, InitOnly
+    System.Object SmtpUseDefaultCredentialsKey : Assembly, Static, InitOnly
+    System.Object EnableSslKey : Assembly, Static, InitOnly
+    System.Object PasswordKey : Assembly, Static, InitOnly
+    System.Object UserNameKey : Assembly, Static, InitOnly
+    System.Object FromKey : Assembly, Static, InitOnly
+    System.Lazy`1[System.Collections.Generic.IDictionary`2[System.Object,System.Object]] SmtpDefaults : Assembly, Static, InitOnly
+  Properties:
+    System.String SmtpServer 'get set' : 
+    Int32 SmtpPort 'get set' : 
+    System.String From 'get set' : 
+    Boolean SmtpUseDefaultCredentials 'get set' : 
+    Boolean EnableSsl 'get set' : 
+    System.String UserName 'get set' : 
+    System.String Password 'get set' : 
+  Methods:
+    get_SmtpServer(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_SmtpServer(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_SmtpPort(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_SmtpPort(Int32): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_From(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_From(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_SmtpUseDefaultCredentials(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_SmtpUseDefaultCredentials(Boolean): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_EnableSsl(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_EnableSsl(Boolean): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_UserName(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_UserName(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Password(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_Password(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    Send(String, String, String, String(Optional, HasDefault), String(Optional, HasDefault), IEnumerable`1(Optional, HasDefault), Boolean(Optional, HasDefault), IEnumerable`1(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, Static, HideBySig
+    SetPropertiesOnClient(SmtpClient): PrivateScope, Assembly, Static, HideBySig
+    SetPropertiesOnMessage(MailMessage, String, String, String, String, String, String, String, String, String, MailPriority, IEnumerable`1, Boolean, IEnumerable`1): PrivateScope, Assembly, Static, HideBySig
+    AssignHeaderValues(MailMessage, IEnumerable`1): PrivateScope, Assembly, Static, HideBySig
+    TryParseHeader(String, String&(Out), String&(Out)): PrivateScope, Assembly, Static, HideBySig
+Class <PrivateImplementationDetails>{2B527AC3-BC2B-41C6-A4B4-15BB7ECC3161}: NotPublic
+  Fields:
+    System.Collections.Generic.Dictionary`2[System.String,System.Int32] $$method0x6000068-1 : Assembly, Static
+    __StaticArrayInitTypeSize=6 $$method0x600022f-1 : Assembly, Static, HasFieldRVA

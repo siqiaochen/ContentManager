@@ -1,0 +1,199 @@
+  WebMatrix.Data.Common.CommonResources.resources - Embedded, ContainedInManifestFile, 
+  WebMatrix.Data.Resources.DataResources.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly WebMatrix.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class Microsoft.Internal.Web.Utils.CommonResources: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Resources.ResourceManager ResourceManager 'get ' : 
+    System.Globalization.CultureInfo Culture 'get set' : 
+    System.String Argument_Cannot_Be_Null_Or_Empty 'get ' : 
+    System.String Argument_Must_Be_Between 'get ' : 
+    System.String Argument_Must_Be_Enum_Member 'get ' : 
+    System.String Argument_Must_Be_GreaterThan 'get ' : 
+    System.String Argument_Must_Be_GreaterThanOrEqualTo 'get ' : 
+    System.String Argument_Must_Be_LessThan 'get ' : 
+    System.String Argument_Must_Be_LessThanOrEqualTo 'get ' : 
+    System.String Argument_Must_Be_Null_Or_Non_Empty 'get ' : 
+  Methods:
+    get_ResourceManager(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Culture(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    set_Culture(CultureInfo): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Cannot_Be_Null_Or_Empty(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_Between(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_Enum_Member(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_GreaterThan(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_GreaterThanOrEqualTo(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_LessThan(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_LessThanOrEqualTo(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Argument_Must_Be_Null_Or_Non_Empty(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+Class Microsoft.Internal.Web.Utils.ExceptionHelper: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    CreateArgumentNullOrEmptyException(String): PrivateScope, Assembly, Static, HideBySig
+Interface WebMatrix.Data.IConfigurationManager: AutoLayout, AnsiClass, Class, ClassSemanticsMask, Abstract
+  Properties:
+    System.Collections.Generic.IDictionary`2[System.String,System.String] AppSettings 'get ' : 
+  Methods:
+    get_AppSettings(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    GetConnection(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class WebMatrix.Data.ConfigurationManagerWrapper: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(System.Collections.Generic.IDictionary`2[System.String,WebMatrix.Data.IDbFileHandler], System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    WebMatrix.Data.IConfigurationManager
+  Properties:
+    System.Collections.Generic.IDictionary`2[System.String,System.String] AppSettings 'get ' : 
+  Methods:
+    get_AppSettings(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetConnection(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetConnection(String, Func`2, Func`2): PrivateScope, Assembly, HideBySig
+Interface WebMatrix.Data.IConnectionConfiguration: AutoLayout, AnsiClass, Class, ClassSemanticsMask, Abstract
+  Properties:
+    System.String ConnectionString 'get ' : 
+    WebMatrix.Data.IDbProviderFactory ProviderFactory 'get ' : 
+  Methods:
+    get_ConnectionString(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ProviderFactory(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class WebMatrix.Data.ConnectionConfiguration: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(System.String, System.String): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(WebMatrix.Data.IDbProviderFactory, System.String): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    WebMatrix.Data.IConnectionConfiguration
+  Properties:
+    WebMatrix.Data.IDbProviderFactory ProviderFactory 'get set' : 
+    System.String ConnectionString 'get set' : 
+  Methods:
+    get_ProviderFactory(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ConnectionString(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class WebMatrix.Data.ConnectionEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(System.Data.Common.DbConnection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Data.Common.DbConnection Connection 'get set' : 
+  Methods:
+    get_Connection(): PrivateScope, Public, HideBySig, SpecialName
+Class WebMatrix.Data.Database: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Func`1[System.Data.Common.DbConnection]): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    System.String DataDirectory : Assembly, Static
+    System.String SqlCeProviderName = System.Data.SqlServerCe.4.0 : Assembly, Static, Literal, HasDefault
+    System.String SqlServerProviderName = System.Data.SqlClient : Assembly, Static, Literal, HasDefault
+  Properties:
+    System.Data.Common.DbConnection Connection 'get ' : 
+  Events:
+    System.EventHandler`1[WebMatrix.Data.ConnectionEventArgs] ConnectionOpened: 
+    System.EventHandler`1[WebMatrix.Data.ConnectionEventArgs] _connectionOpened: 
+  Methods:
+    add_ConnectionOpened(EventHandler`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    remove_ConnectionOpened(EventHandler`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Connection(): PrivateScope, Public, HideBySig, SpecialName
+    Close(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    QuerySingle(String, Object[]): PrivateScope, Public, HideBySig
+    Query(String, Object[]): PrivateScope, Public, HideBySig
+    Execute(String, Object[]): PrivateScope, Public, HideBySig
+    GetLastInsertId(): PrivateScope, Public, HideBySig
+    QueryValue(String, Object[]): PrivateScope, Public, HideBySig
+    OpenConnectionString(String): PrivateScope, Public, Static, HideBySig
+    OpenConnectionString(String, String): PrivateScope, Public, Static, HideBySig
+    Open(String): PrivateScope, Public, Static, HideBySig
+    GetConnectionConfiguration(String, IDictionary`2): PrivateScope, Assembly, Static, HideBySig
+    OpenConnectionStringInternal(IDbProviderFactory, String): PrivateScope, Assembly, Static, HideBySig
+    OpenNamedConnection(String, IConfigurationManager): PrivateScope, Assembly, Static, HideBySig
+    GetDefaultProviderName(): PrivateScope, Assembly, Static, HideBySig
+Interface WebMatrix.Data.IDbProviderFactory: AutoLayout, AnsiClass, Class, ClassSemanticsMask, Abstract
+  Methods:
+    CreateConnection(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class WebMatrix.Data.DbProviderFactoryWrapper: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    WebMatrix.Data.IDbProviderFactory
+  Methods:
+    CreateConnection(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class WebMatrix.Data.DynamicRecord: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Dynamic.DynamicObject
+    Void .ctor(System.Collections.Generic.IEnumerable`1[System.String], System.Data.IDataRecord): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ComponentModel.ICustomTypeDescriptor
+  Properties:
+    System.Collections.Generic.IList`1[System.String] Columns 'get set' : 
+    System.Object Item [System.String] 'get ' : 
+    System.Object Item [Int32] 'get ' : 
+  Methods:
+    get_Columns(): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    TryGetMember(GetMemberBinder, Object&(Out)): PrivateScope, Public, Virtual, HideBySig
+    GetDynamicMemberNames(): PrivateScope, Public, Virtual, HideBySig
+Interface WebMatrix.Data.IDbFileHandler: AutoLayout, AnsiClass, Class, ClassSemanticsMask, Abstract
+  Methods:
+    GetConnectionConfiguration(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class WebMatrix.Data.Resources.DataResources: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Resources.ResourceManager ResourceManager 'get ' : 
+    System.Globalization.CultureInfo Culture 'get set' : 
+    System.String ConnectionStringNotFound 'get ' : 
+    System.String InvalidColumnName 'get ' : 
+    System.String RecordIsReadOnly 'get ' : 
+    System.String UnableToDetermineDatabase 'get ' : 
+  Methods:
+    get_ResourceManager(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Culture(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    set_Culture(CultureInfo): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_ConnectionStringNotFound(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_InvalidColumnName(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_RecordIsReadOnly(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_UnableToDetermineDatabase(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+Class WebMatrix.Data.SqlCeDbFileHandler: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    WebMatrix.Data.IDbFileHandler
+  Methods:
+    GetConnectionConfiguration(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetConnectionString(String): PrivateScope, Public, Static, HideBySig
+Class WebMatrix.Data.SqlServerDbFileHandler: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    WebMatrix.Data.IDbFileHandler
+  Methods:
+    GetConnectionConfiguration(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetConnectionString(String, String): PrivateScope, Assembly, Static, HideBySig
+Class <>f__AnonymousType0`2[<columnName>j__TPar,<columnIndex>j__TPar]: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  Type parameter: <columnName>j__TPar
+  Type parameter: <columnIndex>j__TPar
+    Void .ctor(<columnName>j__TPar, <columnIndex>j__TPar): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    <columnName>j__TPar columnName 'get ' : 
+    <columnIndex>j__TPar columnIndex 'get ' : 
+  Methods:
+    get_columnName(): PrivateScope, Public, HideBySig, SpecialName
+    get_columnIndex(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class <>f__AnonymousType1`2[<<>h__TransparentIdentifier0>j__TPar,<type>j__TPar]: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  Type parameter: <<>h__TransparentIdentifier0>j__TPar
+  Type parameter: <type>j__TPar
+    Void .ctor(<<>h__TransparentIdentifier0>j__TPar, <type>j__TPar): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    <<>h__TransparentIdentifier0>j__TPar <>h__TransparentIdentifier0 'get ' : 
+    <type>j__TPar type 'get ' : 
+  Methods:
+    get_<>h__TransparentIdentifier0(): PrivateScope, Public, HideBySig, SpecialName
+    get_type(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig

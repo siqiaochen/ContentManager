@@ -1,0 +1,1915 @@
+  System.Data.Entity.Properties.Resources.PowerShell.resources - Embedded, ContainedInManifestFile, 
+  System.Data.Entity.Properties.Resources.Migrate.resources - Embedded, ContainedInManifestFile, 
+  System.Data.Entity.Properties.Resources.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class System.ComponentModel.DataAnnotations.Schema.ColumnAttribute: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Name 'get ' : 
+    Int32 Order 'get set' : 
+    System.String TypeName 'get set' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    get_Order(): PrivateScope, Public, HideBySig, SpecialName
+    set_Order(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_TypeName(): PrivateScope, Public, HideBySig, SpecialName
+    set_TypeName(String): PrivateScope, Public, HideBySig, SpecialName
+Class System.ComponentModel.DataAnnotations.Schema.ComplexTypeAttribute: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption DatabaseGeneratedOption 'get set' : 
+  Methods:
+    get_DatabaseGeneratedOption(): PrivateScope, Public, HideBySig, SpecialName
+Struct System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption None = 0 : Public, Static, Literal, HasDefault
+    System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption Identity = 1 : Public, Static, Literal, HasDefault
+    System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption Computed = 2 : Public, Static, Literal, HasDefault
+Class System.ComponentModel.DataAnnotations.Schema.ForeignKeyAttribute: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Name 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+Class System.ComponentModel.DataAnnotations.Schema.InversePropertyAttribute: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Property 'get ' : 
+  Methods:
+    get_Property(): PrivateScope, Public, HideBySig, SpecialName
+Class System.ComponentModel.DataAnnotations.MaxLengthAttribute: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.DataAnnotations.ValidationAttribute
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Length 'get set' : 
+  Methods:
+    get_Length(): PrivateScope, Public, HideBySig, SpecialName
+    IsValid(Object): PrivateScope, Public, Virtual, HideBySig
+    FormatErrorMessage(String): PrivateScope, Public, Virtual, HideBySig
+Class System.ComponentModel.DataAnnotations.MinLengthAttribute: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.DataAnnotations.ValidationAttribute
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Length 'get set' : 
+  Methods:
+    get_Length(): PrivateScope, Public, HideBySig, SpecialName
+    IsValid(Object): PrivateScope, Public, Virtual, HideBySig
+    FormatErrorMessage(String): PrivateScope, Public, Virtual, HideBySig
+Class System.ComponentModel.DataAnnotations.Schema.NotMappedAttribute: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.ComponentModel.DataAnnotations.Schema.TableAttribute: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Name 'get ' : 
+    System.String Schema 'get set' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    get_Schema(): PrivateScope, Public, HideBySig, SpecialName
+    set_Schema(String): PrivateScope, Public, HideBySig, SpecialName
+Class System.Data.Entity.Infrastructure.DbConnectionInfo: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Interface System.Data.Entity.Infrastructure.IDbConnectionFactory: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    CreateConnection(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Data.Entity.Infrastructure.LocalDbConnectionFactory: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Infrastructure.IDbConnectionFactory
+  Properties:
+    System.String BaseConnectionString 'get ' : 
+  Methods:
+    get_BaseConnectionString(): PrivateScope, Public, HideBySig, SpecialName
+    CreateConnection(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Interface System.Data.Entity.Infrastructure.IObjectContextAdapter: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    System.Data.Objects.ObjectContext ObjectContext 'get ' : 
+  Methods:
+    get_ObjectContext(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class System.Data.Entity.DbContext: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Data.Entity.Infrastructure.DbCompiledModel): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Data.Common.DbConnection, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Data.Common.DbConnection, System.Data.Entity.Infrastructure.DbCompiledModel, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Data.Objects.ObjectContext, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+    System.Data.Entity.Infrastructure.IObjectContextAdapter
+  Properties:
+    System.Data.Entity.Database Database 'get ' : 
+    System.Data.Entity.Infrastructure.DbChangeTracker ChangeTracker 'get ' : 
+    System.Data.Entity.Infrastructure.DbContextConfiguration Configuration 'get ' : 
+  Methods:
+    get_Database(): PrivateScope, Public, HideBySig, SpecialName
+    Set(): PrivateScope, Public, HideBySig
+    Set(Type): PrivateScope, Public, HideBySig
+    SaveChanges(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetValidationErrors(): PrivateScope, Public, HideBySig
+    Entry(TEntity): PrivateScope, Public, HideBySig
+    Entry(Object): PrivateScope, Public, HideBySig
+    get_ChangeTracker(): PrivateScope, Public, HideBySig, SpecialName
+    get_Configuration(): PrivateScope, Public, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Interface System.Data.Entity.IDatabaseInitializer`1[TContext]: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Type parameter: TContext, System.Data.Entity.DbContext,  Contravariant
+  Methods:
+    InitializeDatabase(TContext): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Data.Entity.MigrateDatabaseToLatestVersion`2[TContext,TMigrationsConfiguration]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TContext, System.Data.Entity.DbContext
+  Type parameter: TMigrationsConfiguration, System.Data.Entity.Migrations.DbMigrationsConfiguration`1[TContext],  DefaultConstructor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.IDatabaseInitializer`1[TContext]
+  Methods:
+    InitializeDatabase(TContext): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.Entity.Migrations.Builders.ColumnBuilder: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Binary(Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault), Byte[](Optional, HasDefault), String(Optional, HasDefault), Boolean(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Boolean(Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Byte(Nullable`1(Optional, HasDefault), Boolean(Optional, HasDefault), Nullable`1(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    DateTime(Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Decimal(Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), Boolean(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Double(Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Guid(Nullable`1(Optional, HasDefault), Boolean(Optional, HasDefault), Nullable`1(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Single(Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Short(Nullable`1(Optional, HasDefault), Boolean(Optional, HasDefault), Nullable`1(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Int(Nullable`1(Optional, HasDefault), Boolean(Optional, HasDefault), Nullable`1(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Long(Nullable`1(Optional, HasDefault), Boolean(Optional, HasDefault), Nullable`1(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    String(Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Time(Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    DateTimeOffset(Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault), Nullable`1(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault), String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Migrations.Builders.TableBuilder`1[TColumns]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TColumns
+    Void .ctor(System.Data.Entity.Migrations.Model.CreateTableOperation, System.Data.Entity.Migrations.DbMigration): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    PrimaryKey(Expression`1, String(Optional, HasDefault), Object(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    Index(Expression`1, Boolean(Optional, HasDefault), Object(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    ForeignKey(String, Expression`1, Boolean(Optional, HasDefault), String(Optional, HasDefault), Object(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Migrations.DbMigration: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Methods:
+    Up(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Down(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Migrations.DbMigrationsConfiguration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean AutomaticMigrationsEnabled 'get set' : 
+    Boolean AutomaticMigrationDataLossAllowed 'get set' : 
+    System.Type ContextType 'get set' : 
+    System.String MigrationsNamespace 'get set' : 
+    System.String MigrationsDirectory 'get set' : 
+    System.Data.Entity.Migrations.Design.MigrationCodeGenerator CodeGenerator 'get set' : 
+    System.Reflection.Assembly MigrationsAssembly 'get set' : 
+    System.Data.Entity.Infrastructure.DbConnectionInfo TargetDatabase 'get set' : 
+    System.Nullable`1[System.Int32] CommandTimeout 'get set' : 
+  Methods:
+    get_AutomaticMigrationsEnabled(): PrivateScope, Public, HideBySig, SpecialName
+    set_AutomaticMigrationsEnabled(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_AutomaticMigrationDataLossAllowed(): PrivateScope, Public, HideBySig, SpecialName
+    set_AutomaticMigrationDataLossAllowed(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    SetSqlGenerator(String, MigrationSqlGenerator): PrivateScope, Public, HideBySig
+    GetSqlGenerator(String): PrivateScope, Public, HideBySig
+    get_ContextType(): PrivateScope, Public, HideBySig, SpecialName
+    set_ContextType(Type): PrivateScope, Public, HideBySig, SpecialName
+    get_MigrationsNamespace(): PrivateScope, Public, HideBySig, SpecialName
+    set_MigrationsNamespace(String): PrivateScope, Public, HideBySig, SpecialName
+    get_MigrationsDirectory(): PrivateScope, Public, HideBySig, SpecialName
+    set_MigrationsDirectory(String): PrivateScope, Public, HideBySig, SpecialName
+    get_CodeGenerator(): PrivateScope, Public, HideBySig, SpecialName
+    set_CodeGenerator(MigrationCodeGenerator): PrivateScope, Public, HideBySig, SpecialName
+    get_MigrationsAssembly(): PrivateScope, Public, HideBySig, SpecialName
+    set_MigrationsAssembly(Assembly): PrivateScope, Public, HideBySig, SpecialName
+    get_TargetDatabase(): PrivateScope, Public, HideBySig, SpecialName
+    set_TargetDatabase(DbConnectionInfo): PrivateScope, Public, HideBySig, SpecialName
+    get_CommandTimeout(): PrivateScope, Public, HideBySig, SpecialName
+    set_CommandTimeout(Nullable`1): PrivateScope, Public, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.DbMigrationsConfiguration`1[TContext]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TContext, System.Data.Entity.DbContext
+  :System.Data.Entity.Migrations.DbMigrationsConfiguration
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Migrations.Infrastructure.MigratorBase: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Properties:
+    System.Data.Entity.Migrations.DbMigrationsConfiguration Configuration 'get ' : 
+  Methods:
+    GetPendingMigrations(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Configuration(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Update(): PrivateScope, Public, HideBySig
+    Update(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetLocalMigrations(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetDatabaseMigrations(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.Entity.Migrations.DbMigrator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Infrastructure.MigratorBase
+    Void .ctor(System.Data.Entity.Migrations.DbMigrationsConfiguration): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String InitialDatabase = 0 : Public, Static, Literal, HasDefault
+  Properties:
+    System.Data.Entity.Migrations.DbMigrationsConfiguration Configuration 'get ' : 
+  Methods:
+    get_Configuration(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    GetLocalMigrations(): PrivateScope, Public, Virtual, HideBySig
+    GetDatabaseMigrations(): PrivateScope, Public, Virtual, HideBySig
+    GetPendingMigrations(): PrivateScope, Public, Virtual, HideBySig
+    Update(String): PrivateScope, Public, Virtual, HideBySig
+Class System.Data.Entity.Migrations.IDbSetExtensions: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    AddOrUpdate(IDbSet`1, TEntity[]): PrivateScope, Public, Static, HideBySig
+    AddOrUpdate(IDbSet`1, Expression`1, TEntity[]): PrivateScope, Public, Static, HideBySig
+Class System.Data.Entity.Migrations.Design.MigrationCodeGenerator: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Methods:
+    Generate(String, IEnumerable`1, String, String, String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Data.Entity.Migrations.Design.CSharpMigrationCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Design.MigrationCodeGenerator
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Generate(String, IEnumerable`1, String, String, String, String): PrivateScope, Public, Virtual, HideBySig
+Class System.Data.Entity.Migrations.Design.MigrationScaffolder: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Data.Entity.Migrations.DbMigrationsConfiguration): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Namespace 'get set' : 
+  Methods:
+    get_Namespace(): PrivateScope, Public, HideBySig, SpecialName
+    set_Namespace(String): PrivateScope, Public, HideBySig, SpecialName
+    Scaffold(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Scaffold(String, Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ScaffoldInitialCreate(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.Entity.Migrations.Design.ScaffoldedMigration: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String MigrationId 'get set' : 
+    System.String UserCode 'get set' : 
+    System.String DesignerCode 'get set' : 
+    System.String Language 'get set' : 
+    System.String Directory 'get set' : 
+    System.Collections.Generic.IDictionary`2[System.String,System.Object] Resources 'get ' : 
+  Methods:
+    get_MigrationId(): PrivateScope, Public, HideBySig, SpecialName
+    set_MigrationId(String): PrivateScope, Public, HideBySig, SpecialName
+    get_UserCode(): PrivateScope, Public, HideBySig, SpecialName
+    set_UserCode(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DesignerCode(): PrivateScope, Public, HideBySig, SpecialName
+    set_DesignerCode(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Language(): PrivateScope, Public, HideBySig, SpecialName
+    set_Language(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Directory(): PrivateScope, Public, HideBySig, SpecialName
+    set_Directory(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Resources(): PrivateScope, Public, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Design.ToolingException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.Exception
+    Void .ctor(System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String InnerType 'get ' : 
+    System.String InnerStackTrace 'get ' : 
+  Methods:
+    get_InnerType(): PrivateScope, Public, HideBySig, SpecialName
+    get_InnerStackTrace(): PrivateScope, Public, HideBySig, SpecialName
+    GetObjectData(SerializationInfo, StreamingContext): PrivateScope, Public, Virtual, HideBySig
+Class System.Data.Entity.Migrations.Design.ToolingFacade: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, System.String, System.String, System.String, System.Data.Entity.Infrastructure.DbConnectionInfo): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    System.Action`1[System.String] LogInfoDelegate 'get set' : 
+    System.Action`1[System.String] LogWarningDelegate 'get set' : 
+    System.Action`1[System.String] LogVerboseDelegate 'get set' : 
+  Methods:
+    get_LogInfoDelegate(): PrivateScope, Public, HideBySig, SpecialName
+    set_LogInfoDelegate(Action`1): PrivateScope, Public, HideBySig, SpecialName
+    get_LogWarningDelegate(): PrivateScope, Public, HideBySig, SpecialName
+    set_LogWarningDelegate(Action`1): PrivateScope, Public, HideBySig, SpecialName
+    get_LogVerboseDelegate(): PrivateScope, Public, HideBySig, SpecialName
+    set_LogVerboseDelegate(Action`1): PrivateScope, Public, HideBySig, SpecialName
+    GetContextTypes(): PrivateScope, Public, HideBySig
+    GetContextType(String): PrivateScope, Public, HideBySig
+    GetDatabaseMigrations(): PrivateScope, Public, HideBySig
+    GetPendingMigrations(): PrivateScope, Public, HideBySig
+    Update(String, Boolean): PrivateScope, Public, HideBySig
+    ScriptUpdate(String, String, Boolean): PrivateScope, Public, HideBySig
+    Scaffold(String, String, String, Boolean): PrivateScope, Public, HideBySig
+    ScaffoldInitialCreate(String, String): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.Entity.Migrations.Infrastructure.MigrationsLogger: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.MarshalByRefObject
+  Methods:
+    Info(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Warning(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Verbose(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Data.Entity.Migrations.Design.VisualBasicMigrationCodeGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Design.MigrationCodeGenerator
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Generate(String, IEnumerable`1, String, String, String, String): PrivateScope, Public, Virtual, HideBySig
+Class System.Data.Entity.Migrations.History.HistoryRow: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String MigrationId 'get set' : 
+    System.DateTime CreatedOn 'get set' :  (Obsolete)
+    Byte[] Model 'get set' : 
+    System.String ProductVersion 'get set' : 
+  Methods:
+    get_MigrationId(): PrivateScope, Public, HideBySig, SpecialName
+    set_MigrationId(String): PrivateScope, Public, HideBySig, SpecialName
+    get_CreatedOn(): PrivateScope, Public, HideBySig, SpecialName
+    set_CreatedOn(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_Model(): PrivateScope, Public, HideBySig, SpecialName
+    set_Model(Byte[]): PrivateScope, Public, HideBySig, SpecialName
+    get_ProductVersion(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProductVersion(String): PrivateScope, Public, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Infrastructure.MigrationsException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.Exception
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Data.Entity.Migrations.Infrastructure.AutomaticDataLossException: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+  :System.Data.Entity.Migrations.Infrastructure.MigrationsException
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Data.Entity.Migrations.Infrastructure.AutomaticMigrationsDisabledException: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+  :System.Data.Entity.Migrations.Infrastructure.MigrationsException
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Interface System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    System.String Id 'get ' : 
+    System.String Source 'get ' : 
+    System.String Target 'get ' : 
+  Methods:
+    get_Id(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Source(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Target(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class System.Data.Entity.Migrations.Infrastructure.MigratorLoggingDecorator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Infrastructure.MigratorBase
+    Void .ctor(System.Data.Entity.Migrations.Infrastructure.MigratorBase, System.Data.Entity.Migrations.Infrastructure.MigrationsLogger): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Data.Entity.Migrations.Infrastructure.MigratorScriptingDecorator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Infrastructure.MigratorBase
+    Void .ctor(System.Data.Entity.Migrations.Infrastructure.MigratorBase): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ScriptUpdate(String, String): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Migrations.Model.MigrationOperation: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Properties:
+    System.Collections.Generic.IDictionary`2[System.String,System.Object] AnonymousArguments 'get ' : 
+    System.Data.Entity.Migrations.Model.MigrationOperation Inverse 'get ' : 
+    Boolean IsDestructiveChange 'get ' : 
+  Methods:
+    get_AnonymousArguments(): PrivateScope, Public, HideBySig, SpecialName
+    get_Inverse(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsDestructiveChange(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class System.Data.Entity.Migrations.Model.AddColumnOperation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.MigrationOperation
+    Void .ctor(System.String, System.Data.Entity.Migrations.Model.ColumnModel, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Table 'get ' : 
+    System.Data.Entity.Migrations.Model.ColumnModel Column 'get ' : 
+    System.Data.Entity.Migrations.Model.MigrationOperation Inverse 'get ' : 
+    Boolean IsDestructiveChange 'get ' : 
+  Methods:
+    get_Table(): PrivateScope, Public, HideBySig, SpecialName
+    get_Column(): PrivateScope, Public, HideBySig, SpecialName
+    get_Inverse(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsDestructiveChange(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Model.ForeignKeyOperation: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.MigrationOperation
+  Properties:
+    System.String PrincipalTable 'get set' : 
+    System.String DependentTable 'get set' : 
+    System.Collections.Generic.IList`1[System.String] DependentColumns 'get ' : 
+    Boolean HasDefaultName 'get ' : 
+    System.String Name 'get set' : 
+  Methods:
+    get_PrincipalTable(): PrivateScope, Public, HideBySig, SpecialName
+    set_PrincipalTable(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DependentTable(): PrivateScope, Public, HideBySig, SpecialName
+    set_DependentTable(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DependentColumns(): PrivateScope, Public, HideBySig, SpecialName
+    get_HasDefaultName(): PrivateScope, Public, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Model.AddForeignKeyOperation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.ForeignKeyOperation
+    Void .ctor(System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.IList`1[System.String] PrincipalColumns 'get ' : 
+    Boolean CascadeDelete 'get set' : 
+    System.Data.Entity.Migrations.Model.MigrationOperation Inverse 'get ' : 
+    Boolean IsDestructiveChange 'get ' : 
+  Methods:
+    get_PrincipalColumns(): PrivateScope, Public, HideBySig, SpecialName
+    get_CascadeDelete(): PrivateScope, Public, HideBySig, SpecialName
+    set_CascadeDelete(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    CreateCreateIndexOperation(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Inverse(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsDestructiveChange(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Model.PrimaryKeyOperation: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.MigrationOperation
+  Properties:
+    System.String Table 'get set' : 
+    System.Collections.Generic.IList`1[System.String] Columns 'get ' : 
+    Boolean HasDefaultName 'get ' : 
+    System.String Name 'get set' : 
+    Boolean IsDestructiveChange 'get ' : 
+  Methods:
+    get_Table(): PrivateScope, Public, HideBySig, SpecialName
+    set_Table(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Columns(): PrivateScope, Public, HideBySig, SpecialName
+    get_HasDefaultName(): PrivateScope, Public, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+    get_IsDestructiveChange(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Model.AddPrimaryKeyOperation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.PrimaryKeyOperation
+    Void .ctor(System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Data.Entity.Migrations.Model.MigrationOperation Inverse 'get ' : 
+  Methods:
+    get_Inverse(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Model.AlterColumnOperation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.MigrationOperation
+    Void .ctor(System.String, System.Data.Entity.Migrations.Model.ColumnModel, Boolean, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Data.Entity.Migrations.Model.ColumnModel, Boolean, System.Data.Entity.Migrations.Model.AlterColumnOperation, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Table 'get ' : 
+    System.Data.Entity.Migrations.Model.ColumnModel Column 'get ' : 
+    System.Data.Entity.Migrations.Model.MigrationOperation Inverse 'get ' : 
+    Boolean IsDestructiveChange 'get ' : 
+  Methods:
+    get_Table(): PrivateScope, Public, HideBySig, SpecialName
+    get_Column(): PrivateScope, Public, HideBySig, SpecialName
+    get_Inverse(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsDestructiveChange(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Model.ColumnModel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Data.Metadata.Edm.PrimitiveTypeKind): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Data.Metadata.Edm.PrimitiveTypeKind, System.Data.Metadata.Edm.TypeUsage): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Data.Metadata.Edm.PrimitiveTypeKind Type 'get ' : 
+    System.Type ClrType 'get ' : 
+    System.Object ClrDefaultValue 'get ' : 
+    System.Data.Metadata.Edm.TypeUsage TypeUsage 'get ' : 
+    System.String Name 'get set' : 
+    System.String StoreType 'get set' : 
+    System.Nullable`1[System.Boolean] IsNullable 'get set' : 
+    Boolean IsIdentity 'get set' : 
+    System.Nullable`1[System.Int32] MaxLength 'get set' : 
+    System.Nullable`1[System.Byte] Precision 'get set' : 
+    System.Nullable`1[System.Byte] Scale 'get set' : 
+    System.Object DefaultValue 'get set' : 
+    System.String DefaultValueSql 'get set' : 
+    System.Nullable`1[System.Boolean] IsFixedLength 'get set' : 
+    System.Nullable`1[System.Boolean] IsUnicode 'get set' : 
+    Boolean IsTimestamp 'get set' : 
+  Methods:
+    get_Type(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ClrType(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ClrDefaultValue(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_TypeUsage(): PrivateScope, Public, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Name(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_StoreType(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_StoreType(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsNullable(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_IsNullable(Nullable`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsIdentity(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_IsIdentity(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MaxLength(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_MaxLength(Nullable`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Precision(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Precision(Nullable`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Scale(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Scale(Nullable`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_DefaultValue(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_DefaultValue(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_DefaultValueSql(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_DefaultValueSql(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsFixedLength(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_IsFixedLength(Nullable`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsUnicode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_IsUnicode(Nullable`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsTimestamp(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_IsTimestamp(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    IsNarrowerThan(ColumnModel, DbProviderManifest): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Migrations.Model.IndexOperation: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.MigrationOperation
+  Properties:
+    System.String Table 'get set' : 
+    System.Collections.Generic.IList`1[System.String] Columns 'get ' : 
+    Boolean HasDefaultName 'get ' : 
+    System.String Name 'get set' : 
+  Methods:
+    get_Table(): PrivateScope, Public, HideBySig, SpecialName
+    set_Table(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Columns(): PrivateScope, Public, HideBySig, SpecialName
+    get_HasDefaultName(): PrivateScope, Public, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Model.CreateIndexOperation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.IndexOperation
+    Void .ctor(System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsUnique 'get set' : 
+    System.Data.Entity.Migrations.Model.MigrationOperation Inverse 'get ' : 
+    Boolean IsDestructiveChange 'get ' : 
+  Methods:
+    get_IsUnique(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsUnique(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Inverse(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsDestructiveChange(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Model.CreateTableOperation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.MigrationOperation
+    Void .ctor(System.String, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Name 'get ' : 
+    System.Collections.Generic.ICollection`1[System.Data.Entity.Migrations.Model.ColumnModel] Columns 'get ' : 
+    System.Data.Entity.Migrations.Model.AddPrimaryKeyOperation PrimaryKey 'get set' : 
+    System.Data.Entity.Migrations.Model.MigrationOperation Inverse 'get ' : 
+    Boolean IsDestructiveChange 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Columns(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_PrimaryKey(): PrivateScope, Public, HideBySig, SpecialName
+    set_PrimaryKey(AddPrimaryKeyOperation): PrivateScope, Public, HideBySig, SpecialName
+    get_Inverse(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsDestructiveChange(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Model.HistoryOperation: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.MigrationOperation
+  Properties:
+    System.String Table 'get ' : 
+    System.String MigrationId 'get ' : 
+    Boolean IsDestructiveChange 'get ' : 
+  Methods:
+    get_Table(): PrivateScope, Public, HideBySig, SpecialName
+    get_MigrationId(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsDestructiveChange(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Model.DeleteHistoryOperation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.HistoryOperation
+    Void .ctor(System.String, System.String, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Data.Entity.Migrations.Model.DropColumnOperation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.MigrationOperation
+    Void .ctor(System.String, System.String, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, System.Data.Entity.Migrations.Model.AddColumnOperation, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Table 'get ' : 
+    System.String Name 'get ' : 
+    System.Data.Entity.Migrations.Model.MigrationOperation Inverse 'get ' : 
+    Boolean IsDestructiveChange 'get ' : 
+  Methods:
+    get_Table(): PrivateScope, Public, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    get_Inverse(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsDestructiveChange(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Model.DropForeignKeyOperation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.ForeignKeyOperation
+    Void .ctor(System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Data.Entity.Migrations.Model.AddForeignKeyOperation, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Data.Entity.Migrations.Model.MigrationOperation Inverse 'get ' : 
+    Boolean IsDestructiveChange 'get ' : 
+  Methods:
+    CreateDropIndexOperation(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Inverse(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsDestructiveChange(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Model.DropIndexOperation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.IndexOperation
+    Void .ctor(System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Data.Entity.Migrations.Model.CreateIndexOperation, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Data.Entity.Migrations.Model.MigrationOperation Inverse 'get ' : 
+    Boolean IsDestructiveChange 'get ' : 
+  Methods:
+    get_Inverse(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsDestructiveChange(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Model.DropPrimaryKeyOperation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.PrimaryKeyOperation
+    Void .ctor(System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Data.Entity.Migrations.Model.MigrationOperation Inverse 'get ' : 
+  Methods:
+    get_Inverse(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Model.DropTableOperation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.MigrationOperation
+    Void .ctor(System.String, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Data.Entity.Migrations.Model.CreateTableOperation, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Name 'get ' : 
+    System.Data.Entity.Migrations.Model.MigrationOperation Inverse 'get ' : 
+    Boolean IsDestructiveChange 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Inverse(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsDestructiveChange(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Model.InsertHistoryOperation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.HistoryOperation
+    Void .ctor(System.String, System.String, Byte[], System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Byte[] Model 'get ' : 
+    System.String ProductVersion 'get ' : 
+    Boolean IsDestructiveChange 'get ' : 
+  Methods:
+    get_Model(): PrivateScope, Public, HideBySig, SpecialName
+    get_ProductVersion(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsDestructiveChange(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Model.MoveTableOperation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.MigrationOperation
+    Void .ctor(System.String, System.String, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Name 'get ' : 
+    System.String NewSchema 'get ' : 
+    System.Data.Entity.Migrations.Model.MigrationOperation Inverse 'get ' : 
+    Boolean IsDestructiveChange 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_NewSchema(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Inverse(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsDestructiveChange(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Model.RenameColumnOperation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.MigrationOperation
+    Void .ctor(System.String, System.String, System.String, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Table 'get ' : 
+    System.String Name 'get ' : 
+    System.String NewName 'get ' : 
+    System.Data.Entity.Migrations.Model.MigrationOperation Inverse 'get ' : 
+    Boolean IsDestructiveChange 'get ' : 
+  Methods:
+    get_Table(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_NewName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Inverse(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsDestructiveChange(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Model.RenameTableOperation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.MigrationOperation
+    Void .ctor(System.String, System.String, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Name 'get ' : 
+    System.String NewName 'get ' : 
+    System.Data.Entity.Migrations.Model.MigrationOperation Inverse 'get ' : 
+    Boolean IsDestructiveChange 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_NewName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Inverse(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsDestructiveChange(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Model.SqlOperation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Model.MigrationOperation
+    Void .ctor(System.String, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Sql 'get ' : 
+    Boolean SuppressTransaction 'get set' : 
+    Boolean IsDestructiveChange 'get ' : 
+  Methods:
+    get_Sql(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SuppressTransaction(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_SuppressTransaction(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsDestructiveChange(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Sql.MigrationSqlGenerator: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Methods:
+    Generate(IEnumerable`1, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Data.Entity.Migrations.Sql.MigrationStatement: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Sql 'get set' : 
+    Boolean SuppressTransaction 'get set' : 
+  Methods:
+    get_Sql(): PrivateScope, Public, HideBySig, SpecialName
+    set_Sql(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SuppressTransaction(): PrivateScope, Public, HideBySig, SpecialName
+    set_SuppressTransaction(Boolean): PrivateScope, Public, HideBySig, SpecialName
+Class System.Data.Entity.Migrations.Sql.SqlServerMigrationSqlGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Sql.MigrationSqlGenerator
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Generate(IEnumerable`1, String): PrivateScope, Public, Virtual, HideBySig
+Class System.Data.Entity.Migrations.Sql.SqlCeMigrationSqlGenerator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Migrations.Sql.SqlServerMigrationSqlGenerator
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Data.Entity.Migrations.Utilities.IndentedTextWriter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.IO.TextWriter
+    Void .ctor(System.IO.TextWriter): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.TextWriter, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String DefaultTabString =      : Public, Static, Literal, HasDefault
+  Properties:
+    System.Text.Encoding Encoding 'get ' : 
+    System.String NewLine 'get set' : 
+    Int32 Indent 'get set' : 
+    System.IO.TextWriter InnerWriter 'get ' : 
+  Methods:
+    get_Encoding(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_NewLine(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_NewLine(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Indent(): PrivateScope, Public, HideBySig, SpecialName
+    set_Indent(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_InnerWriter(): PrivateScope, Public, HideBySig, SpecialName
+    Close(): PrivateScope, Public, Virtual, HideBySig
+    Flush(): PrivateScope, Public, Virtual, HideBySig
+    Write(String): PrivateScope, Public, Virtual, HideBySig
+    Write(Boolean): PrivateScope, Public, Virtual, HideBySig
+    Write(Char): PrivateScope, Public, Virtual, HideBySig
+    Write(Char[]): PrivateScope, Public, Virtual, HideBySig
+    Write(Char[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    Write(Double): PrivateScope, Public, Virtual, HideBySig
+    Write(Single): PrivateScope, Public, Virtual, HideBySig
+    Write(Int32): PrivateScope, Public, Virtual, HideBySig
+    Write(Int64): PrivateScope, Public, Virtual, HideBySig
+    Write(Object): PrivateScope, Public, Virtual, HideBySig
+    Write(String, Object): PrivateScope, Public, Virtual, HideBySig
+    Write(String, Object, Object): PrivateScope, Public, Virtual, HideBySig
+    Write(String, Object[]): PrivateScope, Public, Virtual, HideBySig
+    WriteLineNoTabs(String): PrivateScope, Public, HideBySig
+    WriteLine(String): PrivateScope, Public, Virtual, HideBySig
+    WriteLine(): PrivateScope, Public, Virtual, HideBySig
+    WriteLine(Boolean): PrivateScope, Public, Virtual, HideBySig
+    WriteLine(Char): PrivateScope, Public, Virtual, HideBySig
+    WriteLine(Char[]): PrivateScope, Public, Virtual, HideBySig
+    WriteLine(Char[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    WriteLine(Double): PrivateScope, Public, Virtual, HideBySig
+    WriteLine(Single): PrivateScope, Public, Virtual, HideBySig
+    WriteLine(Int32): PrivateScope, Public, Virtual, HideBySig
+    WriteLine(Int64): PrivateScope, Public, Virtual, HideBySig
+    WriteLine(Object): PrivateScope, Public, Virtual, HideBySig
+    WriteLine(String, Object): PrivateScope, Public, Virtual, HideBySig
+    WriteLine(String, Object, Object): PrivateScope, Public, Virtual, HideBySig
+    WriteLine(String, Object[]): PrivateScope, Public, Virtual, HideBySig
+    WriteLine(UInt32): PrivateScope, Public, Virtual, HideBySig
+Interface System.Data.Entity.ModelConfiguration.Conventions.IConvention: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+Class System.Data.Entity.CreateDatabaseIfNotExists`1[TContext]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TContext, System.Data.Entity.DbContext
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.IDatabaseInitializer`1[TContext]
+  Methods:
+    InitializeDatabase(TContext): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.Entity.Database: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Properties:
+    System.Data.Common.DbConnection Connection 'get ' : 
+    System.Data.Entity.Infrastructure.IDbConnectionFactory DefaultConnectionFactory 'get set' : 
+  Methods:
+    get_Connection(): PrivateScope, Public, HideBySig, SpecialName
+    SetInitializer(IDatabaseInitializer`1): PrivateScope, Public, Static, HideBySig
+    Initialize(Boolean): PrivateScope, Public, HideBySig
+    CompatibleWithModel(Boolean): PrivateScope, Public, HideBySig
+    Create(): PrivateScope, Public, HideBySig
+    CreateIfNotExists(): PrivateScope, Public, HideBySig
+    Exists(): PrivateScope, Public, HideBySig
+    Delete(): PrivateScope, Public, HideBySig
+    Exists(String): PrivateScope, Public, Static, HideBySig
+    Delete(String): PrivateScope, Public, Static, HideBySig
+    Exists(DbConnection): PrivateScope, Public, Static, HideBySig
+    Delete(DbConnection): PrivateScope, Public, Static, HideBySig
+    get_DefaultConnectionFactory(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_DefaultConnectionFactory(IDbConnectionFactory): PrivateScope, Public, Static, HideBySig, SpecialName
+    SqlQuery(String, Object[]): PrivateScope, Public, HideBySig
+    SqlQuery(Type, String, Object[]): PrivateScope, Public, HideBySig
+    ExecuteSqlCommand(String, Object[]): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.DbExtensions: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Include(IQueryable`1, String): PrivateScope, Public, Static, HideBySig
+    Include(IQueryable, String): PrivateScope, Public, Static, HideBySig
+    Include(IQueryable`1, Expression`1): PrivateScope, Public, Static, HideBySig
+    AsNoTracking(IQueryable`1): PrivateScope, Public, Static, HideBySig
+    AsNoTracking(IQueryable): PrivateScope, Public, Static, HideBySig
+    Load(IQueryable): PrivateScope, Public, Static, HideBySig
+    ToBindingList(ObservableCollection`1): PrivateScope, Public, Static, HideBySig
+Class System.Data.Entity.DbModelBuilder: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Data.Entity.DbModelBuilderVersion): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Data.Entity.ModelConfiguration.Configuration.ConventionsConfiguration Conventions 'get ' : 
+    System.Data.Entity.ModelConfiguration.Configuration.ConfigurationRegistrar Configurations 'get ' : 
+  Methods:
+    Ignore(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Ignore(IEnumerable`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Entity(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ComplexType(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Conventions(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Configurations(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Build(DbConnection): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Build(DbProviderInfo): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Struct System.Data.Entity.DbModelBuilderVersion: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Data.Entity.DbModelBuilderVersion Latest = 0 : Public, Static, Literal, HasDefault
+    System.Data.Entity.DbModelBuilderVersion V4_1 = 1 : Public, Static, Literal, HasDefault
+    System.Data.Entity.DbModelBuilderVersion V5_0_Net4 = 2 : Public, Static, Literal, HasDefault
+    System.Data.Entity.DbModelBuilderVersion V5_0 = 3 : Public, Static, Literal, HasDefault
+Class System.Data.Entity.DbModelBuilderVersionAttribute: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(System.Data.Entity.DbModelBuilderVersion): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Data.Entity.DbModelBuilderVersion Version 'get set' : 
+  Methods:
+    get_Version(): PrivateScope, Public, HideBySig, SpecialName
+Class System.Data.Entity.Infrastructure.DbQuery: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Interfaces:
+    System.Linq.IOrderedQueryable
+    System.Linq.IQueryable
+    System.Collections.IEnumerable
+    System.ComponentModel.IListSource
+    System.Data.Entity.Internal.Linq.IInternalQueryAdapter
+  Properties:
+    System.Type ElementType 'get ' : 
+  Methods:
+    get_ElementType(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Include(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AsNoTracking(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Cast(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.DbSet: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Data.Entity.Infrastructure.DbQuery
+  Interfaces:
+    System.Data.Entity.Internal.Linq.IInternalSetAdapter
+  Properties:
+    System.Collections.IList Local 'get ' : 
+  Methods:
+    Find(Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_Local(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    Attach(Object): PrivateScope, Public, HideBySig
+    Add(Object): PrivateScope, Public, HideBySig
+    Remove(Object): PrivateScope, Public, HideBySig
+    Create(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Create(Type): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Cast(): PrivateScope, Public, HideBySig
+    SqlQuery(String, Object[]): PrivateScope, Public, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Infrastructure.DbQuery`1[TResult]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TResult
+  Interfaces:
+    System.Linq.IOrderedQueryable`1[TResult]
+    System.Linq.IQueryable`1[TResult]
+    System.Collections.Generic.IEnumerable`1[TResult]
+    System.Collections.IEnumerable
+    System.Linq.IQueryable
+    System.Linq.IOrderedQueryable
+    System.ComponentModel.IListSource
+    System.Data.Entity.Internal.Linq.IInternalQueryAdapter
+  Methods:
+    Include(String): PrivateScope, Public, HideBySig
+    AsNoTracking(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    op_Implicit(DbQuery`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Interface System.Data.Entity.IDbSet`1[TEntity]: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Type parameter: TEntity,  ReferenceType
+  Interfaces:
+    System.Linq.IQueryable`1[TEntity]
+    System.Collections.Generic.IEnumerable`1[TEntity]
+    System.Collections.IEnumerable
+    System.Linq.IQueryable
+  Properties:
+    System.Collections.ObjectModel.ObservableCollection`1[TEntity] Local 'get ' : 
+  Methods:
+    Find(Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Add(TEntity): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Remove(TEntity): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Attach(TEntity): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_Local(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    Create(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Create(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Data.Entity.DbSet`1[TEntity]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TEntity,  ReferenceType
+  :System.Data.Entity.Infrastructure.DbQuery`1[TEntity]
+  Interfaces:
+    System.Data.Entity.IDbSet`1[TEntity]
+    System.Data.Entity.Internal.Linq.IInternalSetAdapter
+  Properties:
+    System.Collections.ObjectModel.ObservableCollection`1[TEntity] Local 'get ' : 
+  Methods:
+    Find(Object[]): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_Local(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Attach(TEntity): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Add(TEntity): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Remove(TEntity): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Create(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Create(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    op_Implicit(DbSet`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    SqlQuery(String, Object[]): PrivateScope, Public, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.DropCreateDatabaseAlways`1[TContext]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TContext, System.Data.Entity.DbContext
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.IDatabaseInitializer`1[TContext]
+  Methods:
+    InitializeDatabase(TContext): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.Entity.DropCreateDatabaseIfModelChanges`1[TContext]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TContext, System.Data.Entity.DbContext
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.IDatabaseInitializer`1[TContext]
+  Methods:
+    InitializeDatabase(TContext): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.Entity.Infrastructure.DbChangeTracker: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Methods:
+    Entries(): PrivateScope, Public, HideBySig
+    Entries(): PrivateScope, Public, HideBySig
+    DetectChanges(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Infrastructure.DbMemberEntry: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Properties:
+    System.String Name 'get ' : 
+    System.Object CurrentValue 'get set' : 
+    System.Data.Entity.Infrastructure.DbEntityEntry EntityEntry 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CurrentValue(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CurrentValue(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_EntityEntry(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    GetValidationErrors(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+    Cast(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Infrastructure.DbCollectionEntry: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Infrastructure.DbMemberEntry
+  Properties:
+    System.String Name 'get ' : 
+    System.Object CurrentValue 'get set' : 
+    Boolean IsLoaded 'get ' : 
+    System.Data.Entity.Infrastructure.DbEntityEntry EntityEntry 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CurrentValue(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_CurrentValue(Object): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Load(): PrivateScope, Public, HideBySig
+    get_IsLoaded(): PrivateScope, Public, HideBySig, SpecialName
+    Query(): PrivateScope, Public, HideBySig
+    get_EntityEntry(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Cast(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Infrastructure.DbMemberEntry`2[TEntity,TProperty]: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Type parameter: TEntity,  ReferenceType
+  Type parameter: TProperty
+  Properties:
+    System.String Name 'get ' : 
+    TProperty CurrentValue 'get set' : 
+    System.Data.Entity.Infrastructure.DbEntityEntry`1[TEntity] EntityEntry 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CurrentValue(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CurrentValue(TProperty): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    op_Implicit(DbMemberEntry`2): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_EntityEntry(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    GetValidationErrors(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Infrastructure.DbCollectionEntry`2[TEntity,TElement]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TEntity,  ReferenceType
+  Type parameter: TElement
+  :System.Data.Entity.Infrastructure.DbMemberEntry`2[TEntity,System.Collections.Generic.ICollection`1[TElement]]
+  Properties:
+    System.String Name 'get ' : 
+    System.Collections.Generic.ICollection`1[TElement] CurrentValue 'get set' : 
+    Boolean IsLoaded 'get ' : 
+    System.Data.Entity.Infrastructure.DbEntityEntry`1[TEntity] EntityEntry 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CurrentValue(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_CurrentValue(ICollection`1): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Load(): PrivateScope, Public, HideBySig
+    get_IsLoaded(): PrivateScope, Public, HideBySig, SpecialName
+    Query(): PrivateScope, Public, HideBySig
+    op_Implicit(DbCollectionEntry`2): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_EntityEntry(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.Entity.Infrastructure.DbCompiledModel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Methods:
+    CreateObjectContext(DbConnection): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Infrastructure.DbPropertyEntry: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Infrastructure.DbMemberEntry
+  Properties:
+    System.String Name 'get ' : 
+    System.Object OriginalValue 'get set' : 
+    System.Object CurrentValue 'get set' : 
+    Boolean IsModified 'get set' : 
+    System.Data.Entity.Infrastructure.DbEntityEntry EntityEntry 'get ' : 
+    System.Data.Entity.Infrastructure.DbComplexPropertyEntry ParentProperty 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_OriginalValue(): PrivateScope, Public, HideBySig, SpecialName
+    set_OriginalValue(Object): PrivateScope, Public, HideBySig, SpecialName
+    get_CurrentValue(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_CurrentValue(Object): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsModified(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsModified(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_EntityEntry(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_ParentProperty(): PrivateScope, Public, HideBySig, SpecialName
+    Cast(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Infrastructure.DbComplexPropertyEntry: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Infrastructure.DbPropertyEntry
+  Methods:
+    Property(String): PrivateScope, Public, HideBySig
+    ComplexProperty(String): PrivateScope, Public, HideBySig
+    Cast(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Infrastructure.DbPropertyEntry`2[TEntity,TProperty]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TEntity,  ReferenceType
+  Type parameter: TProperty
+  :System.Data.Entity.Infrastructure.DbMemberEntry`2[TEntity,TProperty]
+  Properties:
+    System.String Name 'get ' : 
+    TProperty OriginalValue 'get set' : 
+    TProperty CurrentValue 'get set' : 
+    Boolean IsModified 'get set' : 
+    System.Data.Entity.Infrastructure.DbEntityEntry`1[TEntity] EntityEntry 'get ' : 
+    System.Data.Entity.Infrastructure.DbComplexPropertyEntry ParentProperty 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_OriginalValue(): PrivateScope, Public, HideBySig, SpecialName
+    set_OriginalValue(TProperty): PrivateScope, Public, HideBySig, SpecialName
+    get_CurrentValue(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_CurrentValue(TProperty): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsModified(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsModified(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    op_Implicit(DbPropertyEntry`2): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_EntityEntry(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_ParentProperty(): PrivateScope, Public, HideBySig, SpecialName
+Class System.Data.Entity.Infrastructure.DbComplexPropertyEntry`2[TEntity,TComplexProperty]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TEntity,  ReferenceType
+  Type parameter: TComplexProperty
+  :System.Data.Entity.Infrastructure.DbPropertyEntry`2[TEntity,TComplexProperty]
+  Methods:
+    op_Implicit(DbComplexPropertyEntry`2): PrivateScope, Public, Static, HideBySig, SpecialName
+    Property(String): PrivateScope, Public, HideBySig
+    Property(String): PrivateScope, Public, HideBySig
+    Property(Expression`1): PrivateScope, Public, HideBySig
+    ComplexProperty(String): PrivateScope, Public, HideBySig
+    ComplexProperty(String): PrivateScope, Public, HideBySig
+    ComplexProperty(Expression`1): PrivateScope, Public, HideBySig
+Struct System.Data.Entity.Infrastructure.DbConnectionStringOrigin: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Data.Entity.Infrastructure.DbConnectionStringOrigin Convention = 0 : Public, Static, Literal, HasDefault
+    System.Data.Entity.Infrastructure.DbConnectionStringOrigin Configuration = 1 : Public, Static, Literal, HasDefault
+    System.Data.Entity.Infrastructure.DbConnectionStringOrigin UserCode = 2 : Public, Static, Literal, HasDefault
+    System.Data.Entity.Infrastructure.DbConnectionStringOrigin DbContextInfo = 3 : Public, Static, Literal, HasDefault
+Class System.Data.Entity.Infrastructure.DbContextConfiguration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Properties:
+    Boolean LazyLoadingEnabled 'get set' : 
+    Boolean ProxyCreationEnabled 'get set' : 
+    Boolean AutoDetectChangesEnabled 'get set' : 
+    Boolean ValidateOnSaveEnabled 'get set' : 
+  Methods:
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+    get_LazyLoadingEnabled(): PrivateScope, Public, HideBySig, SpecialName
+    set_LazyLoadingEnabled(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ProxyCreationEnabled(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProxyCreationEnabled(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_AutoDetectChangesEnabled(): PrivateScope, Public, HideBySig, SpecialName
+    set_AutoDetectChangesEnabled(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ValidateOnSaveEnabled(): PrivateScope, Public, HideBySig, SpecialName
+    set_ValidateOnSaveEnabled(Boolean): PrivateScope, Public, HideBySig, SpecialName
+Class System.Data.Entity.Infrastructure.DbContextInfo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Type): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Type, System.Data.Entity.Infrastructure.DbConnectionInfo): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Type, System.Configuration.ConnectionStringSettingsCollection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName (Obsolete)
+    Void .ctor(System.Type, System.Configuration.Configuration): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Type, System.Configuration.Configuration, System.Data.Entity.Infrastructure.DbConnectionInfo): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Type, System.Data.Entity.Infrastructure.DbProviderInfo): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Type, System.Configuration.Configuration, System.Data.Entity.Infrastructure.DbProviderInfo): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Type ContextType 'get ' : 
+    Boolean IsConstructible 'get ' : 
+    System.String ConnectionString 'get ' : 
+    System.String ConnectionStringName 'get ' : 
+    System.String ConnectionProviderName 'get ' : 
+    System.Data.Entity.Infrastructure.DbConnectionStringOrigin ConnectionStringOrigin 'get ' : 
+    System.Action`1[System.Data.Entity.DbModelBuilder] OnModelCreating 'get set' : 
+  Methods:
+    get_ContextType(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsConstructible(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ConnectionString(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ConnectionStringName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ConnectionProviderName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ConnectionStringOrigin(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_OnModelCreating(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_OnModelCreating(Action`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    CreateInstance(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.Entity.Infrastructure.DbEntityEntry: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Properties:
+    System.Object Entity 'get ' : 
+    System.Data.EntityState State 'get set' : 
+    System.Data.Entity.Infrastructure.DbPropertyValues CurrentValues 'get ' : 
+    System.Data.Entity.Infrastructure.DbPropertyValues OriginalValues 'get ' : 
+  Methods:
+    get_Entity(): PrivateScope, Public, HideBySig, SpecialName
+    get_State(): PrivateScope, Public, HideBySig, SpecialName
+    set_State(EntityState): PrivateScope, Public, HideBySig, SpecialName
+    get_CurrentValues(): PrivateScope, Public, HideBySig, SpecialName
+    get_OriginalValues(): PrivateScope, Public, HideBySig, SpecialName
+    GetDatabaseValues(): PrivateScope, Public, HideBySig
+    Reload(): PrivateScope, Public, HideBySig
+    Reference(String): PrivateScope, Public, HideBySig
+    Collection(String): PrivateScope, Public, HideBySig
+    Property(String): PrivateScope, Public, HideBySig
+    ComplexProperty(String): PrivateScope, Public, HideBySig
+    Member(String): PrivateScope, Public, HideBySig
+    Cast(): PrivateScope, Public, HideBySig
+    GetValidationResult(): PrivateScope, Public, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    Equals(DbEntityEntry): PrivateScope, Public, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Infrastructure.DbEntityEntry`1[TEntity]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TEntity,  ReferenceType
+  Properties:
+    TEntity Entity 'get ' : 
+    System.Data.EntityState State 'get set' : 
+    System.Data.Entity.Infrastructure.DbPropertyValues CurrentValues 'get ' : 
+    System.Data.Entity.Infrastructure.DbPropertyValues OriginalValues 'get ' : 
+  Methods:
+    get_Entity(): PrivateScope, Public, HideBySig, SpecialName
+    get_State(): PrivateScope, Public, HideBySig, SpecialName
+    set_State(EntityState): PrivateScope, Public, HideBySig, SpecialName
+    get_CurrentValues(): PrivateScope, Public, HideBySig, SpecialName
+    get_OriginalValues(): PrivateScope, Public, HideBySig, SpecialName
+    GetDatabaseValues(): PrivateScope, Public, HideBySig
+    Reload(): PrivateScope, Public, HideBySig
+    Reference(String): PrivateScope, Public, HideBySig
+    Reference(String): PrivateScope, Public, HideBySig
+    Reference(Expression`1): PrivateScope, Public, HideBySig
+    Collection(String): PrivateScope, Public, HideBySig
+    Collection(String): PrivateScope, Public, HideBySig
+    Collection(Expression`1): PrivateScope, Public, HideBySig
+    Property(String): PrivateScope, Public, HideBySig
+    Property(String): PrivateScope, Public, HideBySig
+    Property(Expression`1): PrivateScope, Public, HideBySig
+    ComplexProperty(String): PrivateScope, Public, HideBySig
+    ComplexProperty(String): PrivateScope, Public, HideBySig
+    ComplexProperty(Expression`1): PrivateScope, Public, HideBySig
+    Member(String): PrivateScope, Public, HideBySig
+    Member(String): PrivateScope, Public, HideBySig
+    op_Implicit(DbEntityEntry`1): PrivateScope, Public, Static, HideBySig, SpecialName
+    GetValidationResult(): PrivateScope, Public, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    Equals(DbEntityEntry`1): PrivateScope, Public, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Infrastructure.DbModel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Methods:
+    Compile(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Infrastructure.DbPropertyValues: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Properties:
+    System.Collections.Generic.IEnumerable`1[System.String] PropertyNames 'get ' : 
+    System.Object Item [System.String] 'get set' : 
+  Methods:
+    ToObject(): PrivateScope, Public, HideBySig
+    SetValues(Object): PrivateScope, Public, HideBySig
+    Clone(): PrivateScope, Public, HideBySig
+    SetValues(DbPropertyValues): PrivateScope, Public, HideBySig
+    get_PropertyNames(): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(String): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(String, Object): PrivateScope, Public, HideBySig, SpecialName
+    GetValue(String): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Infrastructure.DbProviderInfo: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String ProviderInvariantName 'get ' : 
+    System.String ProviderManifestToken 'get ' : 
+  Methods:
+    get_ProviderInvariantName(): PrivateScope, Public, HideBySig, SpecialName
+    get_ProviderManifestToken(): PrivateScope, Public, HideBySig, SpecialName
+Class System.Data.Entity.Infrastructure.DbReferenceEntry: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.Infrastructure.DbMemberEntry
+  Properties:
+    System.String Name 'get ' : 
+    System.Object CurrentValue 'get set' : 
+    Boolean IsLoaded 'get ' : 
+    System.Data.Entity.Infrastructure.DbEntityEntry EntityEntry 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CurrentValue(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_CurrentValue(Object): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Load(): PrivateScope, Public, HideBySig
+    get_IsLoaded(): PrivateScope, Public, HideBySig, SpecialName
+    Query(): PrivateScope, Public, HideBySig
+    get_EntityEntry(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Cast(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Infrastructure.DbReferenceEntry`2[TEntity,TProperty]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TEntity,  ReferenceType
+  Type parameter: TProperty
+  :System.Data.Entity.Infrastructure.DbMemberEntry`2[TEntity,TProperty]
+  Properties:
+    System.String Name 'get ' : 
+    TProperty CurrentValue 'get set' : 
+    Boolean IsLoaded 'get ' : 
+    System.Data.Entity.Infrastructure.DbEntityEntry`1[TEntity] EntityEntry 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CurrentValue(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_CurrentValue(TProperty): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Load(): PrivateScope, Public, HideBySig
+    get_IsLoaded(): PrivateScope, Public, HideBySig, SpecialName
+    Query(): PrivateScope, Public, HideBySig
+    op_Implicit(DbReferenceEntry`2): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_EntityEntry(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.Entity.Infrastructure.DbSqlQuery: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Interfaces:
+    System.Collections.IEnumerable
+    System.ComponentModel.IListSource
+  Methods:
+    GetEnumerator(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    AsNoTracking(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Infrastructure.DbSqlQuery`1[TEntity]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TEntity,  ReferenceType
+  Interfaces:
+    System.Collections.Generic.IEnumerable`1[TEntity]
+    System.Collections.IEnumerable
+    System.ComponentModel.IListSource
+  Methods:
+    GetEnumerator(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    AsNoTracking(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.Infrastructure.DbUpdateException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.Data.DataException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.IEnumerable`1[System.Data.Entity.Infrastructure.DbEntityEntry] Entries 'get ' : 
+  Methods:
+    get_Entries(): PrivateScope, Public, HideBySig, SpecialName
+Class System.Data.Entity.Infrastructure.DbUpdateConcurrencyException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.Data.Entity.Infrastructure.DbUpdateException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Data.Entity.Infrastructure.EdmMetadata: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit (Obsolete)
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Id   'get set' : 
+    System.String ModelHash 'get set' : 
+  Methods:
+    get_Id(): PrivateScope, Public, HideBySig, SpecialName
+    set_Id(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_ModelHash(): PrivateScope, Public, HideBySig, SpecialName
+    set_ModelHash(String): PrivateScope, Public, HideBySig, SpecialName
+    TryGetModelHash(DbContext): PrivateScope, Public, Static, HideBySig
+Class System.Data.Entity.Infrastructure.EdmxWriter: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    WriteEdmx(DbContext, XmlWriter): PrivateScope, Public, Static, HideBySig
+    WriteEdmx(DbModel, XmlWriter): PrivateScope, Public, Static, HideBySig
+Interface System.Data.Entity.Infrastructure.IDbContextFactory`1[TContext]: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Type parameter: TContext, System.Data.Entity.DbContext,  Covariant
+  Methods:
+    Create(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Data.Entity.Infrastructure.IncludeMetadataConvention: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit (Obsolete)
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IConfigurationConvention
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.Infrastructure.ModelContainerConvention: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.Infrastructure.ModelNamespaceConvention: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.Infrastructure.ReplacementDbQueryWrapper`1[TElement]: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Type parameter: TElement
+  Properties:
+    System.Data.Objects.ObjectQuery`1[TElement] Query 'get ' : 
+  Methods:
+    get_Query(): PrivateScope, Public, HideBySig, SpecialName
+Class System.Data.Entity.Infrastructure.SqlCeConnectionFactory: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Infrastructure.IDbConnectionFactory
+  Properties:
+    System.String DatabaseDirectory 'get ' : 
+    System.String BaseConnectionString 'get ' : 
+    System.String ProviderInvariantName 'get ' : 
+  Methods:
+    get_DatabaseDirectory(): PrivateScope, Public, HideBySig, SpecialName
+    get_BaseConnectionString(): PrivateScope, Public, HideBySig, SpecialName
+    get_ProviderInvariantName(): PrivateScope, Public, HideBySig, SpecialName
+    CreateConnection(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.Entity.Infrastructure.SqlConnectionFactory: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Data.Entity.Infrastructure.IDbConnectionFactory
+  Properties:
+    System.String BaseConnectionString 'get ' : 
+  Methods:
+    get_BaseConnectionString(): PrivateScope, Public, HideBySig, SpecialName
+    CreateConnection(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.Entity.Infrastructure.SuppressDbSetInitializationAttribute: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Data.Entity.Infrastructure.UnintentionalCodeFirstException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.InvalidOperationException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Data.Entity.ModelConfiguration.Configuration.StructuralTypeConfiguration`1[TStructuralType]: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Type parameter: TStructuralType,  ReferenceType
+  Methods:
+    Property(Expression`1): PrivateScope, Public, HideBySig
+    Property(Expression`1): PrivateScope, Public, HideBySig
+    Property(Expression`1): PrivateScope, Public, HideBySig
+    Property(Expression`1): PrivateScope, Public, HideBySig
+    Property(Expression`1): PrivateScope, Public, HideBySig
+    Property(Expression`1): PrivateScope, Public, HideBySig
+    Property(Expression`1): PrivateScope, Public, HideBySig
+    Property(Expression`1): PrivateScope, Public, HideBySig
+    Property(Expression`1): PrivateScope, Public, HideBySig
+    Property(Expression`1): PrivateScope, Public, HideBySig
+    Property(Expression`1): PrivateScope, Public, HideBySig
+    Property(Expression`1): PrivateScope, Public, HideBySig
+    Ignore(Expression`1): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.ComplexTypeConfiguration`1[TComplexType]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TComplexType,  ReferenceType
+  :System.Data.Entity.ModelConfiguration.Configuration.StructuralTypeConfiguration`1[TComplexType]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.ConfigurationRegistrar: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Methods:
+    Add(EntityTypeConfiguration`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Add(ComplexTypeConfiguration`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.ConventionsConfiguration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Methods:
+    Remove(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.EntityMappingConfiguration`1[TEntityType]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TEntityType,  ReferenceType
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Properties(Expression`1): PrivateScope, Public, HideBySig
+    MapInheritedProperties(): PrivateScope, Public, HideBySig
+    ToTable(String): PrivateScope, Public, HideBySig
+    ToTable(String, String): PrivateScope, Public, HideBySig
+    Requires(String): PrivateScope, Public, HideBySig
+    Requires(Expression`1): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.PrimitiveColumnConfiguration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Methods:
+    IsOptional(): PrivateScope, Public, HideBySig
+    IsRequired(): PrivateScope, Public, HideBySig
+    HasColumnType(String): PrivateScope, Public, HideBySig
+    HasColumnOrder(Nullable`1): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.LengthColumnConfiguration: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Data.Entity.ModelConfiguration.Configuration.PrimitiveColumnConfiguration
+  Methods:
+    IsMaxLength(): PrivateScope, Public, HideBySig
+    HasMaxLength(Nullable`1): PrivateScope, Public, HideBySig
+    IsFixedLength(): PrivateScope, Public, HideBySig
+    IsVariableLength(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.NotNullConditionConfiguration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Methods:
+    HasValue(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.StringColumnConfiguration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.ModelConfiguration.Configuration.LengthColumnConfiguration
+  Methods:
+    IsMaxLength(): PrivateScope, Public, HideBySig
+    HasMaxLength(Nullable`1): PrivateScope, Public, HideBySig
+    IsFixedLength(): PrivateScope, Public, HideBySig
+    IsVariableLength(): PrivateScope, Public, HideBySig
+    IsOptional(): PrivateScope, Public, HideBySig
+    IsRequired(): PrivateScope, Public, HideBySig
+    HasColumnType(String): PrivateScope, Public, HideBySig
+    HasColumnOrder(Nullable`1): PrivateScope, Public, HideBySig
+    IsUnicode(): PrivateScope, Public, HideBySig
+    IsUnicode(Nullable`1): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.ValueConditionConfiguration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Methods:
+    HasValue(T): PrivateScope, Public, HideBySig
+    HasValue(Nullable`1): PrivateScope, Public, HideBySig
+    HasValue(String): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.ManyNavigationPropertyConfiguration`2[TEntityType,TTargetEntityType]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TEntityType,  ReferenceType
+  Type parameter: TTargetEntityType,  ReferenceType
+  Methods:
+    WithMany(Expression`1): PrivateScope, Public, HideBySig
+    WithMany(): PrivateScope, Public, HideBySig
+    WithRequired(Expression`1): PrivateScope, Public, HideBySig
+    WithRequired(): PrivateScope, Public, HideBySig
+    WithOptional(Expression`1): PrivateScope, Public, HideBySig
+    WithOptional(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.OptionalNavigationPropertyConfiguration`2[TEntityType,TTargetEntityType]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TEntityType,  ReferenceType
+  Type parameter: TTargetEntityType,  ReferenceType
+  Methods:
+    WithMany(Expression`1): PrivateScope, Public, HideBySig
+    WithMany(): PrivateScope, Public, HideBySig
+    WithRequired(Expression`1): PrivateScope, Public, HideBySig
+    WithRequired(): PrivateScope, Public, HideBySig
+    WithOptionalDependent(Expression`1): PrivateScope, Public, HideBySig
+    WithOptionalDependent(): PrivateScope, Public, HideBySig
+    WithOptionalPrincipal(Expression`1): PrivateScope, Public, HideBySig
+    WithOptionalPrincipal(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.RequiredNavigationPropertyConfiguration`2[TEntityType,TTargetEntityType]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TEntityType,  ReferenceType
+  Type parameter: TTargetEntityType,  ReferenceType
+  Methods:
+    WithMany(Expression`1): PrivateScope, Public, HideBySig
+    WithMany(): PrivateScope, Public, HideBySig
+    WithOptional(Expression`1): PrivateScope, Public, HideBySig
+    WithOptional(): PrivateScope, Public, HideBySig
+    WithRequiredDependent(Expression`1): PrivateScope, Public, HideBySig
+    WithRequiredDependent(): PrivateScope, Public, HideBySig
+    WithRequiredPrincipal(Expression`1): PrivateScope, Public, HideBySig
+    WithRequiredPrincipal(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.AssociationMappingConfiguration: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+Class System.Data.Entity.ModelConfiguration.Configuration.CascadableNavigationPropertyConfiguration: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Methods:
+    WillCascadeOnDelete(): PrivateScope, Public, HideBySig
+    WillCascadeOnDelete(Boolean): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.ForeignKeyNavigationPropertyConfiguration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.ModelConfiguration.Configuration.CascadableNavigationPropertyConfiguration
+  Methods:
+    Map(Action`1): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.DependentNavigationPropertyConfiguration`1[TDependentEntityType]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TDependentEntityType,  ReferenceType
+  :System.Data.Entity.ModelConfiguration.Configuration.ForeignKeyNavigationPropertyConfiguration
+  Methods:
+    HasForeignKey(Expression`1): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.ForeignKeyAssociationMappingConfiguration: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.ModelConfiguration.Configuration.AssociationMappingConfiguration
+  Methods:
+    MapKey(String[]): PrivateScope, Public, HideBySig
+    ToTable(String): PrivateScope, Public, HideBySig
+    ToTable(String, String): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(ForeignKeyAssociationMappingConfiguration): PrivateScope, Public, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.ManyToManyAssociationMappingConfiguration: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Entity.ModelConfiguration.Configuration.AssociationMappingConfiguration
+  Methods:
+    ToTable(String): PrivateScope, Public, HideBySig
+    ToTable(String, String): PrivateScope, Public, HideBySig
+    MapLeftKey(String[]): PrivateScope, Public, HideBySig
+    MapRightKey(String[]): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(ManyToManyAssociationMappingConfiguration): PrivateScope, Public, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.ManyToManyNavigationPropertyConfiguration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Methods:
+    Map(Action`1): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.PrimitivePropertyConfiguration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Methods:
+    IsOptional(): PrivateScope, Public, HideBySig
+    IsRequired(): PrivateScope, Public, HideBySig
+    HasDatabaseGeneratedOption(Nullable`1): PrivateScope, Public, HideBySig
+    IsConcurrencyToken(): PrivateScope, Public, HideBySig
+    IsConcurrencyToken(Nullable`1): PrivateScope, Public, HideBySig
+    HasColumnType(String): PrivateScope, Public, HideBySig
+    HasColumnName(String): PrivateScope, Public, HideBySig
+    HasColumnOrder(Nullable`1): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.LengthPropertyConfiguration: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Data.Entity.ModelConfiguration.Configuration.PrimitivePropertyConfiguration
+  Methods:
+    IsMaxLength(): PrivateScope, Public, HideBySig
+    HasMaxLength(Nullable`1): PrivateScope, Public, HideBySig
+    IsFixedLength(): PrivateScope, Public, HideBySig
+    IsVariableLength(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.BinaryPropertyConfiguration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.ModelConfiguration.Configuration.LengthPropertyConfiguration
+  Methods:
+    IsMaxLength(): PrivateScope, Public, HideBySig
+    HasMaxLength(Nullable`1): PrivateScope, Public, HideBySig
+    IsFixedLength(): PrivateScope, Public, HideBySig
+    IsVariableLength(): PrivateScope, Public, HideBySig
+    IsOptional(): PrivateScope, Public, HideBySig
+    IsRequired(): PrivateScope, Public, HideBySig
+    HasDatabaseGeneratedOption(Nullable`1): PrivateScope, Public, HideBySig
+    IsConcurrencyToken(): PrivateScope, Public, HideBySig
+    IsConcurrencyToken(Nullable`1): PrivateScope, Public, HideBySig
+    HasColumnName(String): PrivateScope, Public, HideBySig
+    HasColumnType(String): PrivateScope, Public, HideBySig
+    HasColumnOrder(Nullable`1): PrivateScope, Public, HideBySig
+    IsRowVersion(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.DateTimePropertyConfiguration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.ModelConfiguration.Configuration.PrimitivePropertyConfiguration
+  Methods:
+    IsOptional(): PrivateScope, Public, HideBySig
+    IsRequired(): PrivateScope, Public, HideBySig
+    HasDatabaseGeneratedOption(Nullable`1): PrivateScope, Public, HideBySig
+    IsConcurrencyToken(): PrivateScope, Public, HideBySig
+    IsConcurrencyToken(Nullable`1): PrivateScope, Public, HideBySig
+    HasColumnName(String): PrivateScope, Public, HideBySig
+    HasColumnType(String): PrivateScope, Public, HideBySig
+    HasColumnOrder(Nullable`1): PrivateScope, Public, HideBySig
+    HasPrecision(Byte): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.DecimalPropertyConfiguration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.ModelConfiguration.Configuration.PrimitivePropertyConfiguration
+  Methods:
+    IsOptional(): PrivateScope, Public, HideBySig
+    IsRequired(): PrivateScope, Public, HideBySig
+    HasDatabaseGeneratedOption(Nullable`1): PrivateScope, Public, HideBySig
+    IsConcurrencyToken(): PrivateScope, Public, HideBySig
+    IsConcurrencyToken(Nullable`1): PrivateScope, Public, HideBySig
+    HasColumnName(String): PrivateScope, Public, HideBySig
+    HasColumnType(String): PrivateScope, Public, HideBySig
+    HasColumnOrder(Nullable`1): PrivateScope, Public, HideBySig
+    HasPrecision(Byte, Byte): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Configuration.StringPropertyConfiguration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.Entity.ModelConfiguration.Configuration.LengthPropertyConfiguration
+  Methods:
+    IsMaxLength(): PrivateScope, Public, HideBySig
+    HasMaxLength(Nullable`1): PrivateScope, Public, HideBySig
+    IsFixedLength(): PrivateScope, Public, HideBySig
+    IsVariableLength(): PrivateScope, Public, HideBySig
+    IsOptional(): PrivateScope, Public, HideBySig
+    IsRequired(): PrivateScope, Public, HideBySig
+    HasDatabaseGeneratedOption(Nullable`1): PrivateScope, Public, HideBySig
+    IsConcurrencyToken(): PrivateScope, Public, HideBySig
+    IsConcurrencyToken(Nullable`1): PrivateScope, Public, HideBySig
+    HasColumnName(String): PrivateScope, Public, HideBySig
+    HasColumnType(String): PrivateScope, Public, HideBySig
+    HasColumnOrder(Nullable`1): PrivateScope, Public, HideBySig
+    IsUnicode(): PrivateScope, Public, HideBySig
+    IsUnicode(Nullable`1): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.Conventions.ColumnAttributeConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IConfigurationConvention`2[System.Reflection.PropertyInfo,System.Data.Entity.ModelConfiguration.Configuration.Properties.Primitive.PrimitivePropertyConfiguration]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.ConcurrencyCheckAttributeConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IConfigurationConvention`2[System.Reflection.PropertyInfo,System.Data.Entity.ModelConfiguration.Configuration.Properties.Primitive.PrimitivePropertyConfiguration]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.DatabaseGeneratedAttributeConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IConfigurationConvention`2[System.Reflection.PropertyInfo,System.Data.Entity.ModelConfiguration.Configuration.Properties.Primitive.PrimitivePropertyConfiguration]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.ForeignKeyPrimitivePropertyAttributeConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IConfigurationConvention`2[System.Reflection.PropertyInfo,System.Data.Entity.ModelConfiguration.Configuration.ModelConfiguration]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.InversePropertyAttributeConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IConfigurationConvention`2[System.Reflection.PropertyInfo,System.Data.Entity.ModelConfiguration.Configuration.ModelConfiguration]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.KeyAttributeConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IConfigurationConvention`2[System.Reflection.PropertyInfo,System.Data.Entity.ModelConfiguration.Configuration.Types.EntityTypeConfiguration]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.MaxLengthAttributeConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IConfigurationConvention`2[System.Reflection.PropertyInfo,System.Data.Entity.ModelConfiguration.Configuration.Properties.Primitive.LengthPropertyConfiguration]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.NotMappedPropertyAttributeConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IConfigurationConvention`2[System.Reflection.PropertyInfo,System.Data.Entity.ModelConfiguration.Configuration.Types.StructuralTypeConfiguration]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.RequiredNavigationPropertyAttributeConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IConfigurationConvention`2[System.Reflection.PropertyInfo,System.Data.Entity.ModelConfiguration.Configuration.Properties.Navigation.NavigationPropertyConfiguration]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.RequiredPrimitivePropertyAttributeConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IConfigurationConvention`2[System.Reflection.PropertyInfo,System.Data.Entity.ModelConfiguration.Configuration.Properties.Primitive.PrimitivePropertyConfiguration]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.StringLengthAttributeConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IConfigurationConvention`2[System.Reflection.PropertyInfo,System.Data.Entity.ModelConfiguration.Configuration.Properties.Primitive.StringPropertyConfiguration]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.TimestampAttributeConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IConfigurationConvention`2[System.Reflection.PropertyInfo,System.Data.Entity.ModelConfiguration.Configuration.Properties.Primitive.BinaryPropertyConfiguration]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.ComplexTypeAttributeConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IConfigurationConvention`2[System.Type,System.Data.Entity.ModelConfiguration.Configuration.ModelConfiguration]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.NotMappedTypeAttributeConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IConfigurationConvention`2[System.Type,System.Data.Entity.ModelConfiguration.Configuration.ModelConfiguration]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.TableAttributeConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IConfigurationConvention`2[System.Type,System.Data.Entity.ModelConfiguration.Configuration.Types.EntityTypeConfiguration]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.AssociationInverseDiscoveryConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.ComplexTypeDiscoveryConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.ColumnTypeCasingConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IDbConvention`1[System.Data.Entity.Edm.Db.DbTableColumnMetadata]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.ManyToManyCascadeDeleteConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IDbMappingConvention
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.MappingInheritedPropertiesSupportConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IDbMappingConvention
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.PluralizingTableNameConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IDbConvention`1[System.Data.Entity.Edm.Db.DbTableMetadata]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.DecimalPropertyConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention`1[System.Data.Entity.Edm.EdmProperty]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.DeclaredPropertyOrderingConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention`1[System.Data.Entity.Edm.EdmEntityType]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.ForeignKeyAssociationMultiplicityConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention`1[System.Data.Entity.Edm.EdmAssociationType]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.ForeignKeyNavigationPropertyAttributeConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention`1[System.Data.Entity.Edm.EdmNavigationProperty]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.IdKeyDiscoveryConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention`1[System.Data.Entity.Edm.EdmEntityType]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.NavigationPropertyNameForeignKeyDiscoveryConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention`1[System.Data.Entity.Edm.EdmAssociationType]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.OneToManyCascadeDeleteConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention`1[System.Data.Entity.Edm.EdmAssociationType]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.OneToOneConstraintIntroductionConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention`1[System.Data.Entity.Edm.EdmAssociationType]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.PluralizingEntitySetNameConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention`1[System.Data.Entity.Edm.EdmEntitySet]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.PrimaryKeyNameForeignKeyDiscoveryConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention`1[System.Data.Entity.Edm.EdmAssociationType]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.PropertyMaxLengthConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention`1[System.Data.Entity.Edm.EdmEntityType]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention`1[System.Data.Entity.Edm.EdmComplexType]
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention`1[System.Data.Entity.Edm.EdmAssociationType]
+Class System.Data.Entity.ModelConfiguration.Conventions.SqlCePropertyMaxLengthConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention`1[System.Data.Entity.Edm.EdmEntityType]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention`1[System.Data.Entity.Edm.EdmComplexType]
+Class System.Data.Entity.ModelConfiguration.Conventions.StoreGeneratedIdentityKeyConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention`1[System.Data.Entity.Edm.EdmEntityType]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.Conventions.TypeNameForeignKeyDiscoveryConvention: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Data.Entity.ModelConfiguration.Conventions.IEdmConvention`1[System.Data.Entity.Edm.EdmAssociationType]
+    System.Data.Entity.ModelConfiguration.Conventions.IConvention
+Class System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[TEntityType]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: TEntityType,  ReferenceType
+  :System.Data.Entity.ModelConfiguration.Configuration.StructuralTypeConfiguration`1[TEntityType]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    HasKey(Expression`1): PrivateScope, Public, HideBySig
+    HasEntitySetName(String): PrivateScope, Public, HideBySig
+    ToTable(String): PrivateScope, Public, HideBySig
+    ToTable(String, String): PrivateScope, Public, HideBySig
+    Map(Action`1): PrivateScope, Public, HideBySig
+    Map(Action`1): PrivateScope, Public, HideBySig
+    HasOptional(Expression`1): PrivateScope, Public, HideBySig
+    HasRequired(Expression`1): PrivateScope, Public, HideBySig
+    HasMany(Expression`1): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    GetType(): PrivateScope, Public, HideBySig
+Class System.Data.Entity.ModelConfiguration.ModelValidationException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.Exception
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Data.Entity.Validation.DbEntityValidationException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.Data.DataException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Collections.Generic.IEnumerable`1[System.Data.Entity.Validation.DbEntityValidationResult]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Collections.Generic.IEnumerable`1[System.Data.Entity.Validation.DbEntityValidationResult], System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.IEnumerable`1[System.Data.Entity.Validation.DbEntityValidationResult] EntityValidationErrors 'get ' : 
+  Methods:
+    get_EntityValidationErrors(): PrivateScope, Public, HideBySig, SpecialName
+Class System.Data.Entity.Validation.DbEntityValidationResult: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(System.Data.Entity.Infrastructure.DbEntityEntry, System.Collections.Generic.IEnumerable`1[System.Data.Entity.Validation.DbValidationError]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Data.Entity.Infrastructure.DbEntityEntry Entry 'get ' : 
+    System.Collections.Generic.ICollection`1[System.Data.Entity.Validation.DbValidationError] ValidationErrors 'get ' : 
+    Boolean IsValid 'get ' : 
+  Methods:
+    get_Entry(): PrivateScope, Public, HideBySig, SpecialName
+    get_ValidationErrors(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsValid(): PrivateScope, Public, HideBySig, SpecialName
+Class System.Data.Entity.Validation.DbUnexpectedValidationException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.Data.DataException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Data.Entity.Validation.DbValidationError: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String PropertyName 'get ' : 
+    System.String ErrorMessage 'get ' : 
+  Methods:
+    get_PropertyName(): PrivateScope, Public, HideBySig, SpecialName
+    get_ErrorMessage(): PrivateScope, Public, HideBySig, SpecialName

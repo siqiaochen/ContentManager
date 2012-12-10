@@ -1,0 +1,470 @@
+  System.Web.Optimization.Resources.OptimizationResources.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly System.Web.Optimization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly WebGrease, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Class System.Web.Optimization.AssetManager: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+    Void .ctor(System.Web.HttpContextBase): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Object AssetsManagerKey : Assembly, Static, InitOnly
+  Properties:
+    System.Web.HttpContextBase Context 'get ' : 
+    System.Func`3[System.String,System.String,System.String] ResolveUrlMethod 'get set' : 
+    System.Web.Optimization.IBundleResolver Resolver 'get set' : 
+    System.Web.Optimization.BundleCollection Bundles 'get set' : 
+    Boolean OptimizationEnabled 'get set' : 
+  Methods:
+    get_Context(): PrivateScope, Assembly, HideBySig, SpecialName
+    get_ResolveUrlMethod(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_ResolveUrlMethod(Func`3): PrivateScope, Assembly, HideBySig, SpecialName
+    get_Resolver(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_Resolver(IBundleResolver): PrivateScope, Assembly, HideBySig, SpecialName
+    get_Bundles(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_Bundles(BundleCollection): PrivateScope, Assembly, HideBySig, SpecialName
+    get_OptimizationEnabled(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_OptimizationEnabled(Boolean): PrivateScope, Assembly, HideBySig, SpecialName
+    GetInstance(HttpContextBase): PrivateScope, Public, Static, HideBySig
+    RenderExplicit(Boolean, String[]): PrivateScope, Public, HideBySig
+    ResolveVirtualPath(String): PrivateScope, Assembly, HideBySig
+    ResolveUrl(String): PrivateScope, Assembly, HideBySig
+Class System.Web.Optimization.Bundle: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, System.Web.Optimization.IBundleTransform[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Web.Optimization.IBundleTransform[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Path 'get set' : 
+    System.String CdnPath 'get set' : 
+    System.Collections.Generic.IList`1[System.Web.Optimization.IBundleTransform] Transforms 'get ' : 
+    System.Web.Optimization.ItemRegistry Items 'get ' : 
+    System.Web.Optimization.IBundleOrderer Orderer 'get set' : 
+    System.Web.Optimization.IBundleBuilder Builder 'get set' : 
+    Boolean EnableFileExtensionReplacements 'get set' : 
+    System.String ConcatenationToken 'get set' : 
+  Methods:
+    get_Path(): PrivateScope, Public, HideBySig, SpecialName
+    get_CdnPath(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CdnPath(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Transforms(): PrivateScope, Public, HideBySig, SpecialName
+    get_Items(): PrivateScope, Assembly, HideBySig, SpecialName
+    get_Orderer(): PrivateScope, Public, HideBySig, SpecialName
+    set_Orderer(IBundleOrderer): PrivateScope, Public, HideBySig, SpecialName
+    get_Builder(): PrivateScope, Public, HideBySig, SpecialName
+    set_Builder(IBundleBuilder): PrivateScope, Public, HideBySig, SpecialName
+    get_EnableFileExtensionReplacements(): PrivateScope, Public, HideBySig, SpecialName
+    set_EnableFileExtensionReplacements(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ConcatenationToken(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConcatenationToken(String): PrivateScope, Public, HideBySig, SpecialName
+    EnumerateFiles(BundleContext): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ApplyTransforms(BundleContext, String, IEnumerable`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GenerateBundleResponse(BundleContext): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Include(String[]): PrivateScope, Public, HideBySig
+    IncludeDirectory(String, String): PrivateScope, Public, HideBySig
+    IncludeDirectory(String, String, Boolean): PrivateScope, Public, HideBySig
+    GetInstrumentationMode(HttpContextBase): PrivateScope, Assembly, Static, HideBySig
+    ProcessRequest(BundleContext): PrivateScope, Assembly, HideBySig
+    GetBundleResponse(BundleContext): PrivateScope, Assembly, HideBySig
+    GetBundleUrl(BundleContext, Boolean(Optional, HasDefault)): PrivateScope, Assembly, HideBySig
+    InvalidateCacheEntries(): PrivateScope, Assembly, HideBySig
+Class System.Web.Optimization.BundleCollection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Collections.Generic.IEnumerable`1[System.Web.Optimization.Bundle]
+    System.Collections.IEnumerable
+  Properties:
+    System.Collections.Generic.IList`1[System.Web.Optimization.BundleFileSetOrdering] FileSetOrderList 'get ' : 
+    System.Web.Optimization.IgnoreList IgnoreList 'get ' : 
+    System.Web.Optimization.FileExtensionReplacementList FileExtensionReplacementList 'get set' : 
+    System.Collections.Generic.Dictionary`2[System.String,System.Web.Optimization.DynamicFolderBundle] DynamicBundles 'get ' : 
+    System.Collections.Generic.Dictionary`2[System.String,System.Web.Optimization.Bundle] StaticBundles 'get ' : 
+    System.Web.HttpContextBase Context 'get set' : 
+    Boolean UseCdn 'get set' : 
+    Int32 Count 'get ' : 
+  Methods:
+    get_FileSetOrderList(): PrivateScope, Public, HideBySig, SpecialName
+    get_IgnoreList(): PrivateScope, Public, HideBySig, SpecialName
+    get_FileExtensionReplacementList(): PrivateScope, Public, HideBySig, SpecialName
+    set_FileExtensionReplacementList(FileExtensionReplacementList): PrivateScope, Public, HideBySig, SpecialName
+    get_DynamicBundles(): PrivateScope, Assembly, HideBySig, SpecialName
+    get_StaticBundles(): PrivateScope, Assembly, HideBySig, SpecialName
+    get_Context(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_Context(HttpContextBase): PrivateScope, Assembly, HideBySig, SpecialName
+    get_UseCdn(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseCdn(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    Add(Bundle): PrivateScope, Public, HideBySig
+    AddDefaultIgnorePatterns(IgnoreList): PrivateScope, Public, Static, HideBySig
+    AddDefaultFileOrderings(IList`1): PrivateScope, Public, Static, HideBySig
+    AddDefaultFileExtensionReplacements(FileExtensionReplacementList): PrivateScope, Public, Static, HideBySig
+    ValidateBundleVirtualPath(String): PrivateScope, Assembly, Static, HideBySig
+    ResolveBundleUrl(String): PrivateScope, Public, HideBySig
+    ResolveBundleUrl(String, Boolean): PrivateScope, Public, HideBySig
+    GetBundleFor(String): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, HideBySig
+    ResetAll(): PrivateScope, Public, HideBySig
+    Remove(Bundle): PrivateScope, Public, HideBySig
+    get_Count(): PrivateScope, Public, HideBySig, SpecialName
+    GetRegisteredBundles(): PrivateScope, Public, HideBySig
+Class System.Web.Optimization.BundleFileSetOrdering: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Name 'get set' : 
+    System.Collections.Generic.IList`1[System.String] Files 'get set' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    get_Files(): PrivateScope, Public, HideBySig, SpecialName
+Class System.Web.Optimization.BundleHandler: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+    Void .ctor(System.Web.Optimization.Bundle, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Web.IHttpHandler
+  Properties:
+    System.Web.Optimization.Bundle RequestBundle 'get set' : 
+    System.String BundleVirtualPath 'get set' : 
+    Boolean IsReusable 'get ' : 
+  Methods:
+    get_RequestBundle(): PrivateScope, Public, HideBySig, SpecialName
+    get_BundleVirtualPath(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsReusable(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetBundleUrlFromContext(HttpContextBase): PrivateScope, Assembly, Static, HideBySig
+    RemapHandlerForBundleRequests(HttpApplication): PrivateScope, Assembly, Static, HideBySig
+    ProcessRequest(HttpContext): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.Optimization.BundleModule: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Web.IHttpModule
+Interface System.Web.Optimization.IBundleResolver: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    IsBundleVirtualPath(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetBundleContents(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetBundleUrl(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Web.Optimization.BundleResolver: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.Optimization.BundleCollection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Web.Optimization.BundleCollection, System.Web.HttpContextBase): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Web.Optimization.IBundleResolver
+  Fields:
+    System.Web.Optimization.BundleResolver DefaultInstance : Public, Static
+  Properties:
+    System.Web.Optimization.IBundleResolver Current 'get set' : 
+    System.Web.HttpContextBase Context 'get set' : 
+    System.Func`2[System.String,System.String] MapPathMethod 'get set' : 
+  Methods:
+    get_Current(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_Current(IBundleResolver): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Context(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_Context(HttpContextBase): PrivateScope, Assembly, HideBySig, SpecialName
+    get_MapPathMethod(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_MapPathMethod(Func`2): PrivateScope, Assembly, HideBySig, SpecialName
+    IsBundleVirtualPath(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetBundleContents(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetBundleUrl(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.Optimization.BundleResponse: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.Collections.Generic.IEnumerable`1[System.IO.FileInfo]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Content 'get set' : 
+    System.String ContentType 'get set' : 
+    System.Web.HttpCacheability Cacheability 'get set' : 
+    System.Collections.Generic.IEnumerable`1[System.IO.FileInfo] Files 'get set' : 
+  Methods:
+    get_Content(): PrivateScope, Public, HideBySig, SpecialName
+    set_Content(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ContentType(): PrivateScope, Public, HideBySig, SpecialName
+    set_ContentType(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Cacheability(): PrivateScope, Public, HideBySig, SpecialName
+    set_Cacheability(HttpCacheability): PrivateScope, Public, HideBySig, SpecialName
+    get_Files(): PrivateScope, Public, HideBySig, SpecialName
+    set_Files(IEnumerable`1): PrivateScope, Public, HideBySig, SpecialName
+    GetContentHashCode(): PrivateScope, Assembly, HideBySig
+Class System.Web.Optimization.BundleTable: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Properties:
+    System.Web.Optimization.BundleCollection Bundles 'get ' : 
+    Boolean EnableOptimizations 'get set' : 
+    System.Func`2[System.String,System.String] MapPathMethod 'get set' : 
+  Methods:
+    get_Bundles(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_EnableOptimizations(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_EnableOptimizations(Boolean): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_MapPathMethod(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_MapPathMethod(Func`2): PrivateScope, Public, Static, HideBySig, SpecialName
+Class System.Web.Optimization.FileExtensionReplacementList: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Count 'get ' : 
+    Entry Item [Int32] 'get ' : 
+  Methods:
+    get_Count(): PrivateScope, Assembly, HideBySig, SpecialName
+    get_Item(Int32): PrivateScope, Assembly, HideBySig, SpecialName
+    Add(String): PrivateScope, Public, HideBySig
+    Add(String, OptimizationMode): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, HideBySig
+    ReplaceFileExtensions(IEnumerable`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.Optimization.FileExtensionReplacementList+Entry: AutoLayout, AnsiClass, Class, NestedAssembly, Sealed, BeforeFieldInit
+    Void .ctor(System.String, System.Web.Optimization.OptimizationMode): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Extension 'get set' : 
+    System.Web.Optimization.OptimizationMode Mode 'get set' : 
+  Methods:
+    get_Extension(): PrivateScope, Public, HideBySig, SpecialName
+    set_Extension(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Mode(): PrivateScope, Public, HideBySig, SpecialName
+    set_Mode(OptimizationMode): PrivateScope, Public, HideBySig, SpecialName
+    UseEntry(Boolean): PrivateScope, Public, HideBySig
+Class System.Web.Optimization.IgnoreList: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean OptimizationEnabled 'get set' : 
+  Methods:
+    get_OptimizationEnabled(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_OptimizationEnabled(Boolean): PrivateScope, Assembly, HideBySig, SpecialName
+    Clear(): PrivateScope, Public, HideBySig
+    Ignore(String): PrivateScope, Public, HideBySig
+    Ignore(String, OptimizationMode): PrivateScope, Public, HideBySig
+    ShouldIgnore(String): PrivateScope, Public, HideBySig
+    FilterIgnoredFiles(IEnumerable`1): PrivateScope, Public, HideBySig
+Class System.Web.Optimization.BundleContext: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Web.HttpContextBase, System.Web.Optimization.BundleCollection, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Web.HttpContextBase HttpContext 'get set' : 
+    System.Web.Optimization.BundleCollection BundleCollection 'get set' : 
+    System.String BundleVirtualPath 'get set' : 
+    Boolean EnableInstrumentation 'get set' : 
+    Boolean UseServerCache 'get set' : 
+    System.Collections.Generic.HashSet`1[System.String] CacheDependencyDirectories 'get ' : 
+  Methods:
+    get_HttpContext(): PrivateScope, Public, HideBySig, SpecialName
+    get_BundleCollection(): PrivateScope, Public, HideBySig, SpecialName
+    get_BundleVirtualPath(): PrivateScope, Public, HideBySig, SpecialName
+    get_EnableInstrumentation(): PrivateScope, Public, HideBySig, SpecialName
+    set_EnableInstrumentation(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_UseServerCache(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseServerCache(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_CacheDependencyDirectories(): PrivateScope, Assembly, HideBySig, SpecialName
+Class System.Web.Optimization.BundleItem: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Path 'get set' : 
+  Methods:
+    get_Path(): PrivateScope, Public, HideBySig, SpecialName
+    set_Path(String): PrivateScope, Public, HideBySig, SpecialName
+    AddFiles(List`1, BundleContext): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.Optimization.BundleDirectoryItem: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Web.Optimization.BundleItem
+    Void .ctor(System.String, System.String, System.Web.Optimization.PatternType, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String SearchPattern 'get set' : 
+    System.Web.Optimization.PatternType PatternType 'get set' : 
+    Boolean SearchSubdirectories 'get set' : 
+  Methods:
+    get_SearchPattern(): PrivateScope, Public, HideBySig, SpecialName
+    set_SearchPattern(String): PrivateScope, Public, HideBySig, SpecialName
+    get_PatternType(): PrivateScope, Public, HideBySig, SpecialName
+    set_PatternType(PatternType): PrivateScope, Public, HideBySig, SpecialName
+    get_SearchSubdirectories(): PrivateScope, Public, HideBySig, SpecialName
+    set_SearchSubdirectories(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    AddFiles(List`1, BundleContext): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Optimization.ItemRegistry: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Collections.Generic.List`1[System.Web.Optimization.BundleItem]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Func`2[System.String,System.String] MapPathMethod 'get set' : 
+    Boolean EnsureExists 'get set' : 
+  Methods:
+    get_MapPathMethod(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_MapPathMethod(Func`2): PrivateScope, Assembly, HideBySig, SpecialName
+    get_EnsureExists(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_EnsureExists(Boolean): PrivateScope, Assembly, HideBySig, SpecialName
+    Include(String[]): PrivateScope, Public, HideBySig
+    IncludeDirectory(String, String, PatternType, Boolean): PrivateScope, Assembly, HideBySig
+Struct System.Web.Optimization.OptimizationMode: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Web.Optimization.OptimizationMode Always = 0 : Public, Static, Literal, HasDefault
+    System.Web.Optimization.OptimizationMode WhenEnabled = 1 : Public, Static, Literal, HasDefault
+    System.Web.Optimization.OptimizationMode WhenDisabled = 2 : Public, Static, Literal, HasDefault
+Struct System.Web.Optimization.PatternType: AutoLayout, AnsiClass, Class, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Web.Optimization.PatternType Exact = 0 : Public, Static, Literal, HasDefault
+    System.Web.Optimization.PatternType All = 1 : Public, Static, Literal, HasDefault
+    System.Web.Optimization.PatternType Suffix = 2 : Public, Static, Literal, HasDefault
+    System.Web.Optimization.PatternType Prefix = 3 : Public, Static, Literal, HasDefault
+    System.Web.Optimization.PatternType Version = 4 : Public, Static, Literal, HasDefault
+Class System.Web.Optimization.PatternHelper: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.String VersionToken = {version} : Assembly, Static, Literal, HasDefault
+    System.String VersionRegEx = (\d+(?:\.\d+){1,3}) : Assembly, Static, Literal, HasDefault
+  Methods:
+    GetPatternType(String): PrivateScope, Assembly, Static, HideBySig
+    BuildRegex(String): PrivateScope, Assembly, Static, HideBySig
+    ValidatePattern(PatternType, String, String): PrivateScope, Assembly, Static, HideBySig
+Class System.Web.Optimization.Styles: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Properties:
+    System.Web.HttpContextBase Context 'get set' : 
+  Methods:
+    get_Context(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    set_Context(HttpContextBase): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    Render(String[]): PrivateScope, Public, Static, HideBySig
+    Url(String): PrivateScope, Public, Static, HideBySig
+Class System.Web.Optimization.Scripts: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Properties:
+    System.Web.HttpContextBase Context 'get set' : 
+  Methods:
+    get_Context(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    set_Context(HttpContextBase): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    Render(String[]): PrivateScope, Public, Static, HideBySig
+    Url(String): PrivateScope, Public, Static, HideBySig
+Class System.Web.Optimization.ScriptBundle: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Optimization.Bundle
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Web.Optimization.StyleBundle: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Optimization.Bundle
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Interface System.Web.Optimization.IBundleBuilder: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    BuildBundleContent(Bundle, BundleContext, IEnumerable`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Web.Optimization.DefaultBundleBuilder: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Web.Optimization.IBundleBuilder
+  Fields:
+    System.Web.Optimization.IBundleBuilder Instance : Assembly, Static
+  Methods:
+    ConvertToAppRelativePath(String, String): PrivateScope, Assembly, Static, HideBySig
+    BuildBundleContent(Bundle, BundleContext, IEnumerable`1): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Interface System.Web.Optimization.IBundleTransform: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    Process(BundleContext, BundleResponse): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Web.Optimization.CssMinify: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Web.Optimization.IBundleTransform
+  Fields:
+    System.Web.Optimization.CssMinify Instance : Assembly, Static, InitOnly
+    System.String CssContentType : Assembly, Static
+  Methods:
+    Process(BundleContext, BundleResponse): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Interface System.Web.Optimization.IBundleOrderer: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    OrderFiles(BundleContext, IEnumerable`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Web.Optimization.DefaultBundleOrderer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Web.Optimization.IBundleOrderer
+  Fields:
+    System.Web.Optimization.DefaultBundleOrderer Instance : Assembly, Static
+  Methods:
+    OrderFiles(BundleContext, IEnumerable`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.Optimization.DynamicFolderBundle: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Web.Optimization.Bundle
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, System.Web.Optimization.IBundleTransform[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, Boolean, System.Web.Optimization.IBundleTransform[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String SearchPattern 'get set' : 
+    System.String CdnPath 'get set' : 
+    System.Web.Optimization.PatternType PatternType 'get set' : 
+    Boolean SearchSubdirectories 'get set' : 
+  Methods:
+    get_SearchPattern(): PrivateScope, Public, HideBySig, SpecialName
+    set_SearchPattern(String): PrivateScope, Public, HideBySig, SpecialName
+    get_CdnPath(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_CdnPath(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_PatternType(): PrivateScope, Assembly, HideBySig, SpecialName
+    set_PatternType(PatternType): PrivateScope, Assembly, HideBySig, SpecialName
+    get_SearchSubdirectories(): PrivateScope, Public, HideBySig, SpecialName
+    set_SearchSubdirectories(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    EnumerateFiles(BundleContext): PrivateScope, Public, Virtual, HideBySig
+Class System.Web.Optimization.ExceptionUtil: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    ParameterNullOrEmpty(String): PrivateScope, Assembly, Static, HideBySig
+    PropertyNullOrEmpty(String): PrivateScope, Assembly, Static, HideBySig
+    ValidateVirtualPath(String, String): PrivateScope, Assembly, Static, HideBySig
+    IsPureWildcardSearchPattern(String): PrivateScope, Assembly, Static, HideBySig
+Class System.Web.Optimization.FileInfoComparer: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Collections.Generic.IEqualityComparer`1[System.IO.FileInfo]
+    System.Collections.Generic.IComparer`1[System.IO.FileInfo]
+  Fields:
+    System.Web.Optimization.FileInfoComparer Instance : Assembly, Static, InitOnly
+  Methods:
+    Equals(FileInfo, FileInfo): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetHashCode(FileInfo): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Compare(FileInfo, FileInfo): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.Optimization.JsMinify: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Web.Optimization.IBundleTransform
+  Fields:
+    System.String JsContentType : Assembly, Static
+    System.Web.Optimization.JsMinify Instance : Assembly, Static, InitOnly
+  Methods:
+    GenerateErrorResponse(BundleResponse, IEnumerable`1): PrivateScope, Assembly, Static, HideBySig
+    Process(BundleContext, BundleResponse): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.Optimization.NoTransform: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Web.Optimization.IBundleTransform
+  Fields:
+    System.Web.Optimization.NoTransform Instance : Assembly, Static, InitOnly
+  Properties:
+    System.String ContentType 'get set' : 
+  Methods:
+    get_ContentType(): PrivateScope, Public, HideBySig, SpecialName
+    set_ContentType(String): PrivateScope, Public, HideBySig, SpecialName
+    Process(BundleContext, BundleResponse): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Web.Optimization.PreApplicationStartCode: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Start(): PrivateScope, Public, Static, HideBySig
+Class System.Web.Optimization.Resources.OptimizationResources: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Resources.ResourceManager ResourceManager 'get ' : 
+    System.Globalization.CultureInfo Culture 'get set' : 
+    System.String BundleDirectory_does_not_exist 'get ' : 
+    System.String DynamicFolderBundle_InvalidPath 'get ' : 
+    System.String File_does_not_exist 'get ' : 
+    System.String InvalidOptimizationMode 'get ' : 
+    System.String InvalidPattern 'get ' : 
+    System.String InvalidWildcardSearchPattern 'get ' : 
+    System.String MinifyError 'get ' : 
+    System.String Parameter_NullOrEmpty 'get ' : 
+    System.String Property_NullOrEmpty 'get ' : 
+    System.String Type_doesnt_inherit_from_type 'get ' : 
+    System.String UrlMappings_only_app_relative_url_allowed 'get ' : 
+  Methods:
+    get_ResourceManager(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Culture(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    set_Culture(CultureInfo): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_BundleDirectory_does_not_exist(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_DynamicFolderBundle_InvalidPath(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_File_does_not_exist(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_InvalidOptimizationMode(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_InvalidPattern(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_InvalidWildcardSearchPattern(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_MinifyError(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Parameter_NullOrEmpty(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Property_NullOrEmpty(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Type_doesnt_inherit_from_type(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_UrlMappings_only_app_relative_url_allowed(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+Class System.Web.Optimization.UrlUtil: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Url(String, String, Object[]): PrivateScope, Assembly, Static, HideBySig
+    BuildUrl(String, Object[]): PrivateScope, Assembly, Static, HideBySig

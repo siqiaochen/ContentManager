@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScheduleList>
+  <Schedule Name="111" StartTime="1/1/2000 12:00:00 AM" EndTime="1/1/2000 12:00:00 AM" Continuous="True" PlayOnePerTime="False" Mon="True" Tue="True" Wed="True" Thr="True" Fri="True" Sat="True" Sun="True">
+    <Item Title="New Bitmap Image.jpg" Path="C:\Users\csq\documents\visual studio 2010\Projects\ContentManagerMVC\ContentManagerMVC\App_Data\New Bitmap Image.jpg" Duration="0" />
+  </Schedule>
+</ScheduleList>
