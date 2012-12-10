@@ -73,7 +73,6 @@ namespace LocalPlayer.WCFCConnection
             {
                 MessageBox.Show(exp.Message);
             }
-            client.Close();
             return -1;
         }
         public bool DownloadFile(string srcFile,string dstFile)
@@ -121,6 +120,7 @@ namespace LocalPlayer.WCFCConnection
                             Application.DoEvents();
                             Application.DoEvents();
 
+                            client.Close();
                             //Thread.Sleep(100);
                         }
                     }
@@ -129,10 +129,8 @@ namespace LocalPlayer.WCFCConnection
             catch (Exception exp)
             {
                 MessageBox.Show(exp.Message);
-                client.Close();
                 return false;
             }
-            client.Close();
             return true;
         }
 
@@ -151,12 +149,13 @@ namespace LocalPlayer.WCFCConnection
                     Schedule sche = ContentHelper.XMLStringToSchedule(xmlstr);
                     return sche;
                 }
+
+                client.Close();
             }
             catch (Exception exp)
             {
                 MessageBox.Show(exp.Message);
             }
-            client.Close();
             return null;
         }
     }

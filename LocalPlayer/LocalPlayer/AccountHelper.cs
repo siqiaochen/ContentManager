@@ -18,7 +18,7 @@ namespace LocalPlayer
             Account = string.Empty;
             Password = string.Empty;
             UpdateInterval = 10;
-            SavePath = Path.Combine(Application.ExecutablePath, SavePath);
+            SavePath = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), SavePath);
         }
         public Boolean WriteToFile()
         {

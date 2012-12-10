@@ -28,9 +28,9 @@ namespace LocalPlayer
             InitScheduleAndPlay();
             this.SetDesktopBounds(0,0,20,20);
             formClose = false;
-            DownloadDir = Path.Combine(Application.ExecutablePath, "Download\\");
-            ContentDir = Path.Combine(Application.ExecutablePath, "Content\\");
-            ScheduleDir = Path.Combine(Application.ExecutablePath, "Schedule\\"); 
+            DownloadDir = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "Download\\");
+            ContentDir = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "Content\\");
+            ScheduleDir = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "Schedule\\"); 
         }
         private bool downloadAllFiles(List<Schedule> Schedules, WCFClient client)
         {

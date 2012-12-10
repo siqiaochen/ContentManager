@@ -154,16 +154,6 @@
     <None Include="Service References\WCF\LocalPlayer.WCF.DlFileBuff.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\WCF\PlayerService.wsdl" />
-    <None Include="Service References\WCF\PlayerService.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\WCF\PlayerService1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\WCF\PlayerService2.xsd">
-      <SubType>Designer</SubType>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
@@ -172,21 +162,30 @@
     <WCFMetadataStorage Include="Service References\WCF\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\WCF\PlayerService.disco" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Service References\WCF\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\WCF\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Service References\WCF\PlayerService1.wsdl" />
+    <None Include="Service References\WCF\PlayerService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WCF\PlayerService31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WCF\PlayerService32.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\WCF\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Service References\WCF\PlayerService1.disco" />
+  </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
