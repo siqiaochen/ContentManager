@@ -91,6 +91,7 @@
             this.Name = "DisplayForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Main";
+            this.TopMost = true;
             this.Load += new System.EventHandler(this.DisplayForm_Load);
             this.contextMenuStripSettings.ResumeLayout(false);
             this.ResumeLayout(false);

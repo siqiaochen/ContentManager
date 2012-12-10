@@ -75,6 +75,23 @@ namespace ContentManagerMVC.Controllers
             }
             return View(player);
         }
+        // GET: /Player/Details/5
+
+        public ActionResult GeneratePassword(int id = 0)
+        {
+            Player player = db.Players.Find(id);
+            if (player != null)
+            {
+                Random random = new Random((int )(DateTime.Now.Ticks/10000000));
+                player.Password = string.Empty;
+                for (int i = 0; i < 9; i++)
+                    player.Password += random.Next(0, 9).ToString();
+                db.SaveChanges();
+            }
+            else 
+            { }
+            return RedirectToAction("Index");
+        }
 
         //
         // GET: /Player/Details/5

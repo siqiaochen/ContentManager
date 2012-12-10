@@ -15,7 +15,7 @@ namespace ContentManagerMVC
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
-            TcpService service = new TcpService();
+            //TcpService service = new TcpService();
             
         }
     }

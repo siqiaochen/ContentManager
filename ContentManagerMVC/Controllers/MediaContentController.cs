@@ -105,6 +105,11 @@ namespace ContentManagerMVC.Controllers
                     {
                         var fileName = Path.GetFileName(file.FileName);
                         var path = Path.Combine(Server.MapPath("~/App_Data/"), fileName);
+                        int i = 0;
+                        while (System.IO.File.Exists(path))
+                        {
+                            path = Path.Combine(Server.MapPath("~/App_Data/"), i+"_"+fileName);
+                        }
                         file.SaveAs(path);
 
                         MediaContent mediacontent = new MediaContent();
@@ -112,7 +117,7 @@ namespace ContentManagerMVC.Controllers
                         mediacontent.CreateDate = finfo.CreationTime;
                         mediacontent.Duration = 10;
                         mediacontent.Title = finfo.Name;
-                        mediacontent.Path = path;
+                        mediacontent.Path = path;//Path.GetFileName(path);
                         db.Contents.Add(mediacontent);
                         db.SaveChanges();
                         return RedirectToAction("Index");

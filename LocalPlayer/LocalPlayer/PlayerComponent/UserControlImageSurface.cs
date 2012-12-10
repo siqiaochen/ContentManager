@@ -40,6 +40,8 @@ namespace LocalPlayer.PlayerComponent
                         PlayFinishedEvent(this, EventArgs.Empty);
                     }
                 }
+                if (image != null)
+                    image.Dispose();
                 image = new Bitmap(path);
                 state = PlayState.Running;
                 tickcount = 0;

@@ -660,6 +660,8 @@ namespace LocalPlayer.PlayerComponent
                 {
 
                     hr = this.mediaControl.Stop();
+
+                    CloseClip();
                     if (PlayFinishedEvent != null)
                     {
                         PlayFinishedEvent(this, EventArgs.Empty);

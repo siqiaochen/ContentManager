@@ -34,3 +34,4 @@ C:\Users\csq\Documents\Visual Studio 2010\Projects\ContentManagerMVC\LocalPlayer
 C:\Users\csq\Documents\Visual Studio 2010\Projects\ContentManagerMVC\LocalPlayer\LocalPlayer\obj\Debug\ResGen.write.1.tlog
 C:\Users\csq\Documents\Visual Studio 2010\Projects\ContentManagerMVC\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.exe
 C:\Users\csq\Documents\Visual Studio 2010\Projects\ContentManagerMVC\LocalPlayer\LocalPlayer\obj\Debug\LocalPlayer.pdb
+C:\Users\csq\Documents\Visual Studio 2010\Projects\ContentManagerMVC\LocalPlayer\LocalPlayer\bin\Debug\LocalPlayer.exe.config

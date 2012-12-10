@@ -22,6 +22,9 @@
         <th>         
          @Html.ActionLink("IP", "Index", new { sortOrder = ViewBag.DateSortParm, currentFilter = ViewBag.CurrentFilter })
         </th>
+        <th>         
+        Password
+        </th>
         <th></th>
     </tr>
 
@@ -34,10 +37,14 @@
         <td>        
                     @Html.DisplayFor(disp => item.IP)
         </td>
+        <td>        
+                    @Html.DisplayFor(disp => item.Password)
+        </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
             @Html.ActionLink("Details", "Details", new { id = item.ID }) |
-            @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+            @Html.ActionLink("Delete", "Delete", new { id = item.ID })|
+            @Html.ActionLink("Generate Password", "GeneratePassword", new { id = item.ID })
         </td>
     </tr>
 
@@ -69,9 +76,9 @@
      
     @if (Model.HasPreviousPage)
     {
-        @Html.ActionLink("<<", "Index", new { page = 1, sortOrder = ViewBag.CurrentSort, currentFilter=ViewBag.CurrentFilter  })
+        @Html.ActionLink("<<", "Index", new { page = 1, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter })
         @Html.Raw(" ");
-        @Html.ActionLink("< Prev", "Index", new { page = Model.PageNumber - 1, sortOrder = ViewBag.CurrentSort, currentFilter=ViewBag.CurrentFilter  })
+        @Html.ActionLink("< Prev", "Index", new { page = Model.PageNumber - 1, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter })
     }
     else
     {
@@ -82,9 +89,9 @@
      
     @if (Model.HasNextPage)
     {
-        @Html.ActionLink("Next >", "Index", new { page = Model.PageNumber + 1, sortOrder = ViewBag.CurrentSort, currentFilter=ViewBag.CurrentFilter  })
+        @Html.ActionLink("Next >", "Index", new { page = Model.PageNumber + 1, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter })
         @Html.Raw(" ");
-        @Html.ActionLink(">>", "Index", new { page = Model.PageCount, sortOrder = ViewBag.CurrentSort, currentFilter=ViewBag.CurrentFilter  })
+        @Html.ActionLink(">>", "Index", new { page = Model.PageCount, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter })
     }
     else
     {

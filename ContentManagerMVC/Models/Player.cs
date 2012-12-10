@@ -11,6 +11,7 @@ namespace ContentManagerMVC.Models
         //public enum PlayerStatus {off = 0, on =1};
         public int ID { get; set; }
         public string Name { get; set; }
+        public string Password { get; set; }
         public string Address { get; set; }
         public string IP { get; set; }
         public int Status { get; set; }

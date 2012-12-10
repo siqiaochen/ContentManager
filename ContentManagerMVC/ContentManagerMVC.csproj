@@ -48,6 +48,7 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -259,6 +260,10 @@
     <Compile Include="Migrations\201211260928589_membership1.Designer.cs">
       <DependentUpon>201211260928589_membership1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201212090012554_WCFsettings.cs" />
+    <Compile Include="Migrations\201212090012554_WCFsettings.Designer.cs">
+      <DependentUpon>201212090012554_WCFsettings.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\MediaContent.cs" />
@@ -276,6 +281,11 @@
     <Compile Include="Service\Crc16Ccitt.cs" />
     <Compile Include="Service\ServerCommManager.cs" />
     <Compile Include="Service\TcpService.cs" />
+    <Compile Include="WCFService\ContentHelper.cs" />
+    <Compile Include="WCFService\IPlayerService.cs" />
+    <Compile Include="WCFService\PlayerService.svc.cs">
+      <DependentUpon>PlayerService.svc</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\PagedList.css" />
@@ -351,6 +361,7 @@
     <Content Include="Scripts\knockout-2.1.0.debug.js" />
     <Content Include="Scripts\knockout-2.1.0.js" />
     <Content Include="Scripts\modernizr-2.5.3.js" />
+    <Content Include="WCFService\PlayerService.svc" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -480,6 +491,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201211260928589_membership1.resx">
       <DependentUpon>201211260928589_membership1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201212090012554_WCFsettings.resx">
+      <DependentUpon>201212090012554_WCFsettings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

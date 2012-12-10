@@ -30,17 +30,18 @@
         {
             this.SuspendLayout();
             // 
-            // UserControlVideoFrame
+            // UserControlVideoSurface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.Name = "UserControlVideoFrame";
+            this.DoubleBuffered = true;
+            this.Name = "UserControlVideoSurface";
             this.Size = new System.Drawing.Size(640, 480);
             this.Load += new System.EventHandler(this.UserControlVideoFrame_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.UserControlVideoFrame_Paint);
-            this.Resize += new System.EventHandler(this.UserControlVideoFrame_Resize);
             this.Move += new System.EventHandler(this.UserControlVideoFrame_Move);
+            this.Resize += new System.EventHandler(this.UserControlVideoFrame_Resize);
             this.ResumeLayout(false);
 
         }

@@ -7,9 +7,10 @@ namespace LocalPlayer.PlayElements
 {
     class PlayItem
     {
+        public string Title { get; set; }
         public string Path { get; set; }
         public int Duration { get; set; }
-        public PlayItem(string filepath, int duration)
+        public PlayItem(string Title,string filepath, int duration)
         {
             Path = filepath;
             Duration = duration;
