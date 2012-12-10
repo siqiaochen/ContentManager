@@ -34,6 +34,7 @@ namespace LocalPlayer
                     bwriter.Write(Account);
                     bwriter.Write(Password);
                     bwriter.Write(UpdateInterval);
+                    return true;
                 }
             }
             catch (Exception exp)
@@ -56,6 +57,7 @@ namespace LocalPlayer
                     Account = breader.ReadString();
                     Password = breader.ReadString();
                     UpdateInterval = breader.ReadInt32();
+                    return true;
                 }
             }
             catch (Exception exp)

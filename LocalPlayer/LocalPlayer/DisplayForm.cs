@@ -18,19 +18,31 @@ namespace LocalPlayer
     {
         private DisplayController displayController;
         private bool formClose;
+        private bool newScheUpdated;
         private string DownloadDir;
         private string ContentDir;
         private string ScheduleDir;
+        Thread workthread;
         public DisplayForm()
         {
             InitializeComponent();
+            this.SetDesktopBounds(0,0,256,128);
+            formClose = false;
+            newScheUpdated = false;
+            DownloadDir = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "Download\\");
+            if (!Directory.Exists(DownloadDir))
+                Directory.CreateDirectory(DownloadDir);
+            ContentDir = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "Content\\");
+            if (!Directory.Exists(ContentDir))
+                Directory.CreateDirectory(ContentDir);
+            ScheduleDir = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "Schedule\\");
+            if (!Directory.Exists(ScheduleDir))
+                Directory.CreateDirectory(ScheduleDir);
+            workthread = new Thread(new ThreadStart(ReceiveInformation));
+            workthread.Start();
+
             displayController = new DisplayController();
             InitScheduleAndPlay();
-            this.SetDesktopBounds(0,0,20,20);
-            formClose = false;
-            DownloadDir = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "Download\\");
-            ContentDir = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "Content\\");
-            ScheduleDir = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "Schedule\\"); 
         }
         private bool downloadAllFiles(List<Schedule> Schedules, WCFClient client)
         {
@@ -42,26 +54,87 @@ namespace LocalPlayer
                     foreach (PlayItem item in sche.PlayItems)
                     {
                         string dstpath = Path.Combine(ContentDir, Path.GetFileName(item.Path));
-                        if (!File.Exists(dstpath))
+                        string svrpath = Path.Combine(ContentDir, Path.GetFileName(item.Path));
+                        item.Path = dstpath;
+                        try
                         {
-                            string downloadpath = Path.Combine(DownloadDir, Path.GetFileName(item.Path) + ".down");
-                            if (client.DownloadFile(item.Path, downloadpath))
+                            if (!File.Exists(dstpath))
                             {
-                                if (File.Exists(dstpath))
+                                string downloadpath = Path.Combine(DownloadDir, Path.GetFileName(item.Path) + ".down");
+                                if (client.DownloadFile(svrpath, downloadpath))
                                 {
-                                    File.Move(downloadpath, dstpath);
-                                    downloadedItems.Add(dstpath);
+                                    if (File.Exists(downloadpath))
+                                    {
+                                        File.Move(downloadpath, dstpath);
+                                        downloadedItems.Add(dstpath);
+                                    }
                                 }
                             }
+                        }
+                        catch (Exception exp)
+                        { 
+                        
                         }
                         Thread.Sleep(1000);
                     }
 
                 }
+                return true;
             }
             catch (Exception exp)
             { }
             return false;
+        }
+        // Copied from stackoverflow
+        private bool FileCompare(string file1, string file2)
+        {
+            int file1byte;
+            int file2byte;
+            FileStream fs1;
+            FileStream fs2;
+
+            // Determine if the same file was referenced two times.
+            if (file1 == file2)
+            {
+                // Return true to indicate that the files are the same.
+                return true;
+            }
+
+            // Open the two files.
+            fs1 = new FileStream(file1, FileMode.Open);
+            fs2 = new FileStream(file2, FileMode.Open);
+
+            // Check the file sizes. If they are not the same, the files 
+            // are not the same.
+            if (fs1.Length != fs2.Length)
+            {
+                // Close the file
+                fs1.Close();
+                fs2.Close();
+
+                // Return false to indicate files are different
+                return false;
+            }
+
+            // Read and compare a byte from each file until either a
+            // non-matching set of bytes is found or until the end of
+            // file1 is reached.
+            do
+            {
+                // Read one byte from each file.
+                file1byte = fs1.ReadByte();
+                file2byte = fs2.ReadByte();
+            }
+            while ((file1byte == file2byte) && (file1byte != -1));
+
+            // Close the files.
+            fs1.Close();
+            fs2.Close();
+
+            // Return the success of the comparison. "file1byte" is 
+            // equal to "file2byte" at this point only if the files are 
+            // the same.
+            return ((file1byte - file2byte) == 0);
         }
         private void ReceiveInformation()
         {
@@ -87,14 +160,14 @@ namespace LocalPlayer
                         {
                             for (int i = 0; i < count; i++)
                             {
-                                Schedule sche = null;
+                                Schedule sche = client.CheckSchedule(i);
                                 if (sche != null)
-                                    client.CheckSchedule(i);
-                                schedules.Add(sche);
+                                    schedules.Add(sche);
                             }
                             if (downloadAllFiles(schedules, client))
                             {
                                 DisplayController newController = new DisplayController(schedules);
+                                String tmppath = Path.Combine(DownloadDir, "Schedule.xml");
                                 String schepath = Path.Combine(ScheduleDir, "Schedule.xml");
                                 String oldschepath = Path.Combine(ScheduleDir, DateTime.Now.ToString("MMddyy_Hmmss")+"Schedule.old");
                                 try
@@ -103,13 +176,26 @@ namespace LocalPlayer
                                     {
                                         File.Delete(oldschepath);
                                     }
-                                    File.Move(schepath, oldschepath);
-                                    newController.WriteToXML(schepath);
+                                    if (File.Exists(tmppath))
+                                    {
+                                        File.Delete(tmppath);
+                                    }
+                                    newController.WriteToXML(tmppath);
+                                    if (!FileCompare(tmppath, schepath))
+                                    {
+                                        if (File.Exists(schepath))
+                                            File.Move(schepath, oldschepath);
+                                        File.Move(tmppath, schepath);
+                                        newScheUpdated = true;
+                                    }
+
+
                                     // better make a lock here
+
                                 }
                                 catch (Exception exp)
-                                { 
-                                
+                                {
+
                                 }
                             }
                         }
@@ -121,7 +207,7 @@ namespace LocalPlayer
                     }
                     else
                     {
-                        Thread.Sleep(1000);
+                        Thread.Sleep(10000);
                     }
                 }
                 catch (Exception exp)
@@ -148,7 +234,10 @@ namespace LocalPlayer
             schedule.PlayItems.Add(new PlayItem("3","C:\\contents\\Catching.JPG", 1));
             schedule.PlayItems.Add(new PlayItem("4","C:\\contents\\Fairyland.JPG", 1));
             schedules.Add(schedule);
-            displayController = new DisplayController(schedules);
+
+            String schepath = Path.Combine(ScheduleDir, "Schedule.xml");
+            displayController = new DisplayController();
+            displayController.ReadFromXML(schepath);
             PlayItem item = displayController.GetNextFileFromSchedule();
             if (item != null && File.Exists(item.Path))
                 Play(item);
@@ -181,6 +270,13 @@ namespace LocalPlayer
 
         private void Surface_PlayFinishedEvent(object sender, EventArgs e)
         {
+            if (newScheUpdated)
+            {
+                displayController = new DisplayController();
+                String schepath = Path.Combine(ScheduleDir, "Schedule.xml");
+                displayController.ReadFromXML(schepath);
+                newScheUpdated = false;
+            }
             PlayItem item = displayController.GetNextFileFromSchedule();
             while (item == null || !File.Exists(item.Path))
             {

@@ -21,11 +21,11 @@
     <MetadataSource Address="http://contentmanagermvc.apphb.com/wcfservice/PlayerService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="PlayerService3.xsd" MetadataType="Schema" ID="069d777d-f9f5-4a81-ace2-039fdd9fb31d" SourceId="1" SourceUrl="http://contentmanagermvc.apphb.com/wcfservice/PlayerService.svc?xsd=xsd1" />
-    <MetadataFile FileName="PlayerService1.disco" MetadataType="Disco" ID="e968f260-5458-4441-9a42-44aa5f56688f" SourceId="1" SourceUrl="http://contentmanagermvc.apphb.com/wcfservice/PlayerService.svc?disco" />
-    <MetadataFile FileName="PlayerService31.xsd" MetadataType="Schema" ID="ce199e0e-41ab-476c-b862-29f42e158748" SourceId="1" SourceUrl="http://contentmanagermvc.apphb.com/wcfservice/PlayerService.svc?xsd=xsd2" />
-    <MetadataFile FileName="PlayerService32.xsd" MetadataType="Schema" ID="ffc8daa1-509b-45b8-af03-ea17c7fe81eb" SourceId="1" SourceUrl="http://contentmanagermvc.apphb.com/wcfservice/PlayerService.svc?xsd=xsd0" />
-    <MetadataFile FileName="PlayerService1.wsdl" MetadataType="Wsdl" ID="49048991-dabb-4202-bf81-5024e6f8732a" SourceId="1" SourceUrl="http://contentmanagermvc.apphb.com/wcfservice/PlayerService.svc?wsdl" />
+    <MetadataFile FileName="PlayerService3.xsd" MetadataType="Schema" ID="523ff4ff-bd7d-42dd-9921-952d78c3dcf1" SourceId="1" SourceUrl="http://contentmanagermvc.apphb.com/wcfservice/PlayerService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PlayerService1.disco" MetadataType="Disco" ID="8cf72491-312c-4ded-a9c6-1436da636383" SourceId="1" SourceUrl="http://contentmanagermvc.apphb.com/wcfservice/PlayerService.svc?disco" />
+    <MetadataFile FileName="PlayerService31.xsd" MetadataType="Schema" ID="1a088b0e-855d-4abd-94a1-e51453412533" SourceId="1" SourceUrl="http://contentmanagermvc.apphb.com/wcfservice/PlayerService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PlayerService32.xsd" MetadataType="Schema" ID="52bc23f8-1139-4507-baef-3578ed355f15" SourceId="1" SourceUrl="http://contentmanagermvc.apphb.com/wcfservice/PlayerService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PlayerService1.wsdl" MetadataType="Wsdl" ID="5616d5e3-7284-4f0d-9891-c39f40189262" SourceId="1" SourceUrl="http://contentmanagermvc.apphb.com/wcfservice/PlayerService.svc?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
