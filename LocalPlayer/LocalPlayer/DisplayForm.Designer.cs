@@ -31,10 +31,11 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DisplayForm));
             this.notifyIconSettings = new System.Windows.Forms.NotifyIcon(this.components);
-            this.ucVideoSurface = new LocalPlayer.PlayerComponent.UserControlVideoSurface();
-            this.ucImageSurface = new LocalPlayer.PlayerComponent.UserControlImageSurface();
             this.contextMenuStripSettings = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.settingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.timerSchedule = new System.Windows.Forms.Timer(this.components);
+            this.ucVideoSurface = new LocalPlayer.PlayerComponent.UserControlVideoSurface();
+            this.ucImageSurface = new LocalPlayer.PlayerComponent.UserControlImageSurface();
             this.contextMenuStripSettings.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,6 +45,26 @@
             this.notifyIconSettings.Text = "Player Settings";
             this.notifyIconSettings.Visible = true;
             this.notifyIconSettings.Click += new System.EventHandler(this.notifyIconSettings_Click);
+            // 
+            // contextMenuStripSettings
+            // 
+            this.contextMenuStripSettings.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.settingToolStripMenuItem});
+            this.contextMenuStripSettings.Name = "contextMenuStripSettings";
+            this.contextMenuStripSettings.Size = new System.Drawing.Size(112, 26);
+            this.contextMenuStripSettings.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStripSettings_Opening);
+            // 
+            // settingToolStripMenuItem
+            // 
+            this.settingToolStripMenuItem.Name = "settingToolStripMenuItem";
+            this.settingToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
+            this.settingToolStripMenuItem.Text = "Setting";
+            this.settingToolStripMenuItem.Click += new System.EventHandler(this.settingToolStripMenuItem_Click);
+            // 
+            // timerSchedule
+            // 
+            this.timerSchedule.Enabled = true;
+            this.timerSchedule.Tick += new System.EventHandler(this.timerSchedule_Tick);
             // 
             // ucVideoSurface
             // 
@@ -63,21 +84,6 @@
             this.ucImageSurface.TabIndex = 0;
             this.ucImageSurface.PlayFinishedEvent += new LocalPlayer.PlayerComponent.PlayFinishedEventHandler(this.Surface_PlayFinishedEvent);
             // 
-            // contextMenuStripSettings
-            // 
-            this.contextMenuStripSettings.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.settingToolStripMenuItem});
-            this.contextMenuStripSettings.Name = "contextMenuStripSettings";
-            this.contextMenuStripSettings.Size = new System.Drawing.Size(153, 48);
-            this.contextMenuStripSettings.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStripSettings_Opening);
-            // 
-            // settingToolStripMenuItem
-            // 
-            this.settingToolStripMenuItem.Name = "settingToolStripMenuItem";
-            this.settingToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.settingToolStripMenuItem.Text = "Setting";
-            this.settingToolStripMenuItem.Click += new System.EventHandler(this.settingToolStripMenuItem_Click);
-            // 
             // DisplayForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -92,6 +98,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Main";
             this.TopMost = true;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.DisplayForm_FormClosing);
             this.Load += new System.EventHandler(this.DisplayForm_Load);
             this.contextMenuStripSettings.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -105,6 +112,7 @@
         private System.Windows.Forms.NotifyIcon notifyIconSettings;
         private System.Windows.Forms.ContextMenuStrip contextMenuStripSettings;
         private System.Windows.Forms.ToolStripMenuItem settingToolStripMenuItem;
+        private System.Windows.Forms.Timer timerSchedule;
     }
 }
 

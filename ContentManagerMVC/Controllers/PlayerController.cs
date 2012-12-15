@@ -122,6 +122,7 @@ namespace ContentManagerMVC.Controllers
                     break;
                 case "delete":
                     player.Schedules.Remove(db.PlayerSchedules.Find(scheduleid));
+                    db.PlayerSchedules.Remove(db.PlayerSchedules.Find(scheduleid));
                     db.SaveChanges();
                     break;
                 default:
@@ -217,6 +218,11 @@ namespace ContentManagerMVC.Controllers
         public ActionResult DeleteConfirmed(int id)
         {
             Player player = db.Players.Find(id);
+            while (player.Schedules.Count() > 0)
+            {
+                db.PlayerSchedules.Remove(player.Schedules.First());
+                //player.Schedules.Remove(player.Schedules.First());                
+            }
             db.Players.Remove(player);
             db.SaveChanges();
             return RedirectToAction("Index");

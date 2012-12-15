@@ -29,7 +29,7 @@ namespace ContentManagerMVC.WCFService
                 XmlElement xmlschedule = xmlDoc.CreateElement("Schedule");
                 xmlschedule.SetAttribute("Name", schedule.Title);
                 xmlschedule.SetAttribute("StartTime", schedule.StartTime.ToString());
-                xmlschedule.SetAttribute("EndTime", schedule.StartTime.ToString());
+                xmlschedule.SetAttribute("EndTime", schedule.EndTime.ToString());
                 xmlschedule.SetAttribute("Continuous", schedule.Continuous.ToString());
                 xmlschedule.SetAttribute("PlayOnePerTime", schedule.PlayOnePerRound.ToString());
                 xmlschedule.SetAttribute("Mon", schedule.Mon.ToString());

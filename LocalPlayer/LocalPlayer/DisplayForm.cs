@@ -22,9 +22,12 @@ namespace LocalPlayer
         private string DownloadDir;
         private string ContentDir;
         private string ScheduleDir;
+        private enum PlayerStatus { Init, Playing, Finished }
+        private PlayerStatus Status { get; set; }
         Thread workthread;
         public DisplayForm()
         {
+            Status = PlayerStatus.Init;
             InitializeComponent();
             this.SetDesktopBounds(0,0,256,128);
             formClose = false;
@@ -203,6 +206,8 @@ namespace LocalPlayer
                         while (DateTime.Now.Subtract(time).TotalMinutes < waittime)
                         {
                             Thread.Sleep(100);
+                            if (formClose)
+                                return;
                         }
                     }
                     else
@@ -238,11 +243,7 @@ namespace LocalPlayer
             String schepath = Path.Combine(ScheduleDir, "Schedule.xml");
             displayController = new DisplayController();
             displayController.ReadFromXML(schepath);
-            PlayItem item = displayController.GetNextFileFromSchedule();
-            if (item != null && File.Exists(item.Path))
-                Play(item);
-            else
-                Thread.Sleep(100);
+            Status = PlayerStatus.Finished;
         }
         internal void Play(LocalPlayer.PlayElements.PlayItem item)
         {
@@ -255,6 +256,7 @@ namespace LocalPlayer
                     ucVideoSurface.SetDuration(item.Duration);
                     ucVideoSurface.PlayFile(item.Path);
                     ucVideoSurface.BringToFront();
+                    Status = PlayerStatus.Playing;
                     break;
                 case ".JPG":
                 case ".PNG":
@@ -262,6 +264,7 @@ namespace LocalPlayer
                     ucImageSurface.SetDuration(item.Duration);
                     ucImageSurface.PlayFile(item.Path);
                     ucImageSurface.BringToFront();
+                    Status = PlayerStatus.Playing;
                     break;
                 default:
                     break;
@@ -270,20 +273,7 @@ namespace LocalPlayer
 
         private void Surface_PlayFinishedEvent(object sender, EventArgs e)
         {
-            if (newScheUpdated)
-            {
-                displayController = new DisplayController();
-                String schepath = Path.Combine(ScheduleDir, "Schedule.xml");
-                displayController.ReadFromXML(schepath);
-                newScheUpdated = false;
-            }
-            PlayItem item = displayController.GetNextFileFromSchedule();
-            while (item == null || !File.Exists(item.Path))
-            {
-                Thread.Sleep(100);
-                item = displayController.GetNextFileFromSchedule();
-            }
-            Play(item);
+            Status = PlayerStatus.Finished;
         }
 
         private void setupToolStripMenuItem_Click(object sender, EventArgs e)
@@ -305,6 +295,29 @@ namespace LocalPlayer
 
             PasswordInputForm passform = new PasswordInputForm();
             passform.Show();
+        }
+
+        private void timerSchedule_Tick(object sender, EventArgs e)
+        {
+            if (Status == PlayerStatus.Playing || Status == PlayerStatus.Init)
+            {
+                return;
+            }
+            if (newScheUpdated)
+            {
+                displayController = new DisplayController();
+                String schepath = Path.Combine(ScheduleDir, "Schedule.xml");
+                displayController.ReadFromXML(schepath);
+                newScheUpdated = false;
+            }
+            PlayItem item = displayController.GetNextFileFromSchedule();
+            if (item != null && File.Exists(item.Path))
+                Play(item);
+        }
+
+        private void DisplayForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            formClose = true;
         }
 
 

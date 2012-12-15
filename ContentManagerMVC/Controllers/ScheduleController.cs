@@ -116,8 +116,9 @@ namespace ContentManagerMVC.Controllers
                     };
                     break;
                 case "delete":
-                    sche.Contents.Remove(db.ScheduledItems.Find(itemid));
-                    db.SaveChanges();
+                        sche.Contents.Remove(db.ScheduledItems.Find(itemid));
+                        db.ScheduledItems.Remove(db.ScheduledItems.Find(itemid));
+                        db.SaveChanges();                    
                     break;
                 default:
                     break;
@@ -203,9 +204,24 @@ namespace ContentManagerMVC.Controllers
         [HttpPost, ActionName("Delete")]
         public ActionResult DeleteConfirmed(int id)
         {
-            Schedule schedule = db.Schedules.Find(id);
-            db.Schedules.Remove(schedule);
-            db.SaveChanges();
+            var playSches = from u in db.PlayerSchedules
+                            where u.schedule.ID == id
+                            select u;
+            if (playSches.Count() < 1)
+            {
+                Schedule schedule = db.Schedules.Find(id);
+                while (schedule.Contents.Count() > 0)
+                {
+                    db.ScheduledItems.Remove(schedule.Contents.First());
+                    //schedule.Contents.Remove(schedule.Contents.First());
+                }
+                db.Schedules.Remove(schedule);
+                db.SaveChanges();
+            }
+            else 
+            {
+                TempData["AlarmMessage"] = "The schedule is currently used by player, and cannot be deleted.";
+            }
             return RedirectToAction("Index");
         }
 

@@ -180,9 +180,19 @@ namespace ContentManagerMVC.Controllers
         [HttpPost, ActionName("Delete")]
         public ActionResult DeleteConfirmed(int id)
         {
-            MediaContent mediacontent = db.Contents.Find(id);
-            db.Contents.Remove(mediacontent);
-            db.SaveChanges();
+            var items = from u in db.ScheduledItems
+                        where u.Content.ID == id
+                        select u;
+            if(items.Count() <= 0)
+            {
+                MediaContent mediacontent = db.Contents.Find(id);
+                db.Contents.Remove(mediacontent);
+                db.SaveChanges();
+            }
+            else
+            {
+                TempData["AlarmMessage"] = "The Content is currently used by Schedule, and cannot be deleted.";
+            }
             return RedirectToAction("Index");
         }
 

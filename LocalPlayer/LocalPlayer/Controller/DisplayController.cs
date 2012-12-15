@@ -41,11 +41,20 @@ namespace LocalPlayer.Controller
                 if (nextSchedule >= schedules.Count)
                     nextSchedule = 0;
                 Schedule sche = schedules[nextSchedule];
-                PlayItem item = sche.CurrentItem;
-                sche.CurrentItemIndex++;
-                //  if schedule ends and replay item 0, play next schedule               
-                if (sche.CurrentItemIndex == 0)
-                    nextSchedule++;
+                PlayItem item = null;
+                while (nextSchedule < schedules.Count)
+                {
+                    if (sche.StartTime < DateTime.Now && sche.EndTime > DateTime.Now)
+                    {
+                        item = sche.CurrentItem;
+                        sche.CurrentItemIndex++;
+                        //  if schedule ends and replay item 0, play next schedule               
+                        if (sche.CurrentItemIndex == 0)
+                            nextSchedule++;
+                    }
+                    else
+                        nextSchedule++;
+                }
                 return item;
             }
             else
@@ -74,7 +83,7 @@ namespace LocalPlayer.Controller
                 XmlElement xmlschedule = xmlDoc.CreateElement("Schedule");
                 xmlschedule.SetAttribute("Name", schedules[i].Name);
                 xmlschedule.SetAttribute("StartTime", schedules[i].StartTime.ToString());
-                xmlschedule.SetAttribute("EndTime", schedules[i].StartTime.ToString());
+                xmlschedule.SetAttribute("EndTime", schedules[i].EndTime.ToString());
                 xmlschedule.SetAttribute("Continuous", schedules[i].Continuous.ToString());
                 xmlschedule.SetAttribute("PlayOnePerTime", schedules[i].PlayOnePerTime.ToString());
                 xmlschedule.SetAttribute("Mon", schedules[i].Mon.ToString());
