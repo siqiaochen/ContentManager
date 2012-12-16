@@ -51,6 +51,7 @@ namespace LocalPlayer.Controller
                         //  if schedule ends and replay item 0, play next schedule               
                         if (sche.CurrentItemIndex == 0)
                             nextSchedule++;
+                        break;
                     }
                     else
                         nextSchedule++;

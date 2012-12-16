@@ -666,6 +666,7 @@ namespace LocalPlayer.PlayerComponent
                     {
                         PlayFinishedEvent(this, EventArgs.Empty);
                     }
+                    break;
                     /*
                     DsLong pos = new DsLong(0);
                     // Reset to first frame of movie

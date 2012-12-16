@@ -57,8 +57,8 @@ namespace LocalPlayer
                     foreach (PlayItem item in sche.PlayItems)
                     {
                         string dstpath = Path.Combine(ContentDir, Path.GetFileName(item.Path));
-                        string svrpath = Path.Combine(ContentDir, Path.GetFileName(item.Path));
-                        item.Path = dstpath;
+                        string svrpath = string.Copy( item.Path);
+                        item.Path = Path.Combine(ContentDir, Path.GetFileName(item.Path));;
                         try
                         {
                             if (!File.Exists(dstpath))

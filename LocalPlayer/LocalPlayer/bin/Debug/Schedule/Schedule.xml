@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ScheduleList>
-  <Schedule Name="111" StartTime="1/1/2000 12:00:00 AM" EndTime="1/1/2000 12:00:00 AM" Continuous="True" PlayOnePerTime="False" Mon="True" Tue="True" Wed="True" Thr="True" Fri="True" Sat="True" Sun="True">
+  <Schedule Name="111" StartTime="1/1/2000 12:00:00 AM" EndTime="1/1/2100 12:00:00 AM" Continuous="True" PlayOnePerTime="False" Mon="True" Tue="True" Wed="True" Thr="True" Fri="True" Sat="True" Sun="True">
     <Item Title="2011-6-4_19-36-40-243.jpg" Path="C:\Users\csq\Documents\Visual Studio 2010\Projects\ContentManagerMVC\LocalPlayer\LocalPlayer\bin\Debug\Content\2011-6-4_19-36-40-243.jpg" Duration="0" />
+    <Item Title="sonicsunrise48x96_000001.avi" Path="C:\Users\csq\Documents\Visual Studio 2010\Projects\ContentManagerMVC\LocalPlayer\LocalPlayer\bin\Debug\Content\sonicsunrise48x96_000001.avi" Duration="0" />
   </Schedule>
 </ScheduleList>

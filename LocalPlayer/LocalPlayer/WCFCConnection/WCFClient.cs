@@ -78,10 +78,10 @@ namespace LocalPlayer.WCFCConnection
         public bool DownloadFile(string srcFile,string dstFile)
         {
             
-            WCF.PlayerServiceClient client = new WCF.PlayerServiceClient();
             try
             {
-                
+
+                WCF.PlayerServiceClient client = new WCF.PlayerServiceClient();
                 using (OperationContextScope scope = new OperationContextScope(client.InnerChannel))
                 {
 
@@ -120,9 +120,9 @@ namespace LocalPlayer.WCFCConnection
                             Application.DoEvents();
                             Application.DoEvents();
 
-                            client.Close();
                             //Thread.Sleep(100);
                         }
+                        client.Close();
                     }
                 }
             }
